@@ -60,6 +60,74 @@ export default function ProfilePage() {
         })
     }, [stats])
 
+
+
+
+
+    // 📌 New subject chart ref
+    const subjectChartRef = useRef(null)
+    const subjectChartInstance = useRef(null)
+    const [subjectData, setSubjectData] = useState({})
+
+    useEffect(() => {
+        const raw = localStorage.getItem('sankalpca-subject-stats')
+        if (raw) setSubjectData(JSON.parse(raw))
+    }, [])
+
+    useEffect(() => {
+        if (!subjectChartRef.current || !Object.keys(subjectData).length) return
+
+        if (subjectChartInstance.current) subjectChartInstance.current.destroy()
+
+        subjectChartInstance.current = new Chart(subjectChartRef.current, {
+            type: 'radar',
+            data: {
+                labels: Object.keys(subjectData),
+                datasets: [{
+                    label: 'Tests per Subject',
+                    data: Object.values(subjectData),
+                    backgroundColor: 'rgba(0, 173, 181, 0.2)',
+                    borderColor: '#00ADB5',
+                    pointBackgroundColor: '#00ADB5',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                return `${context.label}: ${context.raw} test(s)`
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    r: {
+                        angleLines: {
+                            color: '#919191'
+                        },
+                        grid: {
+                            color: 'rgb(54, 162, 235)'
+                        },
+                        pointLabels: {
+                            color: '#ffffff'
+                        },
+                        ticks: {
+                            beginAtZero: true,
+                            color: '#000000'
+                        }
+                    }
+                }
+            }
+        })
+    }, [subjectData])
+
+
     return (
         <main className="profile-container">
             {!user ? (
@@ -74,6 +142,7 @@ export default function ProfilePage() {
                         <p><b>Name:</b> {user.name}</p>
                         <p><b>Email:</b> {user.email}</p>
                         <p><b>CA Level:</b> {user.level}</p>
+                        <p><b>Joined:</b> {user.joinedAt}</p>
                     </div>
 
                     <h2 className="profile-heading">📊 Your Test Performance</h2>
@@ -88,6 +157,13 @@ export default function ProfilePage() {
                         <p><b>Skipped:</b> {stats.skipped}</p>
                         <p><b>Overall Percentage:</b> {percent}%</p>
                     </div>
+
+
+                    <h2 className="profile-heading">📚 Subjects You&#39;ve Practiced</h2>
+                    <div className="profile-chart-container">
+                        <canvas ref={subjectChartRef} width={300} height={300}></canvas>
+                    </div>
+
                 </>
             )}
         </main>

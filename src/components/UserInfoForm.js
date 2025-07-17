@@ -9,11 +9,22 @@ export default function UserInfoForm({ onSubmit }) {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        const userData = { name, level, email}
+
+        const monthNames = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
+        const today = new Date()
+        const joinedAt = `${monthNames[today.getMonth()]} ${String(today.getDate()).padStart(2, '0')} ${today.getFullYear()}`
+
+        const userData = {
+            name,
+            level,
+            email,
+            joinedAt, // 👈 Add formatted date
+        }
 
         localStorage.setItem('sankalpca-user', JSON.stringify(userData))
         onSubmit(userData)
     }
+
 
     return (
         <div className="user-info-form">
@@ -21,12 +32,20 @@ export default function UserInfoForm({ onSubmit }) {
             <form onSubmit={handleSubmit}>
                 <label>
                     Name:
-                    <input type="text" required value={name} onChange={(e) => setName(e.target.value)} />
+                    <input
+                        type="text"
+                        required
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                    />
                 </label>
 
                 <label>
                     CA Level:
-                    <select value={level} onChange={(e) => setLevel(e.target.value)}>
+                    <select
+                        value={level}
+                        onChange={(e) => setLevel(e.target.value)}
+                    >
                         <option value="Foundation">Foundation</option>
                         <option value="Intermediate">Intermediate</option>
                         <option value="Final">Final</option>

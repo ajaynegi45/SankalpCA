@@ -104,6 +104,21 @@ export default function TestPage() {
         localStorage.setItem('sankalpca-stats', JSON.stringify(newStats));
         // === 👆 Saved updated stats permanently ===
 
+
+        // === 👇 Update subject-wise test count ===
+        const subjectStatsRaw = localStorage.getItem('sankalpca-subject-stats');
+        const subjectStats = subjectStatsRaw ? JSON.parse(subjectStatsRaw) : {};
+
+        if (!subjectStats[subject]) {
+            subjectStats[subject] = 1;
+        } else {
+            subjectStats[subject] += 1;
+        }
+
+        localStorage.setItem('sankalpca-subject-stats', JSON.stringify(subjectStats));
+// === 👆 Saved subject-wise test count ===
+
+
         // Store to session and redirect
         sessionStorage.setItem('sankalpca-questions', JSON.stringify(shuffledQuestions))
         sessionStorage.setItem('sankalpca-answers', JSON.stringify(answers))
