@@ -1,0 +1,130 @@
+.result-container {
+    background: #222831;
+    color: #EEEEEE;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.result-container > h1 {
+    color: #00ADB5;
+}
+.result-grid {
+    background: #393E46;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: rgba(0, 173, 181, 0.1);
+    border: 1px solid rgba(161, 161, 161, 0.50);
+}
+
+.retake-link {
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: #00ADB5;
+    color: #222831;
+    padding: 0.6rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.review-title {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: #00ADB5;
+}
+
+
+.review-container {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.review-card {
+    background: #222831;
+    border: 1px solid #393E46;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease-in-out;
+    color: #EEEEEE;
+    text-align: left;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+.review-card.correct {
+    border: 2px solid #34C759;
+    background: rgba(52, 199, 89, 0.12);
+}
+
+.review-card.wrong {
+    border: 2px solid #FF3B30;
+    background: rgba(255, 59, 48, 0.12);
+}
+
+.review-card.skipped {
+    border: 2px solid #A1A1A1;
+    background: rgba(161, 161, 161, 0.10);
+}
+
+
+.review-card p {
+    margin: 0.4rem 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.review-card strong {
+    color: #00ADB5;
+}
+
+
+/* Highlight answers */
+.correct-answer {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.incorrect-answer {
+    color: #F44336;
+    font-weight: bold;
+}
+
+/* Heading & CTA */
+.review-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #00ADB5;
+    margin-top: 3rem;
+}
+
+.retake-link {
+    display: block;
+    margin: 3rem auto 2rem auto;
+    padding: 0.8rem 1.6rem;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    max-width: 200px;
+    transition: background 0.3s ease;
+}
+
+.retake-link:hover {
+    background-color: #019ba2;
+}
