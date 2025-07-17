@@ -2,7 +2,7 @@
 
 import { useSearchParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
-import '@//styles/result.css'
+import '../../styles/result.css'
 
 export default function ResultPage() {
     const params = useSearchParams()

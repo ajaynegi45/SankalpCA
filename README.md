@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SankalpCA 🎯 – CA Foundation Test App
 
-## Getting Started
+SankalpCA is a fast, elegant web app built using **Next.js**. It helps CA aspirants practice MCQ-style tests for Foundation, Intermediate, and Final levels.
 
-First, run the development server:
+💡 In this MVP version, questions are hardcoded and test results are stored **permanently on the user's device** using `localStorage`.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 🔐 No login/signup — just enter your name, email, CA level.
+- 📚 Subject-wise and Chapter-wise MCQ tests.
+- ⏱️ Timed test interface with live timer.
+- 🧠 Smart result page showing:
+    - Correct answers ✅
+    - Incorrect answers ❌ with detailed explanations
+- 📈 Profile page showing:
+    - Personal Info
+    - Total test stats
+    - Overall performance % with a **doughnut chart**
+- 💾 All user data and test results are stored locally (using `localStorage`).
+- ⚙️ No backend/database used (future version will use AWS Lambda + DynamoDB).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🖼️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: Next.js
+- **Styling**: CSS (no Tailwind)
+- **Storage**: `localStorage` for user info, results, and stats
+- **Charts**: `chart.js` for performance visualization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---

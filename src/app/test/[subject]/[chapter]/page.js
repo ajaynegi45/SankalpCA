@@ -1,13 +1,15 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useParams, useRouter } from 'next/navigation'
-import { questionBank } from '@/data'
-import '@/styles/test.css'
+import {useEffect, useState} from 'react'
+import {useParams, useRouter} from 'next/navigation'
+import UserInfoForm from '../../../../components/UserInfoForm';
+import {questionBank} from '../../../../data';
+import '../../../../styles/test.css'
 
 export default function TestPage() {
+    const [userInfo, setUserInfo] = useState(null);
     const router = useRouter()
-    const { subject, chapter: rawChapter } = useParams()
+    const {subject, chapter: rawChapter} = useParams()
 
     const chapter = decodeURIComponent(rawChapter || '')
     const fullQuestions = questionBank[subject]?.[chapter] || [];
@@ -18,6 +20,14 @@ export default function TestPage() {
     const [answers, setAnswers] = useState([])
     const [timeLeft, setTimeLeft] = useState(0)
     const [submitted, setSubmitted] = useState(false)
+
+    useEffect(() => {
+        const savedUser = localStorage.getItem('sankalpca-user')
+        if (savedUser) {
+            setUserInfo(JSON.parse(savedUser))
+        }
+    }, [])
+
 
     useEffect(() => {
         if (!subject || !chapter || fullQuestions.length === 0) return
@@ -36,7 +46,7 @@ export default function TestPage() {
             }
         } catch (err) {
             // Generate new shuffled indices
-            const indices = Array.from({ length: fullQuestions.length }, (_, i) => i)
+            const indices = Array.from({length: fullQuestions.length}, (_, i) => i)
             for (let i = indices.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1))
                 ;[indices[i], indices[j]] = [indices[j], indices[i]]
@@ -75,6 +85,25 @@ export default function TestPage() {
             ? ((raw / shuffledQuestions.length) * 100).toFixed(2)
             : '0'
 
+        // === 👇 Update permanent localStorage ===
+        const prevStatsRaw = localStorage.getItem('sankalpca-stats');
+        const prevStats = prevStatsRaw ? JSON.parse(prevStatsRaw) : {
+            totalCorrect: 0,
+            totalWrong: 0,
+            totalSkipped: 0,
+            totalTests: 0
+        };
+
+        const newStats = {
+            totalCorrect: prevStats.totalCorrect + correct,
+            totalWrong: prevStats.totalWrong + wrong,
+            totalSkipped: prevStats.totalSkipped + skipped,
+            totalTests: prevStats.totalTests + 1
+        };
+
+        localStorage.setItem('sankalpca-stats', JSON.stringify(newStats));
+        // === 👆 Saved updated stats permanently ===
+
         // Store to session and redirect
         sessionStorage.setItem('sankalpca-questions', JSON.stringify(shuffledQuestions))
         sessionStorage.setItem('sankalpca-answers', JSON.stringify(answers))
@@ -100,41 +129,53 @@ export default function TestPage() {
 
 
     return (
-        <div className="test-container">
-            <div className="test-header">
-                <h1>{chapter}</h1>
-                <div className="timer">
-                    ⏱️ {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}
+        <>
+        {
+    !userInfo ? (
+        <UserInfoForm onSubmit={setUserInfo}/>
+    ) : (
+            <div className="test-container">
+                <div className="test-header">
+                    <h1>{chapter}</h1>
+                    <div className="timer">
+                        ⏱️ {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}
+                    </div>
                 </div>
+
+                {shuffledQuestions.length === 0 ? (
+                    <p>No questions found for this chapter.</p>
+                ) : (
+                    <div className="MCQ-question-box-container">
+                        <div className="question-box">
+                            <p><b>Q{currentQ + 1}:</b> {shuffledQuestions[currentQ].question}</p>
+                            <ul>
+                                {shuffledQuestions[currentQ].options.map((opt) => (
+                                    <li
+                                        key={opt}
+                                        className={answers[currentQ] === opt ? 'selected' : ''}
+                                        onClick={() => handleOptionSelect(opt)}
+                                    >
+                                        {opt}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className="navigation-buttons">
+                            <button onClick={() => setCurrentQ(q => Math.max(0, q - 1))}
+                                    disabled={currentQ === 0}>Previous
+                            </button>
+                            <button onClick={() => setCurrentQ(q => Math.min(shuffledQuestions.length - 1, q + 1))}
+                                    disabled={currentQ === shuffledQuestions.length - 1}>Next
+                            </button>
+                            <button onClick={() => setCurrentQ(q => Math.min(shuffledQuestions.length - 1, q + 1))}
+                                    disabled={currentQ === shuffledQuestions.length - 1}>Skip
+                            </button>
+                            <button className="submit" onClick={handleSubmit}>Submit</button>
+                        </div>
+                    </div>
+                )}
             </div>
-
-            {shuffledQuestions.length === 0 ? (
-                <p>No questions found for this chapter.</p>
-            ) : (
-                <div className="MCQ-question-box-container">
-                    <div className="question-box">
-                        <p><b>Q{currentQ + 1}:</b> {shuffledQuestions[currentQ].question}</p>
-                        <ul>
-                            {shuffledQuestions[currentQ].options.map((opt) => (
-                                <li
-                                    key={opt}
-                                    className={answers[currentQ] === opt ? 'selected' : ''}
-                                    onClick={() => handleOptionSelect(opt)}
-                                >
-                                    {opt}
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    <div className="navigation-buttons">
-                        <button onClick={() => setCurrentQ(q => Math.max(0, q - 1))} disabled={currentQ === 0}>Previous</button>
-                        <button onClick={() => setCurrentQ(q => Math.min(shuffledQuestions.length - 1, q + 1))} disabled={currentQ === shuffledQuestions.length - 1}>Next</button>
-                        <button onClick={() => setCurrentQ(q => Math.min(shuffledQuestions.length - 1, q + 1))} disabled={currentQ === shuffledQuestions.length - 1}>Skip</button>
-                        <button className="submit" onClick={handleSubmit}>Submit</button>
-                    </div>
-                </div>
-            )}
-        </div>
-    )
-}
+    )}
+        </>
+)}

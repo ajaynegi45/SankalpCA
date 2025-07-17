@@ -1,7 +1,7 @@
 // app/subjects/page.js
 'use client'
 import Link from 'next/link'
-import '@//styles/subjects.css'
+import '../../styles/subjects.css'
 
 const subjects = {
     'accounting': ['Final Accounts', 'Depreciation'],
