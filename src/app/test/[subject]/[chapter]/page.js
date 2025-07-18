@@ -5,6 +5,7 @@ import {useParams, useRouter} from 'next/navigation'
 import UserInfoForm from '../../../../components/UserInfoForm';
 import {questionBank} from '../../../../data';
 import '../../../../styles/test.css'
+import Link from "next/link";
 
 export default function TestPage() {
     const [userInfo, setUserInfo] = useState(null);
@@ -158,7 +159,10 @@ export default function TestPage() {
                 </div>
 
                 {shuffledQuestions.length === 0 ? (
-                    <p>No questions found for this chapter.</p>
+                    <div className={"no-questions-container"}>
+                        <p>No questions found for this chapter.</p>
+                        <Link href="/subjects">Select Another Chapter</Link>
+                    </div>
                 ) : (
                     <div className="MCQ-question-box-container">
                         <div className="question-box">

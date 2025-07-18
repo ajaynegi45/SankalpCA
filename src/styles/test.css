@@ -99,3 +99,32 @@
     background: #00ADB5;
     color: #222831;
 }
+
+
+
+.no-questions-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 0;
+}
+.no-questions-container > p {
+    font-size: 1.13rem;
+
+}
+.no-questions-container > a {
+    padding: 0.5rem 1rem;
+    background: #00ADB5;
+    color: #222831;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.no-questions-container >a:hover {
+    background: rgba(0, 173, 181, 0.80);
+}
