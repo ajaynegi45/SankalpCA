@@ -163,7 +163,6 @@ export default function ProfilePage() {
                     <div className="profile-chart-container">
                         <canvas ref={subjectChartRef} width={300} height={300}></canvas>
                     </div>
-
                 </>
             )}
         </main>

@@ -7,7 +7,7 @@ const subjects = {
     'accounting': ['Final Accounts', 'Depreciation'],
     'business-laws': ['Indian Contract Act', 'Sale of Goods Act'],
     'business-mathematics': ['Ratio & Proportion', 'Logarithms'],
-    'business-economics': ['Demand & Supply', 'Market Structure']
+    'business-economics': ['Nature & Scope of Business Economics', 'Market Structure']
 }
 
 export default function SubjectsPage() {
