@@ -1,20 +1,43 @@
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 1rem 1.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
     position: sticky;
     top: 0;
     z-index: 1000;
+    backdrop-filter: blur(7px);
+    padding: 0.5rem 0;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .brand a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 0.618rem;
+    font-size: 1.618rem;
+    font-weight: 700;
+    color: #ecf0f1;
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.logo {
+    font-size: 2rem;
+    filter: drop-shadow(0 0 10px rgba(0, 212, 170, 0.2));
+}
+
+.brandText {
+    background: linear-gradient(135deg, #00d4aa 0%, #3498db 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .navLinks {
@@ -25,36 +48,42 @@
     padding: 0;
 }
 
-.navLinks a {
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #444;
+.navLink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
     font-weight: 500;
-    transition: color 0.2s ease;
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 
-.navLinks a:hover {
-    color: #0070f3;
-}
-
-.active {
-    color: green;
-    font-weight: 600;
+.navLink:hover {
+    color: #00d4aa;
 }
 
 @media (max-width: 425px) {
+
     .navbar {
-        padding: 1rem 1rem;
-    }
-    .navLinks {
-        gap: 1rem;
-    }
-    .brand a {
-        font-size: 1.2rem;
-    }
-    .navLinks a {
-        font-size: 1rem;
-        font-weight: 500;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        backdrop-filter: blur(7px);
+        padding: 0.8rem 0;
+        transition: all 0.3s ease;
     }
 
+    .brand a {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navLink {
+        font-size: 1.2rem;
+    }
 }
