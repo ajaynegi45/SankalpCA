@@ -22,6 +22,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <head>
+        <link rel="icon" href="./goal.png"/>
+    </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`} style={{ background:"#222831"}}>
       <Navbar/>
         <Suspense fallback={<p>Loading result…</p>}>
