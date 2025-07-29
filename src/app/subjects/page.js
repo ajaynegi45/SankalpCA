@@ -4,8 +4,8 @@ import Link from 'next/link'
 import '../../styles/subjects.css'
 
 const subjects = {
-    'accounting': ['Final Accounts', 'Depreciation'],
-    'business-laws': ['Indian Contract Act', 'Sale of Goods Act'],
+    'accounting': ['Theoretical Framework', 'Final Accounts', 'Depreciation'],
+    'business-laws': ['Indian Regulatory Framework', 'Indian Contract Act', 'Sale of Goods Act'],
     'business-mathematics': ['Ratio & Proportion', 'Logarithms'],
     'business-economics': ['Nature & Scope of Business Economics', 'Market Structure']
 }
