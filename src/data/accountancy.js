@@ -1,5 +1,5 @@
 export const questions = {
-    'Theoretical Framework': [
+    'Meaning and Scope of Accounting': [
 
             // Unit - 1
             {

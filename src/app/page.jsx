@@ -14,7 +14,7 @@ export default function HomePage() {
                         Your privacy is our priority. No registration, no data collection, no tracking.
                         Everything stays on your device, giving you complete control over your learning data.
                     </p>
-                    <Link href="/subjects" className="home-button">
+                    <Link href="/subject" className="home-button">
                         <span>Start Practicing Now</span><span>🚀</span>
                     </Link>
                 </div>

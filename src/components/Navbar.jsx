@@ -13,7 +13,7 @@ export default function Navbar() {
                 </div>
                 <ul className={styles.navLinks}>
                     <li>
-                        <Link href="/subjects" className={styles.navLink}>
+                        <Link href="/subject" className={styles.navLink}>
                             <span>Subjects</span>
                         </Link>
                     </li>

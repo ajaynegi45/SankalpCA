@@ -14,7 +14,7 @@ export default function TestPage() {
 
     const chapter = decodeURIComponent(rawChapter || '')
     const fullQuestions = questionBank[subject]?.[chapter] || [];
-    const MAX_QUESTIONS = 10
+    const MAX_QUESTIONS = 20
 
     const [shuffledQuestions, setShuffledQuestions] = useState([])
     const [currentQ, setCurrentQ] = useState(0)
@@ -60,7 +60,10 @@ export default function TestPage() {
 
         setShuffledQuestions(randomizedQuestions)
         setAnswers(Array(randomizedQuestions.length).fill(null))
-        setTimeLeft(30 * randomizedQuestions.length)
+
+        // Each question is solved under 70 sec
+        setTimeLeft(70 * randomizedQuestions.length)
+
     }, [subject, chapter, fullQuestions])
 
 
@@ -161,7 +164,7 @@ export default function TestPage() {
                 {shuffledQuestions.length === 0 ? (
                     <div className={"no-questions-container"}>
                         <p>No questions found for this chapter.</p>
-                        <Link href="/subjects">Select Another Chapter</Link>
+                        <Link href={`/subject/${subject}`}>Select Another Chapter</Link>
                     </div>
                 ) : (
                     <div className="MCQ-question-box-container">

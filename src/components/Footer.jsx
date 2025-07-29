@@ -41,10 +41,10 @@ export default function Footer() {
                     <div className={styles.footerSection}>
                         <h4>CA Foundation Subjects</h4>
                         <ul className={styles.linkList}>
-                            <li><a href="/test/accounting">💼 Accounting</a></li>
-                            <li><a href="/test/business-laws">⚖️ Business Laws</a></li>
-                            <li><a href="/test/business-mathematics">🔢 Mathematics</a></li>
-                            <li><a href="/test/business-economics">📈 Economics</a></li>
+                            <li><a href="/subject/accounting">💼 Accounting</a></li>
+                            <li><a href="/subject/business-laws">⚖️ Business Laws</a></li>
+                            <li><a href="/subject/business-mathematics">🔢 Mathematics</a></li>
+                            <li><a href="/subject/business-economics">📈 Economics</a></li>
                         </ul>
                     </div>
 
