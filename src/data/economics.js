@@ -1101,5 +1101,10 @@ export const questions = {
                 explanation: 'The birthday money example demonstrates that you cannot have everything you want with the limited resources available. This situation highlights the fundamental facts of Economics: that human beings have unlimited wants, but the means (resources) to satisfy these wants are relatively scarce. This scarcity forces individuals and entities to make choices and face dilemmas.'
             }
         ]
+    },
+    'Theory of Demand and Supply': {
+        'Law of Demand and Elasticity of Demand':[],
+        'Theory of Consumer Behaviour':[],
+        'Supply':[],
     }
 }
