@@ -1,18 +1,16 @@
 'use client'
 
+import Link from "next/link"
 import { useEffect, useState, useMemo, useCallback, useRef, memo } from 'react'
 import { useParams, useRouter } from 'next/navigation'
-import UserInfoForm from '../../../../../components/UserInfoForm'
-import { questionBank } from '../../../../../data'
-import '../../../../../styles/test.css'
-import Link from "next/link"
+import UserInfoForm from '../../../../components/UserInfoForm'
+import { questionBank } from '../../../../data'
+import '../../../../styles/test.css'
 
-export default function UnitTestPage() {
+export default function ChapterTestPage() {
     const router = useRouter()
-    const { subject, chapter: rawChapter, unit: rawUnit } = useParams()
-
+    const { subject, chapter: rawChapter } = useParams()
     const chapter = decodeURIComponent(rawChapter || '')
-    const unit = decodeURIComponent(rawUnit || '')
 
     // ✅ Initialize userInfo from localStorage immediately (no flicker)
     const [userInfo, setUserInfo] = useState(() => {
@@ -23,10 +21,14 @@ export default function UnitTestPage() {
         return null
     })
 
+
+    console.log("Data : subject: " + subject + " chapter: " + chapter)
     const fullQuestions = useMemo(
-        () => questionBank[subject]?.[chapter]?.[unit] ?? [],
-        [subject, chapter, unit]
+        () => questionBank[subject]?.[chapter] ?? [],
+        [subject, chapter]
     )
+
+    console.log("Full Question: " + fullQuestions.length )
 
     const MAX_QUESTIONS = 20
 
@@ -151,7 +153,7 @@ export default function UnitTestPage() {
                 ) : (
                     <div className="test-container">
                         <div className="test-header">
-                            <h1>{unit}</h1>
+                            <h1>{chapter}</h1>
                             <Timer initialSeconds={initialSeconds} onExpire={handleExpire} paused={submitted} />
                         </div>
 

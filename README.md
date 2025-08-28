@@ -2,7 +2,7 @@
 
 SankalpCA is a fast, elegant web app built using **Next.js**. It helps CA aspirants practice MCQ-style tests for Foundation, Intermediate, and Final levels.
 
-💡 In this MVP version, questions are hardcoded and test results are stored **permanently on the user's device** using `localStorage`.
+💡 In this MVP version, questions are hardcoded and test results are stored **permanently on the user's device** using `localStorage`
 
 ---
 
