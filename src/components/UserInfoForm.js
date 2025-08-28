@@ -14,37 +14,59 @@ export default function UserInfoForm({ onSubmit }) {
         const today = new Date()
         const joinedAt = `${monthNames[today.getMonth()]} ${String(today.getDate()).padStart(2, '0')} ${today.getFullYear()}`
 
-        const userData = {
-            name,
-            level,
-            email,
-            joinedAt, // 👈 Add formatted date
-        }
+        const userData = { name, level, email, joinedAt }
 
         localStorage.setItem('sankalpca-user', JSON.stringify(userData))
         onSubmit(userData)
     }
 
-
     return (
-        <div className="user-info-form">
+        <div style={{
+            padding: '20px',
+            background: '#393E46',
+            borderRadius: '8px',
+            color: '#EEEEEE',
+            margin: '40px auto',
+            width: '100%',
+            maxWidth: '500px',
+        }}>
             <h2>Enter Your Details</h2>
             <form onSubmit={handleSubmit}>
-                <label>
+                <label style={{ margin: '1rem 0', display: 'block' }}>
                     Name:
                     <input
                         type="text"
                         required
                         value={name}
                         onChange={(e) => setName(e.target.value)}
+                        style={{
+                            display: 'block',
+                            marginTop: '5px',
+                            marginBottom: '20px',
+                            width: '100%',
+                            padding: '8px',
+                            borderRadius: '4px',
+                            border: '1px solid #ccc',
+                            fontSize: '1rem',
+                        }}
                     />
                 </label>
 
-                <label>
+                <label style={{ margin: '1rem 0', display: 'block' }}>
                     CA Level:
                     <select
                         value={level}
                         onChange={(e) => setLevel(e.target.value)}
+                        style={{
+                            display: 'block',
+                            marginTop: '5px',
+                            marginBottom: '20px',
+                            width: '100%',
+                            padding: '8px',
+                            borderRadius: '4px',
+                            border: '1px solid #ccc',
+                            fontSize: '1rem',
+                        }}
                     >
                         <option value="Foundation">Foundation</option>
                         <option value="Intermediate">Intermediate</option>
@@ -52,48 +74,41 @@ export default function UserInfoForm({ onSubmit }) {
                     </select>
                 </label>
 
-                <label>
+                <label style={{ margin: '1rem 0', display: 'block' }}>
                     Email:
-                    <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} />
+                    <input
+                        type="email"
+                        required
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        style={{
+                            display: 'block',
+                            marginTop: '5px',
+                            marginBottom: '20px',
+                            width: '100%',
+                            padding: '8px',
+                            borderRadius: '4px',
+                            border: '1px solid #ccc',
+                            fontSize: '1rem',
+                        }}
+                    />
                 </label>
 
-                <button type="submit">Save & Continue</button>
+                <button
+                    type="submit"
+                    style={{
+                        background: '#00ADB5',
+                        color: 'white',
+                        padding: '10px 20px',
+                        border: 'none',
+                        fontSize: '1rem',
+                        cursor: 'pointer',
+                        borderRadius: '4px',
+                    }}
+                >
+                    Save & Continue
+                </button>
             </form>
-
-            <style jsx>{`
-                .user-info-form {
-                    padding: 20px;
-                    background: #393E46;
-                    border-radius: 8px;
-                    color: #EEEEEE;
-                    margin: 40px auto;
-                    width: 100%;
-                    max-width: 500px;
-                }
-                input, select {
-                    display: block;
-                    margin-top: 5px;
-                    margin-bottom: 20px;
-                    width: 100%;
-                    padding: 8px;
-                    border-radius: 4px;
-                    border: 1px solid #ccc;
-                    font-size: 1rem;
-                }
-                label {
-                    margin: 1rem 0;
-                    display: block;
-                }
-                button {
-                    background: #00ADB5;
-                    color: white;
-                    padding: 10px 20px;
-                    border: none;
-                    font-size: 1rem;
-                    cursor: pointer;
-                    border-radius: 4px;
-                }
-            `}</style>
         </div>
     )
 }

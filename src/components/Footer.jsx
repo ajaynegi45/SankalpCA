@@ -43,17 +43,10 @@ export default function Footer() {
                         <ul className={styles.linkList}>
                             <li><a href="/subject/accounting">💼 Accounting</a></li>
                             <li><a href="/subject/business-laws">⚖️ Business Laws</a></li>
-                            <li><a href="/subject/business-mathematics">🔢 Mathematics</a></li>
+                            <li><a href="/subject/quantitative-aptitude">🔢 Mathematics</a></li>
                             <li><a href="/subject/business-economics">📈 Economics</a></li>
                         </ul>
                     </div>
-
-                    {/*<div className={styles.footerSection}>*/}
-                    {/*    <h4>About</h4>*/}
-                    {/*    <div className={styles.aboutContent}>*/}
-                    {/*        <p>Built with ❤️ for CA aspirants</p>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
                 </div>
 
                 <div className={styles.footerBottom}>

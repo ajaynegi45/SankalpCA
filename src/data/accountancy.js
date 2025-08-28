@@ -1,7 +1,9 @@
 export const questions = {
-    'Meaning and Scope of Accounting': [
 
-            // Unit - 1
+    //  Chapter-1
+    'Theoretical Framework': {
+        // Unit-1
+        'Meaning and Scope of Accounting': [
             {
                 question: "The 1961 definition of accounting by the American Institute of Certified Public Accountants primarily focused on accounting as an 'art of record keeping'. Which significant aspect, highlighted in later definitions, was considered less prominent in this earlier formulation?",
                 options: [
@@ -1036,6 +1038,22 @@ export const questions = {
                 answer: "Ascertainment of results of transactions and financial position of the business.",
                 explanation: "The objectives of accounting are listed as 'Systematic recording of transactions', 'Ascertainment of results of above recorded transactions', 'Ascertainment of the financial position of the business', 'Providing information to the users for rational decision-making', and 'To know the solvency position'. The Profit and Loss Account ascertains the results (profit/loss), and the Balance Sheet ascertains the financial position (assets/liabilities). Therefore, these two statements directly address the ascertainment of results and financial position."
             }
-        ]
+        ],
+        'Accounting Concepts, Principles and Conventions': [],
+        'Capital and Revenue Expenditures and Receipts': [],
+        'Contingent Assets and Contingent Liabilities': [],
+        'Accounting Policies': [],
+        'Accounting as a Measurement Discipline Valuation Principles, Accounting Estimates': [],
+        'Accounting Standards': [],
+    },
+
+    'Accounting Process':{
+        'Basic Accounting Procedures Journal entries': [],
+        'Ledgers': [],
+        'Trial Balance': [],
+        'Subsidiary Books': [],
+        'Cash Book': [],
+        'Rectification of Errors': [],
+    }
 
 }
