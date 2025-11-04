@@ -25519,10 +25519,6 @@ export const questions = {
         ]
     },
 
-    // https://sankalpca.vercel.app/test/quantitative-aptitude/Measures%20of%20Central%20Tendency%20and%20Dispersion/Measures%20of%20Central%20Tendency
-    // https://sankalpca.vercel.app/test/quantitative-aptitude/Measures%20of%20Central%20Tendency%20and%20Dispersion/Dispersion
-    // https://sankalpca.vercel.app/test/quantitative-aptitude/Measures%20of%20Central%20Tendency%20and%20Dispersion/%20Dispersion
-
     "Probability": [
         {
             question: "Conceptually, the first application of probability three hundred years back in Europe was primarily aimed at enhancing success in which area?",
