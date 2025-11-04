@@ -24747,7 +24747,7 @@ export const questions = {
                 explanation: "The formula for unclassified data ($\\bar{X} = \\frac{\\sum x_i}{n}$) is a special case of the frequency formula where the frequency $f_i$ of each distinct observation is 1.",
             }
         ],
-        "Dispersion": [
+        " Dispersion": [
             {
                 question: "Two distributions possess an identical measure of central tendency but exhibit varying amounts of scatterness. This difference is exclusively captured by which characteristic of the distributions?",
                 options: ["The arithmetic mean", "The degree of skewness", "The measure of dispersion", "The sample size"],
@@ -25518,6 +25518,10 @@ export const questions = {
             }
         ]
     },
+
+    // https://sankalpca.vercel.app/test/quantitative-aptitude/Measures%20of%20Central%20Tendency%20and%20Dispersion/Measures%20of%20Central%20Tendency
+    // https://sankalpca.vercel.app/test/quantitative-aptitude/Measures%20of%20Central%20Tendency%20and%20Dispersion/Dispersion
+    // https://sankalpca.vercel.app/test/quantitative-aptitude/Measures%20of%20Central%20Tendency%20and%20Dispersion/%20Dispersion
 
     "Probability": [
         {
