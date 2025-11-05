@@ -1,1107 +1,3697 @@
 export const questions = {
 
-    //  Chapter-1
     'Nature & Scope of Business Economics': {
-        // Unit-1
         'Introduction': [
             {
-                question: 'What is the primary subject matter of Economics, according to the provided sources?',
-                options: ['The study of how businesses manage their finances.', 'The study of processes by which relatively scarce resources are allocated to satisfy the competing unlimited wants of human beings in a society.', 'The study of how governments make policy decisions.', 'The study of historical economic events.'],
-                answer: 'The study of processes by which relatively scarce resources are allocated to satisfy the competing unlimited wants of human beings in a society.',
-                explanation: 'Economics is defined as the study of how limited resources are used to meet the endless desires of people in a society.'
-            },
-            {
-                question: 'From which Greek word does the term "Economics" originate, and what does it mean?',
-                options: ['Politikos, meaning "governance".', 'Oikonomia, meaning "household".', 'Logos, meaning "study".', 'Nomos, meaning "law".'],
-                answer: 'Oikonomia, meaning "household".',
-                explanation: 'The word "Economics" comes from the Greek word "Oikonomia", which means "household".'
-            },
-
-            {
-                question: 'What does Business Economics primarily integrate?',
-                options: ['Social theories with political science.', 'Economic theory with business practice.', 'Historical events with future predictions.', 'Financial accounting with marketing strategies.'],
-                answer: 'Economic theory with business practice.',
-                explanation: 'Business Economics combines ideas from economic theory with the practical ways businesses operate.'
-            },
-            {
-                question: 'What is another name for Business Economics?',
-                options: ['Political Economy.', 'Macroeconomics.', 'Managerial Economics.', 'Applied Statistics.'],
-                answer: 'Managerial Economics.',
-                explanation: 'Business Economics is also known as Managerial Economics.'
-            },
-            {
-                question: 'How is decision making defined in the context of business?',
-                options: ['The process of gathering all available data.', 'The process of selecting an appropriate alternative from two or more options to achieve a desired goal efficiently.', 'The process of predicting future market trends.', 'The process of analysing past business performance.'],
-                answer: 'The process of selecting an appropriate alternative from two or more options to achieve a desired goal efficiently.',
-                explanation: 'Decision making is about choosing the best path from several possible options to reach a goal in the most effective way.'
-            },
-            {
-                question: 'Why does the question of choice arise in economic decision-making?',
-                options: ['Because all resources are unlimited.', 'Because productive resources are limited and can be used in different ways.', 'Because economic goals are always clear.', 'Because there are no alternative uses for resources.'],
-                answer: 'Because productive resources are limited and can be used in different ways.',
-                explanation: 'We have to make choices because the things we use to produce goods and services, like land or labour, are limited and can be used for many different purposes.'
-            },
-            {
-                question: 'What is the primary focus of Micro Economics?',
-                options: ['The overall economic phenomena of an economy as a whole.', 'The study of the behaviour of individual units like consumers or firms within an economic system.', 'The analysis of national income and employment levels.', 'The balance of trade and payments of a country.'],
-                answer: 'The study of the behaviour of individual units like consumers or firms within an economic system.',
-                explanation: 'Micro Economics looks at how individual parts of the economy, like single consumers or businesses, make decisions about their limited resources.'
-            },
-            {
-                question: 'Which of the following is a concept primarily studied in Micro Economics?',
-                options: ['National Income.', 'General Price Level.', 'Consumer Behaviour.', 'Level of Employment.'],
-                answer: 'Consumer Behaviour.',
-                explanation: 'Micro Economics studies things like how consumers make choices, which is known as consumer behaviour.'
-            },
-            {
-                question: 'What is the primary focus of Macro Economics?',
-                options: ['The behaviour of a single firm.', 'The pricing of individual products.', 'The study of the economy as a whole, focusing on large economic aggregates.', 'The allocation of resources within a household.'],
-                answer: 'The study of the economy as a whole, focusing on large economic aggregates.',
-                explanation: 'Macro Economics studies the economy on a large scale, looking at overall trends like total production and employment, not just individual parts.'
-            },
-            {
-                question: 'Which of the following is an area that comes under Macro Economics?',
-                options: ['Location of industry.', 'Product pricing.', 'Balance of trade.', 'Behaviour of firms.'],
-                answer: 'Balance of trade.',
-                explanation: 'Macro Economics deals with broad economic issues, such as the balance of trade for an entire country.'
-            },
-            {
-                question: 'Why is Business Economics considered a science?',
-                options: ['Because it only deals with theoretical concepts.', 'Because it is a systematized body of knowledge that establishes cause and effect relationships and uses scientific methods.', 'Because it is an art that applies rules and principles.', 'Because it only focuses on practical problems.'],
-                answer: 'Because it is a systematized body of knowledge that establishes cause and effect relationships and uses scientific methods.',
-                explanation: 'Business Economics is called a science because it is an organised way of knowing that finds out how things cause other things to happen, and it uses scientific ways to check its findings.'
-            },
-            {
-                question: 'What is the relationship between Business Economics and Micro Economics?',
-                options: ['Business Economics is entirely separate from Micro Economics.', 'Business Economics is based largely on Micro Economics, relying on its techniques for individual establishment decisions.', 'Micro Economics is based largely on Business Economics.', 'Business Economics only uses Macro Economics.'],
-                answer: 'Business Economics is based largely on Micro Economics, relying on its techniques for individual establishment decisions.',
-                explanation: 'Business Economics mainly uses ideas and methods from Micro Economics because it focuses on decisions made by individual businesses.'
-            },
-            {
-                question: 'How does Macroeconomic analysis relate to Business Economics?',
-                options: ['Macroeconomic analysis has no role in Business Economics.', 'Business Economics completely ignores macroeconomic factors.', 'Macroeconomic analysis influences individual firm\'s performance and decisions by analyzing the overall economic environment.', 'Business Economics only focuses on internal issues, not external.'],
-                answer: 'Macroeconomic analysis influences individual firm\'s performance and decisions by analyzing the overall economic environment.',
-                explanation: 'Macroeconomics helps Business Economics by looking at the bigger economic picture, like inflation or interest rates, which can greatly affect a business\'s decisions and performance.'
-            },
-            {
-                question: 'Why is Business Economics considered an art?',
-                options: ['Because it relies only on theoretical models.', 'Because it establishes cause and effect relationships.', 'Because it involves the practical application of rules and principles to achieve goals.', 'Because it is purely descriptive in nature.'],
-                answer: 'Because it involves the practical application of rules and principles to achieve goals.',
-                explanation: 'Business Economics is an art because it uses rules and ideas in a practical way to help businesses reach their goals.'
-            },
-            {
-                question: 'What does it mean for Business Economics to be "pragmatic in approach"?',
-                options: ['It only deals with abstract theories.', 'It focuses on unrealistic assumptions.', 'It tackles practical problems faced by firms in the real world.', 'It avoids applying economic theories to business.'],
-                answer: 'It tackles practical problems faced by firms in the real world.',
-                explanation: 'Being pragmatic means Business Economics deals with real-world problems that businesses actually face, instead of just abstract ideas.'
-            },
-            {
-                question: 'Which of the following disciplines is *not* mentioned as contributing tools to Business Economics due to its interdisciplinary nature?',
-                options: ['Mathematics.', 'Operations Research.', 'Astronomy.', 'Statistics.'],
-                answer: 'Astronomy.',
-                explanation: 'Business Economics uses tools from many different subjects, like Mathematics, Operations Research, and Statistics, but Astronomy is not mentioned.'
-            },
-            {
-                question: 'What does it mean that Business Economics is generally normative in nature?',
-                options: ['It describes what "is" happening without judgment.', 'It focuses on historical economic data only.', 'It suggests "what should be" a course of action and is prescriptive.', 'It avoids value judgements.'],
-                answer: 'It suggests "what should be" a course of action and is prescriptive.',
-                explanation: 'Being normative means Business Economics gives advice on what actions should be taken, guiding decisions and future plans.'
-            },
-            {
-                question: 'What is the main difference between a positive science and a normative science?',
-                options: ['Positive science deals with "what should be", while normative science describes "what is".', 'Positive science states "what is" and is descriptive, while normative science suggests "what should be" and is prescriptive.', 'Positive science involves value judgments, while normative science does not.', 'Positive science is only used in economics, while normative science is used in all fields.'],
-                answer: 'Positive science states "what is" and is descriptive, while normative science suggests "what should be" and is prescriptive.',
-                explanation: 'Positive science tells us "what is" and describes things, while normative science tells us "what should be" and gives advice.'
-            },
-            {
-                question: 'What are the two main categories of business issues to which economic theories can be applied in Business Economics?',
-                options: ['Historical and Future issues.', 'Manufacturing and Service issues.', 'Internal (Operational) and External (Environmental) issues.', 'Financial and Marketing issues.'],
-                answer: 'Internal (Operational) and External (Environmental) issues.',
-                explanation: 'Business Economics applies economic ideas to two main types of problems: those inside the company (internal or operational) and those related to the wider world outside the company (external or environmental).'
-            },
-            {
-                question: 'What does demand analysis primarily study in the context of operational issues?',
-                options: ['The relationship between inputs and outputs.', 'The behaviour of consumers in the market and factors affecting their preferences.', 'The optimal stock levels of raw materials.', 'The general price level of the economy.'],
-                answer: 'The behaviour of consumers in the market and factors affecting their preferences.',
-                explanation: 'Demand analysis looks at how consumers behave in the market and what makes them want certain goods and services, like changes in price or income.'
-            },
-            {
-                question: 'How does Production and Cost Analysis help a firm?',
-                options: ['By predicting future market demand.', 'By guiding decisions on optimal output size, technology choice, least-cost input mix, and understanding cost behavior to maximize profits.', 'By managing relationships with trade unions.', 'By determining government economic policies.'],
-                answer: 'By guiding decisions on optimal output size, technology choice, least-cost input mix, and understanding cost behavior to maximize profits.',
-                explanation: 'Production and Cost Analysis helps a business figure out the best amount to produce, how to make it efficiently using the cheapest combination of resources, and how costs change, all to help make more profit.'
-            },
-            {
-                question: 'What is the main goal of Inventory Management theories in Business Economics?',
-                options: ['To forecast long-term economic growth.', 'To minimize costs related to holding inventory, such as raw materials and finished goods.', 'To analyze national income.', 'To understand consumer behaviour only.'],
-                answer: 'To minimize costs related to holding inventory, such as raw materials and finished goods.',
-                explanation: 'Inventory management aims to reduce the costs that businesses have from keeping items like raw materials or finished products in stock.'
-            },
-            {
-                question: 'How does the analysis of market structure help a firm in Business Economics?',
-                options: ['It helps manage the firm\'s internal finances.', 'It provides information about competition, market power, and strategies for market management and pricing.', 'It focuses on employee motivation strategies.', 'It determines the location of the industry.'],
-                answer: 'It provides information about competition, market power, and strategies for market management and pricing.',
-                explanation: 'Understanding the market structure helps a business know how much competition it faces, how much power it has over prices, and what strategies to use for its products and marketing.'
-            },
-            {
-                question: 'Which of the following is an example of an external or environmental issue that influences business functioning, as covered by Macroeconomics?',
-                options: ['Choice of production technique.', 'Inventory management rules.', 'The stage of the business cycle.', 'Product pricing decisions.'],
-                answer: 'The stage of the business cycle.',
-                explanation: 'External issues are outside the business\'s direct control, like the overall economic situation or the stage of the business cycle, which affects all businesses.'
-            },
-            {
-                question: 'According to the distinction table, what is the character of Business Economics?',
-                options: ['It is only macroeconomic in character.', 'It is microeconomic as well as macroeconomic in character.', 'It is only microeconomic in character.', 'It is neither microeconomic nor macroeconomic.'],
-                answer: 'It is only microeconomic in character.',
-                explanation: 'The source states that Business Economics is microeconomic in character.'
-            },
-            {
-                question: 'According to the distinction table, what is the nature of Business Economics?',
-                options: ['It is only positive in nature.', 'It is positive as well as normative in nature.', 'It is only normative in nature.', 'It is purely theoretical.'],
-                answer: 'It is only normative in nature.',
-                explanation: 'The distinction table indicates that Business Economics is only normative in nature.'
-            },
-            {
-                question: 'What is the main task of Business Economics, as per the distinction table?',
-                options: ['Fulfilment of needs of individuals as well as entities.', 'Framing economic principles to solve economic problems.', 'Proper decision making in a particular business entity.', 'Analyzing macro-level issues like growth and inflation.'],
-                answer: 'Proper decision making in a particular business entity.',
-                explanation: 'The primary job of Business Economics is to help a specific business make the right decisions.'
-            },
-            {
-                question: 'Which book by Adam Smith is considered the first modern work of Economics?',
-                options: ['Das Kapital.', 'General Theory of Employment, Interest and Money.', 'An Inquiry into the Nature and Causes of the Wealth of Nations.', 'Principles of Political Economy and Taxation.'],
-                answer: 'An Inquiry into the Nature and Causes of the Wealth of Nations.',
-                explanation: 'Adam Smith\'s book, commonly known as "The Wealth of Nations", is seen as the beginning of modern Economics.'
-            },
-            {
-                question: 'What is the basic objective of any economic activity like production or consumption?',
-                options: ['To create debt.', 'To eliminate all wants.', 'To create surplus or profit, or social benefits for NPOs.', 'To reduce competition.'],
-                answer: 'To create surplus or profit, or social benefits for NPOs.',
-                explanation: 'The goal of any economic activity is usually to make a profit or a surplus. For non-profit groups, their goal is to provide social benefits.'
-            },
-            {
-                question: 'What was Economics known as until the 19th century?',
-                options: ['A) Social Science', 'B) Political Economy', 'C) Business Study', 'D) Financial Management'],
-                answer: 'B) Political Economy',
-                explanation: 'Until the 19th century, Economics was known as ‘Political Economy’.'
-            },
-            {
-                question: 'Which two fundamental facts form the subject matter of Economics?',
-                options: ['A) Limited wants and abundant resources', 'B) Unlimited wants and scarce means', 'C) Stable prices and high employment', 'D) Government control and free markets'],
-                answer: 'B) Unlimited wants and scarce means',
-                explanation: 'Economics studies two fundamental facts: human beings have unlimited wants, and the means to satisfy these wants are relatively scarce.'
-            },
-            {
-                question: 'What is Economics primarily the study of?',
-                options: ['A) How governments make laws', 'B) How scarce resources are allocated to satisfy unlimited wants', 'C) How businesses advertise products', 'D) How people choose their hobbies'],
-                answer: 'B) How scarce resources are allocated to satisfy unlimited wants',
-                explanation: 'Economics is the study of how relatively scarce resources are used to satisfy the unlimited wants of human beings in a society.'
-            },
-            {
-                question: 'What is the basic objective of all business activities?',
-                options: ['A) To reduce unemployment', 'B) To create net value added', 'C) To improve public relations', 'D) To simplify economic models'],
-                answer: 'B) To create net value added',
-                explanation: 'The basic objective of business activities, which transform inputs into outputs, is the creation of net value added.'
-            },
-            {
-                question: 'How do economists classify inputs on the input side of an economic activity?',
-                options: ['A) Consumer goods, producer goods, capital goods, private goods', 'B) Land, labour, capital, and entrepreneurship', 'C) Manufacturing, mining, construction, agriculture', 'D) Production, consumption, distribution, exchange'],
-                answer: 'B) Land, labour, capital, and entrepreneurship',
-                explanation: 'Economists classify inputs as land, labour, capital, and entrepreneurship.'
-            },
-            {
-                question: 'What is the purpose of any economic activity like production or consumption?',
-                options: ['A) To avoid all risks', 'B) To create surplus or profit', 'C) To control all market prices', 'D) To predict social trends'],
-                answer: 'B) To create surplus or profit',
-                explanation: 'The purpose of any economic activity, such as production or consumption, is to create surplus or profit.'
-            },
-            {
-                question: 'What do Non-Profit Organisations (NPOs) primarily aim for?',
-                options: ['A) Maximum private profits', 'B) Market dominance', 'C) Social benefits', 'D) High stock returns'],
-                answer: 'C) Social benefits',
-                explanation: 'Non-Profit Organisations (NPOs) may not aim for private profits, but they aim for ‘social benefits’.'
-            },
-            {
-                question: 'Why does the question of choice arise in decision making for an economic enterprise?',
-                options: ['A) Because there are too many customers', 'B) Because productive resources are limited and can be used in alternative ways', 'C) Because prices are always stable', 'D) Because competition is too low'],
-                answer: 'B) Because productive resources are limited and can be used in alternative ways',
-                explanation: 'The question of choice arises because productive resources like land, labour, capital, and management are limited and can be used in different ways.'
-            },
-            {
-                question: 'Why is decision making in a business firm often not simple and straightforward?',
-                options: ['A) Because the economic environment is always static', 'B) Because managers have perfect knowledge', 'C) Because decisions are often taken under conditions of imperfect knowledge and uncertainty', 'D) Because all problems are very easy to solve'],
-                answer: 'C) Because decisions are often taken under conditions of imperfect knowledge and uncertainty',
-                explanation: 'Decision making is difficult because the economic environment is complex and changing, and decisions are often made with incomplete information and uncertainty.'
-            },
-            {
-                question: 'How does Business Economics meet the needs of management for decision making?',
-                options: ['A) By increasing their financial budget', 'B) By providing a huge corpus of theory and techniques', 'C) By reducing competition in the market', 'D) By making all resources unlimited'],
-                answer: 'B) By providing a huge corpus of theory and techniques',
-                explanation: 'Business Economics helps management by providing a large amount of theory and techniques for decision making.'
-            },
-
-            {
-                question: 'What is Business Economics defined as, in brief?',
-                options: ['A) Pure Economic Theory', 'B) Economic History', 'C) Applied Economics that fills the gap between economic theory and business practice', 'D) Social Welfare Studies'],
-                answer: 'C) Applied Economics that fills the gap between economic theory and business practice',
-                explanation: 'In short, Business Economics is Applied Economics that fills the gap between economic theory and business practice.'
-            },
-            {
-                question: 'Which discipline is Business Economics NOT closely connected with?',
-                options: ['A) Operations Research', 'B) Music Theory', 'C) Statistics', 'D) Mathematics'],
-                answer: 'B) Music Theory',
-                explanation: 'Business Economics has close connections with Economic theory, Operations Research, Statistics, Mathematics, and the Theory of Decision-Making.'
-            },
-            {
-                question: 'According to Joel Dean, Business Economics involves the use of economic analysis in what?',
-                options: ['A) Predicting weather patterns', 'B) Formulating business policies', 'C) Designing new machinery', 'D) Conducting scientific experiments'],
-                answer: 'B) Formulating business policies',
-                explanation: 'Joel Dean defined Business Economics as using economic analysis to formulate business policies.'
-            },
-            {
-                question: 'Which of the following quantitative techniques is applied in Business Economics?',
-                options: ['A) Historical narrative analysis', 'B) Linear programming', 'C) Artistic interpretation', 'D) Philosophical debate'],
-                answer: 'B) Linear programming',
-                explanation: 'Business Economics includes applying quantitative techniques such as linear programming, regression analysis, capital budgeting, and cost analysis.'
-            },
-            {
-                question: 'Which of the following is a main subject studied in Micro-Economics?',
-                options: ['A) National Income', 'B) The general price level', 'C) Consumer behaviour', 'D) Balance of trade'],
-                answer: 'C) Consumer behaviour',
-                explanation: 'Consumer behaviour is one of the main subjects studied in Micro-Economics, along with product pricing and factor pricing.'
-            },
-            {
-                question: 'Which of these concepts is studied under Macro Economics?',
-                options: ['A) Product pricing', 'B) Behaviour of a single firm', 'C) The overall level of savings and investment', 'D) Location of a specific industry'],
-                answer: 'C) The overall level of savings and investment',
-                explanation: 'Macro Economics studies large economic totals like the overall level of savings and investment, national income, and employment.'
-            },
-            {
-                question: 'Why is Macroeconomic analysis important for business firms?',
-                options: ['A) It helps them manage internal staff only', 'B) It helps them understand the background of economic conditions that influence their performance', 'C) It helps them ignore external factors', 'D) It focuses only on their direct competitors'],
-                answer: 'B) It helps them understand the background of economic conditions that influence their performance',
-                explanation: 'Macroeconomics analyses the general economic conditions in an economy, which greatly influence how individual firms perform and make decisions.'
-            },
-            {
-                question: 'Why is Business Economics considered a Science?',
-                options: ['A) Because it is based on opinion', 'B) Because it is a systematized body of knowledge that establishes cause and effect relationships and tests results', 'C) Because it only uses qualitative data', 'D) Because it avoids all theories'],
-                answer: 'B) Because it is a systematized body of knowledge that establishes cause and effect relationships and tests results',
-                explanation: 'Business Economics is a science because it is a structured body of knowledge that shows cause and effect, and it tests its findings scientifically.'
-            },
-            {
-                question: 'Business Economics relies heavily on which part of Economics?',
-                options: ['A) Political Economy', 'B) Macro-Economics', 'C) Micro-Economics', 'D) Global Economics'],
-                answer: 'C) Micro-Economics',
-                explanation: 'Business Economics relies a lot on Micro-Economics because it focuses on the decision-making problems of individual businesses.'
-            },
-            {
-                question: 'Which macroeconomic element can influence a business manager\'s environment?',
-                options: ['A) A firm\'s internal budget', 'B) The general price level in the economy', 'C) An individual employee\'s skills', 'D) The number of products a firm sells'],
-                answer: 'B) The general price level in the economy',
-                explanation: 'A business manager must be aware of macroeconomic variables such as the general price level, income, and employment levels in the economy, which can influence their business.'
-            },
-            {
-                question: 'Why is Business Economics also considered an Art?',
-                options: ['A) Because it is purely theoretical', 'B) Because it involves the practical application of rules and principles for set objectives', 'C) Because it studies historical art forms', 'D) Because it focuses on creative writing'],
-                answer: 'B) Because it involves the practical application of rules and principles for set objectives',
-                explanation: 'Business Economics is an art because it means putting economic rules and principles into practice to achieve specific goals.'
-            },
-            {
-                question: 'What is the approach of Business Economics in tackling real-world problems?',
-                options: ['A) Abstract', 'B) Theoretical', 'C) Pragmatic', 'D) Idealistic'],
-                answer: 'C) Pragmatic',
-                explanation: 'Business Economics has a pragmatic (practical) approach because it deals with real-world problems faced by businesses.'
-            },
-            {
-                question: 'Business Economics is interdisciplinary in nature because it incorporates tools from which other fields?',
-                options: ['A) History and Archaeology', 'B) Mathematics and Statistics', 'C) Literature and Philosophy', 'D) Fine Arts and Music'],
-                answer: 'B) Mathematics and Statistics',
-                explanation: 'Business Economics is interdisciplinary, meaning it uses tools from various fields such as Mathematics, Operations Research, Management Theory, and Statistics.'
-            },
-            {
-                question: 'Which type of science states ‘what is’ of the state of affairs and does not involve any value judgement?',
-                options: ['A) Normative science', 'B) Prescriptive science', 'C) Positive science', 'D) Welfare science'],
-                answer: 'C) Positive science',
-                explanation: 'A positive science describes ‘what is’ happening and does not include personal opinions or judgments about what should be.'
-            },
-            {
-                question: 'Which type of science is prescriptive in nature and suggests ‘what should be’ a particular course of action?',
-                options: ['A) Positive science', 'B) Descriptive science', 'C) Normative science', 'D) Pure science'],
-                answer: 'C) Normative science',
-                explanation: 'A normative science is prescriptive, meaning it suggests ‘what should be’ done in a certain situation and involves value judgments.'
-            },
-            {
-                question: 'What are the two categories of business issues to which economic theories can be applied?',
-                options: ['A) Past issues and future issues', 'B) Local issues and global issues', 'C) Internal or operational issues and external or environmental issues', 'D) Financial issues and marketing issues'],
-                answer: 'C) Internal or operational issues and external or environmental issues',
-                explanation: 'Economic theories can be applied to two main types of business issues: those inside the company (operational) and those outside (environmental).'
-            },
-            {
-                question: 'Which of the following is an example of an internal or operational issue?',
-                options: ['A) The general price level', 'B) Stage of business cycle', 'C) Government\'s economic policies', 'D) Product decisions'],
-                answer: 'D) Product decisions',
-                explanation: 'Product decisions are examples of internal or operational issues that arise within an organization and are controlled by management.'
-            },
-            {
-                question: 'What does Demand Analysis and Forecasting pertain to?',
-                options: ['A) Predicting competitor strategies', 'B) Predicting future demand for goods and services', 'C) Analyzing internal financial reports', 'D) Managing employee relations'],
-                answer: 'B) Predicting future demand for goods and services',
-                explanation: 'Demand forecasting is the technique of predicting how much demand there will be for goods and services in the future, based on past information.'
-            },
-            {
-                question: 'What does Production analysis enable the firm to decide on?',
-                options: ['A) Consumer preferences', 'B) Choice of appropriate technology and selection of least-cost input-mix', 'C) Global economic forecasts', 'D) Employee training programs'],
-                answer: 'B) Choice of appropriate technology and selection of least-cost input-mix',
-                explanation: 'Production analysis helps a firm choose the right technology and the cheapest combination of inputs to produce goods efficiently.'
-            },
-            {
-                question: 'What is the purpose of Inventory Management theories?',
-                options: ['A) To increase production costs', 'B) To maximize advertising spending', 'C) To minimise the costs associated with maintaining inventory', 'D) To simplify product design'],
-                answer: 'C) To minimise the costs associated with maintaining inventory',
-                explanation: 'Inventory management theories help firms reduce the costs related to holding inventory like raw materials and finished goods.'
-            },
-            {
-                question: 'What information does the analysis of the market structure provide to a firm?',
-                options: ['A) Details about its internal accounting procedures', 'B) Information about the nature and extent of competition', 'C) Insights into employee satisfaction', 'D) Historical data on weather patterns'],
-                answer: 'B) Information about the nature and extent of competition',
-                explanation: 'Analysing the market structure tells a firm about the type and amount of competition it faces, which helps in deciding its market power and pricing strategies.'
-            },
-            {
-                question: 'Which advanced tool helps a firm in optimum utilisation of available resources?',
-                options: ['A) Basic accounting software', 'B) Linear programming', 'C) Simple calculator', 'D) Traditional bookkeeping'],
-                answer: 'B) Linear programming',
-                explanation: 'Business Economics uses advanced tools like linear programming to help a firm make the best use of its available resources.'
-            },
-            {
-                question: 'What do theories related to capital and investment provide for a firm?',
-                options: ['A) Daily operational guidelines', 'B) Scientific criteria for choice of investment projects and assessment of capital efficiency', 'C) Details on customer feedback', 'D) Methods for employee recruitment'],
-                answer: 'B) Scientific criteria for choice of investment projects and assessment of capital efficiency',
-                explanation: 'Capital and investment theories offer scientific ways to choose investment projects and measure how well capital is being used.'
-            },
-            {
-                question: 'What does Profit analysis guide the firm in?',
-                options: ['A) Designing marketing campaigns', 'B) Measurement and management of profits under conditions of uncertainty', 'C) Deciding employee benefits', 'D) Managing daily office supplies'],
-                answer: 'B) Measurement and management of profits under conditions of uncertainty',
-                explanation: 'Profit analysis helps a firm measure and manage its profits, especially when market conditions are uncertain, and also assists in planning for future profits.'
-            },
-            {
-                question: 'Which factor is a major macro-economic influence on business functioning and performance?',
-                options: ['A) A firm\'s choice of production technique', 'B) The socio-economic organisations like trade unions', 'C) A company\'s internal pricing decisions', 'D) An individual consumer\'s preferences'],
-                answer: 'B) The socio-economic organisations like trade unions',
-                explanation: 'Major macroeconomic factors that influence businesses include socio-economic organisations like trade unions, as well as the type of economic system and stage of the business cycle.'
-            },
-            {
-                question: 'Does the management of a firm have control over external or environmental factors?',
-                options: ['A) Yes, complete control', 'B) Yes, partial control', 'C) No, they have no control', 'D) Only if the factors are minor'],
-                answer: 'C) No, they have no control',
-                explanation: 'The management of a firm has no control over external or environmental factors and must adjust its own policies to deal with them.'
-            },
-            {
-                question: 'According to the difference table, what is the main task of Economics?',
-                options: ['A) Proper decision making in a particular business entity', 'B) The fulfilment of needs of individuals as well as entities', 'C) Analysing micro-level issues like demand', 'D) Applying economic principles to business problems'],
-                answer: 'B) The fulfilment of needs of individuals as well as entities',
-                explanation: 'The main task of Economics is the fulfilment of needs of individuals as well as entities.'
-            },
-            {
-                question: 'According to the difference table, what is the character of Business Economics?',
-                options: ['A) Microeconomic as well as macroeconomic', 'B) Only macroeconomic', 'C) Only microeconomic', 'D) Neither microeconomic nor macroeconomic'],
-                answer: 'C) Only microeconomic',
-                explanation: 'The difference table states that Business Economics is microeconomic in character.'
-            },
-            {
-                question: 'Based on the difference table, what is the nature of Economics?',
-                options: ['A) Only positive', 'B) Only normative', 'C) Positive as well as normative', 'D) Primarily prescriptive'],
-                answer: 'C) Positive as well as normative',
-                explanation: 'The difference table indicates that Economics is positive as well as normative in nature.'
-            },
-            {
-                question: 'According to the difference table, which field has a narrower scope?',
-                options: ['A) Economics', 'B) Business Economics', 'C) Both have the same scope', 'D) Their scopes are unrelated'],
-                answer: 'B) Business Economics',
-                explanation: 'The difference table indicates that Business Economics has a comparatively narrower scope compared to Economics.'
-            },
-            {
-                question: 'According to the difference table, Business Economics is concerned with which theories?',
-                options: ['A) All theories from production to consumption including distribution', 'B) Only profit theory ignoring other theories', 'C) Only macro-level theories', 'D) Only theories related to employment'],
-                answer: 'B) Only profit theory ignoring other theories',
-                explanation: 'The difference table states that Business Economics is concerned with only profit theory, ignoring other theories.'
-            },
-            {
-                question: 'According to the difference table, what type of analysis is involved in Economics?',
-                options: ['A) Analysis of micro level issues like demand', 'B) Analysis of macro level issues like growth, inflation, and employment', 'C) Only non-economic aspects', 'D) Validity of assumptions when applied'],
-                answer: 'B) Analysis of macro level issues like growth, inflation, and employment',
-                explanation: 'The difference table specifies that Economics includes the analysis of macro-level issues like growth, inflation, and employment.'
-            },
-            {
-                question: 'According to the difference table, on what aspects does Economics concentrate?',
-                options: ['A) Only on the economic aspects of any business problem', 'B) On both economic as well as non-economic aspects', 'C) Primarily on assumptions that become invalid', 'D) Only on micro-level issues'],
-                answer: 'A) Only on the economic aspects of any business problem',
-                explanation: 'The difference table states that Economics concentrates only on the economic aspects of any business problem.'
-            },
-
-            // --- Hard Level ---
-
-            {
-                question: 'Given that Business Economics is described as \'pragmatic\' and \'based on Micro Economics\', which of the following operational issues would best illustrate these characteristics?',
+                question: "The fundamental facts which form the subject matter of Economics are that human wants are unlimited and:",
                 options: [
-                    'A. Analysing national income trends to forecast overall economic growth.',
-                    'B. Determining the optimal output level and pricing strategy for a specific product in a highly competitive market.',
-                    'C. Studying the impact of global trade policies on a country\'s balance of payments.',
-                    'D. Formulating abstract economic theories without considering their real-world applicability.'
+                    "Resources are fixed in quantity.",
+                    "The means to satisfy these unlimited wants are absolutely fixed.",
+                    "The means to satisfy these unlimited wants are relatively scarce.",
+                    "The available productive capacity has grown tremendously."
                 ],
-                answer: 'B. Determining the optimal output level and pricing strategy for a specific product in a highly competitive market.',
-                explanation: 'Business Economics is pragmatic, meaning it tackles practical problems that firms face in the real world. It is also based on Microeconomics because it focuses on the decision-making problems of individual businesses. Determining the optimal output and pricing for a specific product is a practical, operational problem faced by an individual firm, directly applying microeconomic principles.'
+                answer: "The means to satisfy these unlimited wants are relatively scarce.",
+                explanation: "The subject matter of Economics is formed by the fundamental facts that ‘Human beings have unlimited wants’ and ‘The means to satisfy these unlimited wants are relatively scarce’."
             },
             {
-                question: 'When a Business Economist suggests \'what should be\' the pricing strategy for a new product to maximise profits, they are primarily demonstrating which nature of Business Economics, and why?',
+                question: "Which of the following phrases best captures the essence of an economic activity as performed by a business?",
                 options: [
-                    'A. Positive, because it describes existing market behaviour.',
-                    'B. Pragmatic, because it focuses on a real business problem.',
-                    'C. Normative, because it involves value judgments and prescriptions for action.',
-                    'D. Scientific, because it uses systematised knowledge to establish cause and effect.'
+                    "Exchange and inventory accumulation.",
+                    "Transformation of a set of inputs into a set of output.",
+                    "Creation of surplus for non-profit organizations.",
+                    "Consumption and distribution of merit goods."
                 ],
-                answer: 'C. Normative, because it involves value judgments and prescriptions for action.',
-                explanation: 'Economic theory develops along two lines: positive and normative. Positive science describes \'what is\', without judgments. In contrast, normative science involves value judgments and is prescriptive, suggesting \'what should be\' a particular course of action. When a business economist recommends a strategy to maximise profits, they are advising on \'what should be\' done, which aligns with the normative nature of Business Economics.'
+                answer: "Transformation of a set of inputs into a set of output.",
+                explanation: "Each business represents activity transforming a set of inputs into a set of output which is the essence of economic activity."
             },
             {
-                question: 'A national government agency is conducting a comprehensive study on the causes of the current national unemployment rate and its impact on the overall economic output. Based on the given sources, how does this study\'s scope and analytical focus generally differ from that of Business Economics?',
+                question: "The objective of creating 'net value added' is the basic goal of all economic activities. This objective is synonymous with creating:",
                 options: [
-                    'A. The study is purely microeconomic, while Business Economics encompasses both micro and macro aspects.',
-                    'B. The study has a narrow scope focusing on individual firms, whereas Business Economics deals with broader societal economic problems.',
-                    'C. The study is macroeconomic in scope and aims to frame economic principles for society, while Business Economics applies these principles to solve specific business problems.',
-                    'D. Both studies are essentially the same, as Economics and Business Economics are synonymous terms.'
+                    "Social benefits for NPOs and producer goods.",
+                    "Exchange benefits and distribution channels.",
+                    "Surplus or profit for the enterprise.",
+                    "Durable goods and capital assets."
                 ],
-                answer: 'C. The study is macroeconomic in scope and aims to frame economic principles for society, while Business Economics applies these principles to solve specific business problems.',
-                explanation: 'The study of national unemployment and overall economic output falls under Macroeconomics, which examines the economy as a whole and large economic aggregates. General Economics involves framing economic principles. In contrast, Business Economics primarily applies these economic principles (often microeconomic ones) to solve decision-making problems for specific business entities. While Business Economics incorporates elements of macro analysis, its main task is focused on proper decision-making for a particular business unit, not broad national economic issues.'
+                answer: "Surplus or profit for the enterprise.",
+                explanation: "Creation of net value added is the basic objective of all such activities. The purpose of any economic activity... is to create surplus or profit."
             },
             {
-                question: 'Mr. G. Ramamurthy, the CEO of Worldwide Food Limited, mentions that his team spent many days analysing \'all available data to arrive at a judgement\' regarding entering the soft drink business, including details on \'production, cost, pricing, distribution, financing\'. This scenario best illustrates which aspect of Business Economics?',
+                question: "The narrow focus of economics on using relatively scarce resources to satisfy human wants is the domain of which analysis?",
                 options: [
-                    'A. Its purely theoretical and abstract nature.',
-                    'B. Its reliance solely on positive economic theory.',
-                    'C. Its exclusive focus on external environmental issues.',
-                    'D. Its interdisciplinary nature and pragmatic approach in decision-making.',
+                    "Modern neo classical micro economic analysis.",
+                    "Macroeconomic aggregates analysis.",
+                    "Positive economic theory and social norms.",
+                    "Applied financial econometrics."
                 ],
-                answer: 'D. Its interdisciplinary nature and pragmatic approach in decision-making.',
-                explanation: 'The analysis of data on production, cost, pricing, distribution, and financing for a business decision demonstrates the interdisciplinary nature of Business Economics, as it incorporates tools and concepts from various fields like Management Theory, Accounting, Marketing, Finance, and Statistics. The fact that this analysis is done to make a real-world business decision (entering a new market) highlights its pragmatic approach, which focuses on tackling practical problems faced by firms. The source states that decision making is complex and requires proper methodology and appropriate analytical tools and techniques.'
+                answer: "Modern neo classical micro economic analysis.",
+                explanation: "This definition of Economics, with the narrow focus on using the relatively scarce resources to satisfy human wants, is the domain of modern neo classical micro economic analysis."
             },
             {
-                question: 'The fundamental economic concept that \'the means to satisfy unlimited wants are relatively scarce\' directly leads individuals, societies, and business units to engage in which of the following practices?',
+                question: "In the context of the modern economy, which crucial concern is NOT fully covered by the traditional, narrow concept of economics focusing only on resource allocation?",
                 options: [
-                    'A. Producing an unlimited variety of goods regardless of cost.',
-                    'B. Evaluating alternatives and choosing the most efficient options for resource allocation.',
-                    'C. Avoiding any form of decision-making, as all wants cannot be satisfied.',
-                    'D. Relying solely on macroeconomic analysis for all operational decisions.'
+                    "How to distribute available goods and services.",
+                    "The process by which productive capacity is increased.",
+                    "What specific kinds of goods and services ought to be produced.",
+                    "How individual consumers make choices under scarcity."
                 ],
-                answer: 'B. Evaluating alternatives and choosing the most efficient options for resource allocation.',
-                explanation: 'The fundamental facts of unlimited human wants and relatively scarce means to satisfy them create a dilemma. This forces individuals, societies, and businesses to make choices. Therefore, they must evaluate various alternatives and choose the one that gives the greatest satisfaction or provides the most efficient means of achieving a desired goal, allocating scarce resources to their highest valued uses.'
+                answer: "The process by which productive capacity is increased.",
+                explanation: "The narrow concept is incomplete as two important concerns are not fully covered: growth in productive capacity and fluctuations in the rate of utilization of resources."
             },
             {
-                question: 'While Business Economics is primarily microeconomic, the sources state that \'Macroeconomic analysis also has got an important role to play\'. Which of the following best exemplifies this crucial role for a business firm?',
+                question: "Economics is, thus, the study of how we work together to transform scarce resources into goods and services to satisfy the most pressing of our infinite wants and how we distribute these goods and services among ourselves. Efficiency in this context is achieved when resources are:",
                 options: [
-                    'A. Adjusting firm policies in response to national inflation rates and government fiscal policies.',
-                    'B. Focusing exclusively on individual consumer behaviour for product pricing.',
-                    'C. Determining the least-cost input mix for a specific production process.',
-                    'D. Managing internal inventory levels for raw materials and finished goods.'
+                    "Allocated equally among all members of society.",
+                    "Used to produce non-durable consumer goods.",
+                    "Allocated to their highest valued uses.",
+                    "Directed toward solving political and social problems."
                 ],
-                answer: 'A. Adjusting firm policies in response to national inflation rates and government fiscal policies.',
-                explanation: 'Business firms operate within a broader economic environment. Macroeconomic analysis is crucial because it examines background economic conditions like the general price level (inflation), interest rates, and government policies such as fiscal policy. These factors significantly influence an individual firm’s performance and decisions, requiring the firm to understand them and fine-tune its policies to minimise adverse effects.'
+                answer: "Allocated to their highest valued uses.",
+                explanation: "The available resources will be efficiently used when they are allocated to their highest valued uses."
             },
             {
-                question: 'Adam Smith\'s \'The Wealth of Nations\' is considered the first modern work of Economics, focusing on the nature and causes of wealth. In contrast, what is the primary objective of Business Economics as defined in the sources?',
+                question: "If a finance enterprise is deciding 'What should be the maturity and other terms' concerning funds, this represents:",
                 options: [
-                    'A. To describe the overall state of the national economy.',
-                    'B. To formulate entirely new economic principles for general societal application.',
-                    'C. To make business decisions involving the best use of an organisation\'s scarce resources.',
-                    'D. To primarily study Non-Profit Organisations.'
+                    "A complex social norm.",
+                    "An area of choice requiring economic analysis.",
+                    "A distribution dilemma solved by macroeconomics.",
+                    "A political set up problem."
                 ],
-                answer: 'C. To make business decisions involving the best use of an organisation\'s scarce resources.',
-                explanation: 'While Economics, in a broader sense, deals with how scarce resources are allocated to satisfy unlimited wants and how wealth is created, Business Economics is specifically defined as the use of economic analysis to make business decisions. Its core objective is to aid in rational business decision-making, focusing on the best use of an organisation’s scarce resources.'
+                answer: "An area of choice requiring economic analysis.",
+                explanation: "A finance enterprise dealing with funds has to decide – When to raise funds? Where to direct the use of these funds? What should be the maturity and other terms? Each decision problem represents an area of choice. Economics is helpful in analysing the rationality and optimality of a given choice."
             },
             {
-                question: 'Business Economics is described as an \'Art\'. This implies that a business economist must be skilled in which of the following?',
+                question: "Decision making, in the context of business economics, arises primarily because:",
                 options: [
-                    'A. Developing purely abstract economic models.',
-                    'B. Objective analysis of cause and effect relationships without value judgments.',
-                    'C. Applying rules and principles practically to achieve set business objectives.',
-                    'D. Focusing exclusively on descriptive economic behavior.'
+                    "The market environment is highly competitive.",
+                    "Decisions are often taken under conditions of imperfect knowledge.",
+                    "Productive resources are limited and can be employed in alternative uses.",
+                    "The management must deal with strategic and tactical issues."
                 ],
-                answer: 'C. Applying rules and principles practically to achieve set business objectives',
-                explanation: 'The sources state that Business Economics is an Art because it involves the practical application of rules and principles for the attainment of set objectives. This means a business economist needs the skill to effectively put economic theories and principles into practice to achieve the firm\'s goals.'
+                answer: "Productive resources are limited and can be employed in alternative uses.",
+                explanation: "The question of choice arises because our productive resources such as land, labour, capital, and management are limited and can be employed in alternative uses."
             },
             {
-                question: 'A firm uses \'linear programming\' to decide on the most efficient way to allocate its limited production capacity among several different products to maximise overall profit. This activity falls under which specific area of Business Economics scope?',
+                question: "Business Economics is fundamentally defined by its role in:",
                 options: [
-                    'A. Demand Analysis and Forecasting.',
-                    'B. Resource Allocation.',
-                    'C. Inventory Management.',
-                    'D. Market Structure and Pricing Policies.'
+                    "Developing micro-economic theories of consumer behaviour.",
+                    "Integrating economic theory with business practice.",
+                    "Analyzing the overall levels of output and employment.",
+                    "Formulating policies based purely on positive economic science."
                 ],
-                answer: 'B. Resource Allocation.',
-                explanation: 'The use of linear programming is explicitly mentioned as an advanced tool that enables a firm to arrive at the best course of action for optimum utilisation of available resources. When a firm decides how to use its limited production capacity (a resource) to produce different products and maximise profit, it is engaged in resource allocation.'
+                answer: "Integrating economic theory with business practice.",
+                explanation: "Briefly put, Business Economics integrates economic theory with business practice. Joel Dean defined Business Economics in terms of the use of economic analysis in the formulation of business policies."
             },
             {
-                question: 'The birthday money example in the sources illustrates a universal dilemma faced by every individual, society, and country. This dilemma directly arises from which fundamental economic facts?',
+                question: "Which statement accurately describes Business Economics in relation to economic theory and practice?",
                 options: [
-                    'A. Economic activities always aim to create surplus or profit.',
-                    'B. The origin of the term \'Economics\' from \'Oikonomia\'.',
-                    'C. Human beings having unlimited wants and the means to satisfy these wants being relatively scarce.',
-                    'D. The division of Economics into Micro and Macro.'
+                    "It provides the theoretical tools which explain demand and supply concepts.",
+                    "It is an example of pure science focusing on 'what is'.",
+                    "It is Applied Economics that fills the gap between economic theory and business practice.",
+                    "It is exclusively focused on quantitative techniques like Operations Research."
                 ],
-                answer: 'C. Human beings having unlimited wants and the means to satisfy these wants being relatively scarce.',
-                explanation: 'The birthday money example demonstrates that you cannot have everything you want with the limited resources available. This situation highlights the fundamental facts of Economics: that human beings have unlimited wants, but the means (resources) to satisfy these wants are relatively scarce. This scarcity forces individuals and entities to make choices and face dilemmas.'
+                answer: "It is Applied Economics that fills the gap between economic theory and business practice.",
+                explanation: "Thus, Business Economics comprises of that part of economic knowledge, logic, theories and analytical tools that are used for rational business decision making. In brief, it is Applied Economics that fills the gap between economic theory and business practice."
+            },
+            {
+                question: "According to Joel Dean's definition, Business Economics is concerned with:",
+                options: [
+                    "Formulating business policies using economic analysis.",
+                    "Maximizing the net social welfare of NPOs.",
+                    "Studying the behavior of large economic aggregates.",
+                    "Analyzing abstract economic phenomena under unrealistic assumptions."
+                ],
+                answer: "Formulating business policies using economic analysis.",
+                explanation: "Joel Dean defined Business Economics in terms of the use of economic analysis in the formulation of business policies."
+            },
+            {
+                question: "The primary reason why Business Economics is considered 'Based on Micro Economics' is that:",
+                options: [
+                    "It concentrates only on economic aspects of problems.",
+                    "It must be pragmatic in its approach to management theory.",
+                    "It is concerned more with the decision making problems of individual establishments.",
+                    "It studies the overall economic environment (Macro Analysis)."
+                ],
+                answer: "It is concerned more with the decision making problems of individual establishments.",
+                explanation: "Since Business Economics is concerned more with the decision making problems of individual establishments, it relies heavily on the techniques of Microeconomics."
+            },
+            {
+                question: "Business Economics is described as 'Pragmatic in Approach' because, unlike purely theoretical Micro-Economics, it:",
+                options: [
+                    "Is primarily a normative science.",
+                    "Uses linear programming for resource allocation.",
+                    "Tackles practical problems which the firms face in the real world.",
+                    "Focuses only on profit theory."
+                ],
+                answer: "Tackles practical problems which the firms face in the real world.",
+                explanation: "Micro-Economics is abstract and purely theoretical... In contrast, Business Economics is pragmatic in its approach as it tackles practical problems which the firms face in the real world."
+            },
+            {
+                question: "Which of the following elements is incorporated by Business Economics to ensure it is considered a Science?",
+                options: [
+                    "Incorporating elements of political set up and social norms.",
+                    "Integrating decision sciences like Statistics and Econometrics with Economic Theory.",
+                    "Focusing exclusively on the descriptive nature of economic behaviour.",
+                    "Utilizing solely the theory of markets and private enterprise."
+                ],
+                answer: "Integrating decision sciences like Statistics and Econometrics with Economic Theory.",
+                explanation: "Business Economics integrates the tools of decision sciences such as Mathematics, Statistics and Econometrics with Economic Theory to arrive at appropriate strategies...."
+            },
+            {
+                question: "A key difference between a positive science and a normative science is that:",
+                options: [
+                    "Positive science suggests 'what should be', while normative science describes 'what is'.",
+                    "Positive science involves value judgement, while normative science is descriptive.",
+                    "Positive science analyzes cause and effect without value judgement, while normative science is prescriptive.",
+                    "Positive science focuses on microeconomics, while normative science focuses on macroeconomics."
+                ],
+                answer: "Positive science analyzes cause and effect without value judgement, while normative science is prescriptive.",
+                explanation: "A positive or pure science analyses cause and effect relationship between variables in an objective and scientific manner, but it does not involve any value judgement... A normative science involves value judgements. It is prescriptive in nature and suggests ‘what should be’ a particular course of action."
+            },
+            {
+                question: "Why is it necessary for firms to study positive or descriptive economic theory, even though Business Economics is generally normative?",
+                options: [
+                    "Positive theory provides policy formulation and future planning guidelines.",
+                    "Positive theory helps in understanding the environment necessary for establishing valid decision rules.",
+                    "Positive theory incorporates tools from management theory and accounting.",
+                    "Positive theory focuses on profit analysis under uncertainty."
+                ],
+                answer: "Positive theory helps in understanding the environment necessary for establishing valid decision rules.",
+                explanation: "However, if the firms are to establish valid decision rules, they must thoroughly understand their environment. This requires the study of positive or descriptive economic theory."
+            },
+            {
+                question: "Macroeconomics holds an important role in Business Economics primarily because:",
+                options: [
+                    "It focuses on the behaviour of individual firms and consumers.",
+                    "It analyzes the background of economic conditions that influence the individual firm’s performance.",
+                    "It helps in making decisions regarding the least-cost input mix.",
+                    "It provides scientific criteria for capital allocation decisions."
+                ],
+                answer: "It analyzes the background of economic conditions that influence the individual firm’s performance.",
+                explanation: "Macroeconomics analyzes the background of economic conditions in an economy which will immensely influence the individual firm’s performance as well as its decisions."
+            },
+            {
+                question: "Which of the following is explicitly listed as a component of Macroeconomics that affects a business unit?",
+                options: [
+                    "Location of industry decisions.",
+                    "Government policies with respect to exchange rates.",
+                    "The behaviour of firms and product pricing.",
+                    "The economic conditions of a section of people."
+                ],
+                answer: "Government policies with respect to exchange rates.",
+                explanation: "It is affected by the external environment... such as... government policies with respect to taxation, interest rates, exchange rates, industries, prices, distribution, wages and regulation of monopolies."
+            },
+            {
+                question: "Micro Economics mainly studies which of the following areas?",
+                options: [
+                    "National Income and National Output.",
+                    "Balance of trade and balance of payments.",
+                    "The general price level and interest rates.",
+                    "Factor pricing."
+                ],
+                answer: "Factor pricing.",
+                explanation: "We mainly study... Factor pricing... in Micro-Economics."
+            },
+            {
+                question: "Macro Economics is distinct from Micro Economics because Macro Economics focuses on:",
+                options: [
+                    "How individual consumers make decisions efficiently.",
+                    "The focus is on a small number or group of units.",
+                    "The behaviour of large economic aggregates.",
+                    "The location of industry."
+                ],
+                answer: "The behaviour of large economic aggregates.",
+                explanation: "Macro Economics... is the study of the overall economic phenomena or the economy as a whole... Accordingly, in Macro-Economics, we study the behaviour of the large economic aggregates."
+            },
+            {
+                question: "The analysis of the overall level of savings and investment falls under which branch of economic study?",
+                options: [
+                    "Micro Economics, as an operational issue.",
+                    "Business Economics, as it affects profit.",
+                    "Macro Economics, as an aggregate measure.",
+                    "Normative Economics, as it suggests policy."
+                ],
+                answer: "Macro Economics, as an aggregate measure.",
+                explanation: "A few areas that come under Macro Economics are: The overall level of savings and investment."
+            },
+            {
+                question: "Which issue is categorized as an 'Internal issue or operational issue' that can be solved using Micro Economics?",
+                options: [
+                    "Stage of the business cycle.",
+                    "Choice of business and its size.",
+                    "Government's fiscal policy.",
+                    "Working of central banks and financial sector."
+                ],
+                answer: "Choice of business and its size.",
+                explanation: "Internal issues or operational issues (this can be solved using Micro Economics)... Issues related to choice of business and its size... are a few examples of operational issues."
+            },
+            {
+                question: "Demand analysis pertains to the behaviour of consumers and primarily studies the effect of changes in determinants such as:",
+                options: [
+                    "External value of currency and national income.",
+                    "Price of the commodity and consumers’ income.",
+                    "Total consumption and total saving.",
+                    "The level of employment and rate of economic growth."
+                ],
+                answer: "Price of the commodity and consumers’ income.",
+                explanation: "Demand analysis pertains to the behaviour of consumers in the market. It studies the nature of consumer preferences and the effect of changes in the determinants of demand such as, price of the commodity, consumers’ income, prices of related commodities, consumer tastes and preferences etc.."
+            },
+            {
+                question: "The necessity of accurate demand forecasting for a firm is primarily to:",
+                options: [
+                    "Determine the external value of currency.",
+                    "Enable it to produce required quantities and arrange factors of production in advance.",
+                    "Analyze the overall economic environment.",
+                    "Shift the economic aggregates over time."
+                ],
+                answer: "Enable it to produce required quantities and arrange factors of production in advance.",
+                explanation: "Accurate forecasting is essential for a firm to enable it to produce the required quantities at the right time and to arrange, well in advance, for the various factors of production."
+            },
+            {
+                question: "What is the key outcome achieved through Production Analysis?",
+                options: [
+                    "Measuring and managing profits under uncertainty.",
+                    "Determining the degree of market power.",
+                    "Deciding on the selection of least-cost input-mix to achieve technically efficient output.",
+                    "Formulating plans based on risk and uncertainty analysis."
+                ],
+                answer: "Deciding on the selection of least-cost input-mix to achieve technically efficient output.",
+                explanation: "Production analysis enables the firm to decide on the choice of appropriate technology and selection of least - cost input-mix to achieve technically efficient way of producing output, given the inputs."
+            },
+            {
+                question: "Cost analysis helps a firm maximize profits by recognizing the behaviour of costs when which variables change?",
+                options: [
+                    "Market structure and regulatory framework.",
+                    "Output, time period and size of plant.",
+                    "The general price level and interest rates.",
+                    "Fiscal policy and foreign trade policy."
+                ],
+                answer: "Output, time period and size of plant.",
+                explanation: "Cost analysis enables the firm to recognise the behaviour of costs when variables such as output, time period and size of plant change."
+            },
+            {
+                question: "Inventory management theories aim to minimize costs associated with maintaining inventory in which three forms?",
+                options: [
+                    "Capital goods, public goods, and merit goods.",
+                    "Financial securities, tangible assets, and debentures.",
+                    "Work-in-process, raw materials, and finished goods.",
+                    "Land, labour, and capital."
+                ],
+                answer: "Work-in-process, raw materials, and finished goods.",
+                explanation: "Inventory management theories pertain to rules that firms can use to minimise the costs associated with maintaining inventory in the form of ‘work-in-process,’ ‘raw materials’, and ‘finished goods’."
+            },
+            {
+                question: "Which analytical tool, mentioned in the context of Resource Allocation, enables a firm to arrive at the best course of action for optimum utilization of available resources?",
+                options: [
+                    "ABC analysis.",
+                    "Regression analysis.",
+                    "Linear programming.",
+                    "Break even analysis."
+                ],
+                answer: "Linear programming.",
+                explanation: "Business Economics, with the help of advanced tools such as linear programming, enables the firm to arrive at the best course of action for optimum utilisation of available resources."
+            },
+            {
+                question: "The degree of 'market power' determined through Market Structure Analysis refers to the firm's:",
+                options: [
+                    "Ability to determine prices.",
+                    "Investment efficiency.",
+                    "Access to raw materials.",
+                    "Total consumption capacity."
+                ],
+                answer: "Ability to determine prices.",
+                explanation: "Analysis of the structure of the market provides information about the nature and extent of competition... This helps in determining the degree of market power (ability to determine prices) which the firm commands."
+            },
+            {
+                question: "The Theory of Capital and Investment Decisions supports decision making specifically on:",
+                options: [
+                    "Optimum utilization of human resources.",
+                    "Allocation of scarce capital among competing uses of funds.",
+                    "Risk management in the external environment.",
+                    "Inventory policies and ABC analysis."
+                ],
+                answer: "Allocation of scarce capital among competing uses of funds.",
+                explanation: "Business Economics supports decision making on allocation of scarce capital among competing uses of funds."
+            },
+            {
+                question: "Profit analysis is useful for which specific managerial function in the long term?",
+                options: [
+                    "Minimizing costs associated with inventory maintenance.",
+                    "Framing suitable price policies.",
+                    "Future profit planning.",
+                    "Determining the external value of currency."
+                ],
+                answer: "Future profit planning.",
+                explanation: "Profit analysis is also immensely useful in future profit planning."
+            },
+            {
+                question: "Which of the following external factors influencing business performance is related to the financial sector?",
+                options: [
+                    "Socio-economic organizations like trade unions.",
+                    "Government’s industrial policy.",
+                    "Working of central banks and financial sector and capital market and their regulation.",
+                    "Social and political environment."
+                ],
+                answer: "Working of central banks and financial sector and capital market and their regulation.",
+                explanation: "The major macro-economic factors relate to... Working of central banks and financial sector and capital market and their regulation."
+            },
+            {
+                question: "If a manager has no control over external environmental factors like government policy or business cycles, the appropriate managerial response is to:",
+                options: [
+                    "Ignore them, as they are non-economic aspects.",
+                    "Focus solely on microeconomic operational issues.",
+                    "Fine-tune its policies to minimise their adverse effects.",
+                    "Change the type of economic system."
+                ],
+                answer: "Fine-tune its policies to minimise their adverse effects.",
+                explanation: "As the management of the firm has no control over these factors, it should fine-tune its policies to minimise their adverse effects."
+            },
+            {
+                question: "Which statement accurately reflects the difference in scope between General Economics and Business Economics, according to the comparison table?",
+                options: [
+                    "General Economics has a comparatively narrow scope, while Business Economics has a wider scope.",
+                    "General Economics includes analysis of micro-level issues, while Business Economics includes macro-level issues.",
+                    "General Economics has a wider scope, and Business Economics has a comparatively narrow scope.",
+                    "General Economics focuses only on economic aspects, unlike Business Economics."
+                ],
+                answer: "General Economics has a wider scope, and Business Economics has a comparatively narrow scope.",
+                explanation: "Economics: It has a wider scope. Business Economics: It has a comparatively narrow scope."
+            },
+            {
+                question: "In terms of character, General Economics is microeconomic as well as macroeconomic. Business Economics is stated in the comparison table to be:",
+                options: [
+                    "Purely Macroeconomic in character.",
+                    "Microeconomic in character.",
+                    "Based primarily on normative principles.",
+                    "Interdisciplinary in nature."
+                ],
+                answer: "Microeconomic in character.",
+                explanation: "Under 'Character': Economics is microeconomic as well as macroeconomic in character. Business Economics is microeconomic in character."
+            },
+            {
+                question: "According to the comparative analysis provided, General Economics is concerned with all theories from production to consumption, including distribution. Business Economics, in comparison, is concerned with:",
+                options: [
+                    "Analysis of macro level issues like growth and inflation.",
+                    "Only profit theory ignoring other theories.",
+                    "Both economic and non-economic aspects of a problem.",
+                    "Formulating economic principles to solve problems."
+                ],
+                answer: "Only profit theory ignoring other theories.",
+                explanation: "Under 'Concerned with': Economics is concerned with All the theories from production to consumption including distribution. Business Economics is concerned with only profit theory ignoring other theories."
+            },
+            {
+                question: "While general Economics concentrates only on the economic aspects of any business problem, Business Economics distinctively concentrates on:",
+                options: [
+                    "Economic aspects and value judgments.",
+                    "All macro level issues.",
+                    "Both economic as well as non-economic aspects of any business problem.",
+                    "The validity of underlying assumptions."
+                ],
+                answer: "Both economic as well as non-economic aspects of any business problem.",
+                explanation: "Economics concentrates only on the economic aspects of any business problem. Business Economics concentrates on both economic as well as non-economic aspects of any business problem."
+            },
+            {
+                question: "Which of the following is an example of an operational issue that requires a decision regarding factors of production?",
+                options: [
+                    "Should the firm launch a product, given the competitive market environment?",
+                    "How to combat the risks and uncertainties involved?",
+                    "If the firm decided on launching the product, which available technique of production should be used?",
+                    "How will the product be placed in the market?"
+                ],
+                answer: "If the firm decided on launching the product, which available technique of production should be used?",
+                explanation: "Operational issues include those related to... technology and factor combinations. The example listed is 'If the firm decided on launching the product, which available technique of production should be used?'."
+            },
+            {
+                question: "Which of these classifications is applied by economists to the input side of business activity?",
+                options: [
+                    "Consumer goods, producer goods, capital goods.",
+                    "Men, materials, machines, and management.",
+                    "Land, labour, capital, and entrepreneurship.",
+                    "Private goods, public goods, merit goods."
+                ],
+                answer: "Land, labour, capital, and entrepreneurship.",
+                explanation: "On the input side we refer to men, materials, machines, management etc., or as the economists classify as land, labour, capital and entrepreneurship."
+            },
+            {
+                question: "The concept of efficiency in economics implies that scarce resources should be transformed into goods and services to satisfy:",
+                options: [
+                    "The infinite wants of all human beings equally.",
+                    "The wants represented by social benefits.",
+                    "The most pressing of our infinite wants.",
+                    "The wants that maximize private goods production."
+                ],
+                answer: "The most pressing of our infinite wants.",
+                explanation: "Economics is, thus, the study of how we work together to transform the scarce resources into goods and services to satisfy the most pressing of our infinite wants."
+            },
+            {
+                question: "A business economist advising a firm on how much to spend on its marketing budget is dealing with which area of operational issues?",
+                options: [
+                    "Inventory Management.",
+                    "Theory of Capital and Investment Decisions.",
+                    "Pricing and Sales Promotion.",
+                    "Production and Cost Analysis."
+                ],
+                answer: "Pricing and Sales Promotion.",
+                explanation: "Issues related to... pricing and sales promotion... are examples of operational issues. The specific question 'How much should be the marketing budget?' is also listed as a decision requirement."
+            },
+            {
+                question: "Which term was used for Economics until the 19th century?",
+                options: [
+                    "Household Management.",
+                    "Oikonomia.",
+                    "The Wealth of Nations.",
+                    "Political Economy."
+                ],
+                answer: "Political Economy.",
+                explanation: "Till 19th century, Economics was known as ‘Political Economy’."
+            },
+            {
+                question: "The study of the economic conditions of a 'section of people' falls under:",
+                options: [
+                    "Macro-Economics.",
+                    "Welfare Considerations.",
+                    "Micro-Economics.",
+                    "Normative Science."
+                ],
+                answer: "Micro-Economics.",
+                explanation: "We mainly study the following in Micro-Economics: The economic conditions of a section of people."
+            },
+            {
+                question: "If a country experiences a sharp decline in output due to factories and workers remaining idle because of insufficient demand, this fluctuation is typically analyzed under the scope of:",
+                options: [
+                    "Product pricing using Micro Economics.",
+                    "Macro Economic analysis concerning resource utilization rates.",
+                    "Risk and Uncertainty Analysis inherent to the firm.",
+                    "Normative economic policy formulation."
+                ],
+                answer: "Macro Economic analysis concerning resource utilization rates.",
+                explanation: "Economics... deals with the factors which, in the past, have led to sharp fluctuations in the rate of utilisation of these resources. During such periods [like Global Financial Crisis], productive resources have remained idle due to insufficient demand."
+            },
+            {
+                question: "Business Economics primarily uses the theory of the firm and resource allocation in the backdrop of a:",
+                options: [
+                    "Socialist system.",
+                    "Non-profit organization.",
+                    "Private enterprise economy.",
+                    "Mixed economic system."
+                ],
+                answer: "Private enterprise economy.",
+                explanation: "Business Economics largely uses the theory of markets and private enterprise. It uses the theory of the firm and resource allocation in the backdrop of a private enterprise economy."
+            },
+            {
+                question: "Which set of economic tools are provided by Economic Theory and applied by Business Economics in decision making?",
+                options: [
+                    "Demand, supply, costs, price, competition.",
+                    "Linear programming, capital budgeting, econometrics.",
+                    "National income, employment, interest rates.",
+                    "Political set up, social norms, and management theory."
+                ],
+                answer: "Demand, supply, costs, price, competition.",
+                explanation: "While the theories of Economics provide the tools which explain various concepts such as demand, supply, costs, price, competition etc., Business Economics applies these tools in the process of business decision making."
+            },
+            {
+                question: "When assessing the efficiency of capital and choosing investment projects, a firm relies on:",
+                options: [
+                    "Demand Analysis and Forecasting.",
+                    "Theories related to capital and investment.",
+                    "The economic conditions of a section of people.",
+                    "The stage of the business cycle."
+                ],
+                answer: "Theories related to capital and investment.",
+                explanation: "Theories related to capital and investment provides scientific criteria for choice of investment projects and in assessment of the efficiency of capital."
+            },
+            {
+                question: "Goods like essential goods are classified by economists as:",
+                options: [
+                    "Non-merit goods.",
+                    "Consumer goods.",
+                    "Merit goods.",
+                    "Capital goods."
+                ],
+                answer: "Merit goods.",
+                explanation: "Within ‘goods’ also, we have consumer goods, producer goods, capital goods, private goods, public goods, merit goods like essential goods, non-merit goods like cigarettes."
+            },
+            {
+                question: "The fact that economic problems are often complex and affected by forces rooted in economics, political setup, and social norms implies that:",
+                options: [
+                    "The study of Economics cannot ensure all problems will be appropriately tackled.",
+                    "Economics must strictly remain a pure science.",
+                    "Business Economics must ignore non-economic aspects.",
+                    "Value judgments are irrelevant to policy formulation."
+                ],
+                answer: "The study of Economics cannot ensure all problems will be appropriately tackled.",
+                explanation: "It is necessary to remember that most economic problems are of complex nature and are affected by several forces, some of which are rooted in Economics and others in political set up, social norms, etc. The study of Economics cannot ensure that all problems will be appropriately tackled."
+            },
+            {
+                question: "Which of the following decision topics falls under the category of Micro-Economics, but is NOT part of operational issues solvable by the management?",
+                options: [
+                    "The location of industry.",
+                    "The choice of optimum output.",
+                    "Financing and management of investments.",
+                    "Risk and uncertainty analysis of a project."
+                ],
+                answer: "The location of industry.",
+                explanation: "Location of industry is listed as a study area of Micro-Economics, but not explicitly as a day-to-day operational issue falling within the purview and control of management (though related to choice of business). The other options are clearly listed as operational issues."
+            },
+            {
+                question: "Which of the following is NOT an interdisciplinary tool incorporated by Business Economics?",
+                options: [
+                    "Mathematics.",
+                    "Operations Research.",
+                    "Globalisation Policies.",
+                    "Econometrics."
+                ],
+                answer: "Globalisation Policies.",
+                explanation: "Globalisation Policies are listed as a Government economic policy (Macro factor). Interdisciplinary tools are Mathematics, Operations Research, Management Theory, Accounting, marketing, Finance, Statistics and Econometrics."
+            },
+            {
+                question: "If a firm is deciding whether to 'make the components or buy them from other firms', this falls under:",
+                options: [
+                    "Risk and Uncertainty Analysis.",
+                    "Resource Allocation.",
+                    "Production and Cost Analysis.",
+                    "Market Structure and Pricing Policies."
+                ],
+                answer: "Production and Cost Analysis.",
+                explanation: "This is an example of an issue requiring decision making in the context of businesses, which relates directly to internal issues like technology and factor combinations covered under Production and Cost Analysis."
+            },
+            {
+                question: "Which quantitative technique is explicitly mentioned as a component of Applied Economics?",
+                options: [
+                    "Factor Analysis.",
+                    "Cluster Analysis.",
+                    "Regression Analysis.",
+                    "Game Theory."
+                ],
+                answer: "Regression Analysis.",
+                explanation: "Business Economics as it includes application of selected quantitative techniques such as linear programming, regression analysis, capital budgeting, break even analysis and cost analysis."
+            },
+            {
+                question: "If a manager studies long-run trends in the business world, they are primarily analyzing factors determined by:",
+                options: [
+                    "Prevailing macroeconomic factors.",
+                    "The firm's internal production constraints.",
+                    "The level of microeconomic efficiency.",
+                    "Quantitative techniques like linear programming."
+                ],
+                answer: "Prevailing macroeconomic factors.",
+                explanation: "Moreover, the long-run trends in the business world are determined by the prevailing macroeconomic factors."
+            },
+            {
+                question: "Adam Smith’s book 'An Inquiry into the Nature and Causes of the Wealth of Nations' was published in:",
+                options: [
+                    "1776.",
+                    "1901.",
+                    "1850.",
+                    "1947."
+                ],
+                answer: "1776.",
+                explanation: "The book named ‘An Inquiry into the Nature and Causes of the Wealth of Nations’ (1776)... by Adam Smith is considered as the first modern work of Economics."
+            },
+            {
+                question: "Which of the following is NOT listed as a macro-economic policy factor influencing the business environment?",
+                options: [
+                    "Competition policy.",
+                    "Fiscal policy.",
+                    "Cost analysis policy.",
+                    "Globalization policies."
+                ],
+                answer: "Cost analysis policy.",
+                explanation: "Government’s economic policies like industrial policy, competition policy, and fiscal policy, foreign trade policy and globalization policies. Cost analysis is a microeconomic tool."
+            },
+            {
+                question: "The primary goal of Inventory Management theories is to:",
+                options: [
+                    "Provide scientific criteria for capital allocation.",
+                    "Minimize the costs associated with maintaining inventory.",
+                    "Predict future demand for goods and services.",
+                    "Analyze the nature and extent of competition."
+                ],
+                answer: "Minimize the costs associated with maintaining inventory.",
+                explanation: "Inventory management theories pertain to rules that firms can use to minimise the costs associated with maintaining inventory."
+            },
+            {
+                question: "According to the definition table, if General Economics is based on certain assumptions, Business Economics is characterized by the fact that:",
+                options: [
+                    "It is based on political set up.",
+                    "It is concerned with non-economic aspects.",
+                    "It ignores normative science.",
+                    "Some assumptions become invalid when applied."
+                ],
+                answer: "Some assumptions become invalid when applied.",
+                explanation: "Economics is based on certain assumptions. Business Economics: Some assumptions become invalid when applied."
+            },
+            {
+                question: "The essential function of Risk and Uncertainty Analysis in Business Economics is to:",
+                options: [
+                    "Ensure the firm operates as a normative science.",
+                    "Formulate plans based on past data, current information, and future prediction.",
+                    "Decide which factor pricing model to use.",
+                    "Determine the aggregate level of employment."
+                ],
+                answer: "Formulate plans based on past data, current information, and future prediction.",
+                explanation: "Analysis of risks and uncertainties helps the business firm in arriving at efficient decisions and in formulating plans on the basis of past data, current information and future prediction."
+            },
+            {
+                question: "If Micro-Economics is abstract and purely theoretical, analyzing phenomena under unrealistic assumptions, Business Economics is contrasted as:",
+                options: [
+                    "An Art.",
+                    "Interdisciplinary.",
+                    "Pragmatic.",
+                    "Normative."
+                ],
+                answer: "Pragmatic.",
+                explanation: "Micro-Economics is abstract and purely theoretical and analyses economic phenomena under unrealistic assumptions. In contrast, Business Economics is pragmatic in its approach."
+            },
+            {
+                question: "Which type of goods are classified as non-durable or single use goods?",
+                options: [
+                    "Capital goods.",
+                    "Merit goods.",
+                    "Some consumer goods.",
+                    "Public goods."
+                ],
+                answer: "Some consumer goods.",
+                explanation: "Some of these goods are non durable or single use goods and some are durable in nature. Consumer goods are listed as a type of good."
+            },
+            {
+                question: "Which statement correctly reflects the origin of the term 'Economics'?",
+                options: [
+                    "It originates from 'Political Economy', meaning policy framing.",
+                    "It owes its origin to the Greek word 'Oikonomia', meaning 'household'.",
+                    "It was abbreviated as 'The Wealth of Nations' by Adam Smith.",
+                    "It is derived from the need to manage scarce resources efficiently."
+                ],
+                answer: "It owes its origin to the Greek word 'Oikonomia', meaning 'household'.",
+                explanation: "The term ‘Economics’ owes its origin to the Greek word ‘Oikonomia’ which means ‘household’."
+            },
+            {
+                question: "In the case study provided, the management decision to enter the soft drink business was described as one that would have a:",
+                options: [
+                    "Immediate operational impact.",
+                    "Short term strategic consequence.",
+                    "Long term impact on the direction of the company.",
+                    "Solely macroeconomic effect."
+                ],
+                answer: "Long term impact on the direction of the company.",
+                explanation: "“You are asking us to approve a major decision which will have long term impact on the direction of the company”."
+            },
+            {
+                question: "The analysis of the 'external value of currency' is a study area under:",
+                options: [
+                    "Micro-Economics, specifically factor pricing.",
+                    "Macro-Economics, as an aggregate measure.",
+                    "Applied Economics, specifically capital budgeting.",
+                    "Micro-Economics, specifically consumer behaviour."
+                ],
+                answer: "Macro-Economics, as an aggregate measure.",
+                explanation: "A few areas that come under Macro Economics are: External value of currency."
+            },
+            {
+                question: "Business Economics is known as Managerial Economics because it:",
+                options: [
+                    "Is primarily descriptive in nature.",
+                    "Provides methodology and analytical tools to the management for decision making.",
+                    "Is concerned only with macro-level issues.",
+                    "Focuses on theoretical, abstract models."
+                ],
+                answer: "Provides methodology and analytical tools to the management for decision making.",
+                explanation: "Business Economics meets these needs of the management by providing a huge corpus of theory and techniques. It is also known as Managerial Economics."
+            },
+            {
+                question: "The growth in productive capacity of modern economies has been attributed, in part, to:",
+                options: [
+                    "A reduction in the population and labour force.",
+                    "The discovery of completely new kinds of natural resources such as shale gas.",
+                    "A shift away from private enterprise systems.",
+                    "The elimination of sharp fluctuations in the rate of resource utilization."
+                ],
+                answer: "The discovery of completely new kinds of natural resources such as shale gas.",
+                explanation: "New sources of raw materials have been discovered... and has led to the discovery of completely new kinds of natural resources such as shale gas and new alternative greener sources of energy."
+            },
+            {
+                question: "What is the primary classification used by economists for poultry farming or food processing businesses?",
+                options: [
+                    "Consumption activities.",
+                    "Service activities.",
+                    "Economic activities.",
+                    "Distribution activities."
+                ],
+                answer: "Economic activities.",
+                explanation: "A business is an economic activity. There are various types of business like manufacturing... poultry- farming, food processing...."
+            },
+            {
+                question: "In the context of production and cost analysis, which action enables a firm to maximize profits?",
+                options: [
+                    "Producing the desired level of output at the minimum possible cost.",
+                    "Analyzing the behavior of costs when external factors change.",
+                    "Adopting linear programming for inventory control.",
+                    "Framing policies based on the stage of the business cycle."
+                ],
+                answer: "Producing the desired level of output at the minimum possible cost.",
+                explanation: "The firm will be able to identify ways to maximize profits by producing the desired level of output at the minimum possible cost."
+            },
+            {
+                question: "When firms analyze 'trends in national income, employment, prices, saving and investment,' they are addressing:",
+                options: [
+                    "Internal operational issues.",
+                    "Microeconomic theory of the firm.",
+                    "External environmental issues.",
+                    "Resource allocation using linear programming."
+                ],
+                answer: "External environmental issues.",
+                explanation: "The major macro-economic factors relate to: The general trends in national income, employment, prices, saving and investment."
+            },
+            {
+                question: "Business Economics is considered 'interdisciplinary' because it incorporates tools from:",
+                options: [
+                    "Political Science, Ethics, and Sociology.",
+                    "Mathematics, Accounting, and Management Theory.",
+                    "Micro Economics, Macro Economics, and Positive Economics.",
+                    "Historical analysis and social norms."
+                ],
+                answer: "Mathematics, Accounting, and Management Theory.",
+                explanation: "Business Economics is interdisciplinary in nature as it incorporates tools from other disciplines such as Mathematics, Operations Research, Management Theory, Accounting, marketing, Finance, Statistics and Econometrics."
+            },
+            {
+                question: "Which of the following topics is specifically listed in the scope of Business Economics under Microeconomics application?",
+                options: [
+                    "Balance of trade and payments analysis.",
+                    "Theory of Capital and Investment Decisions.",
+                    "General price level determination.",
+                    "The level of employment and rate of economic growth."
+                ],
+                answer: "Theory of Capital and Investment Decisions.",
+                explanation: "The following Microeconomic theories deal with most of these issues: Theory of Capital and Investment Decisions."
+            },
+            {
+                question: "The management of Worldwide Food Limited (in the case study) justified expanding into soft drinks by noting that:",
+                options: [
+                    "The soft drinks market was near maturity.",
+                    "The food business was near maturity.",
+                    "White Soft Drinks Ltd. and Black Nectar Ltd. were exiting the market.",
+                    "Indians had become less health-conscious."
+                ],
+                answer: "The food business was near maturity.",
+                explanation: "“And also, food business is near maturity”."
+            },
+            {
+                question: "For Non-Profit Organisations (NPOs), the primary objective in an economic context is to aim at:",
+                options: [
+                    "Creation of net value added.",
+                    "Private profits.",
+                    "Social benefits.",
+                    "Distribution and exchange."
+                ],
+                answer: "Social benefits.",
+                explanation: "Some of Non-Profit Organisations (NPOs) may not aim at private profits but they aim at ‘social benefits’."
+            },
+            {
+                question: "The economic discipline that is helpful in analysing the rationality and optimality of a given choice is:",
+                options: [
+                    "Political Economy.",
+                    "Finance and Accounting.",
+                    "Economics.",
+                    "Social Science."
+                ],
+                answer: "Economics.",
+                explanation: "It is suggested that economics is a discipline which is helpful in analysing the rationality and optimality of a given choice."
+            },
+            {
+                question: "The concept of 'private enterprise economy' is central to Business Economics because it dictates the use of:",
+                options: [
+                    "The theory of markets and private enterprise.",
+                    "Normative science for value judgments.",
+                    "Macroeconomic aggregates analysis.",
+                    "Social and political environment factors."
+                ],
+                answer: "The theory of markets and private enterprise.",
+                explanation: "Business Economics largely uses the theory of markets and private enterprise. It uses the theory of the firm and resource allocation in the backdrop of a private enterprise economy."
+            },
+            {
+                question: "The tools of Economics provide decision makers with:",
+                options: [
+                    "Guarantees that all economic problems will be appropriately tackled.",
+                    "A specific prescriptive solution for every complex problem.",
+                    "A number of models and frameworks that can be applied in different situations.",
+                    "Purely abstract and theoretical analyses."
+                ],
+                answer: "A number of models and frameworks that can be applied in different situations.",
+                explanation: "It would also provide us with a number of models and frameworks that can be applied in different situations."
+            },
+            {
+                question: "A business economist must be acquainted with present and future macroeconomic variables because:",
+                options: [
+                    "Microeconomics is abstract and unrealistic.",
+                    "The external environment influences the manager's business environment.",
+                    "Business economics is solely normative.",
+                    "The individual firm determines long-run trends."
+                ],
+                answer: "The external environment influences the manager's business environment.",
+                explanation: "A business manager must be acquainted with these and other macroeconomic variables, present as well as future, which may influence his/ her business environment."
+            },
+            {
+                question: "Which specific quantitative technique is used by business economists alongside ABC analysis and mathematical models to maintain optimum stock of inventories?",
+                options: [
+                    "Capital budgeting.",
+                    "Linear programming.",
+                    "Simple simulation exercises.",
+                    "Regression analysis."
+                ],
+                answer: "Simple simulation exercises.",
+                explanation: "Business economists use methods such as ABC analysis, simple simulation exercises and mathematical models to help the firm maintain optimum stock of inventories."
+            },
+            {
+                question: "If a question is asked about 'What to produce?' 'How to produce?' or 'For whom to produce?' these are known as:",
+                options: [
+                    "Operational Issues.",
+                    "Economic Dilemmas.",
+                    "Basic Economic Problems.",
+                    "Strategic Decisions."
+                ],
+                answer: "Basic Economic Problems.",
+                explanation: "Basic Economic Problems: What to Produce? How to Produce? For whom to Produce?. (Also mentioned under production unit decisions)."
+            },
+            {
+                question: "The primary task of Business Economics, in contrast to General Economics, is defined as:",
+                options: [
+                    "The fulfilment of needs of individuals as well as entities.",
+                    "Proper decision making in a particular business entity.",
+                    "The framing of economic principles.",
+                    "Analyzing macro-level issues."
+                ],
+                answer: "Proper decision making in a particular business entity.",
+                explanation: "Main Task: Economics: The fulfilment of needs of individuals as well as entities. Business Economics: Proper decision making in a particular business entity."
+            },
+            {
+                question: "The increase in the productive capacity of modern economies has been aided by the substantial improvement in the quality of productive resources due to:",
+                options: [
+                    "Increased fluctuation in resource utilization rates.",
+                    "Better education and newly acquired skills of the labour force.",
+                    "A reduction in the number of economic enterprises.",
+                    "A decreased focus on consumer goods production."
+                ],
+                answer: "Better education and newly acquired skills of the labour force.",
+                explanation: "Not only has the quantity of available productive resources increased, their quality has also improved substantially. Better education and newly acquired skills have raised the productivity of labour force."
+            },
+            {
+                question: "The economic environment which represents the overall effect of innumerable decisions made by millions of different consumers and producers is analyzed by:",
+                options: [
+                    "Micro-Economics.",
+                    "Operations Research.",
+                    "Macro-Economics.",
+                    "Normative Science."
+                ],
+                answer: "Macro-Economics.",
+                explanation: "This economic environment represents the overall effect of the innumerable decisions made by millions of different consumers and producers."
+            },
+            {
+                question: "Risk and Uncertainty Analysis enables the firm to arrive at:",
+                options: [
+                    "Optimum utilization of land and labour.",
+                    "The long-run determination of macroeconomic factors.",
+                    "Efficient decisions and plan formulation.",
+                    "A purely descriptive view of the market structure."
+                ],
+                answer: "Efficient decisions and plan formulation.",
+                explanation: "Analysis of risks and uncertainties helps the business firm in arriving at efficient decisions and in formulating plans."
+            },
+            {
+                question: "Business Economics is referred to as 'Applied Economics' because it involves the application of:",
+                options: [
+                    "Economic principles to solve economic problems.",
+                    "Quantitative techniques only.",
+                    "Value judgments to political set ups.",
+                    "Theories of consumption and distribution."
+                ],
+                answer: "Economic principles to solve economic problems.",
+                explanation: "It involves the application of economic principles to solve economic problems. It is Applied Economics that fills the gap between economic theory and business practice."
+            },
+            {
+                question: "Which type of decision, categorized by management level, is defined as making choices to attain a desired end from two or more alternative courses of action?",
+                options: [
+                    "Strategic decisions.",
+                    "Tactical decisions.",
+                    "Operational decisions.",
+                    "Decision making (general process)."
+                ],
+                answer: "Decision making (general process).",
+                explanation: "Decision making refers to the process of selecting an appropriate alternative that will provide the most efficient means of attaining a desired end, from two or more alternative courses of action. Strategic, tactical, and operational decisions are categories of these choices."
+            },
+            {
+                question: "When comparing the nature of General Economics and Business Economics based on the table, Business Economics is stated to be only normative, whereas General Economics is:",
+                options: [
+                    "Only positive.",
+                    "Positive as well as normative.",
+                    "Based purely on micro analysis.",
+                    "More concerned with profit theory."
+                ],
+                answer: "Positive as well as normative.",
+                explanation: "Nature: Economics is positive as well as normative in nature. Business Economics is only normative in nature."
+            },
+            {
+                question: "The economic issue exemplified by 'some firms making extraordinary profits while others close down' is fundamentally connected with:",
+                options: [
+                    "Economic analysis.",
+                    "Political fluctuations.",
+                    "Macro-level aggregates.",
+                    "The general price level."
+                ],
+                answer: "Economic analysis.",
+                explanation: "Some firms making extraordinary profits while others close down etc. These are matters fundamentally connected with economic analysis."
+            },
+            {
+                question: "If a manager is deciding 'For whom to produce?' this is classified by economists as a:",
+                options: [
+                    "Finance enterprise decision.",
+                    "Basic economic problem.",
+                    "Macro-economic factor.",
+                    "Input side classification."
+                ],
+                answer: "Basic economic problem.",
+                explanation: "Basic Economic Problems: For whom to Produce?."
+            },
+            {
+                question: "In the context of Market Structure and Pricing Policies, the analysis of the market structure specifically informs the firm about:",
+                options: [
+                    "The maturity and other terms of financial funds.",
+                    "The nature and extent of competition which the firms have to face.",
+                    "The optimum utilization of available resources via linear programming.",
+                    "The behavior of costs when the size of the plant changes."
+                ],
+                answer: "The nature and extent of competition which the firms have to face.",
+                explanation: "Analysis of the structure of the market provides information about the nature and extent of competition which the firms have to face."
+            },
+            {
+                question: "Why is the study of economics necessary for a student?",
+                options: [
+                    "It guarantees that all problems rooted in social norms will be solved.",
+                    "It enables the student to examine a problem in its right perspective and helps in discovering suitable measures.",
+                    "It restricts the problem analysis to purely economic variables.",
+                    "It confirms that all economic models are based on realistic assumptions."
+                ],
+                answer: "It enables the student to examine a problem in its right perspective and helps in discovering suitable measures.",
+                explanation: "The study of Economics cannot ensure that all problems will be appropriately tackled; but, without doubt, it would enable a student to examine a problem in its right perspective and would help him in discovering suitable measures to deal with the same."
+            },
+            {
+                question: "The decision whether the firm should 'make the components or buy them from other firms' is categorized under which type of management decision?",
+                options: [
+                    "Strategic.",
+                    "Tactical.",
+                    "Operational.",
+                    "Environmental."
+                ],
+                answer: "Operational.",
+                explanation: "This is listed as an issue requiring decision making in the context of businesses, falling under Internal/Operational Issues."
+            },
+            {
+                question: "According to the sources, when are workers and other productive resources likely to remain idle in the economy?",
+                options: [
+                    "During periods of economic prosperity.",
+                    "When the overall levels of saving and investment are high.",
+                    "During periods where output declines sharply due to insufficient demand.",
+                    "When firms shift focus from Micro to Macro analysis."
+                ],
+                answer: "During periods where output declines sharply due to insufficient demand.",
+                explanation: "There have been periods in which output not only failed to grow, but also actually declined sharply... During such periods, factories, workers and other productive resources have remained idle due to insufficient demand."
+            },
+            {
+                question: "Welfare considerations are inherently embedded in which type of economic science?",
+                options: [
+                    "Applied Economics.",
+                    "Positive Economics.",
+                    "Normative Science.",
+                    "Descriptive Science."
+                ],
+                answer: "Normative Science.",
+                explanation: "Welfare considerations are embedded in normative science."
+            },
+            {
+                question: "The objective of a business is to achieve 'long-term survival and profitable functioning'. Which nature characteristic of Business Economics relates to this objective?",
+                options: [
+                    "Interdisciplinary nature.",
+                    "Normative in nature.",
+                    "Based on Micro Economics.",
+                    "Pragmatic in approach."
+                ],
+                answer: "Based on Micro Economics.",
+                explanation: "A business manager is usually concerned about achievement of the predetermined objectives of his organisation so as to ensure the long-term survival and profitable functioning of the organization."
+            },
+            {
+                question: "Which input factor is explicitly NOT classified by economists as Land, Labour, Capital, or Entrepreneurship?",
+                options: [
+                    "Men.",
+                    "Materials.",
+                    "Capital.",
+                    "Labour."
+                ],
+                answer: "Materials.",
+                explanation: "On the input side we refer to men, materials, machines, management etc., or as the economists classify as land, labour, capital and entrepreneurship. Materials and machines are listed as inputs, but are not the four primary economic classifications."
+            },
+            {
+                question: "If a board member expresses concern that projections are based on old data and questions what people will prefer tomorrow ('Indians have become health conscious'), they are highlighting the difficulty arising from:",
+                options: [
+                    "The normative nature of Business Economics.",
+                    "The micro-economic focus on factor pricing.",
+                    "The complex and dynamic economic environment.",
+                    "The theory of markets and private enterprise."
+                ],
+                answer: "The complex and dynamic economic environment.",
+                explanation: "The economic environment in which the firm functions is highly complex and dynamic. The concerns raised ('what will people prefer?') directly reflect uncertainty in this environment."
+            },
+            {
+                question: "Which macroeconomic aggregate is explicitly listed as shifting over time?",
+                options: [
+                    "The external value of currency.",
+                    "Total consumption.",
+                    "The economic conditions of a section of people.",
+                    "Factor pricing."
+                ],
+                answer: "Total consumption.",
+                explanation: "We study the behaviour of the large economic aggregates, such as, the overall levels of output and employment, total consumption, total saving and total investment, exports, imports and foreign investment and also how these aggregates shift over time."
+            },
+            {
+                question: "Socio-economic organizations that influence the business environment include:",
+                options: [
+                    "Central banks and financial sector regulators.",
+                    "Trade unions, producer and consumer unions and cooperatives.",
+                    "Government policies regarding taxation.",
+                    "International monetary organizations."
+                ],
+                answer: "Trade unions, producer and consumer unions and cooperatives.",
+                explanation: "Socio-economic organisations like trade unions, producer and consumer unions and cooperatives."
+            },
+            {
+                question: "Why does Business Economics need to incorporate elements of Macro Analysis?",
+                options: [
+                    "To ensure that its approach remains purely theoretical.",
+                    "To study the long-run trends in the business world, which are macroeconomically determined.",
+                    "To focus on the theory of the firm and resource allocation.",
+                    "To define the meaning of normative science."
+                ],
+                answer: "To study the long-run trends in the business world, which are macroeconomically determined.",
+                explanation: "Moreover, the long-run trends in the business world are determined by the prevailing macroeconomic factors."
+            },
+            {
+                question: "Which of the following describes the key relationship between Microeconomics and Macroeconomics?",
+                options: [
+                    "Macroeconomics is the basis of business decisions, while Microeconomics is merely theoretical.",
+                    "Microeconomics is the study of individual units, whereas Macroeconomics is the study of the economy as a whole.",
+                    "They are two conflicting branches that cannot be integrated.",
+                    "Microeconomics exclusively deals with production, while Macroeconomics deals with consumption."
+                ],
+                answer: "Microeconomics is the study of individual units, whereas Macroeconomics is the study of the economy as a whole.",
+                explanation: "Micro Economics is basically the study of the behaviour of different individuals and organizations... Macro Economics, in contrast, is the study of the overall economic phenomena or the economy as a whole."
+            },
+            {
+                question: "When are resources considered 'scarce' in the context of the fundamental economic problem?",
+                options: [
+                    "When they are allocated to their highest valued uses.",
+                    "When their quantity has improved substantially due to technology.",
+                    "When they are limited relative to unlimited human wants.",
+                    "When they are classified as capital and entrepreneurship."
+                ],
+                answer: "When they are limited relative to unlimited human wants.",
+                explanation: "Human wants are unlimited, and the means to satisfy these unlimited wants are relatively scarce. This forms the subject matter of Economics."
+            },
+            {
+                question: "The decision to raise funds and the terms attached to them (maturity, etc.) are critical in a finance enterprise because:",
+                options: [
+                    "Every decision problem represents an area of choice.",
+                    "It must adhere to the external value of currency.",
+                    "It must follow the general price level trends.",
+                    "It is an example of factor pricing."
+                ],
+                answer: "Every decision problem represents an area of choice.",
+                explanation: "A finance enterprise dealing with funds has to decide... Each decision problem represents an area of choice."
+            },
+            {
+                question: "Which type of good is exemplified by 'cigarettes' in the sources?",
+                options: [
+                    "Consumer durable goods.",
+                    "Merit goods.",
+                    "Non-merit goods.",
+                    "Capital goods."
+                ],
+                answer: "Non-merit goods.",
+                explanation: "Merit goods like essential goods, non-merit goods like cigarettes."
+            },
+            {
+                question: "Which element defines Business Economics as an Art?",
+                options: [
+                    "It follows scientific methods and empirical tests.",
+                    "It involves practical application of rules and principles for the attainment of set objectives.",
+                    "It is concerned with the efficient allocation of scarce resources.",
+                    "It focuses on cause and effect relationships."
+                ],
+                answer: "It involves practical application of rules and principles for the attainment of set objectives.",
+                explanation: "Business Economics is also an Art as it involves practical application of rules and principles for the attainment of set objectives."
+            },
+            {
+                question: "If a manager is required to estimate future demand for a new product, Business Economics assists them by providing:",
+                options: [
+                    "Analytical models rooted in political set up.",
+                    "Macroeconomic aggregates of total consumption.",
+                    "Scientific tools for forecasting demand.",
+                    "Descriptive analysis of the current market structure."
+                ],
+                answer: "Scientific tools for forecasting demand.",
+                explanation: "Demand forecasting is the technique of predicting future demand... Business Economics provides the manager with the scientific tools which assist him in forecasting demand."
+            },
+            {
+                question: "The scope of Business Economics covers most of the practical problems a manager faces, which are divided into which two categories of issues?",
+                options: [
+                    "Descriptive and Prescriptive Issues.",
+                    "Economic and Non-economic Issues.",
+                    "Microeconomic and Macroeconomic Issues.",
+                    "Internal/Operational and External/Environmental Issues."
+                ],
+                answer: "Internal/Operational and External/Environmental Issues.",
+                explanation: "There are two categories of business issues to which economic theories can be directly applied, namely: 1. Internal issues or operational issues... 2. External issues or environmental issues."
+            },
+            {
+                question: "In the comparison table, General Economics is stated to include the analysis of macro-level issues like growth, inflation and employment, while Business Economics includes the analysis of:",
+                options: [
+                    "Micro-level issues like demand, supply and profit.",
+                    "Value judgments and social benefits.",
+                    "The fulfilment of needs of individuals as well as entities.",
+                    "All theories from production to consumption."
+                ],
+                answer: "Micro-level issues like demand, supply and profit.",
+                explanation: "Analysis Involved: Economics includes the analysis of macro level issues like growth, inflation and employment, etc. Business Economics includes the analysis of micro level issues like demand, supply and profit etc.."
+            },
+            {
+                question: "Which area of Micro-Economics analysis focuses on helping the firm frame suitable price policies?",
+                options: [
+                    "Production and Cost Analysis.",
+                    "Risk and Uncertainty Analysis.",
+                    "Theory of Capital and Investment Decisions.",
+                    "Market Structure and Pricing Policies (Price theory)."
+                ],
+                answer: "Market Structure and Pricing Policies (Price theory).",
+                explanation: "Price theory explains how prices are determined under different kinds of market conditions and assists the firm in framing suitable price policies."
+            },
+            {
+                question: "Microeconomics focuses on a small number of or group of units rather than all the units combined. This means it generally does NOT explain:",
+                options: [
+                    "The behaviour of firms.",
+                    "Product pricing.",
+                    "What is happening in the wider economic environment.",
+                    "Consumer behaviour."
+                ],
+                answer: "What is happening in the wider economic environment.",
+                explanation: "Here, the focus is on a small number of or group of units rather than all the units combined, and therefore, it does not explain what is happening in the wider economic environment."
+            },
+            {
+                question: "A business manager dealing with government policies regarding wages and the regulation of monopolies is integrating which economic element into their decision-making?",
+                options: [
+                    "Purely Microeconomic techniques.",
+                    "Interdisciplinary approach.",
+                    "Elements of Macro Analysis.",
+                    "Pragmatic approach."
+                ],
+                answer: "Elements of Macro Analysis.",
+                explanation: "Government policies with respect to... wages and regulation of monopolies are components of Macroeconomics."
+            },
+            {
+                question: "When Business Economics suggests the application of economic principles with regard to policy formulation, decision-making and future planning, it demonstrates its nature as:",
+                options: [
+                    "Descriptive science.",
+                    "Positive science.",
+                    "Normative science.",
+                    "Theoretical science."
+                ],
+                answer: "Normative science.",
+                explanation: "Business Economics is generally normative or prescriptive in nature. It suggests the application of economic principles with regard to policy formulation, decision-making and future planning."
+            },
+            {
+                question: "Which scenario best represents the core problem addressed by Economics?",
+                options: [
+                    "A nation discovering new sources of raw materials.",
+                    "A firm using linear programming to optimize resource allocation.",
+                    "An individual choosing the option that gives them the greatest satisfaction due to limited funds.",
+                    "A government regulating the external value of currency."
+                ],
+                answer: "An individual choosing the option that gives them the greatest satisfaction due to limited funds.",
+                explanation: "The core problem is the dilemma of choice arising from unlimited wants and scarce resources. Evaluating alternatives and choosing the one that gives greatest satisfaction illustrates this fundamental concept."
+            },
+            {
+                question: "The long-run determination of which factor is determined by the prevailing macroeconomic factors?",
+                options: [
+                    "Inventory policies.",
+                    "The size of output.",
+                    "The trends in the business world.",
+                    "The choice of technology."
+                ],
+                answer: "The trends in the business world.",
+                explanation: "The long-run trends in the business world are determined by the prevailing macroeconomic factors."
+            },
+            {
+                question: "Which discipline is listed as having a close connection with Business Economics, alongside Operations Research and Statistics?",
+                options: [
+                    "Psychology.",
+                    "Mathematics.",
+                    "Physics.",
+                    "Welfare Economics."
+                ],
+                answer: "Mathematics.",
+                explanation: "Business Economics has close connection with Economic theory (Micro as well as Macro-Economics), Operations Research, Statistics, Mathematics and the Theory of Decision-Making."
+            },
+            {
+                question: "According to the sources, Business Economics is an applied branch of:",
+                options: [
+                    "Microeconomics.",
+                    "Normative Science.",
+                    "Economics.",
+                    "Management Theory."
+                ],
+                answer: "Economics.",
+                explanation: "Branches: Economics has business economics as its applied branch. Business Economics is an applied branch of economics."
+            },
+            {
+                question: "The two historical events cited as examples of periods where output declined sharply are:",
+                options: [
+                    "The Wealth of Nations publication and the 19th-century shift.",
+                    "The Global Financial Crisis 2007 and Corona Pandemic 2019.",
+                    "The discovery of shale gas and the adoption of solar power.",
+                    "The expansion of population and the growth of the labour force."
+                ],
+                answer: "The Global Financial Crisis 2007 and Corona Pandemic 2019.",
+                explanation: "There have been periods in which output not only failed to grow, but also actually declined sharply (Global Financial Crisis 2007 and Corona Pandemic 2019)."
+            },
+            {
+                question: "In the context of Market Structure and Pricing Policies, price theory assists the firm by explaining:",
+                options: [
+                    "How demand forecasting is achieved.",
+                    "How prices are determined under different kinds of market conditions.",
+                    "How to calculate break-even analysis.",
+                    "How to manage profits under uncertainty."
+                ],
+                answer: "How prices are determined under different kinds of market conditions.",
+                explanation: "Price theory explains how prices are determined under different kinds of market conditions and assists the firm in framing suitable price policies."
+            },
+            {
+                question: "Why is the economic world considered 'extremely complex' for managers making decisions?",
+                options: [
+                    "It is based purely on simplifying assumptions.",
+                    "There is a lot of interdependence among the decisions and activities of economic entities.",
+                    "It only involves value judgments.",
+                    "It rarely provides analytical models."
+                ],
+                answer: "There is a lot of interdependence among the decisions and activities of economic entities.",
+                explanation: "The economic world is extremely complex as there is a lot of interdependence among the decisions and activities of economic entities."
+            },
+            {
+                question: "Which of these is a strategic decision that a management unit generally needs to make?",
+                options: [
+                    "What price should the firm sell at?",
+                    "How to improve customer experience?",
+                    "Should our firm be in this business?",
+                    "Which marketing strategy should be chosen?"
+                ],
+                answer: "Should our firm be in this business?",
+                explanation: "The management of a business unit generally needs to make strategic, tactical and operational decisions. 'Should our firm be in this business?' is listed as an example issue."
+            },
+            {
+                question: "If a manager needs to analyze the general price level and interest rates, they are utilizing the study of:",
+                options: [
+                    "Micro-Economics, as an internal operational issue.",
+                    "Micro-Economics, as the condition of a section of people.",
+                    "Macro-Economics, as a measure of large economic aggregates.",
+                    "Normative Science, as a prescription."
+                ],
+                answer: "Macro-Economics, as a measure of large economic aggregates.",
+                explanation: "A few areas that come under Macro Economics are: The general price level and interest rates. Also, knowledge regarding conditions of inflation and interest rates will be useful."
+            },
+            {
+                question: "The study of Business Economics is valuable not only to business decision makers but also to managers of:",
+                options: [
+                    "Public sector monopolies only.",
+                    "Small-scale consumer goods firms.",
+                    "Financial enterprises dealing with funds.",
+                    "'Not-for-profit’ organisations such as NGO, and voluntary organisations."
+                ],
+                answer: "'Not-for-profit’ organisations such as NGO, and voluntary organisations.",
+                explanation: "Business Economics is not only valuable to business decision makers, but also useful for managers of ‘not-for-profit’ organisations such as NGO, and voluntary organisations."
+            },
+            {
+                question: "The primary objective of Production theory is to explain the relationship between:",
+                options: [
+                    "Supply and demand elasticity.",
+                    "Inputs and output.",
+                    "Market structure and pricing strategy.",
+                    "Capital allocation and investment risk."
+                ],
+                answer: "Inputs and output.",
+                explanation: "Production theory explains the relationship between inputs and output."
+            },
+            {
+                question: "Why does Microeconomics not generally explain what is happening in the wider economic environment?",
+                options: [
+                    "Its focus is on the large economic aggregates.",
+                    "Its focus is on a small number of or group of units.",
+                    "It is concerned with normative aspects.",
+                    "It only provides models and frameworks."
+                ],
+                answer: "Its focus is on a small number of or group of units.",
+                explanation: "Here, the focus is on a small number of or group of units rather than all the units combined, and therefore, it does not explain what is happening in the wider economic environment."
+            },
+            {
+                question: "Which element related to the financial market is listed as a major macro-economic factor?",
+                options: [
+                    "ABC analysis.",
+                    "Working of capital market and its regulation.",
+                    "Factor pricing.",
+                    "Inventory accumulation."
+                ],
+                answer: "Working of capital market and its regulation.",
+                explanation: "The major macro-economic factors relate to: Working of central banks and financial sector and capital market and their regulation."
+            },
+            {
+                question: "A purely theoretical discipline analyzing cause and effect relationships between variables in an objective and scientific manner, without involving value judgments, is known as:",
+                options: [
+                    "Pragmatic science.",
+                    "Positive or pure science.",
+                    "Normative or prescriptive science.",
+                    "Applied science."
+                ],
+                answer: "Positive or pure science.",
+                explanation: "A positive or pure science analyses cause and effect relationship between variables in an objective and scientific manner, but it does not involve any value judgement."
+            },
+            {
+                question: "The essential characteristic of normative science is that it is:",
+                options: [
+                    "Descriptive in nature.",
+                    "Only focuses on economic aspects.",
+                    "Prescriptive in nature, suggesting 'what should be'.",
+                    "Focused on solving only internal operational issues."
+                ],
+                answer: "Prescriptive in nature, suggesting 'what should be'.",
+                explanation: "It is prescriptive in nature and suggests ‘what should be’ a particular course of action under given circumstances. A positive science is descriptive."
+            },
+            {
+                question: "In the context of decision making, management must evaluate feasible alternatives and base its choice on:",
+                options: [
+                    "Political set up and social norms.",
+                    "A rational judgment on the basis of information.",
+                    "Maximum utilization of scarce resources without choice.",
+                    "The findings of General Economics alone."
+                ],
+                answer: "A rational judgment on the basis of information.",
+                explanation: "Decision making involves evaluation of feasible alternatives, rational judgment on the basis of information and choice of a particular alternative."
+            },
+            {
+                question: "Which of the following is an example of a good classified as 'non durable'?",
+                options: [
+                    "Plant and equipment.",
+                    "Merit goods.",
+                    "Single use goods.",
+                    "Capital goods."
+                ],
+                answer: "Single use goods.",
+                explanation: "Some of these goods are non durable or single use goods and some are durable in nature."
+            },
+            {
+                question: "The use of economic analysis to make business decisions involving the best use of an organization’s scarce resources is the definition of:",
+                options: [
+                    "Financial Management.",
+                    "Business Economics.",
+                    "Operations Research.",
+                    "Macro Economics."
+                ],
+                answer: "Business Economics.",
+                explanation: "Business Economics may be defined as the use of economic analysis to make business decisions involving the best use of an organization’s scarce resources."
+            },
+            {
+                question: "What is the primary concern of Micro-Economics, regarding efficient allocation?",
+                options: [
+                    "How the individual units (consumers or firms) make decisions as to how to efficiently allocate their scarce resources.",
+                    "How the overall levels of saving and investment shift over time.",
+                    "How to frame suitable policies regarding taxation and interest rates.",
+                    "How production capacity is increased across the entire nation."
+                ],
+                answer: "How the individual units (consumers or firms) make decisions as to how to efficiently allocate their scarce resources.",
+                explanation: "Microeconomics examines how the individual units (consumers or firms) make decisions as to how to efficiently allocate their scarce resources."
+            },
+            {
+                question: "If a manager chooses the most efficient alternative from a set of choices, it implies that:",
+                options: [
+                    "The less efficient alternatives must be distributed.",
+                    "The less efficient alternatives must be rejected.",
+                    "The decision was based on macroeconomic aggregates.",
+                    "The firm ignored its normative constraints."
+                ],
+                answer: "The less efficient alternatives must be rejected.",
+                explanation: "Therefore, more efficient alternatives must be chosen and less efficient alternatives must be rejected."
+            },
+            {
+                question: "Which of the following describes the nature of Business Economics using economic logic and analytical tools?",
+                options: [
+                    "Creating surplus for Non-Profit Organizations.",
+                    "Establishing cause and effect relationships exclusively through statistics.",
+                    "Bridging the gap between hypothetical economic theory and real-world practice.",
+                    "Studying only the theory of markets and private enterprise."
+                ],
+                answer: "Bridging the gap between hypothetical economic theory and real-world practice.",
+                explanation: "Economic theories are hypothetical and simplistic... Business Economics enables application of economic logic and analytical tools to bridge the gap between theory and practice."
+            },
+            {
+                question: "What is the key factor that determines long-run trends in the business world, requiring analysis by a business economist?",
+                options: [
+                    "Consumer behaviour.",
+                    "Prevailing macroeconomic factors.",
+                    "Optimum utilization of internal resources.",
+                    "Demand analysis."
+                ],
+                answer: "Prevailing macroeconomic factors.",
+                explanation: "Moreover, the long-run trends in the business world are determined by the prevailing macroeconomic factors."
+            },
+            {
+                question: "The application of quantitative techniques like linear programming, regression analysis, capital budgeting, and break-even analysis confirms that Business Economics is essentially a component of:",
+                options: [
+                    "Micro-Economics.",
+                    "Applied Economics.",
+                    "Pure Science.",
+                    "Macro Analysis."
+                ],
+                answer: "Applied Economics.",
+                explanation: "Business Economics is essentially a component of Applied Economics as it includes application of selected quantitative techniques such as linear programming, regression analysis, capital budgeting, break even analysis and cost analysis."
+            },
+            {
+                question: "What kind of output refers to durable items made available on farms and in factories and mines, enabling increased productive capacity?",
+                options: [
+                    "New sources of raw materials.",
+                    "Better education.",
+                    "New and better plant and equipment.",
+                    "Shale gas and wind power."
+                ],
+                answer: "New and better plant and equipment.",
+                explanation: "New and better plant and equipment have been made available on farms and in factories and mines."
+            },
+            {
+                question: "If a business economist is deciding on the optimum size of output for the firm, they are dealing with:",
+                options: [
+                    "Inventory Management.",
+                    "Production and Cost Analysis.",
+                    "Risk and Uncertainty Analysis.",
+                    "Macroeconomic forecasting."
+                ],
+                answer: "Production and Cost Analysis.",
+                explanation: "A business economist has to decide on the optimum size of output, given the objectives of the firm. This is under Production and Cost Analysis."
+            },
+            {
+                question: "The concept that 'Life is like that. Since we cannot have everything we want with the resources we have, we are forever forced to make choices' relates directly to:",
+                options: [
+                    "The normative nature of economic policy.",
+                    "The definition of 'Political Economy'.",
+                    "The fundamental economic problem of scarcity.",
+                    "The analytical approach of economic models."
+                ],
+                answer: "The fundamental economic problem of scarcity.",
+                explanation: "Since we cannot have everything we want with the resources we have, we are forever forced to make choices. This relates to the fundamental facts of unlimited wants and relatively scarce means."
+            },
+            {
+                question: "The ultimate goal of Cost Analysis is to enable the firm to identify ways to maximize profits by achieving:",
+                options: [
+                    "Minimum possible cost for the desired level of output.",
+                    "Accurate demand forecasting for raw materials.",
+                    "Optimal allocation using linear programming.",
+                    "Strategic choices for long-term survival."
+                ],
+                answer: "Minimum possible cost for the desired level of output.",
+                explanation: "The firm will be able to identify ways to maximize profits by producing the desired level of output at the minimum possible cost."
+            },
+            {
+                question: "The scope of Business Economics does NOT include which of the following areas for detailed study in the CA Foundation curriculum (as noted in the exemption list)?",
+                options: [
+                    "Demand Analysis.",
+                    "Theory of Capital and Investment Decisions.",
+                    "Risk and Uncertainty Analysis.",
+                    "Production and Cost Analysis."
+                ],
+                answer: "Risk and Uncertainty Analysis.",
+                explanation: "Study of Inventory Management, Product and Promotion Policy, Resource Allocation, Capital Budgeting, Risk and Uncertainty Analysis are outside the scope of this book. However, Risk and Uncertainty Analysis is listed in the scope, making it the correct option that is excluded from detailed study."
+            },
+            {
+                question: "What is the relationship between Economic Theory and Business Practice in Business Economics?",
+                options: [
+                    "Economic Theory is used to critique Business Practice.",
+                    "Economic Theory provides tools, which Business Economics applies to Business Practice.",
+                    "Business Practice is an aggregate measure of Economic Theory.",
+                    "They are entirely separate disciplines."
+                ],
+                answer: "Economic Theory provides tools, which Business Economics applies to Business Practice.",
+                explanation: "While the theories of Economics provide the tools... Business Economics applies these tools in the process of business decision making."
+            },
+            {
+                question: "If a question involves analyzing the national income and national output of a country, it falls under:",
+                options: [
+                    "Micro-Economics.",
+                    "Normative Science.",
+                    "Macro-Economics.",
+                    "Production Analysis."
+                ],
+                answer: "Macro-Economics.",
+                explanation: "A few areas that come under Macro Economics are: National Income and National Output."
+            },
+            {
+                question: "The overall purpose of Business Economics is to integrate concept and methods from various disciplines to:",
+                options: [
+                    "Ensure decisions are taken under conditions of perfect knowledge.",
+                    "Analyze practical managerial problems.",
+                    "Determine the external value of currency.",
+                    "Focus purely on normative prescriptions."
+                ],
+                answer: "Analyze practical managerial problems.",
+                explanation: "A professional business economist has to integrate the concept and methods from all these disciplines in order to understand and analyse practical managerial problems."
+            },
+            {
+                question: "Which type of goods are classified as 'durable in nature'?",
+                options: [
+                    "Single use goods.",
+                    "Raw materials.",
+                    "Capital goods.",
+                    "Non-merit goods."
+                ],
+                answer: "Capital goods.",
+                explanation: "Within ‘goods’ also, we have consumer goods, producer goods, capital goods... Some of these goods are non durable or single use goods and some are durable in nature. Capital goods are inherently durable."
+            },
+            {
+                question: "The fundamental facts of unlimited wants and scarce resources compel individuals to choose the alternative that provides them with the:",
+                options: [
+                    "Highest valued use of the resources.",
+                    "Greatest satisfaction.",
+                    "Most non-merit goods.",
+                    "Long-term trends for decision making."
+                ],
+                answer: "Greatest satisfaction.",
+                explanation: "You evaluate the various alternatives and choose the one that gives you the greatest satisfaction."
+            },
+            {
+                question: "If a firm is operating under conditions of imperfect knowledge and uncertainty, decision making is complicated. Business Economics addresses this by providing:",
+                options: [
+                    "The theory of decision-making and analytical tools.",
+                    "A complete guarantee that all problems will be tackled.",
+                    "Focus solely on positive economic theory.",
+                    "Descriptive reports on internal issues."
+                ],
+                answer: "The theory of decision-making and analytical tools.",
+                explanation: "The problem gets aggravated because, most of the time, decisions are to be taken under conditions of imperfect knowledge and uncertainty. Decision making, therefore, requires that the management be equipped with proper methodology and appropriate analytical tools and techniques. The Theory of Decision-Making is explicitly listed as a close connection."
+            },
+            {
+                question: "Which of the following topics, despite being Microeconomic, is usually ignored by Business Economics according to the comparison table?",
+                options: [
+                    "Profit theory.",
+                    "Consumer behaviour.",
+                    "Factor pricing (other than profit theory related aspects).",
+                    "Demand and supply."
+                ],
+                answer: "Factor pricing (other than profit theory related aspects).",
+                explanation: "Business Economics is concerned with only profit theory ignoring other theories. Other theories include consumption and distribution, and implicitly, other areas of factor pricing which are Microeconomic."
+            },
+            {
+                question: "When production capacity has grown tremendously due to population increase, new raw materials, and better plant/equipment, this suggests that the economy is experiencing:",
+                options: [
+                    "Sharp fluctuations in resource utilization.",
+                    "Growth in production and income.",
+                    "A shift towards a purely normative structure.",
+                    "A complete elimination of scarcity."
+                ],
+                answer: "Growth in production and income.",
+                explanation: "On the one hand, we find that the productive capacity of modern economies has grown tremendously... Not only has the quantity of available productive resources increased... On the other hand, we know that the resulting growth in production and income has not been smooth."
+            },
+            {
+                question: "The term 'Oikonomia' means:",
+                options: [
+                    "Political Economy.",
+                    "The Wealth of Nations.",
+                    "Household.",
+                    "Scarcity."
+                ],
+                answer: "Household.",
+                explanation: "The term ‘Economics’ owes its origin to the Greek word ‘Oikonomia’ which means ‘household’."
+            },
+            {
+                question: "The primary objective of Business Economics, in the context of its main task, is:",
+                options: [
+                    "Analyzing the overall economic phenomena.",
+                    "Ensuring the long-term survival and profitable functioning of the organization.",
+                    "Describing the economic behaviour of society without prescription.",
+                    "Maximizing social benefits for all stakeholders."
+                ],
+                answer: "Ensuring the long-term survival and profitable functioning of the organization.",
+                explanation: "A business manager is usually concerned about achievement of the predetermined objectives of his organisation so as to ensure the long-term survival and profitable functioning of the organization."
+            },
+            {
+                question: "Which policy is considered a Macroeconomic factor that influences the business environment, rather than a microeconomic operational issue?",
+                options: [
+                    "Marketing strategy choice.",
+                    "Foreign trade policy.",
+                    "Inventory policies.",
+                    "Product design."
+                ],
+                answer: "Foreign trade policy.",
+                explanation: "Government’s economic policies like... foreign trade policy and globalization policies. The others are listed as microeconomic operational issues."
+            },
+            {
+                question: "To ensure accurate demand forecasting, a firm must primarily analyze:",
+                options: [
+                    "The working of central banks.",
+                    "The past behaviour of factors which affect demand.",
+                    "The overall levels of output and employment.",
+                    "Value judgments regarding merit goods."
+                ],
+                answer: "The past behaviour of factors which affect demand.",
+                explanation: "Demand forecasting is the technique of predicting future demand for goods and services on the basis of the past behaviour of factors which affect demand."
+            },
+            {
+                question: "The Micro Economic Theory of the behaviour of consumers and firms provides managers with a basic framework for:",
+                options: [
+                    "Analyzing macroeconomic aggregates.",
+                    "Making key business decisions about the allocation of their firm’s scarce resources.",
+                    "Conducting empirical tests of normative science.",
+                    "Bridging the gap between politics and economics."
+                ],
+                answer: "Making key business decisions about the allocation of their firm’s scarce resources.",
+                explanation: "This theory provides managers with a basic framework for making key business decisions about the allocation of their firm’s scarce resources."
+            },
+            {
+                question: "Which type of analysis involves the study of the economy as a whole, focusing on factors like total consumption and total saving?",
+                options: [
+                    "Micro-Economics.",
+                    "Macro-Economics.",
+                    "Applied Economics.",
+                    "The Theory of the Firm."
+                ],
+                answer: "Macro-Economics.",
+                explanation: "Macro Economics... is the study of the overall economic phenomena or the economy as a whole. It studies total consumption, total saving."
+            },
+            {
+                question: "Why are most economic theories considered hypothetical and simplistic in character?",
+                options: [
+                    "They are based on economic models built on simplifying assumptions.",
+                    "They are pragmatic in nature.",
+                    "They incorporate elements of political set up and social norms.",
+                    "They strictly adhere to normative science."
+                ],
+                answer: "They are based on economic models built on simplifying assumptions.",
+                explanation: "Economic theories are hypothetical and simplistic in character as they are based on economic models built on simplifying assumptions."
+            },
+            {
+                question: "What kind of decision involves the evaluation of feasible alternatives and rational judgment?",
+                options: [
+                    "Non-merit decision.",
+                    "Economic decision.",
+                    "Social decision.",
+                    "Political decision."
+                ],
+                answer: "Economic decision.",
+                explanation: "In context of all economic enterprises, several decisions have to be taken. Decision making involves evaluation of feasible alternatives, rational judgment on the basis of information and choice of a particular alternative which the decision maker finds as the most suitable."
+            },
+            {
+                question: "When Business Economics focuses on 'what should be' a particular course of action, it implies that the discipline involves:",
+                options: [
+                    "Objective analysis.",
+                    "Value judgments.",
+                    "Descriptive statements.",
+                    "Purely scientific testing."
+                ],
+                answer: "Value judgments.",
+                explanation: "A normative science involves value judgements. It is prescriptive in nature and suggests ‘what should be’ a particular course of action."
             }
         ],
         'Basic Problems of an Economy & Role of Price Mechanism': [
             {
-                question: 'What is the primary subject matter of Economics, according to the provided sources?',
-                options: ['The study of how businesses manage their finances.', 'The study of processes by which relatively scarce resources are allocated to satisfy the competing unlimited wants of human beings in a society.', 'The study of how governments make policy decisions.', 'The study of historical economic events.'],
-                answer: 'The study of processes by which relatively scarce resources are allocated to satisfy the competing unlimited wants of human beings in a society.',
-                explanation: 'Economics is defined as the study of how limited resources are used to meet the endless desires of people in a society.'
-            },
-            {
-                question: 'From which Greek word does the term "Economics" originate, and what does it mean?',
-                options: ['Politikos, meaning "governance".', 'Oikonomia, meaning "household".', 'Logos, meaning "study".', 'Nomos, meaning "law".'],
-                answer: 'Oikonomia, meaning "household".',
-                explanation: 'The word "Economics" comes from the Greek word "Oikonomia", which means "household".'
-            },
-
-            {
-                question: 'What does Business Economics primarily integrate?',
-                options: ['Social theories with political science.', 'Economic theory with business practice.', 'Historical events with future predictions.', 'Financial accounting with marketing strategies.'],
-                answer: 'Economic theory with business practice.',
-                explanation: 'Business Economics combines ideas from economic theory with the practical ways businesses operate.'
-            },
-            {
-                question: 'What is another name for Business Economics?',
-                options: ['Political Economy.', 'Macroeconomics.', 'Managerial Economics.', 'Applied Statistics.'],
-                answer: 'Managerial Economics.',
-                explanation: 'Business Economics is also known as Managerial Economics.'
-            },
-            {
-                question: 'How is decision making defined in the context of business?',
-                options: ['The process of gathering all available data.', 'The process of selecting an appropriate alternative from two or more options to achieve a desired goal efficiently.', 'The process of predicting future market trends.', 'The process of analysing past business performance.'],
-                answer: 'The process of selecting an appropriate alternative from two or more options to achieve a desired goal efficiently.',
-                explanation: 'Decision making is about choosing the best path from several possible options to reach a goal in the most effective way.'
-            },
-            {
-                question: 'Why does the question of choice arise in economic decision-making?',
-                options: ['Because all resources are unlimited.', 'Because productive resources are limited and can be used in different ways.', 'Because economic goals are always clear.', 'Because there are no alternative uses for resources.'],
-                answer: 'Because productive resources are limited and can be used in different ways.',
-                explanation: 'We have to make choices because the things we use to produce goods and services, like land or labour, are limited and can be used for many different purposes.'
-            },
-            {
-                question: 'What is the primary focus of Micro Economics?',
-                options: ['The overall economic phenomena of an economy as a whole.', 'The study of the behaviour of individual units like consumers or firms within an economic system.', 'The analysis of national income and employment levels.', 'The balance of trade and payments of a country.'],
-                answer: 'The study of the behaviour of individual units like consumers or firms within an economic system.',
-                explanation: 'Micro Economics looks at how individual parts of the economy, like single consumers or businesses, make decisions about their limited resources.'
-            },
-            {
-                question: 'Which of the following is a concept primarily studied in Micro Economics?',
-                options: ['National Income.', 'General Price Level.', 'Consumer Behaviour.', 'Level of Employment.'],
-                answer: 'Consumer Behaviour.',
-                explanation: 'Micro Economics studies things like how consumers make choices, which is known as consumer behaviour.'
-            },
-            {
-                question: 'What is the primary focus of Macro Economics?',
-                options: ['The behaviour of a single firm.', 'The pricing of individual products.', 'The study of the economy as a whole, focusing on large economic aggregates.', 'The allocation of resources within a household.'],
-                answer: 'The study of the economy as a whole, focusing on large economic aggregates.',
-                explanation: 'Macro Economics studies the economy on a large scale, looking at overall trends like total production and employment, not just individual parts.'
-            },
-            {
-                question: 'Which of the following is an area that comes under Macro Economics?',
-                options: ['Location of industry.', 'Product pricing.', 'Balance of trade.', 'Behaviour of firms.'],
-                answer: 'Balance of trade.',
-                explanation: 'Macro Economics deals with broad economic issues, such as the balance of trade for an entire country.'
-            },
-            {
-                question: 'Why is Business Economics considered a science?',
-                options: ['Because it only deals with theoretical concepts.', 'Because it is a systematized body of knowledge that establishes cause and effect relationships and uses scientific methods.', 'Because it is an art that applies rules and principles.', 'Because it only focuses on practical problems.'],
-                answer: 'Because it is a systematized body of knowledge that establishes cause and effect relationships and uses scientific methods.',
-                explanation: 'Business Economics is called a science because it is an organised way of knowing that finds out how things cause other things to happen, and it uses scientific ways to check its findings.'
-            },
-            {
-                question: 'What is the relationship between Business Economics and Micro Economics?',
-                options: ['Business Economics is entirely separate from Micro Economics.', 'Business Economics is based largely on Micro Economics, relying on its techniques for individual establishment decisions.', 'Micro Economics is based largely on Business Economics.', 'Business Economics only uses Macro Economics.'],
-                answer: 'Business Economics is based largely on Micro Economics, relying on its techniques for individual establishment decisions.',
-                explanation: 'Business Economics mainly uses ideas and methods from Micro Economics because it focuses on decisions made by individual businesses.'
-            },
-            {
-                question: 'How does Macroeconomic analysis relate to Business Economics?',
-                options: ['Macroeconomic analysis has no role in Business Economics.', 'Business Economics completely ignores macroeconomic factors.', 'Macroeconomic analysis influences individual firm\'s performance and decisions by analyzing the overall economic environment.', 'Business Economics only focuses on internal issues, not external.'],
-                answer: 'Macroeconomic analysis influences individual firm\'s performance and decisions by analyzing the overall economic environment.',
-                explanation: 'Macroeconomics helps Business Economics by looking at the bigger economic picture, like inflation or interest rates, which can greatly affect a business\'s decisions and performance.'
-            },
-            {
-                question: 'Why is Business Economics considered an art?',
-                options: ['Because it relies only on theoretical models.', 'Because it establishes cause and effect relationships.', 'Because it involves the practical application of rules and principles to achieve goals.', 'Because it is purely descriptive in nature.'],
-                answer: 'Because it involves the practical application of rules and principles to achieve goals.',
-                explanation: 'Business Economics is an art because it uses rules and ideas in a practical way to help businesses reach their goals.'
-            },
-            {
-                question: 'What does it mean for Business Economics to be "pragmatic in approach"?',
-                options: ['It only deals with abstract theories.', 'It focuses on unrealistic assumptions.', 'It tackles practical problems faced by firms in the real world.', 'It avoids applying economic theories to business.'],
-                answer: 'It tackles practical problems faced by firms in the real world.',
-                explanation: 'Being pragmatic means Business Economics deals with real-world problems that businesses actually face, instead of just abstract ideas.'
-            },
-            {
-                question: 'Which of the following disciplines is *not* mentioned as contributing tools to Business Economics due to its interdisciplinary nature?',
-                options: ['Mathematics.', 'Operations Research.', 'Astronomy.', 'Statistics.'],
-                answer: 'Astronomy.',
-                explanation: 'Business Economics uses tools from many different subjects, like Mathematics, Operations Research, and Statistics, but Astronomy is not mentioned.'
-            },
-            {
-                question: 'What does it mean that Business Economics is generally normative in nature?',
-                options: ['It describes what "is" happening without judgment.', 'It focuses on historical economic data only.', 'It suggests "what should be" a course of action and is prescriptive.', 'It avoids value judgements.'],
-                answer: 'It suggests "what should be" a course of action and is prescriptive.',
-                explanation: 'Being normative means Business Economics gives advice on what actions should be taken, guiding decisions and future plans.'
-            },
-            {
-                question: 'What is the main difference between a positive science and a normative science?',
-                options: ['Positive science deals with "what should be", while normative science describes "what is".', 'Positive science states "what is" and is descriptive, while normative science suggests "what should be" and is prescriptive.', 'Positive science involves value judgments, while normative science does not.', 'Positive science is only used in economics, while normative science is used in all fields.'],
-                answer: 'Positive science states "what is" and is descriptive, while normative science suggests "what should be" and is prescriptive.',
-                explanation: 'Positive science tells us "what is" and describes things, while normative science tells us "what should be" and gives advice.'
-            },
-            {
-                question: 'What are the two main categories of business issues to which economic theories can be applied in Business Economics?',
-                options: ['Historical and Future issues.', 'Manufacturing and Service issues.', 'Internal (Operational) and External (Environmental) issues.', 'Financial and Marketing issues.'],
-                answer: 'Internal (Operational) and External (Environmental) issues.',
-                explanation: 'Business Economics applies economic ideas to two main types of problems: those inside the company (internal or operational) and those related to the wider world outside the company (external or environmental).'
-            },
-            {
-                question: 'What does demand analysis primarily study in the context of operational issues?',
-                options: ['The relationship between inputs and outputs.', 'The behaviour of consumers in the market and factors affecting their preferences.', 'The optimal stock levels of raw materials.', 'The general price level of the economy.'],
-                answer: 'The behaviour of consumers in the market and factors affecting their preferences.',
-                explanation: 'Demand analysis looks at how consumers behave in the market and what makes them want certain goods and services, like changes in price or income.'
-            },
-            {
-                question: 'How does Production and Cost Analysis help a firm?',
-                options: ['By predicting future market demand.', 'By guiding decisions on optimal output size, technology choice, least-cost input mix, and understanding cost behavior to maximize profits.', 'By managing relationships with trade unions.', 'By determining government economic policies.'],
-                answer: 'By guiding decisions on optimal output size, technology choice, least-cost input mix, and understanding cost behavior to maximize profits.',
-                explanation: 'Production and Cost Analysis helps a business figure out the best amount to produce, how to make it efficiently using the cheapest combination of resources, and how costs change, all to help make more profit.'
-            },
-            {
-                question: 'What is the main goal of Inventory Management theories in Business Economics?',
-                options: ['To forecast long-term economic growth.', 'To minimize costs related to holding inventory, such as raw materials and finished goods.', 'To analyze national income.', 'To understand consumer behaviour only.'],
-                answer: 'To minimize costs related to holding inventory, such as raw materials and finished goods.',
-                explanation: 'Inventory management aims to reduce the costs that businesses have from keeping items like raw materials or finished products in stock.'
-            },
-            {
-                question: 'How does the analysis of market structure help a firm in Business Economics?',
-                options: ['It helps manage the firm\'s internal finances.', 'It provides information about competition, market power, and strategies for market management and pricing.', 'It focuses on employee motivation strategies.', 'It determines the location of the industry.'],
-                answer: 'It provides information about competition, market power, and strategies for market management and pricing.',
-                explanation: 'Understanding the market structure helps a business know how much competition it faces, how much power it has over prices, and what strategies to use for its products and marketing.'
-            },
-            {
-                question: 'Which of the following is an example of an external or environmental issue that influences business functioning, as covered by Macroeconomics?',
-                options: ['Choice of production technique.', 'Inventory management rules.', 'The stage of the business cycle.', 'Product pricing decisions.'],
-                answer: 'The stage of the business cycle.',
-                explanation: 'External issues are outside the business\'s direct control, like the overall economic situation or the stage of the business cycle, which affects all businesses.'
-            },
-            {
-                question: 'According to the distinction table, what is the character of Business Economics?',
-                options: ['It is only macroeconomic in character.', 'It is microeconomic as well as macroeconomic in character.', 'It is only microeconomic in character.', 'It is neither microeconomic nor macroeconomic.'],
-                answer: 'It is only microeconomic in character.',
-                explanation: 'The source states that Business Economics is microeconomic in character.'
-            },
-            {
-                question: 'According to the distinction table, what is the nature of Business Economics?',
-                options: ['It is only positive in nature.', 'It is positive as well as normative in nature.', 'It is only normative in nature.', 'It is purely theoretical.'],
-                answer: 'It is only normative in nature.',
-                explanation: 'The distinction table indicates that Business Economics is only normative in nature.'
-            },
-            {
-                question: 'What is the main task of Business Economics, as per the distinction table?',
-                options: ['Fulfilment of needs of individuals as well as entities.', 'Framing economic principles to solve economic problems.', 'Proper decision making in a particular business entity.', 'Analyzing macro-level issues like growth and inflation.'],
-                answer: 'Proper decision making in a particular business entity.',
-                explanation: 'The primary job of Business Economics is to help a specific business make the right decisions.'
-            },
-            {
-                question: 'Which book by Adam Smith is considered the first modern work of Economics?',
-                options: ['Das Kapital.', 'General Theory of Employment, Interest and Money.', 'An Inquiry into the Nature and Causes of the Wealth of Nations.', 'Principles of Political Economy and Taxation.'],
-                answer: 'An Inquiry into the Nature and Causes of the Wealth of Nations.',
-                explanation: 'Adam Smith\'s book, commonly known as "The Wealth of Nations", is seen as the beginning of modern Economics.'
-            },
-            {
-                question: 'What is the basic objective of any economic activity like production or consumption?',
-                options: ['To create debt.', 'To eliminate all wants.', 'To create surplus or profit, or social benefits for NPOs.', 'To reduce competition.'],
-                answer: 'To create surplus or profit, or social benefits for NPOs.',
-                explanation: 'The goal of any economic activity is usually to make a profit or a surplus. For non-profit groups, their goal is to provide social benefits.'
-            },
-            {
-                question: 'What was Economics known as until the 19th century?',
-                options: ['A) Social Science', 'B) Political Economy', 'C) Business Study', 'D) Financial Management'],
-                answer: 'B) Political Economy',
-                explanation: 'Until the 19th century, Economics was known as ‘Political Economy’.'
-            },
-            {
-                question: 'Which two fundamental facts form the subject matter of Economics?',
-                options: ['A) Limited wants and abundant resources', 'B) Unlimited wants and scarce means', 'C) Stable prices and high employment', 'D) Government control and free markets'],
-                answer: 'B) Unlimited wants and scarce means',
-                explanation: 'Economics studies two fundamental facts: human beings have unlimited wants, and the means to satisfy these wants are relatively scarce.'
-            },
-            {
-                question: 'What is Economics primarily the study of?',
-                options: ['A) How governments make laws', 'B) How scarce resources are allocated to satisfy unlimited wants', 'C) How businesses advertise products', 'D) How people choose their hobbies'],
-                answer: 'B) How scarce resources are allocated to satisfy unlimited wants',
-                explanation: 'Economics is the study of how relatively scarce resources are used to satisfy the unlimited wants of human beings in a society.'
-            },
-            {
-                question: 'What is the basic objective of all business activities?',
-                options: ['A) To reduce unemployment', 'B) To create net value added', 'C) To improve public relations', 'D) To simplify economic models'],
-                answer: 'B) To create net value added',
-                explanation: 'The basic objective of business activities, which transform inputs into outputs, is the creation of net value added.'
-            },
-            {
-                question: 'How do economists classify inputs on the input side of an economic activity?',
-                options: ['A) Consumer goods, producer goods, capital goods, private goods', 'B) Land, labour, capital, and entrepreneurship', 'C) Manufacturing, mining, construction, agriculture', 'D) Production, consumption, distribution, exchange'],
-                answer: 'B) Land, labour, capital, and entrepreneurship',
-                explanation: 'Economists classify inputs as land, labour, capital, and entrepreneurship.'
-            },
-            {
-                question: 'What is the purpose of any economic activity like production or consumption?',
-                options: ['A) To avoid all risks', 'B) To create surplus or profit', 'C) To control all market prices', 'D) To predict social trends'],
-                answer: 'B) To create surplus or profit',
-                explanation: 'The purpose of any economic activity, such as production or consumption, is to create surplus or profit.'
-            },
-            {
-                question: 'What do Non-Profit Organisations (NPOs) primarily aim for?',
-                options: ['A) Maximum private profits', 'B) Market dominance', 'C) Social benefits', 'D) High stock returns'],
-                answer: 'C) Social benefits',
-                explanation: 'Non-Profit Organisations (NPOs) may not aim for private profits, but they aim for ‘social benefits’.'
-            },
-            {
-                question: 'Why does the question of choice arise in decision making for an economic enterprise?',
-                options: ['A) Because there are too many customers', 'B) Because productive resources are limited and can be used in alternative ways', 'C) Because prices are always stable', 'D) Because competition is too low'],
-                answer: 'B) Because productive resources are limited and can be used in alternative ways',
-                explanation: 'The question of choice arises because productive resources like land, labour, capital, and management are limited and can be used in different ways.'
-            },
-            {
-                question: 'Why is decision making in a business firm often not simple and straightforward?',
-                options: ['A) Because the economic environment is always static', 'B) Because managers have perfect knowledge', 'C) Because decisions are often taken under conditions of imperfect knowledge and uncertainty', 'D) Because all problems are very easy to solve'],
-                answer: 'C) Because decisions are often taken under conditions of imperfect knowledge and uncertainty',
-                explanation: 'Decision making is difficult because the economic environment is complex and changing, and decisions are often made with incomplete information and uncertainty.'
-            },
-            {
-                question: 'How does Business Economics meet the needs of management for decision making?',
-                options: ['A) By increasing their financial budget', 'B) By providing a huge corpus of theory and techniques', 'C) By reducing competition in the market', 'D) By making all resources unlimited'],
-                answer: 'B) By providing a huge corpus of theory and techniques',
-                explanation: 'Business Economics helps management by providing a large amount of theory and techniques for decision making.'
-            },
-
-            {
-                question: 'What is Business Economics defined as, in brief?',
-                options: ['A) Pure Economic Theory', 'B) Economic History', 'C) Applied Economics that fills the gap between economic theory and business practice', 'D) Social Welfare Studies'],
-                answer: 'C) Applied Economics that fills the gap between economic theory and business practice',
-                explanation: 'In short, Business Economics is Applied Economics that fills the gap between economic theory and business practice.'
-            },
-            {
-                question: 'Which discipline is Business Economics NOT closely connected with?',
-                options: ['A) Operations Research', 'B) Music Theory', 'C) Statistics', 'D) Mathematics'],
-                answer: 'B) Music Theory',
-                explanation: 'Business Economics has close connections with Economic theory, Operations Research, Statistics, Mathematics, and the Theory of Decision-Making.'
-            },
-            {
-                question: 'According to Joel Dean, Business Economics involves the use of economic analysis in what?',
-                options: ['A) Predicting weather patterns', 'B) Formulating business policies', 'C) Designing new machinery', 'D) Conducting scientific experiments'],
-                answer: 'B) Formulating business policies',
-                explanation: 'Joel Dean defined Business Economics as using economic analysis to formulate business policies.'
-            },
-            {
-                question: 'Which of the following quantitative techniques is applied in Business Economics?',
-                options: ['A) Historical narrative analysis', 'B) Linear programming', 'C) Artistic interpretation', 'D) Philosophical debate'],
-                answer: 'B) Linear programming',
-                explanation: 'Business Economics includes applying quantitative techniques such as linear programming, regression analysis, capital budgeting, and cost analysis.'
-            },
-            {
-                question: 'Which of the following is a main subject studied in Micro-Economics?',
-                options: ['A) National Income', 'B) The general price level', 'C) Consumer behaviour', 'D) Balance of trade'],
-                answer: 'C) Consumer behaviour',
-                explanation: 'Consumer behaviour is one of the main subjects studied in Micro-Economics, along with product pricing and factor pricing.'
-            },
-            {
-                question: 'Which of these concepts is studied under Macro Economics?',
-                options: ['A) Product pricing', 'B) Behaviour of a single firm', 'C) The overall level of savings and investment', 'D) Location of a specific industry'],
-                answer: 'C) The overall level of savings and investment',
-                explanation: 'Macro Economics studies large economic totals like the overall level of savings and investment, national income, and employment.'
-            },
-            {
-                question: 'Why is Macroeconomic analysis important for business firms?',
-                options: ['A) It helps them manage internal staff only', 'B) It helps them understand the background of economic conditions that influence their performance', 'C) It helps them ignore external factors', 'D) It focuses only on their direct competitors'],
-                answer: 'B) It helps them understand the background of economic conditions that influence their performance',
-                explanation: 'Macroeconomics analyses the general economic conditions in an economy, which greatly influence how individual firms perform and make decisions.'
-            },
-            {
-                question: 'Why is Business Economics considered a Science?',
-                options: ['A) Because it is based on opinion', 'B) Because it is a systematized body of knowledge that establishes cause and effect relationships and tests results', 'C) Because it only uses qualitative data', 'D) Because it avoids all theories'],
-                answer: 'B) Because it is a systematized body of knowledge that establishes cause and effect relationships and tests results',
-                explanation: 'Business Economics is a science because it is a structured body of knowledge that shows cause and effect, and it tests its findings scientifically.'
-            },
-            {
-                question: 'Business Economics relies heavily on which part of Economics?',
-                options: ['A) Political Economy', 'B) Macro-Economics', 'C) Micro-Economics', 'D) Global Economics'],
-                answer: 'C) Micro-Economics',
-                explanation: 'Business Economics relies a lot on Micro-Economics because it focuses on the decision-making problems of individual businesses.'
-            },
-            {
-                question: 'Which macroeconomic element can influence a business manager\'s environment?',
-                options: ['A) A firm\'s internal budget', 'B) The general price level in the economy', 'C) An individual employee\'s skills', 'D) The number of products a firm sells'],
-                answer: 'B) The general price level in the economy',
-                explanation: 'A business manager must be aware of macroeconomic variables such as the general price level, income, and employment levels in the economy, which can influence their business.'
-            },
-            {
-                question: 'Why is Business Economics also considered an Art?',
-                options: ['A) Because it is purely theoretical', 'B) Because it involves the practical application of rules and principles for set objectives', 'C) Because it studies historical art forms', 'D) Because it focuses on creative writing'],
-                answer: 'B) Because it involves the practical application of rules and principles for set objectives',
-                explanation: 'Business Economics is an art because it means putting economic rules and principles into practice to achieve specific goals.'
-            },
-            {
-                question: 'What is the approach of Business Economics in tackling real-world problems?',
-                options: ['A) Abstract', 'B) Theoretical', 'C) Pragmatic', 'D) Idealistic'],
-                answer: 'C) Pragmatic',
-                explanation: 'Business Economics has a pragmatic (practical) approach because it deals with real-world problems faced by businesses.'
-            },
-            {
-                question: 'Business Economics is interdisciplinary in nature because it incorporates tools from which other fields?',
-                options: ['A) History and Archaeology', 'B) Mathematics and Statistics', 'C) Literature and Philosophy', 'D) Fine Arts and Music'],
-                answer: 'B) Mathematics and Statistics',
-                explanation: 'Business Economics is interdisciplinary, meaning it uses tools from various fields such as Mathematics, Operations Research, Management Theory, and Statistics.'
-            },
-            {
-                question: 'Which type of science states ‘what is’ of the state of affairs and does not involve any value judgement?',
-                options: ['A) Normative science', 'B) Prescriptive science', 'C) Positive science', 'D) Welfare science'],
-                answer: 'C) Positive science',
-                explanation: 'A positive science describes ‘what is’ happening and does not include personal opinions or judgments about what should be.'
-            },
-            {
-                question: 'Which type of science is prescriptive in nature and suggests ‘what should be’ a particular course of action?',
-                options: ['A) Positive science', 'B) Descriptive science', 'C) Normative science', 'D) Pure science'],
-                answer: 'C) Normative science',
-                explanation: 'A normative science is prescriptive, meaning it suggests ‘what should be’ done in a certain situation and involves value judgments.'
-            },
-            {
-                question: 'What are the two categories of business issues to which economic theories can be applied?',
-                options: ['A) Past issues and future issues', 'B) Local issues and global issues', 'C) Internal or operational issues and external or environmental issues', 'D) Financial issues and marketing issues'],
-                answer: 'C) Internal or operational issues and external or environmental issues',
-                explanation: 'Economic theories can be applied to two main types of business issues: those inside the company (operational) and those outside (environmental).'
-            },
-            {
-                question: 'Which of the following is an example of an internal or operational issue?',
-                options: ['A) The general price level', 'B) Stage of business cycle', 'C) Government\'s economic policies', 'D) Product decisions'],
-                answer: 'D) Product decisions',
-                explanation: 'Product decisions are examples of internal or operational issues that arise within an organization and are controlled by management.'
-            },
-            {
-                question: 'What does Demand Analysis and Forecasting pertain to?',
-                options: ['A) Predicting competitor strategies', 'B) Predicting future demand for goods and services', 'C) Analyzing internal financial reports', 'D) Managing employee relations'],
-                answer: 'B) Predicting future demand for goods and services',
-                explanation: 'Demand forecasting is the technique of predicting how much demand there will be for goods and services in the future, based on past information.'
-            },
-            {
-                question: 'What does Production analysis enable the firm to decide on?',
-                options: ['A) Consumer preferences', 'B) Choice of appropriate technology and selection of least-cost input-mix', 'C) Global economic forecasts', 'D) Employee training programs'],
-                answer: 'B) Choice of appropriate technology and selection of least-cost input-mix',
-                explanation: 'Production analysis helps a firm choose the right technology and the cheapest combination of inputs to produce goods efficiently.'
-            },
-            {
-                question: 'What is the purpose of Inventory Management theories?',
-                options: ['A) To increase production costs', 'B) To maximize advertising spending', 'C) To minimise the costs associated with maintaining inventory', 'D) To simplify product design'],
-                answer: 'C) To minimise the costs associated with maintaining inventory',
-                explanation: 'Inventory management theories help firms reduce the costs related to holding inventory like raw materials and finished goods.'
-            },
-            {
-                question: 'What information does the analysis of the market structure provide to a firm?',
-                options: ['A) Details about its internal accounting procedures', 'B) Information about the nature and extent of competition', 'C) Insights into employee satisfaction', 'D) Historical data on weather patterns'],
-                answer: 'B) Information about the nature and extent of competition',
-                explanation: 'Analysing the market structure tells a firm about the type and amount of competition it faces, which helps in deciding its market power and pricing strategies.'
-            },
-            {
-                question: 'Which advanced tool helps a firm in optimum utilisation of available resources?',
-                options: ['A) Basic accounting software', 'B) Linear programming', 'C) Simple calculator', 'D) Traditional bookkeeping'],
-                answer: 'B) Linear programming',
-                explanation: 'Business Economics uses advanced tools like linear programming to help a firm make the best use of its available resources.'
-            },
-            {
-                question: 'What do theories related to capital and investment provide for a firm?',
-                options: ['A) Daily operational guidelines', 'B) Scientific criteria for choice of investment projects and assessment of capital efficiency', 'C) Details on customer feedback', 'D) Methods for employee recruitment'],
-                answer: 'B) Scientific criteria for choice of investment projects and assessment of capital efficiency',
-                explanation: 'Capital and investment theories offer scientific ways to choose investment projects and measure how well capital is being used.'
-            },
-            {
-                question: 'What does Profit analysis guide the firm in?',
-                options: ['A) Designing marketing campaigns', 'B) Measurement and management of profits under conditions of uncertainty', 'C) Deciding employee benefits', 'D) Managing daily office supplies'],
-                answer: 'B) Measurement and management of profits under conditions of uncertainty',
-                explanation: 'Profit analysis helps a firm measure and manage its profits, especially when market conditions are uncertain, and also assists in planning for future profits.'
-            },
-            {
-                question: 'Which factor is a major macro-economic influence on business functioning and performance?',
-                options: ['A) A firm\'s choice of production technique', 'B) The socio-economic organisations like trade unions', 'C) A company\'s internal pricing decisions', 'D) An individual consumer\'s preferences'],
-                answer: 'B) The socio-economic organisations like trade unions',
-                explanation: 'Major macroeconomic factors that influence businesses include socio-economic organisations like trade unions, as well as the type of economic system and stage of the business cycle.'
-            },
-            {
-                question: 'Does the management of a firm have control over external or environmental factors?',
-                options: ['A) Yes, complete control', 'B) Yes, partial control', 'C) No, they have no control', 'D) Only if the factors are minor'],
-                answer: 'C) No, they have no control',
-                explanation: 'The management of a firm has no control over external or environmental factors and must adjust its own policies to deal with them.'
-            },
-            {
-                question: 'According to the difference table, what is the main task of Economics?',
-                options: ['A) Proper decision making in a particular business entity', 'B) The fulfilment of needs of individuals as well as entities', 'C) Analysing micro-level issues like demand', 'D) Applying economic principles to business problems'],
-                answer: 'B) The fulfilment of needs of individuals as well as entities',
-                explanation: 'The main task of Economics is the fulfilment of needs of individuals as well as entities.'
-            },
-            {
-                question: 'According to the difference table, what is the character of Business Economics?',
-                options: ['A) Microeconomic as well as macroeconomic', 'B) Only macroeconomic', 'C) Only microeconomic', 'D) Neither microeconomic nor macroeconomic'],
-                answer: 'C) Only microeconomic',
-                explanation: 'The difference table states that Business Economics is microeconomic in character.'
-            },
-            {
-                question: 'Based on the difference table, what is the nature of Economics?',
-                options: ['A) Only positive', 'B) Only normative', 'C) Positive as well as normative', 'D) Primarily prescriptive'],
-                answer: 'C) Positive as well as normative',
-                explanation: 'The difference table indicates that Economics is positive as well as normative in nature.'
-            },
-            {
-                question: 'According to the difference table, which field has a narrower scope?',
-                options: ['A) Economics', 'B) Business Economics', 'C) Both have the same scope', 'D) Their scopes are unrelated'],
-                answer: 'B) Business Economics',
-                explanation: 'The difference table indicates that Business Economics has a comparatively narrower scope compared to Economics.'
-            },
-            {
-                question: 'According to the difference table, Business Economics is concerned with which theories?',
-                options: ['A) All theories from production to consumption including distribution', 'B) Only profit theory ignoring other theories', 'C) Only macro-level theories', 'D) Only theories related to employment'],
-                answer: 'B) Only profit theory ignoring other theories',
-                explanation: 'The difference table states that Business Economics is concerned with only profit theory, ignoring other theories.'
-            },
-            {
-                question: 'According to the difference table, what type of analysis is involved in Economics?',
-                options: ['A) Analysis of micro level issues like demand', 'B) Analysis of macro level issues like growth, inflation, and employment', 'C) Only non-economic aspects', 'D) Validity of assumptions when applied'],
-                answer: 'B) Analysis of macro level issues like growth, inflation, and employment',
-                explanation: 'The difference table specifies that Economics includes the analysis of macro-level issues like growth, inflation, and employment.'
-            },
-            {
-                question: 'According to the difference table, on what aspects does Economics concentrate?',
-                options: ['A) Only on the economic aspects of any business problem', 'B) On both economic as well as non-economic aspects', 'C) Primarily on assumptions that become invalid', 'D) Only on micro-level issues'],
-                answer: 'A) Only on the economic aspects of any business problem',
-                explanation: 'The difference table states that Economics concentrates only on the economic aspects of any business problem.'
-            },
-
-            // --- Hard Level ---
-
-            {
-                question: 'Given that Business Economics is described as \'pragmatic\' and \'based on Micro Economics\', which of the following operational issues would best illustrate these characteristics?',
+                question: "Which statement accurately describes the core relationship between resources and wants that necessitates the central economic problem?",
                 options: [
-                    'A. Analysing national income trends to forecast overall economic growth.',
-                    'B. Determining the optimal output level and pricing strategy for a specific product in a highly competitive market.',
-                    'C. Studying the impact of global trade policies on a country\'s balance of payments.',
-                    'D. Formulating abstract economic theories without considering their real-world applicability.'
+                    "Resources are unlimited but have alternative uses, while wants are limited.",
+                    "Resources are limited, and if they only had a single use, the economic problem would still arise.",
+                    "Resources (like money and time) are limited, and these resources have alternative uses relative to unlimited wants.",
+                    "The problem of scarcity is only faced by developing countries with insufficient natural productive resources."
                 ],
-                answer: 'B. Determining the optimal output level and pricing strategy for a specific product in a highly competitive market.',
-                explanation: 'Business Economics is pragmatic, meaning it tackles practical problems that firms face in the real world. It is also based on Microeconomics because it focuses on the decision-making problems of individual businesses. Determining the optimal output and pricing for a specific product is a practical, operational problem faced by an individual firm, directly applying microeconomic principles.'
+                answer: "Resources (like money and time) are limited, and these resources have alternative uses relative to unlimited wants.",
+                explanation: "The central economic problem arises because resources (natural productive resources, man-made capital goods, consumer goods, money and time etc.) are limited, and crucially, these limited resources have alternative uses in relation to the unlimited wants for them."
             },
             {
-                question: 'When a Business Economist suggests \'what should be\' the pricing strategy for a new product to maximise profits, they are primarily demonstrating which nature of Business Economics, and why?',
+                question: "If an economy decides to produce more capital goods (like machines and equipment) instead of consumer goods (like cell phones), which basic economic problem is being addressed, and what is the potential long-term implication?",
                 options: [
-                    'A. Positive, because it describes existing market behaviour.',
-                    'B. Pragmatic, because it focuses on a real business problem.',
-                    'C. Normative, because it involves value judgments and prescriptions for action.',
-                    'D. Scientific, because it uses systematised knowledge to establish cause and effect.'
+                    "How to produce; ensuring production uses labour-intensive methods.",
+                    "For whom to produce; focusing output distribution towards high-income earners.",
+                    "What to produce; sacrificing current consumption for increased future production capacity.",
+                    "What provision should be made for economic growth; increasing current consumption standards."
                 ],
-                answer: 'C. Normative, because it involves value judgments and prescriptions for action.',
-                explanation: 'Economic theory develops along two lines: positive and normative. Positive science describes \'what is\', without judgments. In contrast, normative science involves value judgments and is prescriptive, suggesting \'what should be\' a particular course of action. When a business economist recommends a strategy to maximise profits, they are advising on \'what should be\' done, which aligns with the normative nature of Business Economics.'
+                answer: "What to produce; sacrificing current consumption for increased future production capacity.",
+                explanation: "Deciding whether to produce capital goods or consumer goods addresses 'What to produce'. If a society sacrifices current consumption (consumer goods) to invest in capital goods, this provision is made for economic growth, ensuring that the society’s production capacity increases."
             },
             {
-                question: 'A national government agency is conducting a comprehensive study on the causes of the current national unemployment rate and its impact on the overall economic output. Based on the given sources, how does this study\'s scope and analytical focus generally differ from that of Business Economics?',
+                question: "Which factor primarily determines whether an entrepreneur in a capitalist economy employs a labour-intensive or capital-intensive technique for production?",
                 options: [
-                    'A. The study is purely microeconomic, while Business Economics encompasses both micro and macro aspects.',
-                    'B. The study has a narrow scope focusing on individual firms, whereas Business Economics deals with broader societal economic problems.',
-                    'C. The study is macroeconomic in scope and aims to frame economic principles for society, while Business Economics applies these principles to solve specific business problems.',
-                    'D. Both studies are essentially the same, as Economics and Business Economics are synonymous terms.'
+                    "The command of the central planning authority.",
+                    "The relative prices of factors of production (labour and capital).",
+                    "The goal of maximizing consumer sovereignty.",
+                    "The societal interest in minimizing the cost of raw materials."
                 ],
-                answer: 'C. The study is macroeconomic in scope and aims to frame economic principles for society, while Business Economics applies these principles to solve specific business problems.',
-                explanation: 'The study of national unemployment and overall economic output falls under Macroeconomics, which examines the economy as a whole and large economic aggregates. General Economics involves framing economic principles. In contrast, Business Economics primarily applies these economic principles (often microeconomic ones) to solve decision-making problems for specific business entities. While Business Economics incorporates elements of macro analysis, its main task is focused on proper decision-making for a particular business unit, not broad national economic issues.'
+                answer: "The relative prices of factors of production (labour and capital).",
+                explanation: "The decision of 'How to produce' relies on choosing the technique that minimizes the cost of production. If labour is relatively cheap, a labour-intensive method is used, and if capital is relatively costlier, a capital-intensive method is used. Thus, relative prices of factors are key."
             },
             {
-                question: 'Mr. G. Ramamurthy, the CEO of Worldwide Food Limited, mentions that his team spent many days analysing \'all available data to arrive at a judgement\' regarding entering the soft drink business, including details on \'production, cost, pricing, distribution, financing\'. This scenario best illustrates which aspect of Business Economics?',
+                question: "Under a purely capitalist economy, the allocation of limited resources is decided by:",
                 options: [
-                    'A. Its purely theoretical and abstract nature.',
-                    'B. Its reliance solely on positive economic theory.',
-                    'C. Its exclusive focus on external environmental issues.',
-                    'D. Its interdisciplinary nature and pragmatic approach in decision-making.',
+                    "The collective ownership represented by the State.",
+                    "Government policies and regulations.",
+                    "The impersonal forces of market demand and supply or the price mechanism.",
+                    "The consumer preferences combined with the government's direction."
                 ],
-                answer: 'D. Its interdisciplinary nature and pragmatic approach in decision-making.',
-                explanation: 'The analysis of data on production, cost, pricing, distribution, and financing for a business decision demonstrates the interdisciplinary nature of Business Economics, as it incorporates tools and concepts from various fields like Management Theory, Accounting, Marketing, Finance, and Statistics. The fact that this analysis is done to make a real-world business decision (entering a new market) highlights its pragmatic approach, which focuses on tackling practical problems faced by firms. The source states that decision making is complex and requires proper methodology and appropriate analytical tools and techniques.'
+                answer: "The impersonal forces of market demand and supply or the price mechanism.",
+                explanation: "A capitalist economy has no central planning authority; instead, it uses the impersonal forces of market demand and supply or the price mechanism to solve its central problems."
             },
             {
-                question: 'The fundamental economic concept that \'the means to satisfy unlimited wants are relatively scarce\' directly leads individuals, societies, and business units to engage in which of the following practices?',
+                question: "Consumer sovereignty, a defining characteristic of capitalism, implies that:",
                 options: [
-                    'A. Producing an unlimited variety of goods regardless of cost.',
-                    'B. Evaluating alternatives and choosing the most efficient options for resource allocation.',
-                    'C. Avoiding any form of decision-making, as all wants cannot be satisfied.',
-                    'D. Relying solely on macroeconomic analysis for all operational decisions.'
+                    "Consumers are guaranteed freedom from hunger.",
+                    "Buyers ultimately determine which goods are produced and how the economy's limited resources are allocated.",
+                    "Producers determine market prices based on production costs.",
+                    "Consumers' choice is restricted by the selective production of merit goods."
                 ],
-                answer: 'B. Evaluating alternatives and choosing the most efficient options for resource allocation.',
-                explanation: 'The fundamental facts of unlimited human wants and relatively scarce means to satisfy them create a dilemma. This forces individuals, societies, and businesses to make choices. Therefore, they must evaluate various alternatives and choose the one that gives the greatest satisfaction or provides the most efficient means of achieving a desired goal, allocating scarce resources to their highest valued uses.'
+                answer: "Buyers ultimately determine which goods are produced and how the economy's limited resources are allocated.",
+                explanation: "Consumer sovereignty means that buyers ultimately determine which goods and services will be produced and in what quantities. Based on their purchases, consumers decide how the economy's limited resources are allocated."
             },
             {
-                question: 'While Business Economics is primarily microeconomic, the sources state that \'Macroeconomic analysis also has got an important role to play\'. Which of the following best exemplifies this crucial role for a business firm?',
+                question: "How does the price mechanism specifically address the question of 'What to produce' in a capitalist economy?",
                 options: [
-                    'A. Adjusting firm policies in response to national inflation rates and government fiscal policies.',
-                    'B. Focusing exclusively on individual consumer behaviour for product pricing.',
-                    'C. Determining the least-cost input mix for a specific production process.',
-                    'D. Managing internal inventory levels for raw materials and finished goods.'
+                    "By regulating the prices of necessities through central authorities.",
+                    "By increasing the price and resultant profits of goods that consumers demand more, thereby inducing producers to shift production.",
+                    "By ensuring resources move into luxury goods regardless of profitability.",
+                    "By maintaining stability in the market through fixed prices determined by the State."
                 ],
-                answer: 'A. Adjusting firm policies in response to national inflation rates and government fiscal policies.',
-                explanation: 'Business firms operate within a broader economic environment. Macroeconomic analysis is crucial because it examines background economic conditions like the general price level (inflation), interest rates, and government policies such as fiscal policy. These factors significantly influence an individual firm’s performance and decisions, requiring the firm to understand them and fine-tune its policies to minimise adverse effects.'
+                answer: "By increasing the price and resultant profits of goods that consumers demand more, thereby inducing producers to shift production.",
+                explanation: "If consumers want more of a product, demand increases, prices rise. A rise in price (costs remaining the same) leads to more profits, which induces producers to produce more of that good. If demand decreases, prices fall, profits go down, and less is produced."
             },
             {
-                question: 'Adam Smith\'s \'The Wealth of Nations\' is considered the first modern work of Economics, focusing on the nature and causes of wealth. In contrast, what is the primary objective of Business Economics as defined in the sources?',
+                question: "Which statement represents a critical disadvantage of resource allocation under a capitalist system?",
                 options: [
-                    'A. To describe the overall state of the national economy.',
-                    'B. To formulate entirely new economic principles for general societal application.',
-                    'C. To make business decisions involving the best use of an organisation\'s scarce resources.',
-                    'D. To primarily study Non-Profit Organisations.'
+                    "Cost of production is usually minimized due to competition.",
+                    "The pattern of demand often fails to represent the real needs of the society due to income inequality.",
+                    "Incentives for innovation and technological progress are absent.",
+                    "Economic growth is slow because investors avoid economically feasible projects."
                 ],
-                answer: 'C. To make business decisions involving the best use of an organisation\'s scarce resources.',
-                explanation: 'While Economics, in a broader sense, deals with how scarce resources are allocated to satisfy unlimited wants and how wealth is created, Business Economics is specifically defined as the use of economic analysis to make business decisions. Its core objective is to aid in rational business decision-making, focusing on the best use of an organisation’s scarce resources.'
+                answer: "The pattern of demand often fails to represent the real needs of the society due to income inequality.",
+                explanation: "Due to income inequality, the pattern of demand does not represent the real needs of the society. Furthermore, resources may move into the production of luxury goods (more profitable), and less wage goods will be produced (lower profitability)."
             },
             {
-                question: 'Business Economics is described as an \'Art\'. This implies that a business economist must be skilled in which of the following?',
+                question: "In a capitalist economy, the distribution question, 'For whom to produce,' is primarily answered by:",
                 options: [
-                    'A. Developing purely abstract economic models.',
-                    'B. Objective analysis of cause and effect relationships without value judgments.',
-                    'C. Applying rules and principles practically to achieve set business objectives.',
-                    'D. Focusing exclusively on descriptive economic behavior.'
+                    "A society's decision on equity and social justice.",
+                    "The consumer’s ability to buy, which depends on their income and property ownership.",
+                    "The central authority setting quotas for minimum living standards.",
+                    "A guaranteed right to work for all individuals."
                 ],
-                answer: 'C. Applying rules and principles practically to achieve set business objectives',
-                explanation: 'The sources state that Business Economics is an Art because it involves the practical application of rules and principles for the attainment of set objectives. This means a business economist needs the skill to effectively put economic theories and principles into practice to achieve the firm\'s goals.'
+                answer: "The consumer’s ability to buy, which depends on their income and property ownership.",
+                explanation: "Goods and services are produced for those who have buying capacity. The buying capacity of an individual depends upon their income, which, in turn, depends on the amount of work done, the prices of factors owned, and how much property they own."
             },
             {
-                question: 'A firm uses \'linear programming\' to decide on the most efficient way to allocate its limited production capacity among several different products to maximise overall profit. This activity falls under which specific area of Business Economics scope?',
+                question: "The concept of socialism was initially propounded by:",
                 options: [
-                    'A. Demand Analysis and Forecasting.',
-                    'B. Resource Allocation.',
-                    'C. Inventory Management.',
-                    'D. Market Structure and Pricing Policies.'
+                    "Alfred Marshall and Adam Smith.",
+                    "Karl Marx and Frederic Engels.",
+                    "J.B. Say and A.C. Pigou.",
+                    "Samuelson and Robinson."
                 ],
-                answer: 'B. Resource Allocation.',
-                explanation: 'The use of linear programming is explicitly mentioned as an advanced tool that enables a firm to arrive at the best course of action for optimum utilisation of available resources. When a firm decides how to use its limited production capacity (a resource) to produce different products and maximise profit, it is engaged in resource allocation.'
+                answer: "Karl Marx and Frederic Engels.",
+                explanation: "The concept of socialist economy was propounded by Karl Marx and Frederic Engels in their work ‘The Communist Manifesto’ published in 1848."
             },
             {
-                question: 'The birthday money example in the sources illustrates a universal dilemma faced by every individual, society, and country. This dilemma directly arises from which fundamental economic facts?',
+                question: "A socialist economy is characterized by collective ownership of the material means of production. This characteristic implies that the driving forces of economic activity are:",
                 options: [
-                    'A. Economic activities always aim to create surplus or profit.',
-                    'B. The origin of the term \'Economics\' from \'Oikonomia\'.',
-                    'C. Human beings having unlimited wants and the means to satisfy these wants being relatively scarce.',
-                    'D. The division of Economics into Micro and Macro.'
+                    "Profit motive and self-interest.",
+                    "The forces of supply and demand.",
+                    "Socio-economic objectives, not profit motive.",
+                    "Consumer sovereignty and competition."
                 ],
-                answer: 'C. Human beings having unlimited wants and the means to satisfy these wants being relatively scarce.',
-                explanation: 'The birthday money example demonstrates that you cannot have everything you want with the limited resources available. This situation highlights the fundamental facts of Economics: that human beings have unlimited wants, but the means (resources) to satisfy these wants are relatively scarce. This scarcity forces individuals and entities to make choices and face dilemmas.'
+                answer: "Socio-economic objectives, not profit motive.",
+                explanation: "As a result of social ownership, profit-motive and self- interest are not the driving forces of economic activity. The resources are used to achieve certain socio-economic objectives."
+            },
+            {
+                question: "Why is a socialist economy also referred to as a 'Centrally Planned Economy'?",
+                options: [
+                    "Because market forces play the predominant role in resource allocation.",
+                    "Because resources are allocated according to the commands of a central planning authority.",
+                    "Because prices are determined solely by market forces.",
+                    "Because private individuals control the means of production."
+                ],
+                answer: "Because resources are allocated according to the commands of a central planning authority.",
+                explanation: "A socialist economy is also called as 'Command Economy' or a 'Centrally Planned Economy' because resources are allocated according to the commands of a central planning authority."
+            },
+            {
+                question: "What is the nature of prices prevailing in a socialist economy?",
+                options: [
+                    "Market-determined prices based on perfect competition.",
+                    "Prices determined by forces of demand and supply in the open market.",
+                    "Administered prices set by the central planning authority based on socio-economic objectives.",
+                    "Prices designed to maximize the profits of the State."
+                ],
+                answer: "Administered prices set by the central planning authority based on socio-economic objectives.",
+                explanation: "The prices prevailing under socialism are 'administered prices' which are set by the central planning authority on the basis of socio-economic objectives."
+            },
+            {
+                question: "The primary role of the price mechanism in a socialist economy is:",
+                options: [
+                    "To allocate productive resources effectively.",
+                    "To influence major economic decisions like what to produce.",
+                    "To secure the disposal of accumulated stocks, holding only a secondary role.",
+                    "To maximize profit incentives for the State."
+                ],
+                answer: "To secure the disposal of accumulated stocks, holding only a secondary role.",
+                explanation: "Price mechanism exists in a socialist economy, but it has only a secondary role, e.g., to secure the disposal of accumulated stocks. It does not influence the allocation of productive resources."
+            },
+            {
+                question: "A key mechanism through which rapid and balanced economic development is possible in a socialist economy is:",
+                options: [
+                    "Decentralized decision-making driven by self-interest.",
+                    "The central planning authority coordinating all resources efficiently according to set priorities.",
+                    "High competition leading to innovation.",
+                    "Emphasis on profit maximization by state enterprises."
+                ],
+                answer: "The central planning authority coordinating all resources efficiently according to set priorities.",
+                explanation: "Rapid and balanced economic development is possible in a socialist economy as the central planning authority coordinates all resources in an efficient manner according to set priorities."
+            },
+            {
+                question: "Which condition is guaranteed under a socialist economy, ensuring the welfare of the citizenry?",
+                options: [
+                    "Unlimited consumer choice.",
+                    "Maximum autonomy and freedom in economic activities.",
+                    "Absence of bureaucracy and red tapism.",
+                    "Right to work and minimum standard of living to all people."
+                ],
+                answer: "Right to work and minimum standard of living to all people.",
+                explanation: "Socialism ensures right to work and minimum standard of living to all people. There is also provision of comprehensive social security."
+            },
+            {
+                question: "A demerit of socialism is the lack of proper basis for cost calculation. This arises specifically because:",
+                options: [
+                    "The State encourages high competition.",
+                    "Administered prices are not determined by market forces of negotiation between buyers and sellers.",
+                    "Labourers are rewarded according to their efficiency.",
+                    "There is state ownership of only consumer goods."
+                ],
+                answer: "Administered prices are not determined by market forces of negotiation between buyers and sellers.",
+                explanation: "Administered prices are not determined by the forces of the market on the basis of negotiations between the buyers and the sellers. In the absence of such practice, there is no proper basis for cost calculation, making efficient resource allocation impossible."
+            },
+            {
+                question: "In a mixed economy, the allocation of resources is determined by:",
+                options: [
+                    "Only the Government's centralized plans.",
+                    "Only the private sector's profit motives.",
+                    "Both markets and governments.",
+                    "Global economic organizations."
+                ],
+                answer: "Both markets and governments.",
+                explanation: "The mixed economic system depends on both markets and governments for the allocation of resources."
+            },
+            {
+                question: "What is the core objective of developing a mixed economic system?",
+                options: [
+                    "To maximize the private sector's profit motive without state interference.",
+                    "To adopt the pure form of capitalism.",
+                    "To include the best features of both the controlled economy and the market economy while excluding their demerits.",
+                    "To ensure that only the public sector runs important industries."
+                ],
+                answer: "To include the best features of both the controlled economy and the market economy while excluding their demerits.",
+                explanation: "In a mixed economy, the aim is to develop a system which tries to include the best features of both the controlled economy and the market economy while excluding the demerits of both."
+            },
+            {
+                question: "How does the mixed economy attempt to rectify the failures of the pure market economy?",
+                options: [
+                    "By eliminating all forms of private enterprise.",
+                    "By ensuring that private property and profit motive fully govern all decisions.",
+                    "By having the Government run important/selected industries and imposing regulations on the private sector for welfare objectives.",
+                    "By adopting a completely socialist system."
+                ],
+                answer: "By having the Government run important/selected industries and imposing regulations on the private sector for welfare objectives.",
+                explanation: "The government should remove the defects of private enterprise, which may not promote the interests of the community as a whole. For this purpose, the Government itself must run important and selected industries and eliminate the free play of profit motive and self-interest. The state also imposes necessary measures to control and regulate the private sector to ensure they function according to welfare objectives."
+            },
+            {
+                question: "What are the three distinct sectors of industries identified in a mixed economy structure?",
+                options: [
+                    "Primary, Secondary, and Tertiary sectors.",
+                    "Production, Distribution, and Exchange sectors.",
+                    "Capitalist, Socialist, and Communist sectors.",
+                    "Private sector, Public sector, and Combined sector (Joint sectors)."
+                ],
+                answer: "Private sector, Public sector, and Combined sector (Joint sectors).",
+                explanation: "In a mixed economy, there are three sectors of industries: Private sector, Public sector, and Combined sector (A sector in which both the government and the private enterprises have equal access/join hands)."
+            },
+            {
+                question: "A key demerit of the mixed economy relates to the difficulty in maintaining a balance, which, if lost, can cause the system to resemble which other economic system, along with its associated disadvantages?",
+                options: [
+                    "Pure Socialism, leading to excessive bureaucracy.",
+                    "Pure Capitalism, leading to disproportionate growth of the private sector and its inherent inequalities.",
+                    "Command Economy, leading to limited consumer choice.",
+                    "Laissez-faire, leading to mandated administered prices."
+                ],
+                answer: "Pure Capitalism, leading to disproportionate growth of the private sector and its inherent inequalities.",
+                explanation: "In the absence of strong governmental initiatives, the private sector is likely to grow disproportionately. The system would then resemble capitalism with all its disadvantages."
+            },
+            {
+                question: "What is defined as the sum total of arrangements for the production and distribution of goods and services in a society, including various individuals and economic institutions?",
+                options: [
+                    "Price Mechanism.",
+                    "Economic Growth.",
+                    "Economic System.",
+                    "Central Planning Authority."
+                ],
+                answer: "Economic System.",
+                explanation: "An economic system refers to the sum total of arrangements for the production and distribution of goods and services in a society. In short, it is defined as the sum of the total devices which give effect to economic choice."
+            },
+            {
+                question: "What is the central problem of economics that imposes limitations on households, business firms, governments, and the nation as a whole?",
+                options: [
+                    "Economic depression.",
+                    "Inefficiency in the public sector.",
+                    "Scarcity.",
+                    "Unemployment."
+                ],
+                answer: "Scarcity.",
+                explanation: "All countries, without exceptions, face the problem of scarcity. In every economic system, scarcity imposes limitations on households, business firms, governments, and the nation as a whole."
+            },
+            {
+                question: "Why is 'Competition' considered the most important feature of the capitalist economy?",
+                options: [
+                    "It minimizes government interference.",
+                    "It ensures uniform income distribution.",
+                    "It brings out the best among buyers and sellers, resulting in efficient use of resources.",
+                    "It leads to the formation of monopolies."
+                ],
+                answer: "It brings out the best among buyers and sellers, resulting in efficient use of resources.",
+                explanation: "Competition is the most important feature of the capitalist economy. Competition brings out the best among buyers and sellers and results in efficient use of resources."
+            },
+            {
+                question: "A capitalist economy is sometimes referred to as a 'laissez-faire economy' primarily due to the characteristic of:",
+                options: [
+                    "Consumer Sovereignty.",
+                    "Right to private property.",
+                    "Freedom of enterprise.",
+                    "Absence of Government Interference in economic decisions guided by self-interest and price mechanism."
+                ],
+                answer: "Absence of Government Interference in economic decisions guided by self-interest and price mechanism.",
+                explanation: "An economy is called capitalist or a free market economy or laissez-faire economy if it has the characteristic of absence of Government Interference, where economic decisions are guided by self-interest and price mechanism operating automatically."
+            },
+            {
+                question: "Which consequence of capitalism involves enormous waste of productive resources?",
+                options: [
+                    "Exploitation of labour.",
+                    "Precedence of property rights over human rights.",
+                    "Firms spending huge amounts of money on advertisement and sales promotion activities.",
+                    "Formation of state monopolies."
+                ],
+                answer: "Firms spending huge amounts of money on advertisement and sales promotion activities.",
+                explanation: "There is enormous waste of productive resources as firms spend huge amounts of money on advertisement and sales promotion activities."
+            },
+            {
+                question: "What is the relationship between consumption, saving, and investment decisions in a capitalist economy as governed by the price mechanism?",
+                options: [
+                    "Savings are governed by the rate of return on capital, and investment depends on interest rates.",
+                    "Consumption is fixed, savings are determined by the central authority, and investment is based on profit expectation.",
+                    "Savings are governed by the interest rate, and investment decisions depend upon the rate of return on capital (profit expectation).",
+                    "Savings and investment are controlled by administered prices."
+                ],
+                answer: "Savings are governed by the interest rate, and investment decisions depend upon the rate of return on capital (profit expectation).",
+                explanation: "Consumers’ savings are governed by the rate of interest prevailing in the market, while investment decisions depend upon the rate of return on capital (greater the profit expectation, the greater the investment)."
+            },
+            {
+                question: "If a government decides to put restrictions on the use of privately owned land for the benefit of society in general, this action relates to the characteristic of which economic system?",
+                options: [
+                    "Pure Socialist Economy, as private property is not allowed.",
+                    "Pure Capitalist Economy, as private property is unlimited.",
+                    "Capitalist Economy, where the government may put some restrictions on private property for the benefit of society.",
+                    "Command Economy, as consumer sovereignty is restricted."
+                ],
+                answer: "Capitalist Economy, where the government may put some restrictions on private property for the benefit of society.",
+                explanation: "Under Capitalism, the right to private property exists, and owners are free to use and bequeath it as desired. However, the government may put some restrictions for the benefit of the society in general."
+            },
+            {
+                question: "How does competition specifically benefit consumers in a capitalist system?",
+                options: [
+                    "By guaranteeing equal income distribution.",
+                    "By forcing producers to bring in a large variety of good quality products at reasonable prices, maximizing consumer satisfaction.",
+                    "By eliminating all forms of advertising waste.",
+                    "By protecting laborers from exploitation."
+                ],
+                answer: "By forcing producers to bring in a large variety of good quality products at reasonable prices, maximizing consumer satisfaction.",
+                explanation: "Consumers are benefitted as competition forces producers to bring in a large variety of good quality products at reasonable prices. This, along with freedom of choice, ensures maximum satisfaction to consumers and results in a higher standard of living."
+            },
+            {
+                question: "The central economic problem is further divided into four basic economic problems. Which of the following is *not* one of them as defined in the source?",
+                options: [
+                    "How to produce?",
+                    "What provisions (if any) are to be made for economic growth?",
+                    "Who produces what?",
+                    "For whom to produce?"
+                ],
+                answer: "Who produces what?",
+                explanation: "The four basic economic problems are: What to produce? How to produce? For whom to produce? and What provisions (if any) are to be made for economic growth?. 'Who produces what?' is not listed as one of the four."
+            },
+            {
+                question: "Why would an economy decide against using all its scarce resources for current consumption only?",
+                options: [
+                    "To maximize current profits for private owners.",
+                    "To ensure that production capacity increases, preventing stagnation or decline in future living standards.",
+                    "To adhere to the central planning authority's mandated production targets.",
+                    "To reduce the influence of administered prices."
+                ],
+                answer: "To ensure that production capacity increases, preventing stagnation or decline in future living standards.",
+                explanation: "If all resources are used for current consumption and no provision is made for future production, the society’s production capacity would not increase. This implies that incomes or standards of living would remain stagnant, and may actually decline in the future."
+            },
+            {
+                question: "What is the specific meaning of 'relative scarcity' in economics?",
+                options: [
+                    "Scarcity caused only during natural calamities.",
+                    "Scarcity of resources in less developed countries.",
+                    "Scarcity in relation to the wants of the society.",
+                    "Absolute lack of resources."
+                ],
+                answer: "Scarcity in relation to the wants of the society.",
+                explanation: "In Economics, we use the term scarcity to mean relative scarcity i.e. scarcity in relation to the wants of the society."
+            },
+            {
+                question: "Under socialism, the range of consumer choice is limited. What is the guaranteed right that compensates for this restriction?",
+                options: [
+                    "Freedom of enterprise.",
+                    "The right to private property.",
+                    "The right to accumulate capital.",
+                    "Freedom from hunger."
+                ],
+                answer: "Freedom from hunger.",
+                explanation: "Freedom from hunger is guaranteed, but consumers’ sovereignty gets restricted by selective production of goods. The range of choice is limited by planned production."
+            },
+            {
+                question: "Which feature primarily narrows down differences in income and wealth in a socialist economy?",
+                options: [
+                    "The use of market forces for distribution.",
+                    "The absence of opportunities to accumulate private capital and equal access to educational facilities.",
+                    "Rewarding laborers based on individual efficiency.",
+                    "Encouraging risk-taking and entrepreneurial spirit."
+                ],
+                answer: "The absence of opportunities to accumulate private capital and equal access to educational facilities.",
+                explanation: "A relative equality of income is an important feature of Socialism. Differences in income and wealth are narrowed down by lack of opportunities to accumulate private capital and by facilities (like education) being enjoyed more or less equally."
+            },
+            {
+                question: "A major criticism of capitalism is that it leads to 'excessive materialism' and 'conspicuous and unethical consumption.' What is the resultant economic consequence mentioned in the sources?",
+                options: [
+                    "Economic stability.",
+                    "Development of business talents.",
+                    "Environmental degradation.",
+                    "Optimum allocation of resources."
+                ],
+                answer: "Environmental degradation.",
+                explanation: "Excessive materialism as well as conspicuous and unethical consumption leads to environmental degradation."
+            },
+            {
+                question: "Why is unemployment minimized and stability maintained in a socialist economy?",
+                options: [
+                    "Due to competition among state enterprises.",
+                    "Because it is a planned economy where business fluctuations are eliminated.",
+                    "Due to the dominance of the price mechanism.",
+                    "Because the profit motive ensures maximum production."
+                ],
+                answer: "Because it is a planned economy where business fluctuations are eliminated.",
+                explanation: "Socialist economy is a planned economy. In a planned economy, unemployment is minimised, business fluctuations are eliminated and stability is brought about and maintained."
+            },
+            {
+                question: "In a mixed economy, the Private sector operates based on self-interest and profit motive. How does the government ensure this sector aligns with welfare objectives?",
+                options: [
+                    "By eliminating self-interest entirely.",
+                    "By taking over all production functions.",
+                    "By regulating the private enterprise directly and/or indirectly using policy instruments.",
+                    "By allowing complete freedom (laissez-faire) to the private sector."
+                ],
+                answer: "By regulating the private enterprise directly and/or indirectly using policy instruments.",
+                explanation: "The Private sector in a mixed economy is based on self-interest and profit motive. However, private enterprise may be regulated by the government directly and/or indirectly by a number of policy instruments."
+            },
+            {
+                question: "The concept of 'economic choice' arises from the interplay of which two fundamental conditions?",
+                options: [
+                    "Limited wants and unlimited resources.",
+                    "Unlimited ends and limited means.",
+                    "Macroeconomic stability and microeconomic decisions.",
+                    "Positive statements and normative statements."
+                ],
+                answer: "Unlimited ends and limited means.",
+                explanation: "Unlimited human wants (ends) and scarcity of resources (limited means) lead to the central economic problems, forcing a choice. The definition of an economic system is the sum of total devices which give effect to economic choice. Also, Unlimited ends and limited means together present the problem of choice."
+            },
+            {
+                question: "What happens to the allocation of resources when state monopolies are created under socialism?",
+                options: [
+                    "They become perfectly efficient due to the absence of competition.",
+                    "They become easily controllable and regulated by the central authority.",
+                    "They sometimes become uncontrollable and more difficult to regulate than private monopolies under capitalism.",
+                    "They ensure optimum resource distribution based on market prices."
+                ],
+                answer: "They sometimes become uncontrollable and more difficult to regulate than private monopolies under capitalism.",
+                explanation: "State monopolies created by socialism will sometimes become uncontrollable. This will become more difficult to regulate than the private monopolies under capitalism."
+            },
+            {
+                question: "Capitalism is described as 'self-regulating.' This feature minimizes costs associated with:",
+                options: [
+                    "Labour exploitation and income inequality.",
+                    "Collecting, processing, and monitoring information and policies for centralized control.",
+                    "Private property rights and consumer choices.",
+                    "Investment returns and interest rates."
+                ],
+                answer: "Collecting, processing, and monitoring information and policies for centralized control.",
+                explanation: "Capitalism is self-regulating and works automatically through price mechanism. There is no need of incurring costs for collecting and processing of information and for formulating, implementing and monitoring policies."
+            },
+            {
+                question: "The basic problem of scarcity refers to the fact that:",
+                options: [
+                    "The population is growing faster than resources.",
+                    "Resources are not always allocated in an optimum way.",
+                    "The resources required to satisfy our unlimited wants are finite or scarce.",
+                    "Output is restricted only by the availability of capital goods."
+                ],
+                answer: "The resources required to satisfy our unlimited wants are finite or scarce.",
+                explanation: "Economists regard decision making as important because the resources required to satisfy our unlimited wants and needs are finite, or scarce. The basic problem of scarcity gives rise to many of the economic problems."
+            },
+            {
+                question: "In the context of the basic economic problem 'How to produce,' what makes the choice of technique (labour vs. capital intensive) essential?",
+                options: [
+                    "The necessity to maximize profits regardless of resource availability.",
+                    "The alternative uses of resources and the need to make the best use of available factors of production.",
+                    "The restriction on foreign trade and technology imports.",
+                    "The desire to eliminate unemployment completely."
+                ],
+                answer: "The alternative uses of resources and the need to make the best use of available factors of production.",
+                explanation: "Since resources have alternative uses, the choice of technique depends on the availability of different factors (labour and capital) and their relative prices. It is in the society’s interest to use those techniques of production that make the best use of the available resources."
+            },
+            {
+                question: "Which country is cited as an example of a purely socialist economy from 1917 to 1990?",
+                options: [
+                    "United States.",
+                    "United Kingdom.",
+                    "The erstwhile U.S.S.R.",
+                    "South Korea."
+                ],
+                answer: "The erstwhile U.S.S.R.",
+                explanation: "The erstwhile U.S.S.R. was an example of socialist economy from 1917 to 1990."
+            },
+            {
+                question: "Under capitalism, consumer sovereignty is sometimes referred to as a 'myth' because:",
+                options: [
+                    "The State produces what consumers must accept.",
+                    "The profit motive and excessive competition often work against consumer welfare, leading to exploitation.",
+                    "All goods produced are harmful to society.",
+                    "Producers must always produce goods preferred by consumers."
+                ],
+                answer: "The profit motive and excessive competition often work against consumer welfare, leading to exploitation.",
+                explanation: "Consumer sovereignty is a myth as consumers often become victims of exploitation. Excessive competition and profit motive work against consumer welfare."
+            },
+            {
+                question: "Which of the following describes the nature of Business Economics?",
+                options: [
+                    "It is Abstract and applies the tools of Macroeconomics.",
+                    "It involves practical application of economic theory and incorporates tools from multiple disciplines.",
+                    "It is a purely descriptive science.",
+                    "It provides exact solutions to every business problem."
+                ],
+                answer: "It involves practical application of economic theory and incorporates tools from multiple disciplines.",
+                explanation: "Business Economics involves practical application of economic theory in business decision making and incorporates tools from multiple disciplines. It is Applied Economics that fills the gap between economic theory and business practice."
+            },
+            {
+                question: "Which characteristic of a capitalist economy helps ensure faster economic growth?",
+                options: [
+                    "Economic instability due to unplanned production.",
+                    "Investors try to invest only in those projects which are economically feasible.",
+                    "High rates of taxation and reduced incentives.",
+                    "Exploitation of labour."
+                ],
+                answer: "Investors try to invest only in those projects which are economically feasible.",
+                explanation: "The process of economic growth is likely to be faster under capitalism. This is because the investors try to invest in only those projects which are economically feasible."
+            },
+            {
+                question: "Why does a capitalist set up encourage the emergence of an entrepreneurial class?",
+                options: [
+                    "It mandates state ownership of essential resources.",
+                    "It rewards men of initiative and enterprise and encourages risk taking.",
+                    "It ensures minimal differences in income and wealth.",
+                    "It operates outside a democratic framework."
+                ],
+                answer: "It rewards men of initiative and enterprise and encourages risk taking.",
+                explanation: "The capitalist set up encourages enterprise and risk taking and emergence of an entrepreneurial class willing to take risks. It also rewards men of initiative and enterprise and punishes the imprudent and inefficient."
+            },
+            {
+                question: "If an economy is experiencing overproduction, economic depression, and unemployment, this is frequently attributed to:",
+                options: [
+                    "Strict economic planning.",
+                    "The absence of profit motive.",
+                    "Unplanned production characteristic of capitalism.",
+                    "Effective implementation of price mechanism."
+                ],
+                answer: "Unplanned production characteristic of capitalism.",
+                explanation: "Due to unplanned production, economic instability in terms of over production, economic depression, unemployment etc., is very common under capitalism. These result in a lot of human misery."
+            },
+            {
+                question: "What is the primary motive guiding activities in the Private Sector of a mixed economy?",
+                options: [
+                    "Welfare of the community.",
+                    "Self-interest and profit motive.",
+                    "Following the plan priorities set by the State.",
+                    "Achieving greater economic and social equality."
+                ],
+                answer: "Self-interest and profit motive.",
+                explanation: "Industries in the private sector are based on self-interest and profit motive."
+            },
+            {
+                question: "The public sector in a mixed economy is typically set up by the State for what primary objective?",
+                options: [
+                    "To dominate the market completely.",
+                    "To maximize profit returns.",
+                    "For the welfare of the community, not primarily profit-oriented.",
+                    "To eliminate competition entirely."
+                ],
+                answer: "For the welfare of the community, not primarily profit-oriented.",
+                explanation: "Industries in the public sector are not primarily profit-oriented, but are set up by the State for the welfare of the community."
+            },
+            {
+                question: "A disadvantage unique to mixed economies, distinct from pure capitalism or pure socialism, is:",
+                options: [
+                    "The complete absence of competition.",
+                    "High economic inequality.",
+                    "The difficulty in maintaining a proper balance between the public and private sectors.",
+                    "The lack of freedom of economic choice."
+                ],
+                answer: "The difficulty in maintaining a proper balance between the public and private sectors.",
+                explanation: "Moreover, it is very difficult to maintain a proper balance between the public and private sectors."
+            },
+            {
+                question: "Which of the following is a merit of the mixed economy derived from its socialist component?",
+                options: [
+                    "Incentive to work and risk-taking.",
+                    "Price mechanism forcing efficient decision-making.",
+                    "Comparatively greater economic and social equality due to state participation.",
+                    "Consumer sovereignty and freedom of choice."
+                ],
+                answer: "Comparatively greater economic and social equality due to state participation.",
+                explanation: "Mixed economy has the advantage of comparatively greater economic and social equality and freedom from exploitation due to greater state participation and direction of economic activities."
+            },
+            {
+                question: "In a socialist economy, why is the choice of occupation restricted?",
+                options: [
+                    "Because the government guarantees freedom from hunger.",
+                    "Because these choices are determined by the central planning authority based on socio-economic goals.",
+                    "Because competition is absent.",
+                    "Because price mechanism directs labor movement."
+                ],
+                answer: "Because these choices are determined by the central planning authority based on socio-economic goals.",
+                explanation: "The right to work is guaranteed, but the choice of occupation gets restricted because these are determined by the central planning authority on the basis of certain socio-economic goals before the nation."
+            },
+            {
+                question: "If labour is not rewarded according to personal efficiency and productivity, this acts as a disincentive to work. This statement describes a demerit of:",
+                options: [
+                    "Capitalism.",
+                    "Mixed Economy.",
+                    "Socialism.",
+                    "Laissez-faire system."
+                ],
+                answer: "Socialism.",
+                explanation: "No importance is given to personal efficiency and productivity. Labourers are not rewarded according to their efficiency. This acts as a disincentive to work."
+            },
+            {
+                question: "Which concept is defined as 'scarcity in relation to the wants of the society'?",
+                options: [
+                    "Absolute scarcity.",
+                    "Relative scarcity.",
+                    "Economic depression.",
+                    "Optimum allocation."
+                ],
+                answer: "Relative scarcity.",
+                explanation: "In Economics, we use the term scarcity to mean - Relative scarcity i.e. scarcity in relation to the wants of the society."
+            },
+            {
+                question: "What happens if a capitalist economy fails to make adequate provisions for future production (investment)?",
+                options: [
+                    "Incomes or standards of living may remain stagnant or actually decline in the future.",
+                    "The economy will achieve a rapid rate of current consumption.",
+                    "There will be optimal allocation of resources.",
+                    "The rate of interest will fall dramatically."
+                ],
+                answer: "Incomes or standards of living may remain stagnant or actually decline in the future.",
+                explanation: "If no provision is made for future production, the society’s production capacity would not increase. This implies that incomes or standards of living of the people would remain stagnant, and in future, the levels of living may actually decline."
+            },
+            {
+                question: "Which characteristic is central to the right to private property under capitalism?",
+                options: [
+                    "Factors of production can only be owned by the State.",
+                    "Owners are free to use productive factors in any manner they like and bequeath it as they desire.",
+                    "The government retains complete control over the allocation of all resources.",
+                    "Productive factors are owned by the whole community."
+                ],
+                answer: "Owners are free to use productive factors in any manner they like and bequeath it as they desire.",
+                explanation: "The right to private property means that productive factors... can be under private ownership. The owners of these factors are free to use them in any manner in which they like and bequeath it as they desire."
+            },
+            {
+                question: "Why does a capitalist system often fail to produce 'merit goods' like education and health care adequately?",
+                options: [
+                    "Because the government restricts their production.",
+                    "Because they are typically less profitable than luxury goods.",
+                    "Because consumers do not demand them.",
+                    "Because they are prohibited by law."
+                ],
+                answer: "Because they are typically less profitable than luxury goods.",
+                explanation: "Less of merit goods like education and health care will be produced. On the other hand, a number of goods and services which are positively harmful to the society will be produced as they are more profitable."
+            },
+            {
+                question: "Which of the following describes the relationship between positive economics and normative economics?",
+                options: [
+                    "Positive economics prescribes solutions, while normative economics describes facts.",
+                    "Positive economics finds reasons for poor performance, while normative economics explains performance.",
+                    "Positive economics describes economic facts, while normative economics involves evaluating whether these facts are good or bad for welfare.",
+                    "Both positive and normative economics deal only with abstract theory."
+                ],
+                answer: "Positive economics describes economic facts, while normative economics involves evaluating whether these facts are good or bad for welfare.",
+                explanation: "Positive Economics describes the facts of the economy while normative Economics involves evaluating whether some of these are good or bad for the welfare of the people."
+            },
+            {
+                question: "Which economic statement is definitively normative?",
+                options: [
+                    "Unemployment rate decreases with industrialization.",
+                    "The minimum wage should be raised to a specific amount per day.",
+                    "India spends a huge amount of money on national defence.",
+                    "Planned economies allocate resources via government departments."
+                ],
+                answer: "The minimum wage should be raised to a specific amount per day.",
+                explanation: "Normative statements involve value judgments or recommendations ('should be raised' or 'ought to guarantee'), whereas the others are descriptive or factual."
+            },
+            {
+                question: "Which field of study focuses on analyzing the relationship between the price of food and the quantity purchased?",
+                options: [
+                    "Macro-Economics.",
+                    "Normative economics.",
+                    "Positive economic analysis (Microeconomics).",
+                    "Descriptive Economics."
+                ],
+                answer: "Positive economic analysis (Microeconomics).",
+                explanation: "An analysis of the relationship between the price of food and the quantity purchased is an example of 'positive' economic analysis. This relationship is typically a micro-economic subject matter."
+            },
+            {
+                question: "A study examining how increases in the corporate income tax rate will affect the national unemployment rate is an example of:",
+                options: [
+                    "Micro-economics.",
+                    "Normative economics.",
+                    "Macro-Economics.",
+                    "Business economics."
+                ],
+                answer: "Macro-Economics.",
+                explanation: "A study of how increases in the corporate income tax rate will affect the national unemployment rate is an example of Macro-Economics. Macroeconomics is also called aggregate economics and studies the national economy as a whole."
+            },
+            {
+                question: "Which scenario is *not* a subject matter of Micro-economics?",
+                options: [
+                    "The cost of producing a fire truck for Delhi's fire department.",
+                    "The quantity of mangoes produced for the mango market.",
+                    "The price of mangoes.",
+                    "The national economy’s annual rate of growth."
+                ],
+                answer: "The national economy’s annual rate of growth.",
+                explanation: "The national economy’s annual rate of growth is a topic of Macroeconomics, not Micro-economics. Micro-economics deals with individual decisions, firms, and specific markets."
+            },
+            {
+                question: "The branch of economic theory that deals exclusively with the problem of allocation of resources is known as:",
+                options: [
+                    "Macro-economic theory.",
+                    "Econometrics.",
+                    "Micro-Economic theory.",
+                    "Normative Economics."
+                ],
+                answer: "Micro-Economic theory.",
+                explanation: "The branch of economic theory that deals with the problem of allocation of resources is Micro-Economic theory."
+            },
+            {
+                question: "Which of the following is considered outside the scope of Business Economics?",
+                options: [
+                    "Capital Budgeting.",
+                    "Risk Analysis.",
+                    "Business Cycles.",
+                    "Accounting Standards."
+                ],
+                answer: "Accounting Standards.",
+                explanation: "Accounting Standards is not listed within the scope of Business Economics in the given options, whereas Capital Budgeting, Risk Analysis, and Business Cycles often are."
+            },
+            {
+                question: "In a capitalist economy, the desire for maximum profits induces entrepreneurs to organize production. This highlights which driving force of capitalism?",
+                options: [
+                    "Freedom of economic choice.",
+                    "Consumer Sovereignty.",
+                    "Profit motive.",
+                    "Right to private property."
+                ],
+                answer: "Profit motive.",
+                explanation: "Profit motive is the driving force in a free enterprise economy and directs all economic activities. Desire for profits induces entrepreneurs to organize production so as to earn maximum profits."
+            },
+            {
+                question: "If an economy is 'capital surplus,' which technique of production is economically advantageous, assuming the relative price of capital is lower?",
+                options: [
+                    "Labour-intensive technique.",
+                    "Handloom production.",
+                    "Capital-intensive technique.",
+                    "A mixed technique regardless of relative prices."
+                ],
+                answer: "Capital-intensive technique.",
+                explanation: "Capital intensive technique would get chosen in a capital surplus economy where the relative price of capital is lower. (The source also states that cost minimization relies on choosing the cheaper factor: If labour is cheaper, use labour-intensive; if capital is cheaper, use capital-intensive)."
+            },
+            {
+                question: "What is the result of 'vast economic inequality and social injustice' in a capitalist society?",
+                options: [
+                    "Optimization of resource allocation.",
+                    "Maximization of aggregate economic welfare.",
+                    "Splitting society into 'haves' and 'have-nots,' sowing seeds of social unrest and class conflict.",
+                    "High degree of operative efficiency."
+                ],
+                answer: "Splitting society into 'haves' and 'have-nots,' sowing seeds of social unrest and class conflict.",
+                explanation: "There is vast economic inequality and social injustice under capitalism. Inequalities reduce the aggregate economic welfare of the society as a whole and split the society into two classes namely the ‘haves’ and the ‘have-nots,’ sowing the seeds of social unrest and class conflict."
+            },
+            {
+                question: "Under socialism, production and distribution of goods are aimed at:",
+                options: [
+                    "Maximizing the profits of state-owned firms.",
+                    "Achieving individual self-interest.",
+                    "Maximizing the welfare of the community as a whole.",
+                    "Securing the disposal of accumulated stocks."
+                ],
+                answer: "Maximizing the welfare of the community as a whole.",
+                explanation: "Under a socialist economy, production and distribution of goods are aimed at maximizing the welfare of the community as a whole."
+            },
+            {
+                question: "Administered prices are fundamentally different from market-determined prices because administered prices are set by:",
+                options: [
+                    "Sellers in the market for profit maximization.",
+                    "Negotiations between buyers and sellers.",
+                    "An external authority, usually the government, based on socio-economic objectives.",
+                    "The forces of supply and demand."
+                ],
+                answer: "An external authority, usually the government, based on socio-economic objectives.",
+                explanation: "Administered prices refer to: Prices determined by an external authority which is usually the government and are set on the basis of socio-economic objectives."
+            },
+            {
+                question: "Which system ensures maximum satisfaction to consumers primarily through freedom of choice and quality improvements forced by competition?",
+                options: [
+                    "Socialist economy.",
+                    "Centrally Planned economy.",
+                    "Capitalist economy.",
+                    "Command economy."
+                ],
+                answer: "Capitalist economy.",
+                explanation: "Under capitalism, consumers are benefitted as competition forces producers to bring in a large variety of good quality products at reasonable prices. This, along with freedom of choice, ensures maximum satisfaction."
+            },
+            {
+                question: "Which of the following describes the key function of the price mechanism in solving 'What to produce' in a capitalist system?",
+                options: [
+                    "It signals production capacity limitations.",
+                    "It allocates resources based on the rate of return on capital.",
+                    "It decides whether to use labour or capital intensive techniques.",
+                    "It communicates consumer preferences and allocates resources based on profitable response to demand signals."
+                ],
+                answer: "It communicates consumer preferences and allocates resources based on profitable response to demand signals.",
+                explanation: "The price mechanism guides 'what to produce' by reflecting consumer demand (increase in demand causes prices/profits to rise), which induces producers to produce more of those desired goods."
+            },
+            {
+                question: "A key demerit of socialism, resulting from the predominance of bureaucracy, is:",
+                options: [
+                    "The rise of inflation and unemployment.",
+                    "Corruption, red tapism, and delays.",
+                    "The rapid growth of the private sector.",
+                    "The efficient use of resources."
+                ],
+                answer: "Corruption, red tapism, and delays.",
+                explanation: "Socialism involves the predominance of bureaucracy and the resulting inefficiency and delays. Moreover, there may also be corruption, red tapism, favouritism, etc.."
+            },
+            {
+                question: "Why is the capitalist system praised for achieving 'optimum allocation of available productive resources'?",
+                options: [
+                    "Because resources are used in activities in which they are most productive.",
+                    "Because the government centrally plans resource deployment.",
+                    "Because resources are intentionally directed away from luxury goods.",
+                    "Because competition is absent."
+                ],
+                answer: "Because resources are used in activities in which they are most productive.",
+                explanation: "Resources are used in activities in which they are most productive. This results in optimum allocation of the available productive resources of the economy."
+            },
+            {
+                question: "How do Mixed economies manage to avert the disadvantages of cut-throat competition?",
+                options: [
+                    "By eliminating the private sector entirely.",
+                    "By relying solely on the price mechanism.",
+                    "Through the government’s legislative measures such as environment and labour regulations.",
+                    "By ensuring complete absence of Government interference."
+                ],
+                answer: "Through the government’s legislative measures such as environment and labour regulations.",
+                explanation: "Disadvantages of cut-throat competition are averted through government’s legislative measures such as environment and labour regulations."
+            },
+            {
+                question: "What implication does the existence of scarcity have for the satisfaction of human wants?",
+                options: [
+                    "It requires developing ways to decrease individual wants.",
+                    "It implies that we will never be faced with the need to make choices.",
+                    "It means not all wants can be satisfied.",
+                    "It mandates the discovery of new natural resources to increase satisfaction."
+                ],
+                answer: "It means not all wants can be satisfied.",
+                explanation: "Since resources are limited and wants are unlimited, not all wants can be satisfied."
+            },
+            {
+                question: "A key characteristic that distinguishes a socialist economy from a mixed economy is:",
+                options: [
+                    "The existence of comprehensive social security.",
+                    "The presence of a profit motive as the driving force.",
+                    "The minimization of bureaucracy.",
+                    "The total lack of role for market forces in resource allocation."
+                ],
+                answer: "The total lack of role for market forces in resource allocation.",
+                explanation: "In a socialist economy, market forces have no role in the allocation of resources, whereas a mixed economy depends on both markets and governments for allocation."
+            },
+            {
+                question: "Why is 'determining how much income each person should be guaranteed' considered an example of normative economic analysis?",
+                options: [
+                    "It describes an objective fact.",
+                    "It analyzes the effect of tax rates on unemployment.",
+                    "It involves a value judgment about fairness and welfare prescription.",
+                    "It relates to the aggregate performance of the economy."
+                ],
+                answer: "It involves a value judgment about fairness and welfare prescription.",
+                explanation: "Determining how much income each person should be guaranteed (or determining the 'fair' price) involves prescriptive or welfare judgments, making it normative."
+            },
+            {
+                question: "Which of the following is *not* a fundamental right preserved under capitalism?",
+                options: [
+                    "Right to freedom.",
+                    "Right to private property.",
+                    "Right to guaranteed employment.",
+                    "Maximum amount of autonomy and freedom for participants."
+                ],
+                answer: "Right to guaranteed employment.",
+                explanation: "Capitalism preserves fundamental rights such as right to freedom and right to private property. However, there is no security of employment under capitalism, unlike socialism where the right to work is guaranteed."
+            },
+            {
+                question: "In a socialist economy, how are economic decisions like 'what to produce, when and how much' typically taken?",
+                options: [
+                    "By individual entrepreneurs seeking maximum profit.",
+                    "By the Central Planning Authority.",
+                    "By consumer spending patterns.",
+                    "By negotiations between state firms and consumers."
+                ],
+                answer: "By the Central Planning Authority.",
+                explanation: "The major economic decisions, such as what to produce, when and how much to produce, etc., are taken by the central planning authority."
+            },
+            {
+                question: "In a mixed economy, the Combined sector (Joint sectors) is characterized by:",
+                options: [
+                    "Exclusive control by the private individuals for profit.",
+                    "State ownership only for welfare objectives.",
+                    "The government and private enterprises having equal access and joining hands to produce commodities.",
+                    "Complete elimination of the profit motive."
+                ],
+                answer: "The government and private enterprises having equal access and joining hands to produce commodities.",
+                explanation: "The Combined sector is a sector in which both the government and the private enterprises have equal access, and join hands to produce commodities and services, leading to the establishment of joint sectors."
+            },
+            {
+                question: "Why does socialism tend to avoid class war?",
+                options: [
+                    "Because of the precedence of property rights over human rights.",
+                    "Because the absence of profit motive helps the community to develop a co-operative mentality, coupled with equality.",
+                    "Because resources are used only for current consumption.",
+                    "Because competition is maximized."
+                ],
+                answer: "Because the absence of profit motive helps the community to develop a co-operative mentality, coupled with equality.",
+                explanation: "The absence of profit motive helps the community to develop a co-operative mentality and avoids class war. This, along with equality, ensures better welfare of the society."
+            },
+            {
+                question: "Which problem, inherent in capitalism, causes human misery and is a result of economic instability?",
+                options: [
+                    "Optimal allocation of resources.",
+                    "Growth of business talents.",
+                    "Over production, economic depression, and unemployment.",
+                    "Freedom of economic choice."
+                ],
+                answer: "Over production, economic depression, and unemployment.",
+                explanation: "Due to unplanned production, economic instability in terms of over production, economic depression, unemployment etc., is very common under capitalism. These result in a lot of human misery."
+            },
+            {
+                question: "Under capitalism, the freedom of enterprise allows a producer to:",
+                options: [
+                    "Set prices mandated by the government.",
+                    "Set up any type of firm and produce goods and services of his choice.",
+                    "Be restricted to state-defined production quotas.",
+                    "Engage only in activities determined by relative factor prices."
+                ],
+                answer: "Set up any type of firm and produce goods and services of his choice.",
+                explanation: "Freedom of enterprise means each individual, whether consumer, producer or resource owner, is free to engage in any type of economic activity. For example, a producer is free to set up any type of firm and produce goods and services of his choice."
+            },
+            {
+                question: "The scarcity definition of Economics is associated with which economist?",
+                options: [
+                    "Alfred Marshall.",
+                    "Adam Smith.",
+                    "Robinson.",
+                    "Samuelson."
+                ],
+                answer: "Robinson.",
+                explanation: "Scarcity definition of Economics is given by Robinson."
+            },
+            {
+                question: "What is the defining element of the 'central economic problem' that must be dealt with by every economic system (capitalist, socialist, or mixed)?",
+                options: [
+                    "Ensuring all resources are used for capital goods.",
+                    "Scarcity of resources relative to the wants for them.",
+                    "High competition and maximizing profits.",
+                    "The difficulty in achieving balanced development."
+                ],
+                answer: "Scarcity of resources relative to the wants for them.",
+                explanation: "Every economic system, be it capitalist, socialist or mixed, has to deal with this central problem of scarcity of resources relative to the wants for them."
+            },
+            {
+                question: "If a farmer (Ram) says, 'My corn harvest this year is poor,' and another person (Madhu) says, 'The Government ought to guarantee that our income will not fall.' Which person is making a normative statement?",
+                options: [
+                    "Ram, because he states a fact about his harvest.",
+                    "Neither, as both are statements of fact.",
+                    "Madhu, because she uses a value judgment ('ought to').",
+                    "Both, as they deal with agricultural outcomes."
+                ],
+                answer: "Madhu, because she uses a value judgment ('ought to').",
+                explanation: "Madhu's statement uses 'ought to guarantee,' which involves a value judgment or prescription, hence it is normative."
+            },
+            {
+                question: "Economic goods are considered scarce resources because they:",
+                options: [
+                    "Are limited to man-made goods.",
+                    "Do not exist in adequate quantity to satisfy the requirements of the society.",
+                    "Cannot be increased in quantity.",
+                    "Are of primary importance in satisfying social requirements."
+                ],
+                answer: "Do not exist in adequate quantity to satisfy the requirements of the society.",
+                explanation: "Economic goods are considered scarce resources because they do not exist in adequate quantity to satisfy the requirements of the society."
+            },
+            {
+                question: "Which outcome is a direct consequence of income inequality under capitalism?",
+                options: [
+                    "High degree of operative efficiency.",
+                    "Wide differences in economic opportunities, perpetuating unfairness.",
+                    "Minimized cost of production.",
+                    "Growth of business talents."
+                ],
+                answer: "Wide differences in economic opportunities, perpetuating unfairness.",
+                explanation: "Economic inequalities lead to wide differences in economic opportunities and perpetuate unfairness in the society."
+            },
+            {
+                question: "The main reason why there is no pure socialist country in the world today is that:",
+                options: [
+                    "The US dollar became the global currency.",
+                    "The extreme form of socialism is not at all practicable.",
+                    "The profit motive has become dominant everywhere.",
+                    "All countries adopted laissez-faire policies."
+                ],
+                answer: "The extreme form of socialism is not at all practicable.",
+                explanation: "The extreme form of socialism is not at all practicable. (The source notes the erstwhile U.S.S.R. as an example but states 'In today’s world there is no country which is purely socialist')."
+            },
+            {
+                question: "In a mixed economy, one of the demerits is excessive controls by the state. This can lead to:",
+                options: [
+                    "Increased incentives for the private sector.",
+                    "Reduced incentives and constrained growth of the private sector.",
+                    "Optimal implementation of planning.",
+                    "Lower rates of taxation."
+                ],
+                answer: "Reduced incentives and constrained growth of the private sector.",
+                explanation: "Mixed economy, sometimes, is characterised by excessive controls by the state resulting in reduced incentives and constrained growth of the private sector."
+            },
+            {
+                question: "Which feature of capitalism ensures that cost of production is minimized?",
+                options: [
+                    "Absence of government interference.",
+                    "Every producer tries to maximize his profit by employing methods of production which are cost-effective.",
+                    "Consumer sovereignty.",
+                    "Precedence of property rights over human rights."
+                ],
+                answer: "Every producer tries to maximize his profit by employing methods of production which are cost-effective.",
+                explanation: "Cost of production is minimized as every producer tries to maximize his profit by employing methods of production which are cost-effective."
+            },
+            {
+                question: "According to the sources, why is the study of economics needed?",
+                options: [
+                    "The resources are limited.",
+                    "The wants are unlimited.",
+                    "The resources are unlimited and the wants are limited.",
+                    "Both the resources are limited and the wants are unlimited."
+                ],
+                answer: "Both the resources are limited and the wants are unlimited.",
+                explanation: "There is need of economic study because The resources are limited and The wants are unlimited."
+            },
+            {
+                question: "What is the primary benefit of economic study, as described in the sources?",
+                options: [
+                    "It ensures that all problems will be appropriately tackled.",
+                    "It gives exact solutions to every problem.",
+                    "It enables one to examine a problem in its right perspective.",
+                    "It helps in identifying only macro-level problems."
+                ],
+                answer: "It enables one to examine a problem in its right perspective.",
+                explanation: "The benefit of economic study is that it enables one to examine a problem in its right perspective."
+            },
+            {
+                question: "In the decision 'For whom to produce,' how does the price mechanism influence the resulting distribution in a capitalist economy?",
+                options: [
+                    "By regulating the maximum price consumers can pay.",
+                    "By linking prices to the income derived from factor ownership, thus determining buying capacity.",
+                    "By guaranteeing equal shares in the national cake.",
+                    "By prioritizing consumer goods production over capital goods."
+                ],
+                answer: "By linking prices to the income derived from factor ownership, thus determining buying capacity.",
+                explanation: "The buying capacity depends on income, which depends on the prices of the factors one owns. Higher income (linked to factor prices) means higher buying capacity, determining who gets the goods."
+            },
+            {
+                question: "Which statement about Business Economics is explicitly stated as *incorrect* in the source material?",
+                options: [
+                    "Business economics is normative in nature.",
+                    "Business Economics has a close connection with statistics.",
+                    "Business Economist need not worry about macro variables.",
+                    "Business Economics is also called Managerial Economics."
+                ],
+                answer: "Business Economist need not worry about macro variables.",
+                explanation: "The statement 'Business Economist need not worry about macro variables' is listed as incorrect. Business economics actually uses microeconomic analysis of the business unit and macroeconomic analysis of the business environment."
+            },
+            {
+                question: "Which core economic concept is universally applicable to all countries because their resources (natural productive resources, man-made capital goods, consumer goods, money, and time) are limited?",
+                options: [
+                    "Economic planning.",
+                    "Profit maximization.",
+                    "Scarcity.",
+                    "Centralized control."
+                ],
+                answer: "Scarcity.",
+                explanation: "As mentioned in the last unit, all countries, without exceptions, face the problem of scarcity. Their resources... are limited."
+            },
+            {
+                question: "The term 'Macroeconomics' is interchangeably referred to as:",
+                options: [
+                    "Applied economics.",
+                    "Aggregate economics.",
+                    "Experimental economics.",
+                    "Descriptive economics."
+                ],
+                answer: "Aggregate economics.",
+                explanation: "Macroeconomics is also called aggregate economics."
+            },
+            {
+                question: "Under a socialist system, the State is the sole entrepreneur. This results in:",
+                options: [
+                    "High competition.",
+                    "Absence of competition.",
+                    "Laissez-faire policy.",
+                    "Maximization of private property rights."
+                ],
+                answer: "Absence of competition.",
+                explanation: "Since the state is the sole entrepreneur, there is absence of competition under socialism."
+            },
+            {
+                question: "Which type of goods, if produced in larger quantities, would lead to higher production capacity in the future?",
+                options: [
+                    "Consumer goods.",
+                    "Capital goods.",
+                    "Agricultural goods.",
+                    "Public goods."
+                ],
+                answer: "Capital goods.",
+                explanation: "Larger production of capital goods would lead to higher production in future. (This relates to the necessity of making provision for economic growth, which requires investment in capital goods like machines and equipment)."
+            },
+            {
+                question: "The economic system where all means of production are owned and controlled by private individuals for profit is called:",
+                options: [
+                    "Socialism.",
+                    "Communism.",
+                    "Capitalism.",
+                    "Mixed economy."
+                ],
+                answer: "Capitalism.",
+                explanation: "Capitalism... is an economic system in which all means of production are owned and controlled by private individuals for profit."
+            },
+            {
+                question: "The problem of scarcity means that we must allocate scarce resources so that:",
+                options: [
+                    "Production occurs in the most efficient manner, irrespective of wants.",
+                    "A minimum level of income is guaranteed for every citizen.",
+                    "Society’s unlimited needs or wants are satisfied in the best possible manner.",
+                    "Command economies successfully outweigh market economies."
+                ],
+                answer: "Society’s unlimited needs or wants are satisfied in the best possible manner.",
+                explanation: "The central problem in economics is that of allocating scarce resources in such a manner that society’s unlimited needs or wants are satisfied in the best possible manner."
+            },
+            {
+                question: "The primary objective of firms in a market economy, guiding their decisions on what to hire and what to produce, is:",
+                options: [
+                    "Maximizing social welfare.",
+                    "Maximizing profits.",
+                    "Following government directives.",
+                    "Achieving equality."
+                ],
+                answer: "Maximizing profits.",
+                explanation: "Firms aim at maximizing profits. Profit motive is the driving force."
+            },
+            {
+                question: "Which type of analysis is used when identifying the causes of inflation in India?",
+                options: [
+                    "Micro-economic analysis.",
+                    "Normative economic analysis.",
+                    "Macro-economic analysis.",
+                    "Business economic analysis focused on a single firm."
+                ],
+                answer: "Macro-economic analysis.",
+                explanation: "Identifying the causes of inflation in India or determining the GNP of India suggests a macro approach."
+            },
+            {
+                question: "The statement 'Reducing inequality should be a major priority for mixed economies' is an example of:",
+                options: [
+                    "A positive economic statement.",
+                    "A descriptive statement.",
+                    "A normative economic statement.",
+                    "Micro-economic analysis."
+                ],
+                answer: "A normative economic statement.",
+                explanation: "This statement contains the prescriptive word 'should', making it normative."
+            },
+            {
+                question: "Under capitalism, the existence of private property and the profit motive result in:",
+                options: [
+                    "Bureaucratic delays.",
+                    "Greater efficiency and incentive to work.",
+                    "Exploitation of monopolies.",
+                    "Stagnant production capacity."
+                ],
+                answer: "Greater efficiency and incentive to work.",
+                explanation: "The existence of private property and the driving force of profit motive result in greater efficiency and incentive to work."
+            },
+            {
+                question: "A key demerit of socialism is that it restricts the freedom of individuals due to:",
+                options: [
+                    "The competitive market forces.",
+                    "The state ownership of material means of production and state direction/control of nearly all economic activity.",
+                    "The reward based on efficiency.",
+                    "The focus on maximizing profit."
+                ],
+                answer: "The state ownership of material means of production and state direction/control of nearly all economic activity.",
+                explanation: "It restricts the freedom of individuals as there is state ownership of the material means of production and state direction and control of nearly all economic activity."
+            },
+            {
+                question: "What is the primary factor governing consumers’ savings in a capitalist market?",
+                options: [
+                    "The profit expectation of entrepreneurs.",
+                    "The rate of return on capital.",
+                    "The rate of interest prevailing in the market.",
+                    "The level of government expenditure."
+                ],
+                answer: "The rate of interest prevailing in the market.",
+                explanation: "Consumers’ savings, among other factors, are governed by the rate of interest prevailing in the market. Higher the level of income and interest rates, higher will be the savings."
+            },
+            {
+                question: "What is the consequence of 'unplanned production' under capitalism?",
+                options: [
+                    "Resources are used in the most productive activities.",
+                    "Economic instability (over production, depression, unemployment).",
+                    "Maximization of consumer welfare.",
+                    "Avoidance of advertisement waste."
+                ],
+                answer: "Economic instability (over production, depression, unemployment).",
+                explanation: "Due to unplanned production, economic instability in terms of over production, economic depression, unemployment etc., is very common under capitalism."
+            },
+            {
+                question: "If resources were unlimited, or if a resource had only a single use, why would the economic problem not arise?",
+                options: [
+                    "Because the profit motive would be maximized.",
+                    "Because people would be able to satisfy all their wants.",
+                    "Because the government would enforce strict planning.",
+                    "Because administered prices would take over."
+                ],
+                answer: "Because people would be able to satisfy all their wants.",
+                explanation: "If the resources were unlimited, people would be able to satisfy all their wants and there would be no economic problem. Alternatively, if a resource has only a single use, then also the economic problem would not arise."
+            },
+            {
+                question: "The term 'Capitalism' is synonymous with:",
+                options: [
+                    "Command Economy.",
+                    "Centrally Planned Economy.",
+                    "Free Market Economy.",
+                    "Mixed Economy."
+                ],
+                answer: "Free Market Economy.",
+                explanation: "An economy is called capitalist or a free market economy or laissez-faire economy."
+            },
+            {
+                question: "Why is 'exploitation of labour' common under capitalism?",
+                options: [
+                    "Because the profit motive often overrides human welfare concerns.",
+                    "Because the price mechanism dictates high wages.",
+                    "Because the choice of occupation is restricted.",
+                    "Because competition is absent."
+                ],
+                answer: "Because the profit motive often overrides human welfare concerns.",
+                explanation: "The capitalist system ignores human welfare because, under a capitalist set up, the aim is profit and not the welfare of the people. Exploitation of labour is common under capitalism, often leading to strikes and lock outs."
+            },
+            {
+                question: "The absence of government interference in a purely capitalist economy means that economic decisions are guided by:",
+                options: [
+                    "Central planning and bureaucracy.",
+                    "Self-interest and price mechanism.",
+                    "Socio-economic goals.",
+                    "The elimination of private property."
+                ],
+                answer: "Self-interest and price mechanism.",
+                explanation: "In this system, all economic decisions and activities are guided by self-interest and price mechanism which operates automatically."
+            },
+            {
+                question: "Which classification system divides economies based on their mode of production, exchange, distribution, and the government's role?",
+                options: [
+                    "Micro, Macro, and Normative.",
+                    "Scarcity, Choice, and Allocation.",
+                    "Capitalist, Socialist, and Mixed economies.",
+                    "Developed and Developing economies."
+                ],
+                answer: "Capitalist, Socialist, and Mixed economies.",
+                explanation: "We divide all the economies into three broad classifications based on their mode of production, exchange, distribution and the role which their governments plays in economic activity: Capitalist, Socialist, Mixed."
+            },
+            {
+                question: "Which feature of a capitalist economy means an individual, whether consumer, producer, or resource owner, is free to engage in any type of economic activity?",
+                options: [
+                    "Freedom of economic choice.",
+                    "Consumer Sovereignty.",
+                    "Freedom of enterprise.",
+                    "Competition."
+                ],
+                answer: "Freedom of enterprise.",
+                explanation: "Freedom of enterprise: Each individual, whether consumer, producer or resource owner, is free to engage in any type of economic activity."
+            },
+            {
+                question: "Why does the pattern of demand often fail to represent the real needs of society under capitalism?",
+                options: [
+                    "Because production is centrally planned.",
+                    "Due to income inequality.",
+                    "Because the price mechanism is absent.",
+                    "Because the focus is only on wage goods."
+                ],
+                answer: "Due to income inequality.",
+                explanation: "Due to income inequality, the pattern of demand does not represent the real needs of the society."
+            },
+            {
+                question: "Which type of economy successfully eliminates business fluctuations and minimizes unemployment?",
+                options: [
+                    "Pure Capitalist Economy.",
+                    "Socialist Economy (Planned Economy).",
+                    "Laissez-faire Economy.",
+                    "Mixed Economy characterized by excessive controls."
+                ],
+                answer: "Socialist Economy (Planned Economy).",
+                explanation: "In a planned economy (Socialism), unemployment is minimised, business fluctuations are eliminated and stability is brought about and maintained."
+            },
+            {
+                question: "In a mixed economy, what is the role of the government in relation to the private sector?",
+                options: [
+                    "The government must eliminate the private sector entirely.",
+                    "The government must ensure complete self-regulation of the private sector.",
+                    "The state imposes necessary measures to control and to regulate the private sector to ensure they function in accordance with welfare objectives.",
+                    "The government must abolish the profit motive."
+                ],
+                answer: "The state imposes necessary measures to control and to regulate the private sector to ensure they function in accordance with welfare objectives.",
+                explanation: "The state imposes necessary measures to control and to regulate the private sector to ensure that they function in accordance with the welfare objectives of the nation."
+            },
+            {
+                question: "How does competition ensure efficient decision-making and better resource allocation in the private sector of a mixed economy?",
+                options: [
+                    "Through the absence of government control.",
+                    "Through the operation of the price mechanism and competition forces.",
+                    "Through strict central planning.",
+                    "By guaranteeing equal income distribution."
+                ],
+                answer: "Through the operation of the price mechanism and competition forces.",
+                explanation: "Price mechanism and competition forces the private sector to promote efficient decision- making and better resource allocation."
+            },
+            {
+                question: "Why is the capitalist economy considered to offer incentives for innovation and technological progress?",
+                options: [
+                    "The government mandates research and development.",
+                    "The profit motive encourages continuous improvement and development of business talents.",
+                    "There is no competition to suppress innovation.",
+                    "The economy is purely theoretical."
+                ],
+                answer: "The profit motive encourages continuous improvement and development of business talents.",
+                explanation: "Capitalism offers incentives for innovation and technological progress. The country as a whole benefits through growth of business talents, development of research, etc.."
+            },
+            {
+                question: "A key demerit of socialism is that state direction and control restrict which basic rights?",
+                options: [
+                    "Right to freedom and right to private property.",
+                    "Right to work and social security.",
+                    "Right to guaranteed minimum income.",
+                    "Right to centralized planning."
+                ],
+                answer: "Right to freedom and right to private property.",
+                explanation: "It restricts the freedom of individuals. Socialism takes away the basic rights such as the right of private property."
+            },
+            {
+                question: "The concept of 'economic system' gives effect to:",
+                options: [
+                    "The distribution of wealth only.",
+                    "Economic choice.",
+                    "The profit motive only.",
+                    "Central planning only."
+                ],
+                answer: "Economic choice.",
+                explanation: "An economic system is defined as the sum of the total devices which give effect to economic choice."
+            },
+            {
+                question: "Which economist is associated with the definition of economics as 'Science which deals with wealth of Nation'?",
+                options: [
+                    "Alfred Marshall.",
+                    "A C Pigou.",
+                    "J B Say.",
+                    "Adam Smith."
+                ],
+                answer: "Adam Smith.",
+                explanation: "The definition 'Science which deals with wealth of Nation' was given by Adam Smith."
+            },
+            {
+                question: "What is the consequence of resource scarcity regarding economic choices?",
+                options: [
+                    "The need to avoid all choices.",
+                    "The need to ensure resources are used in a single, predetermined way.",
+                    "It makes decision-making crucial for best allocating scarce resources to satisfy unlimited wants.",
+                    "It eliminates the need for economic study."
+                ],
+                answer: "It makes decision-making crucial for best allocating scarce resources to satisfy unlimited wants.",
+                explanation: "Economists regard decision making as important because: It is crucial to understand how we can best allocate our scarce resources to satisfy society’s unlimited wants and needs."
+            },
+            {
+                question: "Which situation is used to illustrate the core economic concept that resources have alternative uses?",
+                options: [
+                    "Financial resources being used for many purposes.",
+                    "Only coal being used as a domestic fuel.",
+                    "A resource having only a single use.",
+                    "The existence of scarcity in all countries."
+                ],
+                answer: "Financial resources being used for many purposes.",
+                explanation: "The source uses the example of coal (used as fuel for industry, producing electricity, domestic cooking) and financial resources (used for many purposes) to illustrate alternative uses."
+            },
+            {
+                question: "In a mixed economy, the achievement of rapid economic development is credited to:",
+                options: [
+                    "The complete freedom of the private sector.",
+                    "The absence of governmental controls.",
+                    "The advantages of economic planning and development based on plan priorities.",
+                    "The minimization of economic freedom."
+                ],
+                answer: "The advantages of economic planning and development based on plan priorities.",
+                explanation: "Mixed economy has the advantage of economic planning and rapid economic development on the basis of plan priorities."
+            },
+            {
+                question: "Which statement accurately defines 'Managerial Economics'?",
+                options: [
+                    "It is Abstract Economics that focuses on wealth maximization.",
+                    "It is just a theoretical concept dealing with poverty.",
+                    "It is Applied Economics that fills the gap between economic theory and business practice.",
+                    "It provides exact solutions to every macroeconomic problem."
+                ],
+                answer: "It is Applied Economics that fills the gap between economic theory and business practice.",
+                explanation: "The managerial economics is Applied Economics that fills the gap between economic theory and business practice. (Note: Business Economics is also called Managerial Economics)."
+            },
+            {
+                question: "In a capitalist economy, what ultimately happens to firms that are imprudent and inefficient?",
+                options: [
+                    "They are supported by the government.",
+                    "They are punished by the system.",
+                    "They form monopolies.",
+                    "They receive guaranteed profits."
+                ],
+                answer: "They are punished by the system.",
+                explanation: "Capitalism rewards men of initiative and enterprise and punishes the imprudent and inefficient."
+            },
+            {
+                question: "What happens if the price of cars increases significantly in a capitalist economy, assuming costs remain constant?",
+                options: [
+                    "Producers are incentivized to produce less cloth.",
+                    "Profits will increase, inducing producers to produce more cars.",
+                    "Consumers will demand less cloth.",
+                    "The central authority will step in to fix the price."
+                ],
+                answer: "Profits will increase, inducing producers to produce more cars.",
+                explanation: "If consumers want more cars, demand increases, prices increase. A rise in the price of cars, costs remaining the same, will lead to more profits. This will induce producers to produce more cars."
+            },
+            {
+                question: "Which of the following is a drawback of a mixed economy related to inefficient governance?",
+                options: [
+                    "High competition.",
+                    "Poor implementation of planning, corruption, and undue delays in economic decisions.",
+                    "Consumers’ sovereignty.",
+                    "Incentive for innovation."
+                ],
+                answer: "Poor implementation of planning, corruption, and undue delays in economic decisions.",
+                explanation: "Mixed economy... is characterised by... poor implementation of planning, higher rates of taxation, lack of efficiency, corruption, wastage of resources, undue delays in economic decisions and poor performance of the public sector."
+            },
+            {
+                question: "Under socialism, prices are administered. This practice makes which essential economic activity impossible, according to critics?",
+                options: [
+                    "Maximizing social welfare.",
+                    "Securing the disposal of accumulated stocks.",
+                    "The most economic and scientific allocation of resources and efficient functioning of the economic system.",
+                    "Eliminating business fluctuations."
+                ],
+                answer: "The most economic and scientific allocation of resources and efficient functioning of the economic system.",
+                explanation: "In the absence of a proper basis for cost calculation (due to administered prices), the most economic and scientific allocation of resources and the efficient functioning of the economic system are impossible."
+            },
+            {
+                question: "How does Business Economics relate to economic theory and business practices?",
+                options: [
+                    "It is strictly theoretical and avoids practical application.",
+                    "It attempts to indicate how business policies are firmly rooted in economic principles and takes a pragmatic approach to integration.",
+                    "It only focuses on macroeconomic aggregates.",
+                    "It denies any connection with multiple disciplines."
+                ],
+                answer: "It attempts to indicate how business policies are firmly rooted in economic principles and takes a pragmatic approach to integration.",
+                explanation: "Business economics attempts to indicate how business policies are firmly rooted in economic principles... and takes a pragmatic approach towards facilitating an integration between economic theory and business practices."
+            },
+            {
+                question: "The effect of an increasing inflation rate on the living standards of people in India is a topic of study in:",
+                options: [
+                    "Microeconomics.",
+                    "Normative economics.",
+                    "Macroeconomics.",
+                    "Business risk analysis."
+                ],
+                answer: "Macroeconomics.",
+                explanation: "The effect of an increasing inflation rate on living standards of people in India is a topic of study in Macroeconomics. Inflation rate is an aggregate economic variable."
+            },
+            {
+                question: "What determines the relative level of savings and investment in a capitalist economy?",
+                options: [
+                    "Savings are linked to interest rates, and investment to the expected rate of return on capital (prices of capital).",
+                    "Both are centrally planned by the government.",
+                    "Both are inversely related to the level of income.",
+                    "Both are governed by competition forces."
+                ],
+                answer: "Savings are linked to interest rates, and investment to the expected rate of return on capital (prices of capital).",
+                explanation: "Consumers’ savings are governed by the rate of interest... Investment decisions depend upon the rate of return on capital. The rate of interest on savings and the rate of return on capital are nothing but the prices of capital."
+            },
+            {
+                question: "Why is the problem of scarcity often viewed as crucial to understanding economics?",
+                options: [
+                    "It solely affects underdeveloped economies.",
+                    "It necessitates the fundamental decision-making process regarding resource allocation.",
+                    "It proves that all wants can be satisfied.",
+                    "It relates only to monetary limitations."
+                ],
+                answer: "It necessitates the fundamental decision-making process regarding resource allocation.",
+                explanation: "It is crucial to understand how we can best allocate our scarce resources to satisfy society’s unlimited wants and needs. The basic problem of scarcity gives rise to many of the economic problems."
+            },
+            {
+                question: "In a mixed economy, the public sector is established for welfare, while the private sector is driven by profit. This co-existence is primarily intended to:",
+                options: [
+                    "Maximize bureaucracy.",
+                    "Ensure all economic decisions are centralized.",
+                    "Balance the advantages of private efficiency with the need for community welfare.",
+                    "Eliminate all forms of government control."
+                ],
+                answer: "Balance the advantages of private efficiency with the need for community welfare.",
+                explanation: "The mixed system appreciates the advantages of private enterprise and private property with their emphasis on self-interest and profit motive, while the public sector is set up for the welfare of the community."
+            },
+            {
+                question: "Which system is most susceptible to the formation of monopolies, where large firms drive out small ones?",
+                options: [
+                    "Socialism.",
+                    "Mixed Economy (due to strict controls).",
+                    "Capitalism.",
+                    "Centrally Planned Economy."
+                ],
+                answer: "Capitalism.",
+                explanation: "Capitalism leads to the formation of monopolies as large firms may be able to drive out small ones by fair or foul means."
+            },
+            {
+                question: "The decision concerning 'What provisions are to be made for economic growth?' essentially involves a choice between:",
+                options: [
+                    "Guns versus butter.",
+                    "Labour-intensive versus capital-intensive techniques.",
+                    "Current consumption versus future progress (saving and investment).",
+                    "Haves versus have-nots."
+                ],
+                answer: "Current consumption versus future progress (saving and investment).",
+                explanation: "A society has to decide how much saving and investment (i.e. how much sacrifice of current consumption) should be made for future progress."
+            },
+            {
+                question: "The concept of 'economic choice' requires that individuals are free to make choices regarding consumption, work, production, and exchange. This 'Freedom of economic choice' is a characteristic of:",
+                options: [
+                    "Socialism.",
+                    "Command Economy.",
+                    "Capitalism.",
+                    "Only the Combined sector of a mixed economy."
+                ],
+                answer: "Capitalism.",
+                explanation: "Freedom of economic choice: All individuals are free to make their economic choices regarding consumption, work, production, exchange etc.. This freedom is one of the characteristics of a capitalist/free market economy."
+            },
+            {
+                question: "Why is it important for Business Economics to utilize both microeconomic and macroeconomic analysis?",
+                options: [
+                    "Because it deals only with aggregate variables (macro).",
+                    "Because the business unit operates within a broader business environment (macro), requiring both perspectives.",
+                    "Because microeconomic analysis is abstract, and macro is practical.",
+                    "Because only normative statements are required for business decisions."
+                ],
+                answer: "Because the business unit operates within a broader business environment (macro), requiring both perspectives.",
+                explanation: "Business economics uses micro economic analysis of the business unit and macro economic analysis of business environment."
+            },
+            {
+                question: "Which country is listed as a non-pure example that shows some features of being a capitalist economy?",
+                options: [
+                    "The erstwhile U.S.S.R.",
+                    "North Korea.",
+                    "South Korea.",
+                    "Cuba."
+                ],
+                answer: "South Korea.",
+                explanation: "Some examples of a capitalist economy may include United States and United Kingdom, Hong Kong, South Korea etc. However, many of them are not pure form of capitalism."
+            },
+            {
+                question: "Which of the following describes the potential negative outcome if the private sector grows disproportionately in a mixed economy?",
+                options: [
+                    "It will lead to higher economic and social equality.",
+                    "The system will resemble capitalism with all its disadvantages.",
+                    "The public sector will become highly efficient.",
+                    "The market forces will lose their influence."
+                ],
+                answer: "The system will resemble capitalism with all its disadvantages.",
+                explanation: "In the absence of strong governmental initiatives, the private sector is likely to grow disproportionately. The system would then resemble capitalism with all its disadvantages."
+            },
+            {
+                question: "How do capitalist economies manage to function efficiently despite having no central planning authority?",
+                options: [
+                    "Through reliance on government subsidies.",
+                    "The self-regulating nature of the price mechanism prevents confusion and chaos.",
+                    "Strict enforcement of administered prices.",
+                    "Prohibiting consumer choices."
+                ],
+                answer: "The self-regulating nature of the price mechanism prevents confusion and chaos.",
+                explanation: "If consumers want cars and producers choose cloth, there will be total confusion. However, this does not happen in a capitalist economy. Such an economy uses the impersonal forces of market demand and supply or the price mechanism to solve its central problems."
+            },
+            {
+                question: "What is the primary factor that incentivizes entrepreneurs in a capitalist system to organize production?",
+                options: [
+                    "The desire to eliminate poverty.",
+                    "The desire for profits.",
+                    "The demand for public goods.",
+                    "The need to comply with central planning."
+                ],
+                answer: "The desire for profits.",
+                explanation: "Desire for profits induces entrepreneurs to organize production so as to earn maximum profits."
+            },
+            {
+                question: "Why does a socialist system ensure better utilization of resources and maximum production?",
+                options: [
+                    "Because competition is maximized.",
+                    "Because wastes of all kinds are avoided through strict economic planning.",
+                    "Because administered prices reflect true scarcity.",
+                    "Because private property is encouraged."
+                ],
+                answer: "Because wastes of all kinds are avoided through strict economic planning.",
+                explanation: "Socialist economy is a planned economy. In a socialistic economy, there will be better utilization of resources and it ensures maximum production. Wastes of all kinds are avoided through strict economic planning. Since competition is absent, there is no wastage of resources on advertisement and sales promotion."
+            },
+            {
+                question: "The idea that economic systems should reduce inequality and prioritize welfare aligns with which type of economic statement?",
+                options: [
+                    "Positive economics.",
+                    "Descriptive economics.",
+                    "Normative economics.",
+                    "Micro-economics."
+                ],
+                answer: "Normative economics.",
+                explanation: "Statements involving 'should' or 'priority' (like 'Reducing inequality should be a major priority') are examples of normative economics."
+            },
+            {
+                question: "In a mixed economy, why does the government allow private enterprise to play a positive role?",
+                options: [
+                    "Because private enterprise ensures economic planning.",
+                    "Because it appreciates the advantages of private enterprise and private property, such as efficiency.",
+                    "Because it must eliminate the profit motive.",
+                    "Because it is required by the central planning authority."
+                ],
+                answer: "Because it appreciates the advantages of private enterprise and private property, such as efficiency.",
+                explanation: "It appreciates the advantages of private enterprise and private property with their emphasis on self-interest and profit motive. Vast economic development of England, the USA etc. is due to private enterprise. Private enterprise which has its own significance is also allowed to play a positive role."
+            },
+            {
+                question: "What is the consequence of the government ignoring human welfare under a capitalist setup?",
+                options: [
+                    "Resources are optimally allocated.",
+                    "The aim shifts to profit maximization.",
+                    "The rate of growth slows down.",
+                    "Consumer sovereignty is enhanced."
+                ],
+                answer: "The aim shifts to profit maximization.",
+                explanation: "The capitalist system ignores human welfare because, under a capitalist set up, the aim is profit and not the welfare of the people."
+            },
+            {
+                question: "If labour is relatively cheap, the society, in its interest to make the best use of available resources, should choose:",
+                options: [
+                    "Automatic looms.",
+                    "Capital-intensive techniques.",
+                    "Labour-intensive techniques.",
+                    "Techniques based solely on technological advancement."
+                ],
+                answer: "Labour-intensive techniques.",
+                explanation: "If labour is relatively cheap, he will use labour-intensive method. The society’s choice depends on availability and relative prices of factors."
+            },
+            {
+                question: "What ensures the security of citizens in a socialist system?",
+                options: [
+                    "High competition and freedom of choice.",
+                    "The right to private property and enterprise.",
+                    "Provision of comprehensive social security.",
+                    "Minimizing the role of the State."
+                ],
+                answer: "Provision of comprehensive social security.",
+                explanation: "There is provision of comprehensive social security under socialism and this makes citizens feel secure."
+            },
+            {
+                question: "What happens to the level of savings if both the level of income and the interest rates are higher in a capitalist economy?",
+                options: [
+                    "Savings will decrease.",
+                    "Savings will remain stagnant.",
+                    "Savings will be higher.",
+                    "Savings will depend entirely on profit expectation."
+                ],
+                answer: "Savings will be higher.",
+                explanation: "Higher the level of income and interest rates, higher will be the savings."
+            },
+            {
+                question: "Under which economic system is the distribution of the 'national cake' determined by factor ownership and buying capacity, leading to vast economic inequality?",
+                options: [
+                    "Socialist economy.",
+                    "Capitalist economy.",
+                    "Mixed economy (Public sector).",
+                    "Command economy."
+                ],
+                answer: "Capitalist economy.",
+                explanation: "The decision 'For whom to produce' in a capitalist economy is decided by buying capacity based on income and property ownership, leading to vast economic inequality."
+            },
+            {
+                question: "The problem of scarcity means that we must develop ways to:",
+                options: [
+                    "Decrease our individual wants.",
+                    "Allocate our scarce resources to satisfy unlimited wants.",
+                    "Increase the price of all goods.",
+                    "Eliminate the need for government intervention."
+                ],
+                answer: "Allocate our scarce resources to satisfy unlimited wants.",
+                explanation: "It is crucial to understand how we can best allocate our scarce resources to satisfy society’s unlimited wants and needs."
+            },
+            {
+                question: "How does competition in a capitalist economy ensure maximum satisfaction to consumers?",
+                options: [
+                    "By eliminating all firms that do not make profit.",
+                    "By forcing producers to offer variety, quality, and reasonable prices.",
+                    "By restricting the freedom of choice.",
+                    "By eliminating all human wants."
+                ],
+                answer: "By forcing producers to offer variety, quality, and reasonable prices.",
+                explanation: "Consumers are benefitted as competition forces producers to bring in a large variety of good quality products at reasonable prices."
+            },
+            {
+                question: "If an economy guarantees freedom of enterprise, which economic system is it likely to be?",
+                options: [
+                    "A pure socialist state (e.g., North Korea).",
+                    "A centrally planned economy.",
+                    "A free market or capitalist economy.",
+                    "A mixed economy focusing only on the public sector."
+                ],
+                answer: "A free market or capitalist economy.",
+                explanation: "Freedom of enterprise is a characteristic of a capitalist economy."
+            },
+            {
+                question: "Which basic problem relates to deciding how much wheat, how many hospitals, and how many machines have to be produced?",
+                options: [
+                    "For whom to produce?",
+                    "How to produce?",
+                    "What provision should be made for economic growth?",
+                    "What to produce?"
+                ],
+                answer: "What to produce?",
+                explanation: "A society must decide how much wheat, how many hospitals, how many schools, how many machines, how many meters of cloths etc. have to be produced. This addresses 'What to produce'."
+            },
+            {
+                question: "Which statement best describes the nature of Macroeconomics?",
+                options: [
+                    "The study of the decisions of individual businesses and people.",
+                    "The study of the price mechanism in a single market.",
+                    "The study of the national economy and the global economy as a whole.",
+                    "The study of how much income a single individual should earn."
+                ],
+                answer: "The study of the national economy and the global economy as a whole.",
+                explanation: "Macro Economics is the study of the national economy and the global economy as a whole."
+            },
+            {
+                question: "If a government intervention leads to higher rates of taxation, lack of efficiency, and corruption, this is a potential demerit of:",
+                options: [
+                    "A purely capitalist system.",
+                    "A mixed economy characterized by excessive state controls.",
+                    "A purely socialist system where bureaucracy is absent.",
+                    "A laissez-faire system."
+                ],
+                answer: "A mixed economy characterized by excessive state controls.",
+                explanation: "Mixed economy, sometimes, is characterised by excessive controls by the state resulting in... higher rates of taxation, lack of efficiency, corruption...."
+            },
+            {
+                question: "Why is Business Economics often called Managerial Economics?",
+                options: [
+                    "Because it deals with national aggregates.",
+                    "Because it is an applied subject that helps management in decision-making and training.",
+                    "Because it only studies non-profit organizations.",
+                    "Because it avoids economic principles."
+                ],
+                answer: "Because it is an applied subject that helps management in decision-making and training.",
+                explanation: "Business Economics is also called Managerial Economics. It is Applied Economics that fills the gap between economic theory and business practice."
+            },
+            {
+                question: "Which of the following describes the nature of economic goods?",
+                options: [
+                    "Goods whose quantity can be increased indefinitely.",
+                    "Goods that are of primary importance regardless of scarcity.",
+                    "Goods that are scarce relative to the wants of society.",
+                    "Goods that are always consumed by the rich."
+                ],
+                answer: "Goods that are scarce relative to the wants of society.",
+                explanation: "Economic goods are considered scarce resources because they... do not exist in adequate quantity to satisfy the requirements of the society. Scarcity is relative to wants."
+            },
+            {
+                question: "In a society, deciding 'how the goods and services should be distributed among the members' addresses which central problem?",
+                options: [
+                    "What to produce?",
+                    "How to produce?",
+                    "For whom to produce?",
+                    "What provisions for growth?"
+                ],
+                answer: "For whom to produce?",
+                explanation: "Another important decision which a society has to take is 'for whom' it should produce. A society has to decide on who should get how much of the total output of goods and services."
+            },
+            {
+                question: "How do mixed economies incorporate the advantage of economic planning?",
+                options: [
+                    "By eliminating private property.",
+                    "By relying solely on decentralized price mechanism.",
+                    "By achieving rapid economic development on the basis of plan priorities set by the state.",
+                    "By prohibiting all government regulations."
+                ],
+                answer: "By achieving rapid economic development on the basis of plan priorities set by the state.",
+                explanation: "Mixed economy has the advantage of economic planning and rapid economic development on the basis of plan priorities."
+            },
+            {
+                question: "Which of the following is an example of a capitalist economy mentioned in the sources?",
+                options: [
+                    "Vietnam.",
+                    "North Korea.",
+                    "Hong Kong.",
+                    "The erstwhile U.S.S.R."
+                ],
+                answer: "Hong Kong.",
+                explanation: "Some examples of a capitalist economy may include United States and United Kingdom, Hong Kong, South Korea etc.."
+            },
+            {
+                question: "In which economic system are competition and the profit motive entirely absent, allowing for better welfare through co-operative mentality?",
+                options: [
+                    "Capitalism.",
+                    "Mixed Economy.",
+                    "Socialism.",
+                    "Laissez-faire system."
+                ],
+                answer: "Socialism.",
+                explanation: "Since the state is the sole entrepreneur, there is absence of competition under socialism. The absence of profit motive helps the community to develop a co-operative mentality... ensuring better welfare."
+            },
+            {
+                question: "Which statement accurately reflects the definition of Microeconomics?",
+                options: [
+                    "It determines the GNP of a nation.",
+                    "It studies the causes of inflation.",
+                    "It is important for the study of a particular household and a particular firm.",
+                    "It analyzes the failure of large-scale employment."
+                ],
+                answer: "It is important for the study of a particular household and a particular firm.",
+                explanation: "Micro economics is important for study of a particular household and a particular firm."
+            },
+            {
+                question: "What happens if consumers demand less cloth in a capitalist economy?",
+                options: [
+                    "Its price would rise due to central planning.",
+                    "Its price would fall, profits would go down, and firms would have less incentive to produce it.",
+                    "The government would enforce minimum production quotas.",
+                    "The economy would shift to capital-intensive techniques."
+                ],
+                answer: "Its price would fall, profits would go down, and firms would have less incentive to produce it.",
+                explanation: "If the consumers’ demand for cloth decreases, its price would fall and profits would go down. Therefore, business firms have less incentive to produce cloth and less of cloth will be produced."
+            },
+            {
+                question: "What is the consequence of capitalist set up ignoring human welfare?",
+                options: [
+                    "It maximizes aggregate economic welfare.",
+                    "It leads to the production of harmful goods if they are more profitable.",
+                    "It guarantees employment security.",
+                    "It ensures merit goods are produced abundantly."
+                ],
+                answer: "It leads to the production of harmful goods if they are more profitable.",
+                explanation: "The capitalist system ignores human welfare... On the other hand, a number of goods and services which are positively harmful to the society will be produced as they are more profitable."
+            },
+            {
+                question: "The freedom of choice regarding consumption, work, production, and exchange is a fundamental advantage of which economic system?",
+                options: [
+                    "Socialism.",
+                    "Communism.",
+                    "Capitalism.",
+                    "Command Economy."
+                ],
+                answer: "Capitalism.",
+                explanation: "Freedom of choice is the advantage of Capitalism. All individuals are free to make their economic choices regarding consumption, work, production, exchange etc.."
+            },
+            {
+                question: "What must occur for a mythical economy where everybody is a billionaire to be without scarcity?",
+                options: [
+                    "Income must be distributed equally.",
+                    "The resources still need to be unlimited relative to wants.",
+                    "The economy must adopt central planning.",
+                    "The pre-independent Indian economy structure must be replicated."
+                ],
+                answer: "The resources still need to be unlimited relative to wants.",
+                explanation: "Even if everybody were a billionaire, scarcity (wants exceeding resources) would still exist if resources were finite and had alternative uses. Therefore, none of the options given (like a billionaire economy or equal income) are without scarcity."
+            },
+            {
+                question: "Why is the capitalist system described as functioning 'in a democratic framework'?",
+                options: [
+                    "Because consumers vote on which goods to produce.",
+                    "Because the system preserves fundamental rights such as the right to freedom.",
+                    "Because profits are equally distributed.",
+                    "Because government interference is absolute."
+                ],
+                answer: "Because the system preserves fundamental rights such as the right to freedom.",
+                explanation: "Capitalism usually functions in a democratic framework. It preserves fundamental rights such as right to freedom."
+            },
+            {
+                question: "If an entrepreneur wants to minimize their cost of production, they must choose the technique of production that reflects:",
+                options: [
+                    "The highest capital intensity.",
+                    "The highest labor availability.",
+                    "The minimization of cost based on relative factor prices.",
+                    "The maximum price of the final output."
+                ],
+                answer: "The minimization of cost based on relative factor prices.",
+                explanation: "An entrepreneur will produce goods and services choosing that technique of production which renders his cost of production minimum. Cost of production is minimized as every producer tries to maximize his profit by employing methods of production which are cost-effective."
+            },
+            {
+                question: "In a socialist economy, how is production and distribution managed to achieve maximum community welfare?",
+                options: [
+                    "Through market forces and competition.",
+                    "Through central planning to maximize welfare.",
+                    "Through consumer sovereignty.",
+                    "Through decentralized decisions aimed at self-interest."
+                ],
+                answer: "Through central planning to maximize welfare.",
+                explanation: "Under a socialist economy, production and distribution of goods are aimed at maximizing the welfare of the community as a whole. Hence the central problems are solved through planning."
+            },
+            {
+                question: "The classification of economies into capitalist, socialist, and mixed systems is based primarily on their mode of:",
+                options: [
+                    "Consumption and saving rates.",
+                    "Production, exchange, distribution, and the role of government.",
+                    "Positive versus normative analysis.",
+                    "Micro versus macro studies."
+                ],
+                answer: "Production, exchange, distribution, and the role of government.",
+                explanation: "We divide all the economies into three broad classifications based on their mode of production, exchange, distribution and the role which their governments plays in economic activity."
+            },
+            {
+                question: "In a mixed economy, why does the state run selected industries?",
+                options: [
+                    "To ensure cut-throat competition.",
+                    "To eliminate the free play of profit motive and self-interest in those important sectors.",
+                    "To maximize the profit of the private sector.",
+                    "To restrict the freedom of economic choice."
+                ],
+                answer: "To eliminate the free play of profit motive and self-interest in those important sectors.",
+                explanation: "The Government itself must run important and selected industries and eliminate the free play of profit motive and self-interest."
+            },
+            {
+                question: "Which system minimizes exploitation and inequality?",
+                options: [
+                    "Capitalism.",
+                    "Mixed economy (if private sector is dominant).",
+                    "Socialism.",
+                    "Laissez-faire."
+                ],
+                answer: "Socialism.",
+                explanation: "Exploitation and inequality are minimal under: Socialism. Socialism ensures equitable distribution of wealth and income and protects laborers and consumers from exploitation."
+            },
+            {
+                question: "The mechanism that allocates resources in a capitalist economy is fundamentally based on:",
+                options: [
+                    "Demand and supply forces (prices).",
+                    "Efficiency and equity.",
+                    "Equity and planning.",
+                    "Government command."
+                ],
+                answer: "Demand and supply forces (prices).",
+                explanation: "A capitalist economy uses prices as the principal means of allocating resources. This stems from the impersonal forces of market demand and supply."
+            },
+            {
+                question: "If an economy is characterized by both economic freedom (incentive to work) and rapid development based on plan priorities, it is exhibiting the merits of:",
+                options: [
+                    "Pure Socialism.",
+                    "Pure Capitalism.",
+                    "Mixed Economy.",
+                    "Command Economy."
+                ],
+                answer: "Mixed Economy.",
+                explanation: "A mixed economy ensures economic freedom and incentive to work (capitalist merit) and rapid economic development based on plan priorities (socialist merit)."
+            },
+            {
+                question: "In a socialist economy, how is the basic economic problem solved?",
+                options: [
+                    "By price mechanism.",
+                    "By central planning.",
+                    "By private individuals.",
+                    "By maximizing profit."
+                ],
+                answer: "By central planning.",
+                explanation: "A socialist economy uses the tool of central planning to solve its basic economic problems. The central problems are solved through planning under socialist economy."
+            },
+            {
+                question: "Which of the following is an example of an economic problem arising from the fact that resources have alternative uses?",
+                options: [
+                    "Deciding whether to produce coal or money.",
+                    "Deciding whether to use coal for industrial goods or for electricity production.",
+                    "Deciding whether to eliminate the profit motive.",
+                    "Deciding if wants are unlimited."
+                ],
+                answer: "Deciding whether to use coal for industrial goods or for electricity production.",
+                explanation: "The source explicitly states that coal can be used as fuel for industrial goods, for producing electricity, for domestic cooking, etc., highlighting alternative uses that necessitate economic choice."
             }
         ]
     },
+
     'Theory of Demand and Supply': {
         'Law of Demand and Elasticity of Demand': [
             {
@@ -35714,6 +38304,5 @@ export const questions = {
             explanation: "It was essential to do away with the temptation to finance deficit thorough the easy path of money creation. Therefore, the government entered into a historic agreement with the Reserve Bank in September 1994 to bring down the fiscal deficit in a phased manner to nil by 1997–98."
         }
     ],
-
 
 }
