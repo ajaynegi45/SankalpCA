@@ -2,7 +2,7 @@
 export const questions = {
 
     // Chapter - 1
-    "Indian Regulatory Framework": [
+    'Indian Regulatory Framework': [
         {
             question: "Which of the following is NOT explicitly mentioned as a learning outcome for Chapter 1 of the Indian Regulatory Framework?",
             options: [
@@ -2634,97 +2634,9422 @@ export const questions = {
     ],
 
 
+    'The Indian Contract Act, 1872': {
+        'Nature of Contracts': [
+            {
+                question: "The second part of the Indian Contract Act, 1872 (Sections 124-238) primarily deals with which of the following special kinds of contracts?",
+                options: ["General principles of contract law", "Indemnity and guarantee", "Formation of contingent contracts", "Enforcement of quasi contracts"],
+                answer: "Indemnity and guarantee",
+                explanation: "The Act is divisible into two parts. The second part (Sections 124-238) deals with certain special kinds of contracts, e.g., Indemnity and guarantee, bailment, pledge, and agency."
+            },
+            {
+                question: "What was the legal status regarding the division of assets among partners upon the dissolution of a partnership, as held in the case of State of Gujarat vs. Ramanlal S & Co.?",
+                options: ["It constituted a valid sale transaction liable for sales tax.", "It was held to be merely a division of assets, not a sale, as joint owners cannot be both buyer and seller.", "It was a voidable contract at the option of the sales tax officer.", "It was deemed an implied contract of sale."],
+                answer: "It was held to be merely a division of assets, not a sale, as joint owners cannot be both buyer and seller.",
+                explanation: "In State of Gujarat vs. Ramanlal S & Co. it was held that when assets of a firm were divided among partners upon dissolution, it was not a sale, because the partners, being joint owners, cannot be both buyer and seller."
+            },
+            {
+                question: "Under the Mohammedan Law of Contract, which Arabic word was used to denote 'proposal'?",
+                options: ["Ijab", "Aqd", "Qabul", "Sharias"],
+                answer: "Ijab",
+                explanation: "During the Mughal rule in India, the Arabic word ‘Ijab’ was used for proposal."
+            },
+            {
+                question: "According to the Indian Contract Act, 1872, when does a contract cease to be enforceable by law and become void?",
+                options: ["When the aggrieved party decides to rescind it within a reasonable time.", "When it is prohibited by a subsequent legislative enactment.", "When it ceases to be enforceable.", "When the object becomes unlawful."],
+                answer: "When it ceases to be enforceable.",
+                explanation: "Section 2 (j) states: “A contract which ceases to be enforceable by law becomes void when it ceases to be enforceable”."
+            },
+            {
+                question: "Which of the following is considered an essential element of a valid contract that is NOT specifically given by Section 10 of the Indian Contract Act, 1872?",
+                options: ["Lawful consideration", "Legal object", "Intention to create legal relationship", "Competency of the parties"],
+                answer: "Intention to create legal relationship",
+                explanation: "Intention to create legal relationship is listed as an essential element not given by Section 10 but still considered essential. Lawful consideration, legal object, and competency of the parties are explicitly given by Section 10."
+            },
+            {
+                question: "What is the primary implication of Sir William Anson’s observation that 'Acceptance is to offer what a lighted match is to a train of gun powder'?",
+                options: ["The offer must always precede the acceptance.", "Acceptance creates legal relationship while the offer remains inert.", "The proposal is irrevocably converted into a promise once acceptance occurs.", "The contract is only valid if both offer and acceptance are communicated simultaneously."],
+                answer: "The proposal is irrevocably converted into a promise once acceptance occurs.",
+                explanation: "The effect of this observation is that what acceptance triggers cannot be recalled or undone. Acceptance converts the offer into a promise and then it is too late to revoke it. Once an offer is accepted it becomes a promise and cannot be withdrawn or revoked."
+            },
+            {
+                question: "In the context of the communication of special conditions printed on a receipt (e.g., for dry cleaning services), what determines whether the customer is bound by those conditions?",
+                options: ["Whether the customer verbally acknowledged reading the conditions.", "The customer is bound only if the conditions are reasonable.", "The conditions must be printed in large, bold letters.", "The customer must have signed an acknowledgment of the conditions."],
+                answer: "The customer is bound only if the conditions are reasonable.",
+                explanation: "In Lily White vs. Mannuswamy, where special conditions were printed on a laundry receipt, it was held that the terms were unreasonable, and the customer was entitled to recover full value. This implies that such terms and conditions should be reasonable."
+            },
+            {
+                question: "A contract of sale requires two parties: the seller and the buyer. What is the fundamental reason a person cannot buy their own goods, according to the sources?",
+                options: ["Because only two parties are required, creating a conflict of interest.", "Because the identity of the parties must be ascertainable.", "Because a person cannot contract with himself.", "Because lawful consideration would be absent."],
+                answer: "Because a person cannot contract with himself.",
+                explanation: "One cannot contract with himself. A contract involves at least two parties... The seller and buyer must be two different persons, because a person cannot buy his own goods."
+            },
+            {
+                question: "If A offers to sell his car to B for ₹3,00,000, and B replies, 'I shall purchase your car for ₹3,00,000, if you buy my motorcycle for ₹50,000,' this response is classified as:",
+                options: ["A valid acceptance, as the main price is agreed.", "A conditional acceptance, thus constituting a counter proposal.", "A cross offer, as terms are identical.", "A breach of offer."],
+                answer: "A conditional acceptance, thus constituting a counter proposal.",
+                explanation: "If 'B' replies with a condition ('if you buy my motorcycle for ₹50,000'), 'B' cannot be considered to have accepted the proposal. A conditional acceptance or acceptance with varying or too deviant conditions is no acceptance, and such conditional acceptance is a counter proposal."
+            },
+            {
+                question: "An agreement for which of the following actions is explicitly cited as illegal in nature?",
+                options: ["Agreement in restraint of trade.", "Agreement to discover treasure by magic.", "Threat to commit murder.", "Agreement to sell land with an indefinite period of lease."],
+                answer: "Threat to commit murder.",
+                explanation: "Threat to commit murder or making/publishing defamatory statements or entering into agreements which are opposed to public policy are illegal in nature."
+            },
+            {
+                question: "According to the rule of communication of offer laid down in Section 4 of the Indian Contract Act, 1872, when is the communication of an offer considered complete?",
+                options: ["When the offeror posts the letter containing the proposal.", "When the offeree reads or receives the message contained in the letter.", "When it comes to the knowledge of the person to whom it is made.", "When the offeree signifies his assent thereto."],
+                answer: "When it comes to the knowledge of the person to whom it is made.",
+                explanation: "In terms of Section 4 of the Act, 'the communication of offer is complete when it comes to the knowledge of the person to whom it is made'."
+            },
+            {
+                question: "If a contract is good in substance but cannot be sued upon by one or both parties due to a technical defect such as being barred by limitation, it is described as a/an:",
+                options: ["Void contract", "Illegal contract", "Unenforceable contract", "Voidable contract"],
+                answer: "Unenforceable contract",
+                explanation: "Where a contract is good in substance but because of some technical defect i.e. absence in writing, barred by limitation etc. one or both the parties cannot sue upon it, it is described as an unenforceable contract."
+            },
+            {
+                question: "In the case of Carlill Vs. Carbolic Smoke Ball Co., how did Mrs. Carlill demonstrate acceptance of the general offer?",
+                options: ["By communicating her intention to purchase the smoke balls.", "By sending a telegram confirming acceptance.", "By using the smoke balls according to the printed directions.", "By suffering from influenza after the specified time."],
+                answer: "By using the smoke balls according to the printed directions.",
+                explanation: "Held, she could recover the amount as by using the smoke balls she had accepted the offer. In terms of Section 8 of the Act, anyone performing the conditions of the offer can be considered to have accepted the offer."
+            },
+            {
+                question: "Which type of contract is characterized by the existence of legal rights and obligations created and enforced by law, even when there is no intention on the part of either party to make a contract?",
+                options: ["Express Contract", "Implied Contract", "Quasi-Contract", "E-Contract"],
+                answer: "Quasi-Contract",
+                explanation: "A quasi-contract is not an actual contract, but it resembles a contract. It is created by law under certain circumstances. In other words, it is a contract in which there is no intention on part of either party to make a contract but law imposes a contract upon the parties."
+            },
+            {
+                question: "When does the communication of acceptance become complete as against the acceptor?",
+                options: ["When the acceptance is put in the course of transmission to the proposer.", "When the proposer reads the letter of acceptance.", "When it comes to the knowledge of the proposer.", "When the proposer becomes bound by the acceptance."],
+                answer: "When it comes to the knowledge of the proposer.",
+                explanation: "As against the acceptor, communication of acceptance is complete when it comes to the knowledge of the proposer."
+            },
+            {
+                question: "If A proposes to B to purchase his android mobile for ₹5000 and adds the term that if B does not reply in a week, it would be assumed that B had accepted the proposal, what is the legal result?",
+                options: ["A valid contract is formed after one week of B's silence.", "This rule is valid only if B has indicated previously that silence means acceptance.", "This term prevents the proposal from constituting a valid offer.", "The proposal is accepted by omission."],
+                answer: "This term prevents the proposal from constituting a valid offer.",
+                explanation: "Offer should not contain a term the non-compliance of which would amount to acceptance. Such an attempt ('if no reply by him in a week, it would be assumed that B had accepted the proposal') would not result into contract."
+            },
+            {
+                question: "What happens to agreements collateral to illegal agreements?",
+                options: ["They may be valid or void depending on the nature of illegality.", "They are always void.", "They are voidable at the option of the aggrieved party.", "They are valid but unenforceable."],
+                answer: "They are always void.",
+                explanation: "Agreements collateral to illegal agreements are always void."
+            },
+            {
+                question: "According to the Indian Contract Act, 1872, what is required for a person to be considered competent to contract under Section 11(c)?",
+                options: ["They must be of the age of majority.", "They must be of sound mind.", "They must not be otherwise disqualified from contracting by any law to which they are subject.", "They must have lawful consideration and object."],
+                answer: "They must not be otherwise disqualified from contracting by any law to which they are subject.",
+                explanation: "Section 11(c) specifies that every person is competent to contract who is not otherwise disqualified from contracting by any law to which he is subject. (a) and (b) are qualifications (a) and (b) respectively."
+            },
+            {
+                question: "What is the consequence if the offeror insists on acceptance being made in a prescribed manner, and the offeree accepts in a different manner?",
+                options: ["The acceptance is automatically invalid.", "The offeror is presumed to have consented to the acceptance.", "There is no acceptance of the offer unless the offeror informs the offeree that the acceptance is not according to the prescribed mode.", "The contract becomes voidable at the option of the offeree."],
+                answer: "There is no acceptance of the offer unless the offeror informs the offeree that the acceptance is not according to the prescribed mode.",
+                explanation: "If the offeror prescribes acceptance through messenger and offeree sends acceptance by email, there is no acceptance of the offer if the offeror informs the offeree that the acceptance is not according to the mode prescribed. But if the offeror fails to do so, it will be presumed that he has accepted the acceptance and a valid contract will arise."
+            },
+            {
+                question: "The case Lalman Shukla v. GauriDutt established which crucial rule regarding acceptance?",
+                options: ["Acceptance must be absolute and unqualified.", "Acceptance must be communicated to the offeror.", "Acceptance in ignorance of the offer is not a valid acceptance.", "Acceptance by conduct is always valid."],
+                answer: "Acceptance in ignorance of the offer is not a valid acceptance.",
+                explanation: "L traced the boy in ignorance of this announcement. Held, he was not entitled to the reward, as he did not know the offer. This illustrates that acceptance of an offer, in ignorance of the offer, is not acceptance and does not confer any right on the acceptor."
+            },
+            {
+                question: "In the context of the Indian Contract Act, 1872, what is the defining characteristic of a ‘Unilateral Contract’?",
+                options: ["Both parties have yet to perform their obligations.", "Only one party has performed his duty or obligation, and the other party’s obligation is outstanding.", "The agreement is enforceable only at the option of one party.", "The contract is formed using electronic means."],
+                answer: "Only one party has performed his duty or obligation, and the other party’s obligation is outstanding.",
+                explanation: "Unilateral contract is a one sided contract in which one party has performed his duty or obligation and the other party’s obligation is outstanding."
+            },
+            {
+                question: "The law applied in cities outside the Presidency Towns of Madras, Bombay, and Calcutta during the British period, prior to the Indian Contract Act, 1872, was based on:",
+                options: ["Mohammedan Law of Contract", "English Law (Common Law)", "Justice, equity, and good conscience", "Vedas and Dharam Shastras"],
+                answer: "Justice, equity, and good conscience",
+                explanation: "If one of the parties of contract is from either of the religion and other is from other religion then the law of the defendant is to be used. This was followed in the presidency towns, but in cities outside the presidency towns, the matters were solved on the basis of justice, equity and good conscience."
+            },
+            {
+                question: "If A agrees to sell to B 'a hundred tons of oil' without specifying the kind of oil, the agreement is invalid because of a lack of:",
+                options: ["Lawful object", "Possibility of performance", "Lawful consideration", "Certainty of meaning"],
+                answer: "Certainty of meaning",
+                explanation: "The agreement must be certain and not vague or indefinite. Example 8: A agrees to sell to B a hundred tons of oil. There is nothing certain in order to show what kind of oil was intended for. The offer is not capable of being accepted for want of certainty."
+            },
+            {
+                question: "Under what condition does the death or insanity of the proposer result in the automatic revocation of a proposal?",
+                options: ["When the offeree has already accepted the offer, irrespective of knowledge.", "Only if the offeree comes to know of the death or insanity before acceptance.", "Only if the proposal was a standing or continuing offer.", "If the offer was specific, not general."],
+                answer: "Only if the offeree comes to know of the death or insanity before acceptance.",
+                explanation: "Death or insanity of the proposer would result in automatic revocation of the proposal but only if the fact of death or insanity comes to the knowledge of the acceptor."
+            },
+            {
+                question: "Which section of the Indian Contract Act, 1872, codifies the legal definition of 'agreement'?",
+                options: ["Section 2(h)", "Section 2(b)", "Section 2(e)", "Section 2(a)"],
+                answer: "Section 2(e)",
+                explanation: "The term ‘agreement’ given in Section 2(e) of the Act is defined as—'every promise and every set of promises, forming the consideration for each other'."
+            },
+            {
+                question: "The distinction between an offer and an invitation to offer depends fundamentally on:",
+                options: ["The value of the goods or services offered.", "Whether the communication is oral or written.", "The intention with which such statement is made.", "The scope of potential acceptance (specific or general)."],
+                answer: "The intention with which such statement is made.",
+                explanation: "In order to ascertain whether a particular statement amounts to an ‘offer’ or an ‘invitation to offer’, the test would be intention with which such statement is made."
+            },
+            {
+                question: "If a contract is entered into using electronic means, such as e-mails, and involves Electronic Data Inter change (EDI), what is it categorized as?",
+                options: ["Executed contract", "Implied contract", "Quasi-contract", "E-Contract"],
+                answer: "E-Contract",
+                explanation: "When a contract is entered into by two or more parties using electronics means, such as e-mails is known as e-commerce contracts. These are known as EDI contracts or Cyber contracts or mouse click contracts."
+            },
+            {
+                question: "When an acceptance is communicated instantaneously (e.g., via telephone or telex), the contract is considered complete at which location?",
+                options: ["The place where the offeror spoke the offer.", "The place where the acceptor received the offer.", "The place where the acceptance is received by the offeror.", "The principal place of business of the acceptor."],
+                answer: "The place where the acceptance is received by the offeror.",
+                explanation: "When an offer is made of instantaneous communication like telex, telephone, fax or through e-mail, the contract is only complete when the acceptance is received by the offeree, and the contract is made at the place where the acceptance is received (Entores Ltd. v. Miles Far East Corporation)."
+            },
+            {
+                question: "In the case of Harvey vs. Facie, why did the Privy Council rule that the defendants had made no offer to sell the property?",
+                options: ["The price quoted (£900) was too vague.", "The defendants only replied to the inquiry about the lowest price but reserved their answer regarding willingness to sell.", "The plaintiffs failed to offer adequate consideration.", "The communication was via telegram, which lacked necessary formalities."],
+                answer: "The defendants only replied to the inquiry about the lowest price but reserved their answer regarding willingness to sell.",
+                explanation: "The defendant replied only to the second question [Telegraph lowest cash price] by quoting the price but reserved their answer with regard to their willingness to sell. Thus, they made no offer at all."
+            },
+            {
+                question: "According to Section 2(a) of the Indian Contract Act, 1872, a proposal can involve willingness 'to do' something or willingness 'to abstain from doing' something. What is 'abstinence' legally termed?",
+                options: ["A positive act", "A detrimental action", "A negative act", "A voidable omission"],
+                answer: "A negative act",
+                explanation: "Thus 'doing' is a positive act and 'not doing', or 'abstinence' is a negative act; nonetheless both these acts have the same effect in the eyes of law."
+            },
+            {
+                question: "The principle of consensus ad idem (identity of minds) is violated in which of the following circumstances?",
+                options: ["When consent is caused by coercion.", "When two or more persons agree upon the same thing in the same sense.", "When A owns two cars and agrees to sell the red one to B, but B thinks he is purchasing the black car.", "When B agrees to buy A's plot for ₹8 lakhs when A offered it for ₹10 lakhs."],
+                answer: "When A owns two cars and agrees to sell the red one to B, but B thinks he is purchasing the black car.",
+                explanation: "Example 11: A, who owns two cars is selling red car to B. B thinks he is purchasing the black car. There is no consensus ad idem and hence no contract."
+            },
+            {
+                question: "If a contract is entered into where the parties' obligations are performed immediately (e.g., a grocer selling sugar on cash payment), this is classified as a/an:",
+                options: ["Executory contract", "Implied contract", "Executed contract", "Bilateral contract"],
+                answer: "Executed contract",
+                explanation: "When the act is done or executed or the forbearance is brought on record, then the contract is an executed contract. Example 30: When a grocer sells a sugar on cash payment it is an executed contract because both the parties have done what they were to do under the contract."
+            },
+            {
+                question: "When A promises to drop a prosecution instituted against B for robbery, and B promises to restore the value of the things taken, this agreement is void because:",
+                options: ["It is not possible to be performed.", "The consideration is fraudulent.", "Its object is unlawful.", "It is a social agreement."],
+                answer: "Its object is unlawful.",
+                explanation: "Example 14: ‘A’ promises to drop prosecution instituted against ‘B’ for robbery and ‘B’ promises to restore the value of the things taken. The agreement is void, as its object is unlawful."
+            },
+            {
+                question: "A contract may be revoked by the offeror even if he had originally agreed to hold it open for a definite period of time. This is because:",
+                options: ["The offeror has absolute discretion in all offers.", "Acceptance makes the offer voidable.", "So long as it is a mere offer, it can be withdrawn whenever the offeror desires.", "The communication of acceptance is incomplete."],
+                answer: "So long as it is a mere offer, it can be withdrawn whenever the offeror desires.",
+                explanation: "An offer may be revoked by the offeror before its acceptance, even though he had originally agreed to hold it open for a definite period of time. So long as it is a mere offer, it can be withdrawn whenever the offeror desires."
+            },
+            {
+                question: "Which of the following elements is necessary to transform an agreement into a contract under Section 2(h) of the Indian Contract Act, 1872?",
+                options: ["The presence of mutual consideration.", "Enforceability by law.", "The promise resulting from acceptance.", "The capacity to perform the agreement."],
+                answer: "Enforceability by law.",
+                explanation: "Contract = Agreement + Enforceability by law. Section 2(h) defines contract as 'an agreement enforceable by law'."
+            },
+            {
+                question: "If the offeror prescribes acceptance through messenger, but the offeree sends acceptance by email, and the offeror fails to inform the offeree that the acceptance mode is incorrect, what is the outcome?",
+                options: ["The acceptance is automatically void.", "It is presumed that the offeror has consented, and a valid contract arises.", "The offer lapses due to non-fulfilment of condition precedent.", "It results in a counter-offer."],
+                answer: "It is presumed that the offeror has consented, and a valid contract arises.",
+                explanation: "If the proposal prescribes the manner in which it must be accepted, then it must be accepted accordingly. But if the proposer does not insist on the proposal being accepted in the manner prescribed after it has been accepted otherwise... the proposer is presumed to have consented to the acceptance."
+            },
+            {
+                question: "What kind of contract is exemplified when a passenger undertakes travel and the conditions of travel are printed at the back of the tickets, leading to implied consent?",
+                options: ["Express contract", "Tacit acceptance of special conditions", "Bilateral contract", "Unenforceable contract"],
+                answer: "Tacit acceptance of special conditions",
+                explanation: "Where a passenger undertakes a travel, the conditions of travel are printed at the back of the tickets... In any event, the passenger is treated as having accepted the special condition the moment he bought his ticket. This falls under tacit acceptance."
+            },
+            {
+                question: "When a proposal is accepted, the person making the proposal is called the 'promisor,' and the person accepting the proposal is called the 'promisee,' as defined under which section of the Act?",
+                options: ["Section 2(a)", "Section 2(c)", "Section 2(e)", "Section 2(h)"],
+                answer: "Section 2(c)",
+                explanation: "Promisor and Promisee [Section 2(c)]... the person making the proposal is called as ‘promisor’; and the person accepting the proposal is called as ‘promisee’."
+            },
+            {
+                question: "In the context of contract law, what does 'quid pro quo' essentially refer to?",
+                options: ["Consensus ad idem", "Free consent", "Possibility of performance", "Consideration"],
+                answer: "Consideration",
+                explanation: "Consideration: It is referred to as ‘quid pro quo’ i.e. ‘something in return’."
+            },
+            {
+                question: "Which type of agreement is defined under Section 2(g) of the Indian Contract Act, 1872?",
+                options: ["Voidable contract", "Void agreement", "Illegal agreement", "Contract"],
+                answer: "Void agreement",
+                explanation: "According to Section 2(g) of the Indian Contract Act, 'an agreement not enforceable by law is void'."
+            },
+            {
+                question: "The obligation of a person to whom money is paid under a mistake to repay it back is an example of which kind of contract?",
+                options: ["Executed contract", "E-contract", "Quasi-contract", "Implied contract"],
+                answer: "Quasi-contract",
+                explanation: "Liability of person to whom money is paid under mistake to repay it back cannot be said to arise out of a contract... These are said to be quasi-contracts."
+            },
+            {
+                question: "If a contract becomes voidable because the consent of a party was not free, which party has the right to rescind the contract within a reasonable time?",
+                options: ["The party whose consent was free.", "The party whose consent was not free.", "Both parties equally.", "Neither party, as it automatically becomes void."],
+                answer: "The party whose consent was not free.",
+                explanation: "The party whose consent was not free has the right to rescind the contract within a reasonable time. Also, it is enforceable only at the option of the aggrieved party."
+            },
+            {
+                question: "What is the legal status of an agreement where the terms are made otherwise than in words (e.g., by action or conduct)?",
+                options: ["Express contract", "Bilateral contract", "Implied contract", "Voidable contract"],
+                answer: "Implied contract",
+                explanation: "Section 9 of the Act contemplates such implied contracts when it lays down that in so far as such proposal or acceptance is made otherwise than in words, the promise is said to be implied."
+            },
+            {
+                question: "During which historical period were contracts in India primarily referred to by consulting various sources of Hindu law like Vedas, Dharam shastras, and Smritis?",
+                options: ["During the Mughal rule", "During the British period (pre-1872)", "In ancient and medieval time", "During the period of Mauryas"],
+                answer: "In ancient and medieval time",
+                explanation: "In the ancient and medieval time, there was no specific law for contracts. For this purpose, generally, different sources of Hindu law like; Vedas, Dharam shastras, Smritis, Shrutis etc. were referred."
+            },
+            {
+                question: "When a proposal is accepted by a letter sent by post, when is the communication of acceptance complete as against the proposer?",
+                options: ["When the letter is received by the proposer.", "When the acceptor posts the letter.", "When the proposer reads the letter.", "When the acceptor becomes aware of the proposer's knowledge."],
+                answer: "When the acceptor posts the letter.",
+                explanation: "The communication of acceptance will be complete as against the proposer when the letter of acceptance is posted."
+            },
+            {
+                question: "What is the legal classification of an offer which is allowed to remain open for acceptance over a period of time, such as tenders invited for the supply of goods?",
+                options: ["General offer", "Specific offer", "Counter offer", "Standing or continuing offer"],
+                answer: "Standing or continuing offer",
+                explanation: "An offer which is allowed to remain open for acceptance over a period of time is known as standing or continuing or open offer. Tenders that are invited for supply of goods is a kind of standing offer."
+            },
+            {
+                question: "Which of the following factors, if present, is classified as affecting the free consent of parties?",
+                options: ["Mistake", "Soundness of mind", "Age of majority", "Lawful object"],
+                answer: "Mistake",
+                explanation: "Consent would be considered as free consent if it is not caused by coercion, undue influence, fraud, misrepresentation or mistake. Soundness of mind, age of majority, and lawful object relate to competency and lawfulness."
+            },
+            {
+                question: "In the landmark case of Boulton vs. Jones, the offer was deemed invalid because:",
+                options: ["The acceptance was not absolute.", "The offer was specific but accepted by a different person than intended.", "The offer was revoked before acceptance.", "The subject matter was not certain."],
+                answer: "The offer was specific but accepted by a different person than intended.",
+                explanation: "Jones placed an order with Brocklehurst, but Boulton supplied the goods. Held, as the offer was not made to Boulton, therefore, there was no contract between Boulton and Jones. This exemplifies the rule that acceptance can only be given by the person to whom the offer is made."
+            },
+            {
+                question: "If the acceptance of a proposal is made otherwise than in words (e.g., by positive acts or signs), what legal action is considered to be the communication of acceptance?",
+                options: ["By omission", "By conduct", "By express words", "By implied promise"],
+                answer: "By conduct",
+                explanation: "Again communication would include any conduct intended to communicate like positive acts or signs so that the other person understands what the person ‘acting ‘ or ‘making signs’ means to say or convey. Also referred to as acceptance by conduct/Implied Acceptance."
+            },
+            {
+                question: "According to Narada Smriti, what is the age after which a person is considered competent to enter into a contract under Hindu law?",
+                options: ["8 years", "16 years", "18 years", "21 years"],
+                answer: "16 years",
+                explanation: "According to Narada smriti... after 16 years the person is competent to enter into a contract."
+            },
+            {
+                question: "In an Executory Contract, what constitutes the consideration?",
+                options: ["An act that has been performed.", "An act that has been forbidden by law.", "A reciprocal promise or obligation to be performed in the future.", "An act of forbearance that has been brought on record."],
+                answer: "A reciprocal promise or obligation to be performed in the future.",
+                explanation: "In an executory contract the consideration is reciprocal promise or obligation. Such consideration is to be performed in future only."
+            },
+            {
+                question: "Which of the following is an example of a status obligation that is outside the purview of the law of contract?",
+                options: ["An obligation resulting from a breach of promise.", "An order of the court of law to maintain wife and children.", "An obligation arising from a quasi-contract.", "An obligation to pay compensation for injury to property."],
+                answer: "An order of the court of law to maintain wife and children.",
+                explanation: "Example 3: An obligation to maintain wife and children, an order of the court of law etc. These are status obligations and so out of the scope of the Contract Act."
+            },
+            {
+                question: "What is the consequence if a correctly addressed, adequately stamped, and duly posted letter of acceptance is subsequently lost in transit?",
+                options: ["The contract is invalidated because the acceptance did not reach the proposer.", "The proposer is still bound by the contract, but the acceptor is not.", "The proposer becomes bound by the contract, and the loss of the letter will not affect its validity.", "The acceptance is considered voidable."],
+                answer: "The proposer becomes bound by the contract, and the loss of the letter will not affect its validity.",
+                explanation: "The golden rule is proposer becomes bound by the contract, the moment acceptor has posted the letter of acceptance. In such an event the loss of letter in transit, wrong delivery, non delivery etc., will not affect the validity of the contract."
+            },
+            {
+                question: "When A agrees to sell his car for ₹2 lacs to B, A is under an obligation to give the car to B. B's corresponding right in this transaction is:",
+                options: ["The right to receive consideration.", "The right to receive the car on payment of ₹2 lacs.", "The right to reject the car if B finds a better offer.", "The right to enforce the contract if the object is lawful."],
+                answer: "The right to receive the car on payment of ₹2 lacs.",
+                explanation: "Here A is under an obligation to give car to B and B has the right to receive the car on payment of ₹2 lacs."
+            },
+            {
+                question: "According to Section 2(b), when does a proposal become a promise?",
+                options: ["When the person making the proposal receives consideration.", "When the proposal is made with a view to obtaining assent.", "When the person to whom the proposal is made signifies his assent thereto.", "When the proposal is expressed in words or writing."],
+                answer: "When the person to whom the proposal is made signifies his assent thereto.",
+                explanation: "Section 2 (b) defines promise as— 'when the person to whom the proposal is made signifies his assent there to, the proposal is said to be accepted. Proposal when accepted, becomes a promise'."
+            },
+            {
+                question: "The general principle in English law regarding acceptance made through post is:",
+                options: ["Acceptance is irrevocable once the letter is properly posted.", "Acceptance can be revoked any time before it reaches the offeror.", "Acceptance is complete only when the offeror receives the letter.", "The law relating to revocation of acceptance is the same as Indian law."],
+                answer: "Acceptance is irrevocable once the letter is properly posted.",
+                explanation: "In English law, the moment a person expresses his acceptance of an offer, that moment the contract is concluded, and such an acceptance becomes irrevocable, whether it is made orally or through the post."
+            },
+            {
+                question: "If a father promises his son a pocket allowance of ₹500 every month but later refuses to pay, the son cannot recover the amount in a court of law because:",
+                options: ["The object is not lawful.", "It is a social agreement without the intention to create a legal relationship.", "The contract is voidable at the option of the father.", "The consideration is inadequate."],
+                answer: "It is a social agreement without the intention to create a legal relationship.",
+                explanation: "The son cannot recover the same in court of law as this is a social agreement. This is not created with an intention to create legal relationship and hence it is not a contract."
+            },
+            {
+                question: "Which of the following is NOT required for an agreement to be enforceable by law under Section 10?",
+                options: ["Free consent", "Competency of the parties", "Certainty of meaning", "Not expressly declared to be void"],
+                answer: "Certainty of meaning",
+                explanation: "Section 10 lists free consent, competency of the parties, and not expressly declared to be void. Certainty of meaning is considered essential but is listed under the criteria 'Not given by Section 10'."
+            },
+            {
+                question: "When one party makes a proposal to another, the person making the offer is specifically referred to as the 'promisor' or the:",
+                options: ["Offeror", "Acceptor", "Offeree", "Proposer"],
+                answer: "Offeror",
+                explanation: "The person making the proposal or offer is called the ‘promisor’ or ‘offeror’."
+            },
+            {
+                question: "In the case of Brogden vs. Metropolitan Railway Co., why was it held that no contract existed?",
+                options: ["The railway company lacked the capacity to contract.", "The manager had not communicated his acceptance (though he mentally assented) to the supplier.", "The terms of the draft agreement were too vague.", "The offer was revoked before the acceptance was finalized."],
+                answer: "The manager had not communicated his acceptance (though he mentally assented) to the supplier.",
+                explanation: "The manager wrote the word “Approved” and put the draft agreement in the drawer... By an over sight the draft agreement remained in drawer. Held, that there was no contract as the manager had not communicated his acceptance to the supplier."
+            },
+            {
+                question: "If a party to a contract promises to perform a work within a specified time but fails to do so, the contract is categorized as:",
+                options: ["Void contract", "Voidable at the option of the promisee", "Illegal contract", "Unenforceable contract"],
+                answer: "Voidable at the option of the promisee",
+                explanation: "When a party to a contract promise to perform a work within a specified time, could not perform with in that time, the contract is voidable at the option of promisee."
+            },
+            {
+                question: "According to the Indian Contract Act, 1872, what is the maximum time A has to revoke his proposal if B accepts by a letter sent by post?",
+                options: ["Any time before the letter of acceptance is delivered to A.", "Any time before or at the moment when B posts his letter of acceptance.", "Any time before the letter reaches A's knowledge.", "Within a reasonable time after B accepts."],
+                answer: "Any time before or at the moment when B posts his letter of acceptance.",
+                explanation: "A may revoke his proposal at any time before or at the moment when B posts his letter of acceptance, but not afterwards. This is because communication of acceptance is complete against the proposer when it is put into transmission."
+            },
+            {
+                question: "If an agreement is expressly or impliedly prohibited by law, it is classified as:",
+                options: ["A voidable contract", "A void agreement", "An illegal agreement", "An unenforceable contract"],
+                answer: "An illegal agreement",
+                explanation: "An illegal agreement is an agreement expressly or impliedly prohibited by law."
+            },
+            {
+                question: "Why is a display of goods for sale in shop windows considered an invitation to offer rather than an offer?",
+                options: ["The shopkeeper lacks the capacity to contract until the buyer makes an offer.", "It is only a circulation of an offer, attempting to induce definite offers.", "The price is merely suggestive and not final.", "The acceptance of the display results in a quasi-contract."],
+                answer: "It is only a circulation of an offer, attempting to induce definite offers.",
+                explanation: "An invitation to an offer is only a circulation of an offer, it is an attempt to induce offers and precedes a definite offer. Display of goods for sale in shop windows is an instance of invitation to offer."
+            },
+            {
+                question: "If an offeror makes an offer conditional on the offeree paying by RTGS, NEFT, or some other specific method, what must the offeree do for the contract to be valid?",
+                options: ["The offeree must reject the condition and propose an alternative payment method.", "The offeree must accept all the terms of the offer, including the condition.", "The offeree must only accept the core terms and ignore the payment conditions.", "The offer is invalid because payment conditions make it indefinite."],
+                answer: "The offeree must accept all the terms of the offer, including the condition.",
+                explanation: "An offer can be made subject to any terms and conditions by the offeror... The offeree will have to accept all the terms of the offer otherwise the contract will be treated as invalid."
+            },
+            {
+                question: "An agreement which is enforceable by law at the option of one or more parties thereto, but not at the option of the other or others, is defined under which section of the Act?",
+                options: ["Section 2(h)", "Section 2(e)", "Section 2(i)", "Section 2(j)"],
+                answer: "Section 2(i)",
+                explanation: "Section 2(i) defines that 'an agreement which is enforceable by law at the option of one or more parties thereto, but not at the option of the other or others is a voidable contract'."
+            },
+            {
+                question: "Which mode of revocation of offer is exemplified by the ruling in Ramsgate Victoria Hotel Co. Vs Montefiore (1866)?",
+                options: ["By notice of revocation.", "By counter offer.", "By lapse of time.", "By non-fulfilment of condition precedent."],
+                answer: "By lapse of time.",
+                explanation: "It was held in Ramsgate Victoria Hotel Co. Vs Montefiore (1866 L.R.Z. Ex 109), that a person who applied for shares in June was not bound by an allotment made in November. This illustrates revocation by lapse of time (failure to accept within a reasonable time)."
+            },
+            {
+                question: "The essential elements of a contract include 'Agreement' and 'Enforceability by law.' What fundamental component must be present for 'Agreement' to be considered legally enforceable?",
+                options: ["Reciprocal promises", "An order of the court of law", "An obligation that is contractual in nature", "Free consent, competency, lawful consideration, and lawful object"],
+                answer: "Free consent, competency, lawful consideration, and lawful object",
+                explanation: "In terms of Section 10 of the Act, 'all agreements are contracts if they are made by the free consent of the parties competent to contract, for a lawful consideration and with a lawful object and are not expressly declared to be void'."
+            },
+            {
+                question: "If a person enters into a contract while under the influence of some intoxicant, what is the legal status of their capacity to contract?",
+                options: ["They are competent to contract as long as they are of majority age.", "They are not considered a person of sound mind, rendering them incompetent.", "The contract is voidable at the option of the other party.", "The contract is void ab initio due to illegality."],
+                answer: "They are not considered a person of sound mind, rendering them incompetent.",
+                explanation: "A lunatic, an idiot, a drunken person or under the influence of some intoxicant is not supposed to be a person of sound mind."
+            },
+            {
+                question: "What is the consequence if the communication of acceptance, sent by post, is completed against the proposer, but the letter is subsequently delayed, thereby giving the acceptor an opportunity to send a faster revocation telegram?",
+                options: ["The contract is concluded by the letter of acceptance, regardless of the telegram.", "If the revocation telegram arrives before or at the same time with the letter of acceptance, the revocation is absolute.", "The communication of acceptance is voided by the delayed arrival of the letter.", "The situation leads to an awkward situation where neither party is bound."],
+                answer: "If the revocation telegram arrives before or at the same time with the letter of acceptance, the revocation is absolute.",
+                explanation: "In Indian law... the acceptor or can revoke his acceptance any time before the letter of acceptance reaches the offeror, if the revocation telegram arrives before or at the same time with the letter of acceptance, the revocation is absolute."
+            },
+            {
+                question: "If a proposal is made by post on 10th March, and the letter reaches the offeree on 12th March, but the offeree reads the contents on 15th March, on which date is the offer communicated?",
+                options: ["10th March", "12th March", "15th March", "The date the acceptance is sent"],
+                answer: "15th March",
+                explanation: "Mere receiving of the letter is not sufficient, he must receive or read the message contained in the letter. He receives the letter on 12th March, but he reads it on 15th of March. In this case offer is communicated on 15th of March."
+            },
+            {
+                question: "What kind of offer is made when two parties exchange identical offers in ignorance of each other’s offer at the time of exchange?",
+                options: ["General offer", "Counter offer", "Specific offer", "Cross offer"],
+                answer: "Cross offer",
+                explanation: "When two parties exchange identical offers in ignorance at the time of each other’s offer, the offers are called cross offers."
+            },
+            {
+                question: "What is the legal status of agreements made in restraint of marriage, trade, or legal proceedings?",
+                options: ["Voidable agreements", "Illegal agreements", "Unenforceable contracts", "Void agreements"],
+                answer: "Void agreements",
+                explanation: "Similarly, any agreement in restraint of trade, marriage, legal proceedings, etc. are classic examples of void agreements."
+            },
+            {
+                question: "When A agrees with B to discover treasure by magic, why can the agreement not be enforced?",
+                options: ["It lacks lawful consideration.", "It is impossible to be performed.", "It is expressly declared void.", "It is a social agreement."],
+                answer: "It is impossible to be performed.",
+                explanation: "The terms of agreement should be capable of performance. An agreement to do an act impossible in itself cannot be enforced. Example 10: A agrees with B to discover treasure by magic. The agreement cannot be enforced as it is not possible to be performed."
+            },
+            {
+                question: "If the owner of a property states that he would not accept less than a certain price for it (e.g., £6000/-), as per Mac Pherson vs Appanna, what does this statement indicate?",
+                options: ["A binding offer.", "A conditional acceptance.", "An invitation to offer.", "A standing offer."],
+                answer: "An invitation to offer.",
+                explanation: "The owner of the property had said that he would not accept less than £ 6000/- for it. This statement did not indicate any offer but indicated only an invitation to offer. A statement of price is generally not an offer."
+            },
+            {
+                question: "Which of the following is an example of a tacit contract?",
+                options: ["A contract of insurance.", "Cash withdrawal from an Automatic Teller Machine (ATM).", "A contract made over the telephone.", "An offer made by a tradesman in writing."],
+                answer: "Cash withdrawal from an Automatic Teller Machine (ATM).",
+                explanation: "A classic example of tacit contract would be when cash is withdrawn by a customer of a bank from the automatic teller machine [ATM]."
+            },
+            {
+                question: "When does the communication of revocation of a proposal become complete against the person who makes the revocation?",
+                options: ["When the person to whom it is made receives the notice.", "When it comes to the knowledge of the offeree.", "When it is put into a course of transmission so as to be out of the power of the person who makes it.", "When the proposer confirms the withdrawal."],
+                answer: "When it is put into a course of transmission so as to be out of the power of the person who makes it.",
+                explanation: "As against the person who makes it, when it is put into a course of transmission to the person to whom it is made so as to be out of the power of the person who makes it."
+            },
+            {
+                question: "If A agrees to sell his house to B provided B leases his land to A, and B refuses to lease the land, the offer of A is revoked automatically. This illustrates revocation by:",
+                options: ["Lapse of time.", "Counter offer.", "Non-fulfilment of condition precedent.", "Notice of revocation."],
+                answer: "Non-fulfilment of condition precedent.",
+                explanation: "Where the acceptor fails to fulfill a condition precedent to acceptance the proposal gets revoked. If ‘B’ refuses to lease the land, the offer of ‘A’ is revoked automatically."
+            },
+            {
+                question: "If an agreement lacks the intention to create a legal obligation (e.g., a social agreement), what is the relationship between this agreement and a contract?",
+                options: ["It is a contract that is voidable.", "It is an agreement but not a contract.", "It is an unenforceable contract.", "It is a valid contract, but only damages can be claimed."],
+                answer: "It is an agreement but not a contract.",
+                explanation: "An agreement to become a contract must give rise to a legal obligation. Social or domestic type of agreements are not enforceable in court of law and hence they do not result into contracts. All agreements are not contracts."
+            },
+            {
+                question: "What constitutes a 'valuable consideration' in the sense of law?",
+                options: ["Only a financial benefit accruing to one party.", "A right, interest, profit, or benefit accruing to one party, OR a forbearance, detriment, loss, or responsibility undertaken by the other.", "Only a promise to abstain from doing something.", "Something that is merely adequate in value."],
+                answer: "A right, interest, profit, or benefit accruing to one party, OR a forbearance, detriment, loss, or responsibility undertaken by the other.",
+                explanation: "A valuable consideration in the sense of law may consist either in some right, interest, profit or benefit accruing to one party, or some forbearance, detriment, loss or responsibility given, suffered or undertaken by the other."
+            },
+            {
+                question: "The Law of Contract relates to which broader branch of law?",
+                options: ["Constitutional Law", "Criminal Law", "Mercantile or Commercial Law", "Personal Law"],
+                answer: "Mercantile or Commercial Law",
+                explanation: "The Law of Contract constitutes the most important branch of mercantile or commercial law."
+            },
+            {
+                question: "Which of the following legal rules states that acceptance must be absolute and unqualified?",
+                options: ["Section 2(i)", "Section 4", "Section 7", "Section 10"],
+                answer: "Section 7",
+                explanation: "As per section 7 of the Act, acceptance is valid only when it is absolute and unqualified."
+            },
+            {
+                question: "If A makes a proposal to B to sell his car for ₹2 lacs, and B, without knowing A's proposal, makes an offer to purchase the same car at ₹2 lacs from A, what is the legal consequence?",
+                options: ["A binding contract is formed through mutual promises.", "It is a cross proposal, and there is no binding contract.", "It is a valid acceptance by B.", "It results in a bilateral contract."],
+                answer: "It is a cross proposal, and there is no binding contract.",
+                explanation: "If A makes a proposal to B... and B, without knowing the proposal of A, makes an offer to purchase the same car... it is not an acceptance, as B was not aware of proposal made by A. It is only cross proposal (cross offer). There is no binding contract in such a case."
+            },
+            {
+                question: "When does a contract made over the telephone become complete?",
+                options: ["When the acceptor speaks the words of acceptance into the phone.", "When the offeror hears and understands the words of acceptance.", "When the call is maintained without dropping or disturbance.", "When the acceptance is received by the offeree."],
+                answer: "When the offeror hears and understands the words of acceptance.",
+                explanation: "The contract is formed as soon as the offer is accepted but the offeree must make it sure that his acceptance is received by the offeror, otherwise there will be no contract. MCQ 14 in the source clarifies that acceptance is complete when the offer is heard and understood by the offeror."
+            },
+            {
+                question: "In the historical context of contract law, during the period of Mauryas, what was the foundational characteristic of contracts?",
+                options: ["They were governed by the Mohammedan Law of Contract.", "They were based on bilateral transactions with free consent.", "They were subject only to justice, equity, and good conscience.", "They required specific written formalities ('Aqd')."],
+                answer: "They were based on bilateral transactions with free consent.",
+                explanation: "During the period of Mauryas, contracts were in the form of 'bilateral transactions' which were based on free consent on all the terms and conditions involved."
+            },
+            {
+                question: "According to Section 5 of the Act, when can an acceptance be revoked?",
+                options: ["At any time before the letter of acceptance reaches the proposer.", "Any time before the communication of acceptance is complete as against the acceptor.", "Only if the proposer agrees to the revocation.", "Any time before the contract becomes voidable."],
+                answer: "Any time before the communication of acceptance is complete as against the acceptor.",
+                explanation: "An acceptance may be revoked at any time before the communication of acceptance is complete as against the acceptor."
+            },
+            {
+                question: "If the contract involves consideration that is a reciprocal promise (to be performed in the future) for an obligation that is also a reciprocal promise (to be performed in the future), this contract is specifically classified as:",
+                options: ["Unilateral contract", "Executed contract", "Bilateral contract", "Quasi-contract"],
+                answer: "Bilateral contract",
+                explanation: "A Bilateral contract is one where the obligation or promise is outstanding on the part of both the parties. These are a kind of Executory Contract."
+            },
+            {
+                question: "What is the legal implication of Boulton vs. Jones concerning general offers?",
+                options: ["It is irrelevant to general offers; it applies only to specific offers.", "It provides the exception that acceptance can be made without knowledge of the offer.", "It confirms that only the specific offeree can accept, even in a general offer scenario.", "It states that acceptance by any person having knowledge of the offer is valid."],
+                answer: "It is irrelevant to general offers; it applies only to specific offers.",
+                explanation: "Boulton vs. Jones (1857) established the rule for specific offers: acceptance can be given only by the person to whom the offer is made. The rule for general offers is established by Carlill vs. Carbolic Smoke Ball Co. (1893): acceptance by any person who has the knowledge is valid."
+            },
+            {
+                question: "An advertisement for the sale of goods by auction is legally considered:",
+                options: ["A proposal.", "An express offer.", "An invitation to the offer.", "An executed contract."],
+                answer: "An invitation to the offer.",
+                explanation: "An advertisement for sale of goods by auction is an invitation to the offer. It merely invites offers/bids made at the auction. Similar decision was given in Harris vs. Nickerson (1873)."
+            },
+            {
+                question: "If A sells goods to B on condition that B must pay within 30 days, what intention has A created, making this a contract?",
+                options: ["Intention to create a social obligation.", "Intention to create legal relationship.", "Intention to waive free consent.", "Intention to restrict trade."],
+                answer: "Intention to create legal relationship.",
+                explanation: "Example 7: Here A intended to create legal relationship with B. Hence the same is contract. On failure by B for making a payment on due date, A can sue him in the court of law."
+            },
+            {
+                question: "Why is the use of a public bus by a passenger classified as acceptance by conduct?",
+                options: ["It is a tacit contract and therefore acceptance by omission.", "The act of boarding the bus conveys acceptance to the offer by the public transport authority to carry any passenger.", "It is an express contract made by words.", "The acceptance is communicated only when the fare is paid."],
+                answer: "The act of boarding the bus conveys acceptance to the offer by the public transport authority to carry any passenger.",
+                explanation: "Similarly, one need not explain why one boards a public bus... The first act is a conduct of acceptance against its communication to the offer by the public transport authority to carry any passenger."
+            },
+            {
+                question: "The acceptance of a conditional offer subject to modifications and variations in the terms of the original offer is known as:",
+                options: ["Cross offer", "Specific offer", "Counter offer", "General offer"],
+                answer: "Counter offer",
+                explanation: "When the offeree offers to qualified acceptance of the offer subject to modifications and variations in the terms of original offer, he is said to have made a counter offer. It is also called as Conditional Acceptance."
+            },
+            {
+                question: "Under what circumstance, concerning the communication of acceptance, would an acceptor who posted the letter of acceptance NOT be bound by the acceptance?",
+                options: ["If the letter of acceptance is lost in transit.", "If the communication of acceptance never reaches the proposer.", "If the proposer revokes the offer before receiving the letter.", "If the acceptance was unqualified."],
+                answer: "If the communication of acceptance never reaches the proposer.",
+                explanation: "From the view point of acceptor, he will be bound by his acceptance only when the letter of acceptance has reached the proposer. (Communication of acceptance is complete against the acceptor when it comes to the knowledge of the proposer.)"
+            },
+            {
+                question: "If A, a dealer in mustard oil only, offers to sell B 100 quintals of oil, why is this considered a valid offer, despite the term 'oil' being used without further specification?",
+                options: ["The offer is implied by conduct.", "The certainty is implied by the course of dealing and trade context.", "The intention to create legal relations overrides the vagueness.", "The offer is conditional upon B specifying the type of oil."],
+                answer: "The certainty is implied by the course of dealing and trade context.",
+                explanation: "If in the above example [A offers to sell B 100 quintals of oil, which is otherwise uncertain], A is a dealer in mustard oil only, it shall constitute a valid offer."
+            },
+            {
+                question: "The Law of Contract is distinct from other branches of law because, instead of prescribing many rights and duties, it primarily contains:",
+                options: ["A framework for social obligations.", "A list of contractual remedies and punishments.", "A number of limiting principles subject to which parties create rights and duties for themselves.", "A codification of absolute, non-negotiable legal obligations."],
+                answer: "A number of limiting principles subject to which parties create rights and duties for themselves.",
+                explanation: "It does not prescribe so many rights and duties, which the law will protect or enforce; instead it contains a number of limiting principles subject to which the parties may create rights and duties for themselves."
+            },
+            {
+                question: "What is the primary difference in legal consequence between an illegal agreement and a void agreement, according to the distinction based on 'Nature'?",
+                options: ["Void agreements are forbidden under law, whereas illegal agreements are not.", "Illegal agreements are forbidden under law, whereas void agreements are not necessarily forbidden under law.", "Parties to void agreements are liable for punishment, but parties to illegal agreements are not.", "Void agreements are void ab initio, while illegal agreements become void later."],
+                answer: "Illegal agreements are forbidden under law, whereas void agreements are not necessarily forbidden under law.",
+                explanation: "Illegal agreements are forbidden under law. A void agreement is not necessarily illegal and is Not forbidden under law."
+            },
+            {
+                question: "An agreement must be capable of giving rise to a legal obligation to be considered enforceable by law. What kind of obligation is required?",
+                options: ["A moral obligation.", "A status obligation.", "A contractual obligation.", "A social obligation."],
+                answer: "A contractual obligation.",
+                explanation: "So, Law of Contract deals with only such legal obligations which has resulted from agreements. Such obligation must be contractual in nature."
+            },
+            {
+                question: "In the case of Neale vs. Merret, acceptance was held to be unqualified because the offeree:",
+                options: ["Failed to communicate acceptance within a reasonable time.", "Enclosed only a partial payment and proposed paying the balance in instalments.", "Proposed to buy the land for a lower price.", "Was ignorant of the terms of the original offer."],
+                answer: "Enclosed only a partial payment and proposed paying the balance in instalments.",
+                explanation: "N replied purporting to accept the offer but enclosed a cheque for £ 80 only. He promised to pay the balance of £ 200 by monthly instalments... it was held that N could not enforce his acceptance because it was not an unqualified one."
+            },
+            {
+                question: "The rule that the acceptance of an offer cannot be implied from the silence of the offeree, or his failure to answer, is based on which case law?",
+                options: ["Carlill Vs. Carbolic Smoke Ball Co.", "Felthouse vs. Bindley", "Brogden vs. Metropolitan Railway Co.", "Harvey vs. Facie"],
+                answer: "Felthouse vs. Bindley",
+                explanation: "Mere silence is not acceptance. Case Law: Felthouse vs. Bindley (1862) held that F could not succeed as his nephew had not communicated the acceptance to him."
+            },
+            {
+                question: "When A promises to sell his books to B for ₹100, B's promise to pay ₹100 serves as the consideration for what?",
+                options: ["A's right to receive the car.", "A's promise to sell his books.", "B's right to reject the books.", "The promisee's forbearance."],
+                answer: "A's promise to sell his books.",
+                explanation: "B’s promise to pay ₹ 100 is the consideration for A’s promise to sell his books. A’s promise to sell the books is the consideration for B’s promise to pay ₹ 100."
+            },
+            {
+                question: "If a written contract is required by statute (e.g., Contract of Insurance), but the parties execute it orally, what type of contract does this become?",
+                options: ["Voidable contract", "Implied contract", "Unenforceable contract (due to lack of legal formalities)", "Valid contract"],
+                answer: "Unenforceable contract (due to lack of legal formalities)",
+                explanation: "Contract of Insurance is not valid except as a written contract. Where there is any statutory requirement that any contract is to be made in writing... such legal formalities must be complied with. This technical defect makes it an unenforceable contract."
+            },
+            {
+                question: "What is the position of the offeror (proposer) regarding revocation if the letter of acceptance is correctly posted but delayed, making the proposer bound by the acceptance?",
+                options: ["The proposer can only revoke the offer if the letter is lost.", "The proposer is bound by the contract the moment the acceptor has posted the letter of acceptance.", "The proposer is only bound when the letter of acceptance reaches him.", "The proposer must wait a reasonable time before assuming the offer is accepted."],
+                answer: "The proposer is bound by the contract the moment the acceptor has posted the letter of acceptance.",
+                explanation: "The golden rule is proposer becomes bound by the contract, the moment acceptor has posted the letter of acceptance."
+            },
+            {
+                question: "Which category of contract is defined by having consideration in the form of an act or forbearance that has already been executed or done?",
+                options: ["Executed contract", "Executory contract", "Unilateral contract", "Bilateral contract"],
+                answer: "Executed contract",
+                explanation: "When the act is done or executed or the forbearance is brought on record, then the contract is an executed contract."
+            },
+            {
+                question: "Under Hindu Law, which persons were specifically mentioned as unable to enter into a valid contract?",
+                options: ["Infant, lunatic, foreign sovereign", "Minor, intoxicated person, old man or handicapped", "Any person below the age of 18 years", "Convicts and alien enemies"],
+                answer: "Minor, intoxicated person, old man or handicapped",
+                explanation: "According to Hindu law, minor, intoxicated person, old man or handicapped cannot enter into a valid contract."
+            },
+            {
+                question: "In the case of a specific offer, by whom can the offer be accepted?",
+                options: ["Any person having knowledge of the offer.", "The public at large.", "The specific or ascertained person to whom the offer has been made.", "The promisee or acceptor."],
+                answer: "The specific or ascertained person to whom the offer has been made.",
+                explanation: "Specific offer can be accepted only by that specified person to whom the offer has been made."
+            },
+            {
+                question: "What is the consequence if parties to an illegal agreement are discovered by law enforcement?",
+                options: ["They are liable for punishment.", "The agreement becomes voidable.", "They are not liable for any punishment under the law.", "Only the collateral agreements are punished."],
+                answer: "They are liable for punishment.",
+                explanation: "Parties to illegal agreements are liable for punishment."
+            },
+            {
+                question: "The term ‘consensus ad idem’ means:",
+                options: ["A promise that is legally binding.", "The capacity to contract.", "Identity of minds in understanding the terms (agreeing upon the same thing in the same sense).", "Something in return (quid pro quo)."],
+                answer: "Identity of minds in understanding the terms (agreeing upon the same thing in the same sense).",
+                explanation: "Two or more persons are said to consent when they agree upon the same thing in the same sense. This can also be understood as identity of minds in understanding the terms viz consensus ad idem."
+            },
+            {
+                question: "Which of the following scenarios results in a voidable contract?",
+                options: ["The consideration is unlawful (e.g., drugs).", "The terms of the agreement are too indefinite.", "The contract is entered into under coercion or undue influence.", "The contract becomes impossible to perform after formation."],
+                answer: "The contract is entered into under coercion or undue influence.",
+                explanation: "A contract is voidable when the consent of a party is not free, caused by coercion, undue influence, misrepresentation or fraud."
+            },
+            {
+                question: "If an offeror states that he desires to marry by the end of 2022 to the offeree, but does not explicitly ask 'Will you marry me?', what is the legal status of the communication?",
+                options: ["It constitutes a valid implied offer.", "It does not constitute an offer, as it is a mere statement of intention.", "It is a conditional offer.", "It results in a social agreement that is a contract."],
+                answer: "It does not constitute an offer, as it is a mere statement of intention.",
+                explanation: "Where ‘A’ tells ‘B’ that he desires to marry by the end of 2022, it does not constitute an offer of marriage by ‘A’ to ‘B’. To constitute a valid offer, expression of willingness must be made to obtain the assent (acceptance) of the other."
+            },
+            {
+                question: "What is the consequence of accepting an invitation to offer?",
+                options: ["It results in a binding contract immediately.", "It results in a voidable contract.", "It only leads to the emergence of an offer in the process of negotiation.", "It results in a quasi-contract."],
+                answer: "It only leads to the emergence of an offer in the process of negotiation.",
+                explanation: "Acceptance of an invitation to an offer does not result in the contract and only an offer emerges in the process of negotiation."
+            },
+            {
+                question: "If A buys goods from B in 2018, but B does not sue A for payment until 2022, the contract becomes unenforceable because:",
+                options: ["It lacks lawful consideration.", "It is void ab initio.", "It has crossed the period prescribed by the Limitation Act.", "It is an illegal agreement."],
+                answer: "It has crossed the period prescribed by the Limitation Act.",
+                explanation: "B cannot sue A for the payment in 2022 as it has crossed three years and barred by Limitation Act. A good debt becomes unenforceable after the period of three years as barred by Limitation Act."
+            },
+            {
+                question: "In the context of an Executory Contract, Unilateral and Bilateral contracts are classified as:",
+                options: ["Separate kinds of contract.", "Kinds of Executed Contracts.", "Kinds of Voidable Contracts.", "Kinds of Executory Contracts."],
+                answer: "Kinds of Executory Contracts.",
+                explanation: "Unilateral or Bilateral are kinds of Executory Contracts and are not separate kinds."
+            },
+            {
+                question: "The Law relating to contract in India is governed by the Indian Contract Act, 1872. When did this Act come into force?",
+                options: ["April 25, 1872", "September 01, 1872", "January 01, 1873", "April 01, 1872"],
+                answer: "September 01, 1872",
+                explanation: "The law relating to contract is governed by the Indian Contract Act, 1872. It was formed on April 25, 1872 and came into force on September 01, 1872."
+            },
+            {
+                question: "If a person is otherwise disqualified from contracting by law, such as an alien enemy or foreign sovereign, what must they fulfill to become competent to contract?",
+                options: ["The age of majority.", "The requirement of sound mind.", "Certain formalities required by law.", "The condition precedent to acceptance."],
+                answer: "Certain formalities required by law.",
+                explanation: "Such persons are an alien enemy, foreign sovereigns, convicts etc. They are disqualified unless they fulfil certain formalities required by law."
+            },
+            {
+                question: "What must the language of a contract be for consensus ad idem to be determined clearly?",
+                options: ["It must be written and registered.", "It should be clearly drafted.", "It must be absolute and unqualified.", "It must be agreed upon by two parties."],
+                answer: "It should be clearly drafted.",
+                explanation: "To determine consensus ad idem the language of the contract should be clearly drafted."
+            },
+            {
+                question: "What did the Privy Council in Harvey vs. Facie specifically hold regarding the mere statement of the lowest price at which a vendor would sell?",
+                options: ["It constituted a valid offer.", "It contained an implied contract to sell.", "It contained no implied contract to sell to the person who had enquired about the price.", "It amounted to a unilateral contract."],
+                answer: "It contained no implied contract to sell to the person who had enquired about the price.",
+                explanation: "Their Lordships held that the mere statement of the lowest price at which the vendor would sell contained no implied contract to sell to the person who had enquired about the price."
+            },
+            {
+                question: "If a contract is entered into where the consideration is illegal, such as selling a house for 100 kgs of cocaine (drugs), the agreement is classified as:",
+                options: ["Void contract", "Voidable contract", "Illegal agreement", "Unenforceable contract"],
+                answer: "Illegal agreement",
+                explanation: "Example 15: A agrees to sell his house to B against 100 kgs of cocaine (drugs). Such agreement is illegal as the consideration is unlawful. All illegal agreements are void."
+            },
+            {
+                question: "Which specific element of a proposal requires the party making the offer to express willingness 'to do' or 'not to do' some act?",
+                options: ["Communication to the offeree.", "Obtaining the assent of the other party.", "The ability to create legal relations.", "Expression of willingness."],
+                answer: "Expression of willingness.",
+                explanation: "For a valid offer, the party making it must express his willingness ‘to do’ or ‘not to do’ something. (This stems directly from the definition in Section 2(a).)"
+            },
+            {
+                question: "The primary objective of the preamble to the Indian Contract Act, 1872, is described as an Act:",
+                options: ["To repeal and consolidate existing contract laws.", "To define and amend certain parts of the law relating to contract.", "To create new rights and duties for parties.", "To enforce all social and legal agreements."],
+                answer: "To define and amend certain parts of the law relating to contract.",
+                explanation: "The preamble to the Act says that it is an Act 'to define and amend certain parts of the law relating to contract'."
+            },
+            {
+                question: "Why did the agreement in Balfour v. Balfour fail to result in a contract?",
+                options: ["The agreement was vague and indefinite.", "The husband lacked the capacity to contract while abroad.", "The parties did not intend to create any legal relations.", "The consideration was insufficient."],
+                answer: "The parties did not intend to create any legal relations.",
+                explanation: "Wife could not recover as it was a social agreement and the parties did not intend to create any legal relations."
+            },
+            {
+                question: "What is the scope of the term 'agreement' relative to the term 'contract'?",
+                options: ["Agreement is a narrower term, including only legal relationships.", "Agreement is a wider term, including both legal and social agreements.", "Agreement and contract have the same scope.", "Agreement refers only to proposals and promises."],
+                answer: "Agreement is a wider term, including both legal and social agreements.",
+                explanation: "Scope: It’s a wider term including both legal and social agreement. Contract: It is used in a narrow sense with the specification that contract is only legally enforceable agreement."
+            },
+            {
+                question: "What distinguishes an offer from a mere communication of information?",
+                options: ["An offer must be positive, while communication can be negative.", "An offer must disclose the intention of making an offer, while communication need not.", "An offer must be made with a view to obtaining the assent of the other party.", "An offer must be capable of performance."],
+                answer: "An offer must be made with a view to obtaining the assent of the other party.",
+                explanation: "Offer must be made with a view to obtaining the assent of the other party addressed and not merely with a view to disclosing the intention of making an offer."
+            },
+            {
+                question: "In case of a general offer, acceptance is considered valid only if the person accepting the offer:",
+                options: ["Provides specific communication of acceptance.", "Has knowledge of the offer and performs the desired act.", "Is the specific person addressed in the general offer.", "Intends to create a legal relationship, regardless of knowledge."],
+                answer: "Has knowledge of the offer and performs the desired act.",
+                explanation: "In terms of Section 8 of the Act, anyone performing the conditions of the offer can be considered to have accepted the offer. Acceptance in ignorance of the offer is not valid."
+            },
+            {
+                question: "Why was the contract in Example 18 (X agreeing to write a book, but dying in an accident before performance) classified as a void contract?",
+                options: ["The initial agreement was illegal.", "The contract ceased to be enforceable due to the impossibility of performance.", "The agreement lacked lawful object.", "The agreement was voidable at the option of the publisher."],
+                answer: "The contract ceased to be enforceable due to the impossibility of performance.",
+                explanation: "Here the contract becomes void due to the impossibility of performance of the contract. Thus, a valid contract when cannot be performed because of some uncalled happening becomes void."
+            },
+            {
+                question: "The principle of an offer being distinct from a mere statement of intention is demonstrated by which example?",
+                options: ["A boy cleaning a car without being asked.", "A father writing his son about his wish of making him the owner of his property.", "A promise to pay maintenance every month while abroad.", "A person applying for shares in a company."],
+                answer: "A father writing his son about his wish of making him the owner of his property.",
+                explanation: "A father wrote his son about his wish of making him the owner of all his property is mere a statement of intention (Example 47)."
+            },
+            {
+                question: "Which part of the Indian Contract Act, 1872, deals with the general principles of the law of contract (Sections 1-75)?",
+                options: ["The first part.", "The second part.", "The preamble.", "The schedule."],
+                answer: "The first part.",
+                explanation: "The first part (Section 1-75) deals with the general principles of the law of contract, and therefore applies to all contracts irrespective of their nature."
+            },
+            {
+                question: "If a person making a statement intends to be bound by it as soon as it is accepted by the other, the statement amounts to:",
+                options: ["An invitation to offer.", "A promise.", "An offer.", "A conditional acceptance."],
+                answer: "An offer.",
+                explanation: "Does the person who made the statement intend to be bound by it as soon as it is accepted by the other or he intends to do some further act... In the former case, it amounts to an offer. Thus, the intention to be bound is important."
+            },
+            {
+                question: "In the context of communication of offer and acceptance, why is the 'time' element given a lot of importance by the Indian Contract Act, 1872?",
+                options: ["To ensure that all contracts are written.", "To prevent indefinite offers.", "To prevent avoidable revocation and misunderstanding between parties.", "To enforce compliance with all legal formalities."],
+                answer: "To prevent avoidable revocation and misunderstanding between parties.",
+                explanation: "Effective and proper communication prevents avoidable revocation and misunderstanding between parties. The Indian Contract Act, 1872 gives a lot of importance to 'time' element in deciding when the offer and acceptance is complete."
+            },
+            {
+                question: "Which component is missing from the legal definition of 'promise' as provided in Section 2(b)?",
+                options: ["Proposal", "Assent", "Consideration", "Person to whom proposal is made"],
+                answer: "Consideration",
+                explanation: "Section 2(b) defines promise based on proposal and assent. Consideration is required for an Agreement (Promise + Consideration)."
+            },
+            {
+                question: "When an agreement involves a valuable consideration that consists of an act of 'forbearance' suffered or undertaken by the promisee, this means the promisee:",
+                options: ["Is compelled to perform the act.", "Refuses to accept the benefit.", "Abstains from doing something.", "Gives financial profit to the promisor."],
+                answer: "Abstains from doing something.",
+                explanation: "A valuable consideration... may consist... some forbearance, detriment, loss or responsibility given, suffered or undertaken by the other. Forbearance implies refraining or abstaining from action."
+            },
+            {
+                question: "If an agreement requires registration under the laws in force (e.g., for immovable property), but this formality is not complied with, the agreement suffers from:",
+                options: ["Lack of lawful object.", "Lack of free consent.", "A technical defect making it unenforceable.", "Impossibility of performance."],
+                answer: "A technical defect making it unenforceable.",
+                explanation: "In case of certain contracts, registration of contract under the laws which is in force at the time, is essential for it to be valid, e.g. in the case of immovable property. Where a contract is good in substance but because of some technical defect i.e. absence in writing, barred by limitation etc. one or both the parties cannot sue upon it, it is described as an unenforceable contract."
+            },
+            {
+                question: "The doctrine of Caveat Emptor applies to which of the following instances of invitation to offer?",
+                options: ["A prospectus issued by a company.", "Quotation of prices sent in reply to a query.", "Display of goods for sale in shop windows.", "Advertisement of auction sales."],
+                answer: "Display of goods for sale in shop windows.",
+                explanation: "Display of goods for sale in shop windows is listed as an instance of invitation to offer. (Note: The core legal concept is that the shop display is an invitation, placing the onus on the buyer to make an offer, aligning with general sales principles.)"
+            },
+            {
+                question: "When does a Voidable Contract, based on coercion (Example 24), become a valid contract?",
+                options: ["If the aggrieved party fails to exercise his right to avoid the contract within a reasonable time.", "If the party who exercised coercion agrees to perform.", "If the coercion is later proven to be fraudulent.", "If the object becomes lawful."],
+                answer: "If the aggrieved party fails to exercise his right to avoid the contract within a reasonable time.",
+                explanation: "If the aggrieved party does not, within reasonable time, exercise his right to avoid the contract, any party can sue the other for claiming the performance of the contract. If it is not rescinded it becomes a valid contract."
+            },
+            {
+                question: "If a contract contains special conditions (e.g., printed on a ticket) that the acceptor is subjectively unaware of, the contract may still be enforced provided that:",
+                options: ["The acceptor accepts the document without protest, implying tacit acceptance.", "The conditions are displayed prominently on the office notice board.", "The party wanting to enforce the contract has given notice which is sufficiently reasonable.", "The contract is an Express Contract."],
+                answer: "The party wanting to enforce the contract has given notice which is sufficiently reasonable.",
+                explanation: "It is well established that a standard form of contract may be enforced on another who is subjectively unaware of the contents of the document, provided the party wanting to enforce the contract has given notice which, in the circumstances of a case, is sufficiently reasonable."
+            },
+            {
+                question: "What is the consequence if a valid contract, like A contracting with B for the supply of sugar, becomes impossible to perform because the factory burns down before the supply is effected (Example 19)?",
+                options: ["The contract is voidable at the option of B.", "The contract becomes void due to impossibility of performance.", "The contract remains valid but B can sue A for breach.", "It is categorized as an unenforceable contract."],
+                answer: "The contract becomes void due to impossibility of performance.",
+                explanation: "Example 19: Here the contract becomes void. A contract which ceases to be enforceable by law becomes void."
+            },
+            {
+                question: "When a proposal or acceptance is made in words (spoken or in writing), the resulting contract is classified as a/an:",
+                options: ["Implied contract", "Quasi-contract", "Express contract", "Tacit contract"],
+                answer: "Express contract",
+                explanation: "A contract would be an express contract if the terms are expressed by words or in writing. Section 9 of the Act provides that if a proposal or acceptance of any promise is made in words, the promise is said to be express."
+            },
+            {
+                question: "According to Section 4, when does the communication of acceptance become complete as against the proposer?",
+                options: ["When the letter reaches the proposer.", "When the acceptor posts the letter, putting it out of his power to withdraw.", "When the proposer reads the acceptance.", "When the contract is finalized."],
+                answer: "When the acceptor posts the letter, putting it out of his power to withdraw.",
+                explanation: "As against the proposer, when it is put in the course of transmission to him so as to be out of the power of the acceptor to withdraw the same."
+            },
+            {
+                question: "Which of the following is considered a 'doing' (positive act) in the context of proposal essentials?",
+                options: ["A agreeing with B not to go to Court if B pays repair charges.", "A willing to sell his car to B for ₹3 lacs.", "A's abstinence from dancing in a competition if B pays him.", "A making an announcement to give scholarships."],
+                answer: "A willing to sell his car to B for ₹3 lacs.",
+                explanation: "A offers to sell his car to B for ₹3 lacs is an act of doing. The other options refer to 'abstinence' (not doing) or statements of intention."
+            },
+            {
+                question: "What happens if a contract is based on consensus ad idem, but the consent is achieved by A threatening to shoot B if B does not lend him money?",
+                options: ["The contract is void ab initio.", "The contract is voidable at B's option due to coercion.", "The contract is valid since the terms were understood.", "The contract is an illegal agreement."],
+                answer: "The contract is voidable at B's option due to coercion.",
+                explanation: "Here the agreement is entered into under coercion and hence not a valid contract. Coercion makes the contract voidable."
+            },
+            {
+                question: "Which of the following is NOT an instance of invitation to offer to buy or sell?",
+                options: ["A Prospectus by a company to the public.", "A General Offer with a specified reward for performance.", "Advertising auction sales.", "Quotation of prices sent in reply to a query."],
+                answer: "A General Offer with a specified reward for performance.",
+                explanation: "A General Offer (like Carlill's case) is a definite offer capable of acceptance by performance. The others listed are instances of invitation to offer."
+            },
+            {
+                question: "If a person promises to pay ₹1,000 to another if a certain ship returns within a year, and the ship sinks within the year, the contract becomes:",
+                options: ["Valid", "Voidable", "Void", "Illegal"],
+                answer: "Void",
+                explanation: "This refers to the MCQ provided in the source itself, where the contract becomes void (MCQ 12). Similar to Example 18/19, it becomes impossible to perform."
+            },
+            {
+                question: "What distinguishes acceptance by omission from mere silence?",
+                options: ["Acceptance by omission is an implied offer.", "Omission must be conveyed by a conduct or forbearance intended to communicate willingness.", "Omission is only relevant in Executed contracts.", "Silence is considered a conditional acceptance."],
+                answer: "Omission must be conveyed by a conduct or forbearance intended to communicate willingness.",
+                explanation: "Communication of acceptance by 'omission' to do something. Such omission is conveyed by a conduct or by forbearance on the part of one person to convey his willingness or assent. However, silence would not be treated as communication by ‘omission’."
+            },
+            {
+                question: "If A sells his house to B, and B pays only earnest money, promising to pay the balance next Sunday, while A gives possession and promises to execute the sale deed upon full receipt, this is an example of:",
+                options: ["Unilateral contract", "Executed contract", "Quasi-contract", "Bilateral contract"],
+                answer: "Bilateral contract",
+                explanation: "The contract between the A and B is executory because there remains something to be done on both sides. Such Executory contracts are also known as Bilateral contracts."
+            },
+            {
+                question: "If an agreement is not enforceable by law, what type of obligation is typically lacking?",
+                options: ["A social obligation", "A legal obligation", "A reciprocal obligation", "A moral obligation"],
+                answer: "A legal obligation",
+                explanation: "An agreement to become a contract must give rise to a legal obligation which means a duly enforceable by law. All agreements are not contracts because they may not create legal obligation."
+            },
+            {
+                question: "In the case of Union of India vs. Bahulal, B's response offering a lower price for A's house was categorized as a counter offer, resulting in:",
+                options: ["The original offer becoming void.", "The acceptance being deemed absolute.", "The termination of A's original offer.", "A binding contract at the lower price."],
+                answer: "The termination of A's original offer.",
+                explanation: "B replied that, 'I can pay ₹ 24,00,000 for it.' The offer of ‘A’ is rejected by ‘B’ as the acceptance is not unqualified. This is treated as counter offer and it will result in the termination of the offer of ’A’."
+            },
+            {
+                question: "The essentiality of free consent includes that it must not be caused by fraud, coercion, undue influence, misrepresentation, or mistake. These terms are explained in which unit of the curriculum?",
+                options: ["Unit-1", "Unit-2", "Unit-3", "Unit-4"],
+                answer: "Unit-3",
+                explanation: "(Students may note that the terms coercion, undue influence, fraud, misrepresentation, mistake are explained in the Unit-3)."
+            },
+            {
+                question: "If a contract is made by word of mouth (oral), what is its legal effect compared to a written contract?",
+                options: ["It is generally voidable.", "It has no legal effect unless registered.", "There is no difference as to legal effects.", "It is always classified as an implied contract."],
+                answer: "There is no difference as to legal effects.",
+                explanation: "A contract may be written or spoken. As to legal effects, there is no difference between a written contract and contract made by word of mouth."
+            },
+            {
+                question: "If an offer is general, such as an advertisement promising a reward, until when can it be accepted?",
+                options: ["Only within a reasonable period of time.", "Until the offeror dies or becomes insane.", "Until the general offer is retracted or withdrawn.", "Only by performance of the conditions, after prior communication of assent."],
+                answer: "Until the general offer is retracted or withdrawn.",
+                explanation: "Until the general offer is retracted or withdrawn, it can be accepted by anyone at any time as it is a continuing offer."
+            },
+            {
+                question: "What legal principle governs the requirement that acceptance must be given within a reasonable time, if no specific time limit is stipulated?",
+                options: ["The doctrine of lapse.", "The doctrine of restitution.", "The doctrine of *quid pro quo*.", "The rule against perpetuity."],
+                answer: "The doctrine of lapse.",
+                explanation: "Acceptance must be given within the specified time limit, if any, and if no time is stipulated, acceptance must be given within the reasonable time and before the offer lapses."
+            },
+            {
+                question: "According to the definition in Section 2(d), consideration involves the promisee doing or abstaining from doing something, at the desire of:",
+                options: ["The promisee.", "The promisor.", "The offeree.", "The law."],
+                answer: "The promisor.",
+                explanation: "When, at the desire of the promisor, the promisee has done or abstained from doing something; or does or abstains from doing something... Such act, abstinence or promise is called a consideration for the promise."
+            },
+            {
+                question: "When goods are sold through auction, what is the legal status of the bid made by a person attending the sale?",
+                options: ["The bid is a conditional acceptance.", "The bid is a proposal (offer).", "The bid is a tacit contract.", "The bid is an invitation to offer."],
+                answer: "The bid is a proposal (offer).",
+                explanation: "An advertisement for sale of goods by auction is an invitation to the offer. It merely invites offers/bids made at the auction. Example 62 clarifies that the bidder at an auction sale may withdraw (revoke) his bid (offer) before it is accepted by the auctioneer."
+            },
+            {
+                question: "If A offers to sell B 50 kgs of bananas at ₹500, and B communicates acceptance after four days, why is this likely not a valid contract?",
+                options: ["The offer was uncertain.", "Four days is not considered a reasonable time for perishable items.", "The acceptance was not absolute.", "The consideration was inadequate."],
+                answer: "Four days is not considered a reasonable time for perishable items.",
+                explanation: "B communicated the acceptance after four days. Such is not a valid contract as bananas being perishable items could not stay for a period of week. Four days is not a reasonable time in this case."
+            },
+            {
+                question: "Under the British period before the Indian Contract Act, if one party of the contract belonged to one religion and the other to another, whose law was generally applied in the Presidency Towns?",
+                options: ["The law of the plaintiff.", "The law of the defendant.", "English Law only.", "Hindu Law or Mohammedan Law, depending on the subject matter."],
+                answer: "The law of the defendant.",
+                explanation: "If one of the parties of contract is from either of the religion and other is from other religion then the law of the defendant is to be used. This was followed in the presidency towns."
+            },
+            {
+                question: "What is the consequence if a resolution passed by a bank to sell land to 'A' remained uncommunicated to 'A'?",
+                options: ["There was an implied contract by omission.", "There was no contract because mere mental unilateral assent does not amount to communication.", "The communication was complete against the proposer.", "The contract was voidable at the option of the bank."],
+                answer: "There was no contract because mere mental unilateral assent does not amount to communication.",
+                explanation: "Where a resolution passed by a bank to sell land to ‘A’ remained uncommunicated to ‘A’, it was held that there was no communication and hence no contract. [Central Bank Yeotmal vs Vyankatesh (1949)]."
+            },
+            {
+                question: "An acceptance given subject to the availability of a valid Registration Certificate/book for a car, when the offer contained no mention of it, is legally classified as:",
+                options: ["A counter offer, as it introduces a new term.", "A valid, unconditional acceptance, as requiring a valid title is not a condition.", "A voidable contract.", "An implied offer."],
+                answer: "A valid, unconditional acceptance, as requiring a valid title is not a condition.",
+                explanation: "The acceptance is in place though the offer contained no mention of R.C. book. This is because expecting a valid title for the car is not a condition. Therefore, the acceptance in this case is unconditional."
+            },
+            {
+                question: "The difference in legal effect between a Void Contract and an Illegal Agreement is that:",
+                options: ["All void contracts are illegal, but not vice versa.", "All illegal agreements are void, but all void agreements are not necessarily illegal.", "Illegal agreements grant a legal remedy, while void contracts do not.", "Void contracts are enforceable, while illegal agreements are not."],
+                answer: "All illegal agreements are void, but all void agreements are not necessarily illegal.",
+                explanation: "All illegal agreements are void but all void agreements are not necessarily illegal."
+            },
+            {
+                question: "If an offeree performs the act intended by the proposer as the consideration for the promise offered (e.g., executing an order by sending goods), what does the performance of the act constitute?",
+                options: ["Offer by conduct.", "Acceptance by conduct.", "A quasi-contract.", "An executed contract."],
+                answer: "Acceptance by conduct.",
+                explanation: "The performance of the act constitutes acceptance. Example 57 states that the tradesman subsequently sending the goods is a case of acceptance by conduct."
+            },
+            {
+                question: "What determines whether a period of time is 'reasonable time' for acceptance?",
+                options: ["Three years, as per the Limitation Act.", "The specific mention in the contract terms.", "The facts and circumstances of the particular case.", "Only the offeror's subjective determination."],
+                answer: "The facts and circumstances of the particular case.",
+                explanation: "What is reasonable time is nowhere defined in the law and thus would depend on facts and circumstances of the particular case."
+            },
+            {
+                question: "If a contract contains reciprocal promises, where both parties must perform their obligations in the future, it is categorized primarily as a/an:",
+                options: ["Executed contract", "Unilateral contract", "Executory contract", "Tacit contract"],
+                answer: "Executory contract",
+                explanation: "In an executory contract the consideration is reciprocal promise or obligation. Such consideration is to be performed in future only and therefore these contracts are described as executory contracts."
+            },
+            {
+                question: "Which specific qualification is required by Section 11(a) for a person to be competent to contract?",
+                options: ["Age of majority according to the law to which he is subject.", "Must be 18 years of age and not a minor.", "Must be of sound mind.", "Must not be disqualified by status."],
+                answer: "Age of majority according to the law to which he is subject.",
+                explanation: "Section 11(a) specifies that every person is competent to contract who is of the age of majority according to the law to which he is subject."
+            },
+            {
+                question: "If an agreement is not enforceable from the very beginning, i.e., it is void ab initio, what type of agreement is it?",
+                options: ["Void agreement [Section 2(g)]", "Voidable contract [Section 2(i)]", "Illegal agreement (always void ab initio)", "Unenforceable contract"],
+                answer: "Void agreement [Section 2(g)]",
+                explanation: "A void agreement is not enforceable from the very beginning, i.e. it is void ab initio. Illegal agreements are also void ab initio but are specifically forbidden by law."
+            },
+            {
+                question: "If a proposal is made with the willingness to abstain from doing anything, with a view to obtaining the assent of the other, which terms are used to describe the act of abstinence?",
+                options: ["Doing and positive act.", "Forbearance and detriment.", "Promise and agreement.", "Acceptance and assent."],
+                answer: "Forbearance and detriment.",
+                explanation: "Abstinence is related to forbearance which is a component of consideration. The definition of proposal includes willingness to abstain from doing anything. The examples of consideration include forbearance."
+            },
+            {
+                question: "Which mode of revocation applies if the offeree makes a counter-offer in response to the original offer?",
+                options: ["Revocation by lapse of time.", "Revocation by rejection of the offer.", "Revocation by notice of revocation.", "Revocation by counter offer."],
+                answer: "Revocation by counter offer.",
+                explanation: "Counter-offer amounts to rejection of the original offer. It is listed as a mode of revocation."
+            },
+            {
+                question: "If an offeror makes a conditional offer (e.g., conditional on paying by RTGS), and the offeree accepts all terms but uses a different payment method without the offeror raising an objection, what is presumed?",
+                options: ["The contract is voidable.", "The offeror is presumed to have consented to the acceptance.", "The acceptance is invalid.", "The acceptance is considered a counter-offer."],
+                answer: "The offeror is presumed to have consented to the acceptance.",
+                explanation: "But if the proposer does not insist on the proposal being accepted in the manner prescribed after it has been accepted otherwise... the proposer is presumed to have consented to the acceptance."
+            },
+            {
+                question: "What is the technical term for the concept of identity of minds in understanding the terms of a contract?",
+                options: ["*Quid pro quo*", "*Consensus ad idem*", "*Void ab initio*", "*Uberrimae Fides*"],
+                answer: "*Consensus ad idem*",
+                explanation: "Two or more persons are said to consent when they agree upon the same thing in the same sense. This can also be understood as identity of minds in understanding the terms viz consensus ad idem."
+            },
+            {
+                question: "In the case of instantaneous communication (like telephone), why is there generally no problem of revocation arising?",
+                options: ["The law prohibits revocation in such modes.", "The communication of offer and acceptance occurs instantly.", "The contract is concluded only when written confirmation is sent.", "The offeror is bound immediately upon speaking the offer."],
+                answer: "The communication of offer and acceptance occurs instantly.",
+                explanation: "When the contracting parties are face-to-face, there is no problem of communication because there is instantaneous communication of offer and acceptance. In such a case the question of revocation does not arise since the offer and its acceptance are made instantly."
+            },
+            {
+                question: "If a contract involves the unlawful object of fraud or injury to another person's property, under which section is the consideration/object declared not lawful?",
+                options: ["Section 10", "Section 2(h)", "Section 23", "Section 7"],
+                answer: "Section 23",
+                explanation: "Section 23 states that consideration or object is not lawful if it is prohibited by law, or it is such as would defeat the provisions of law, if it is fraudulent or involves injury to the person or property of another or court regards it as immoral or opposed to public policy."
+            },
+            {
+                question: "In ancient and medieval times, which form did contracts generally take during the Mauryan period?",
+                options: ["Oral agreements enforced by royal decree.", "Bilateral transactions based on free consent.", "Formal written documents called 'Aqd'.", "Pledges and guarantees."],
+                answer: "Bilateral transactions based on free consent.",
+                explanation: "During the period of Mauryas, contracts were in the form of 'bilateral transactions' which were based on free consent on all the terms and conditions involved."
+            },
+            {
+                question: "If a tradesman receives a customer's order and executes it by sending the goods without prior verbal or written confirmation, the customer's order constitutes the offer, and the delivery constitutes the acceptance. What kind of contract formation is this?",
+                options: ["Quasi-contract", "Express contract", "Implied contract (Acceptance by conduct)", "Unilateral contract (performance classification)"],
+                answer: "Implied contract (Acceptance by conduct)",
+                explanation: "The tradesman executes the order by sending the goods... the performance of the act constitutes acceptance. It is a case of acceptance by conduct."
+            },
+            {
+                question: "What is the status of contracts entered into by persons not competent to contract?",
+                options: ["Valid", "Void", "Voidable", "Unenforceable"],
+                answer: "Not valid",
+                explanation: "Contracts entered by persons not competent to contract are not valid. (Since the options require a multiple choice answer, and the term 'not valid' encompasses both void and voidable status depending on the context, but generally in CA Foundation context, lack of capacity renders them void/not valid, 'not valid' is the most direct legal phrasing used in the source.)"
+            },
+            {
+                question: "The Law of Contract aims to codify the legal principles that govern contracts. What does the Act primarily identify?",
+                options: ["The historical roots of contract law.", "The ingredients of a legally enforceable valid contract.", "The universal applicability of civil law.", "The social obligations of contracting parties."],
+                answer: "The ingredients of a legally enforceable valid contract.",
+                explanation: "The Indian Contract Act, 1872 codifies the legal principles that govern ‘contracts’. The Act basically identifies the ingredients of a legally enforceable valid contract."
+            },
+            {
+                question: "Which of the following is an example of an obligation known as a quasi-contract?",
+                options: ["A promise to pay compensation for breach of contract.", "The obligation of a finder of lost goods to return them to the true owner.", "An agreement to purchase brown sugar.", "An agreement to sell a car for ₹2 lacs."],
+                answer: "The obligation of a finder of lost goods to return them to the true owner.",
+                explanation: "Example 28: Obligation of finder of lost goods to return them to the true owner... These are said to be quasi-contracts."
+            },
+            {
+                question: "If a father offers his son ₹5 lakhs if the son passes the CA exams, and the son claims the money upon passing, why can the son not recover the money?",
+                options: ["The consideration is future performance.", "The agreement is contingent.", "It was a social agreement lacking intention to create legal relations.", "The son was not of the age of majority."],
+                answer: "It was a social agreement lacking intention to create legal relations.",
+                explanation: "Example 6: Here, the son could not recover as it was a social agreement."
+            },
+            {
+                question: "If an agreement is made by the free consent of competent parties for a lawful object and consideration, and is not expressly declared void, what type of contract results?",
+                options: ["A voidable contract.", "A valid contract.", "An illegal contract.", "An unenforceable contract."],
+                answer: "A valid contract.",
+                explanation: "An agreement which is binding and enforceable is a valid contract. It contains all the essential elements of a valid contract."
+            },
+            {
+                question: "According to the rule concerning revocation of acceptance in Indian law, what is required for the acceptor to be bound by the acceptance?",
+                options: ["The acceptance must be absolute.", "The letter of acceptance must be correctly addressed and stamped.", "The letter of acceptance must reach the proposer.", "The acceptor must verbally confirm the acceptance."],
+                answer: "The letter of acceptance must reach the proposer.",
+                explanation: "However, from the view point of acceptor, he will be bound by his acceptance only when the letter of acceptance has reached the proposer."
+            },
+            {
+                question: "In the case of a cross offer, why is there no binding contract formed?",
+                options: ["The offers are not identical.", "One person's offer cannot be construed as acceptance of the another's offer.", "There is lack of certainty of meaning.", "The communication is incomplete."],
+                answer: "One person's offer cannot be construed as acceptance of the another's offer.",
+                explanation: "There is no binding contract in such a case because offer made by a person cannot be construed as acceptance of the another’s offer... And when two persons make offer to each other, it cannot be treated as mutual acceptance."
+            },
+            {
+                question: "Which of the following is a disqualification by status that prevents a person from being competent to contract?",
+                options: ["Intoxicated person", "Minor (under 18 years)", "Alien enemy", "Lunatic"],
+                answer: "Alien enemy",
+                explanation: "Qualification (c) requires that a person entering into a contract should not be disqualified by his status... Such persons are an alien enemy, foreign sovereigns, convicts etc.."
+            },
+            {
+                question: "When must acceptance be communicated if no specific time limit is stipulated?",
+                options: ["Within three years (limitation period).", "Within the prescribed manner only.", "Within a reasonable time and before the offer lapses.", "Instantly, if the parties are at a distance."],
+                answer: "Within a reasonable time and before the offer lapses.",
+                explanation: "If no time is stipulated, acceptance must be given within the reasonable time and before the offer lapses."
+            },
+            {
+                question: "What is the status of the agreement if A agrees to sell his house to B against 100 kgs of cocaine (drugs)?",
+                options: ["Void contract.", "Illegal agreement.", "Voidable contract.", "Unenforceable contract."],
+                answer: "Illegal agreement.",
+                explanation: "Such agreement is illegal as the consideration is unlawful. The object and consideration of the agreement must be lawful."
+            },
+            {
+                question: "Under what condition can an offer made to a specific person be accepted by someone else?",
+                options: ["If the specific person is a minor.", "If the acceptance is unqualified.", "Under no condition, as it can only be accepted by the specific person.", "If the original offer is revoked and reissued as a general offer."],
+                answer: "Under no condition, as it can only be accepted by the specific person.",
+                explanation: "In case of a specific offer, it can be accepted only by the person to whom it is made. Specific offer can be accepted only by that specified person."
+            },
+            {
+                question: "If a seller promises to sell goods, but performance is yet to occur, and the buyer promises reciprocal payment in the future, the contract is classified under which performance category?",
+                options: ["Executed contract", "Bilateral contract", "Unilateral contract", "Tacit contract"],
+                answer: "Bilateral contract",
+                explanation: "A Bilateral contract is one where the obligation or promise is outstanding on the part of both the parties. This is a type of executory contract."
+            },
+            {
+                question: "Which of the following phrases represents the key legal distinction between a void agreement and an illegal agreement regarding their enforceability?",
+                options: ["Void agreements are not enforceable, but illegal agreements are voidable.", "All illegal agreements are void *ab initio*, while not all void agreements are illegal.", "Void agreements lead to punishment, while illegal agreements do not.", "Illegal agreements can be ratified, while void agreements cannot."],
+                answer: "All illegal agreements are void *ab initio*, while not all void agreements are illegal.",
+                explanation: "All illegal agreements are void but all void agreements are not necessarily illegal. Both are void ab initio."
+            },
+            {
+                question: "In Hindu law, what age range was considered 'boyhood' according to Narada smriti?",
+                options: ["Upto 8 years", "8 years to 16 years", "After 16 years", "18 years and above"],
+                answer: "8 years to 16 years",
+                explanation: "Age from 8 years to 16 years is considered as boyhood."
+            },
+            {
+                question: "If a proposal is made with the willingness to do something, what is the required purpose of expressing this willingness?",
+                options: ["To define the rights and duties in a business transaction.", "To obtain the assent of the other party to such act or abstinence.", "To codify the legal principles governing contracts.", "To ensure the certainty of meaning."],
+                answer: "To obtain the assent of the other party to such act or abstinence.",
+                explanation: "When one person signifies to another his willingness to do or to abstain from doing anything with a view to obtaining the assent of that other to such act or abstinence, he is said to make a proposal."
+            },
+            {
+                question: "In the scenario of a contract made over the telephone, if the call unexpectedly goes dead during the conversation, what must the acceptor do to ensure a valid contract is formed?",
+                options: ["Assume the acceptance was heard.", "Send a written confirmation immediately.", "Confirm again that the words of acceptance were duly heard by the offeror.", "Wait for the offeror to call back."],
+                answer: "Confirm again that the words of acceptance were duly heard by the offeror.",
+                explanation: "If telephone unexpectedly goes dead during conversation, the acceptor must confirm again that the words of acceptance were duly heard by the offeror. Acceptance is only complete when received by the offeror."
+            },
+            {
+                question: "If B agrees to buy A's car subject to the availability of a valid Registration Certificate/book, this is legally considered an unconditional acceptance because:",
+                options: ["B has introduced a counter offer.", "A valid title for the car is an expected, standard requirement and not an additional condition.", "The terms of the original offer are vague.", "The acceptance is only partial."],
+                answer: "A valid title for the car is an expected, standard requirement and not an additional condition.",
+                explanation: "This is because expecting a valid title for the car is not a condition. Therefore, the acceptance in this case is unconditional."
+            },
+            {
+                question: "The Law of Contract allows parties to create rights and duties for themselves, subject to a number of limiting principles. Which of the following is NOT a fundamental purpose of the Act?",
+                options: ["To define and amend certain parts of the law relating to contract.", "To prescribe numerous specific rights and duties that the law will enforce.", "To identify the ingredients of a legally enforceable valid contract.", "To codify legal principles governing contracts."],
+                answer: "To prescribe numerous specific rights and duties that the law will enforce.",
+                explanation: "It does not prescribe so many rights and duties, which the law will protect or enforce."
+            },
+            {
+                question: "Which of the following legal obligations is *contractual* in nature?",
+                options: ["An obligation to maintain wife and children.", "An order of the court of law.", "An obligation resulting from a binding agreement.", "An obligation resulting from a void agreement."],
+                answer: "An obligation resulting from a binding agreement.",
+                explanation: "Law of Contract deals with only such legal obligations which has resulted from agreements. Such obligation must be contractual in nature."
+            },
+            {
+                question: "According to Section 2(j), a void contract originally starts as a/an:",
+                options: ["Illegal agreement.", "Voidable contract.", "Unenforceable contract.", "Valid contract."],
+                answer: "Valid contract.",
+                explanation: "A contract which ceases to be enforceable by law becomes void when it ceases to be enforceable. Example 18 confirms that a valid contract when cannot be performed because of some uncalled happening becomes void."
+            },
+            {
+                question: "If a transport carrier accepted goods for transport without any conditions, but subsequently issued a circular limiting his liability, what is the binding status of the special conditions?",
+                options: ["They are binding on the owners of the goods because the carrier is the offeror.", "They are not binding because the special conditions were not communicated prior to the date of contract.", "They constitute a counter offer.", "They are considered tacit acceptance by the owners."],
+                answer: "They are not binding because the special conditions were not communicated prior to the date of contract.",
+                explanation: "Since the special conditions were not communicated prior to the date of contract for transport, these were not binding on the owners of goods [Raipur transport Co. vs. Ghanshyam]."
+            },
+            {
+                question: "What is the legal implication if a person accepts an offer in ignorance of the offer?",
+                options: ["The acceptance is valid under the rule of implied contract.", "The acceptor is entitled to the reward, but must claim it in court.", "The acceptance is void, and no rights are conferred on the acceptor.", "The acceptance becomes voidable."],
+                answer: "The acceptance is void, and no rights are conferred on the acceptor.",
+                explanation: "An acceptance of an offer, in ignorance of the offer, is not acceptance and does not confer any right on the acceptor. (As per Lalman Shukla v. GauriDutt)."
+            },
+            {
+                question: "In the process of proposal, acceptance, and promise, what is the role of consideration?",
+                options: ["It converts the promise into an enforceable contract.", "It converts the proposal into a promise.", "It, along with promise, forms an agreement.", "It forms the consideration for each other in every set of promises."],
+                answer: "It, along with promise, forms an agreement.",
+                explanation: "Agreement = Offer/Proposal + Acceptance + Consideration. Agreement [Sec.2(e)] = Promise + Consideration. Consideration forms the consideration for each other in every set of promises."
+            },
+            {
+                question: "Which type of offer is specifically defined as being made to a specific or an ascertained person?",
+                options: ["General offer", "Special/specific offer", "Open offer", "Cross offer"],
+                answer: "Special/specific offer",
+                explanation: "When the offer is made to a specific or an ascertained person, it is known as a specific offer. This is also known as Special Offer (MCQ 18 answer)."
+            },
+            {
+                question: "Why is the price list of goods displayed by a shop usually considered an invitation to offer?",
+                options: ["It is usually indefinite or vague.", "It lacks the intent to create a legal relationship.", "It does not constitute an offer for sale but merely invites offers.", "It is governed by the Sale of Goods Act, not the Contract Act."],
+                answer: "It does not constitute an offer for sale but merely invites offers.",
+                explanation: "The price list of goods does not constitute an offer for sale of certain goods on the listed prices. It is an invitation to offer."
+            },
+            {
+                question: "If a contract is legally enforceable at the option of B, but not at the option of A, what is the nature of the contract?",
+                options: ["Valid contract (if A agrees)", "Void contract", "Voidable contract", "Illegal contract"],
+                answer: "Voidable contract",
+                explanation: "An agreement which is enforceable by law at the option of one or more of the parties thereto, but not at the option of the other or others, is a voidable contract."
+            },
+            {
+                question: "The general principles of law concerning offer and acceptance are different between English law and Indian law primarily regarding which aspect?",
+                options: ["The definition of a contract.", "The rule for communication of acceptance through post.", "The requirement for consideration.", "The validity of general offers."],
+                answer: "The rule for communication of acceptance through post.",
+                explanation: "The law relating to the revocation of offer is the same in India as in England, but the law relating to the revocation of acceptance is different. This difference is specified for contracts through post."
+            },
+            {
+                question: "When does the communication of acceptance of a proposal by 'omission' become complete?",
+                options: ["When the person omits the act, regardless of whether it is communicated.", "When the forbearance is communicated or has the effect of communicating assent to the offeror.", "When the omission is based on mere mental assent.", "When the omission is specifically stated in the proposal."],
+                answer: "When the forbearance is communicated or has the effect of communicating assent to the offeror.",
+                explanation: "Communication by act would include any expression of words... Communication of acceptance by ‘omission’ to do something... must result in effectively communicating its acceptance or non acceptance."
+            },
+            {
+                question: "In the case of a contract of indemnity and guarantee, which part of the Indian Contract Act, 1872, governs it?",
+                options: ["The general principles (Sections 1-75).", "The special contracts (Sections 124-238).", "Section 10.", "The preamble."],
+                answer: "The special contracts (Sections 124-238).",
+                explanation: "The second part (Sections 124-238) deals with certain special kinds of contracts, e.g., Indemnity and guarantee, bailment, pledge, and agency."
+            },
+            {
+                question: "Which factor primarily contributes to the complexity of business environment, leading to the formation of numerous contracts?",
+                options: ["The increasing scope of Hindu law.", "The requirement of bilateral transactions.", "Increasing complexities of business environment.", "The need for social agreements."],
+                answer: "Increasing complexities of business environment.",
+                explanation: "As a result of increasing complexities of business environment, innumerable contracts are entered into by the parties in the usual course of carrying on their business."
+            },
+            {
+                question: "What is the consequence if the terms of an agreement are vague or indefinite?",
+                options: ["The agreement is voidable.", "The agreement is illegal.", "The agreement is void because its acceptance cannot create any contractual relationship.", "The agreement becomes an implied contract."],
+                answer: "The agreement is void because its acceptance cannot create any contractual relationship.",
+                explanation: "If the terms of an offer are vague or indefinite, its acceptance cannot create any contractual relationship."
+            },
+            {
+                question: "If A accepts an offer by sending an acceptance letter by post, A can revoke the acceptance up to the moment when:",
+                options: ["A posts the acceptance letter.", "The letter is out of A's power of withdrawal.", "The letter communicating the acceptance reaches the offeror.", "The letter reaches the proposer's knowledge."],
+                answer: "The letter communicating the acceptance reaches the offeror.",
+                explanation: "B may revoke his acceptance at any time before or at the moment when the letter communicating it reaches A, but not afterwards. This is because revocation of acceptance is complete against the acceptor only when it comes to the proposer's knowledge."
+            },
+            {
+                question: "An 'agreement' consists of which essential components?",
+                options: ["Proposal + Acceptance + Enforceability by law.", "Every promise and every set of promises, forming the consideration for each other.", "Legal object + Free consent + Capacity of parties.", "Offer/Proposal + Consideration + Legal relationship."],
+                answer: "Every promise and every set of promises, forming the consideration for each other.",
+                explanation: "The term ‘agreement’... is defined as— 'every promise and every set of promises, forming the consideration for each other'."
+            },
+            {
+                question: "If an offeror promises to keep an offer open for acceptance until a definite time (e.g., 6 pm), but revokes it before that time and sells to a third party, what is the legal position?",
+                options: ["The offeror is bound by the initial promise and must sell to the offeree.", "The revocation is valid because the offeror can withdraw the mere offer at any time before acceptance.", "The contract is voidable at the offeree's option.", "The offer remains open until the stipulated time."],
+                answer: "The revocation is valid because the offeror can withdraw the mere offer at any time before acceptance.",
+                explanation: "An offer may be revoked by the offeror before its acceptance, even though he had originally agreed to hold it open for a definite period of time. (Example 63 illustrates this point)."
+            },
+            {
+                question: "What kind of offer is made by a boy who starts cleaning a car at a traffic signal without being asked, expecting payment?",
+                options: ["Express offer.", "Specific offer.", "Implied offer.", "Counter offer."],
+                answer: "Implied offer.",
+                explanation: "A boy starts cleaning the car as it stops on the traffic signal without being asked to do so, in such circumstances any reasonable man could guess that he expects to be paid for this, here boy makes an implied offer."
+            },
+            {
+                question: "What term is used in the context of e-commerce contracts that links different parties/persons through networks?",
+                options: ["E-mail contracts.", "Cyber contracts.", "EDI (Electronic Data Inter change).", "Mouse click contracts."],
+                answer: "EDI (Electronic Data Inter change).",
+                explanation: "In electronic commerce, different parties/persons create networks which are linked to other networks through ED1 - Electronic Data Inter change. These are known as EDI contracts or Cyber contracts or mouse click contracts."
+            },
+            {
+                question: "If a contract is created without an intention on the part of either party to make a contract, but law imposes an obligation (like paying for goods left by mistake), it falls under:",
+                options: ["Implied contract.", "Executed contract.", "Quasi-contract.", "Valid contract."],
+                answer: "Quasi-contract.",
+                explanation: "It is a contract in which there is no intention on part of either party to make a contract but law imposes a contract upon the parties."
+            },
+            {
+                question: "Which element, if missing, causes an offer to fail the essential rule of being capable of creating legal relations?",
+                options: ["The offer is vague or indefinite.", "The offer is conditional.", "The offer is a social invitation.", "The offer is general."],
+                answer: "The offer is a social invitation.",
+                explanation: "If the offer does not intend to give rise to legal consequences and creating legal relations, it is not considered as a valid offer... A social invitation, even if it is accepted, does not create legal relations."
+            },
+            {
+                question: "The Law of Contract allows revocation of a proposal before the communication of its acceptance is complete as against whom?",
+                options: ["The acceptor.", "The promisor.", "The offeree.", "The proposer."],
+                answer: "The proposer.",
+                explanation: "A proposal can be revoked at any time before the communication of its acceptance is complete as against the proposer."
+            },
+            {
+                question: "If B agrees to buy A's plot for ₹8 lakhs when A offered to sell it for ₹10 lakhs, and subsequently B changes his mind and agrees to pay ₹10 lakhs, what is the status of A's initial offer?",
+                options: ["A is bound to accept the ₹10 lakhs.", "A may refuse, as the initial offer was terminated by B's counter offer.", "A's initial offer remains open until revocation.", "The agreement is void due to lack of consensus."],
+                answer: "A may refuse, as the initial offer was terminated by B's counter offer.",
+                explanation: "‘B’ agrees to buy it for ₹ 8 lakhs. It amounts to counter offer. It will result in the termination of the offer of ’A’. If later on ‘B’ agrees to buy the plot for ₹ 10 lakhs, ’A’ may refuse."
+            },
+            {
+                question: "What is the legal categorization of an announcement to give scholarships to children scoring more than 95% in 12th board exams?",
+                options: ["A conditional offer.", "A binding general offer.", "A mere statement of intention.", "An implied contract."],
+                answer: "A mere statement of intention.",
+                explanation: "An announcement to give scholarships to children scoring more than 95% in 12th board is not an offer (Example 48)."
+            },
+            {
+                question: "If a contract is formed by words (written or oral), which section of the Act addresses this mode of communication?",
+                options: ["Section 4", "Section 9", "Section 10", "Section 2(a)"],
+                answer: "Section 9",
+                explanation: "Section 9 of the Act provides that if a proposal or acceptance of any promise is made in words, the promise is said to be express. Section 9 also refers to implied contracts when proposal or acceptance is made otherwise than in words."
+            },
+            {
+                question: "Which of the following is an example of an illegal agreement, opposed to public policy?",
+                options: ["An agreement in restraint of legal proceedings.", "An agreement to sell brown sugar (drugs).", "An agreement with an alien enemy.", "An agreement to sell goods on vague terms."],
+                answer: "An agreement to sell brown sugar (drugs).",
+                explanation: "If R agrees with S, to purchase brown sugar, it is an illegal agreement. Threat to commit murder or making/publishing defamatory statements or entering into agreements which are opposed to public policy are illegal in nature."
+            },
+            {
+                question: "If the offeror prescribes the mode of acceptance, and the offeree accepts in a different manner, what must the offeror do to prevent the formation of a valid contract?",
+                options: ["Insist on the proposal being accepted in the prescribed manner.", "Revoke the offer immediately.", "File a suit for rejection.", "Accept the acceptance by conduct."],
+                answer: "Insist on the proposal being accepted in the prescribed manner.",
+                explanation: "If the proposer does not insist on the proposal being accepted in the manner prescribed after it has been accepted otherwise, i.e., not in the prescribed manner, the proposer is presumed to have consented to the acceptance. To prevent the contract, he must insist on the prescribed mode."
+            },
+            {
+                question: "According to the definition of a contract, what must an agreement give rise to for it to be enforceable by law?",
+                options: ["Social obligation.", "Reciprocal promises.", "Legal obligation.", "Moral duty."],
+                answer: "Legal obligation.",
+                explanation: "An agreement to become a contract must give rise to a legal obligation which means a duly enforceable by law."
+            },
+            {
+                question: "What does the Latin phrase *void ab initio* mean in the context of agreements?",
+                options: ["Voidable at the option of one party.", "Cannot be enforced in a court of law.", "Void from the very beginning.", "Enforceable only after fulfillment of formalities."],
+                answer: "Void from the very beginning.",
+                explanation: "A void agreement is not enforceable from the very beginning, i.e. it is void ab initio."
+            },
+            {
+                question: "If a contract is entered into where the obligation or promise is outstanding on the part of both parties, it is specifically described as:",
+                options: ["Unilateral contract.", "Bilateral contract.", "Executed contract.", "Tacit contract."],
+                answer: "Bilateral contract.",
+                explanation: "A Bilateral contract is one where the obligation or promise is outstanding on the part of both the parties."
+            },
+            {
+                question: "What key difference exists between a valid contract and a void contract, regarding enforceability?",
+                options: ["A valid contract is binding and enforceable, while a void contract cannot be enforced at all.", "A valid contract contains all essentials, while a void contract is expressly declared void from the beginning.", "A valid contract creates rights, while a void contract grants rights to the aggrieved party.", "A valid contract is always express, while a void contract is implied."],
+                answer: "A valid contract is binding and enforceable, while a void contract cannot be enforced at all.",
+                explanation: "A Valid Contract is binding and enforceable. A void contract cannot be enforced at all."
+            },
+            {
+                question: "What is the consequence if the offeror, in response to an inquiry about price, merely states the lowest price he would accept?",
+                options: ["It constitutes a contract upon the inquirer's acceptance.", "It is a valid offer, provided the terms are certain.", "It is considered only an invitation to offer.", "It is an express contract."],
+                answer: "It is considered only an invitation to offer.",
+                explanation: "The mere statement of the lowest price which the vendor would sell contains no implied contract to sell at that price to the person making the inquiry. (See Harvey vs. Facie/Mac Pherson vs Appanna)."
+            },
+            {
+                question: "In the context of communication, when contracting parties are at a distance and utilize the post office, which issue becomes most relevant?",
+                options: ["The exact time when the offer or acceptance is made or complete.", "Whether the contract is social or legal.", "The capacity of the parties to contract.", "The certainty of the terms."],
+                answer: "The exact time when the offer or acceptance is made or complete.",
+                explanation: "The difficulty arises when the contracting parties are at a distance... it is very much relevant for us to know the exact time when the offer or acceptance is made or complete."
+            },
+            {
+                question: "What is the rule regarding punishment for parties involved in a void agreement that is not illegal?",
+                options: ["They are liable for civil penalties.", "They are liable for punishment under the law.", "They are not liable for any punishment under the law.", "They are only liable for costs."],
+                answer: "They are not liable for any punishment under the law.",
+                explanation: "Parties are not liable for any punishment under the law [in case of a void agreement]."
+            },
+            {
+                question: "If a contract involves A promising to sell his plot to B for ₹10 lacs, but B pays only earnest money and promises the balance later, the obligation on A to execute the sale deed is a part of which category of contract?",
+                options: ["Executed contract", "Unilateral contract", "Bilateral contract", "Quasi-contract"],
+                answer: "Bilateral contract",
+                explanation: "The contract between the A and B is executory because there remains something to be done on both sides. Since both parties have obligations outstanding, it is a Bilateral contract."
+            },
+            {
+                question: "The essentiality that the terms of agreement should be capable of performance is known as:",
+                options: ["Lawful object.", "Certainty of meaning.", "Possibility of performance.", "Free consent."],
+                answer: "Possibility of performance.",
+                explanation: "Possibility of performance of an agreement: The terms of agreement should be capable of performance."
+            },
+            {
+                question: "What is the legal status of an agreement where the consideration is based on a promise to pay ₹100 if the promisee abstains from dancing in a competition?",
+                options: ["It is a proposal involving a negative act ('abstinence').", "It is void due to lack of intention to create legal relations.", "It is an illegal agreement, as it restricts trade.", "It is voidable at the option of the promisor."],
+                answer: "It is a proposal involving a negative act ('abstinence').",
+                explanation: "A is willing to not to dance in a competition if B pays him certain sum of money. This is an act of 'not doing' or 'abstinence' which constitutes a valid proposal."
+            },
+            {
+                question: "The legal rule that 'The acceptance must relate specifically to the offer made' is essential for which purpose?",
+                options: ["To ensure possibility of performance.", "To confirm the communication of the offer.", "To ensure the acceptance materializes into a contract.", "To prove the lawful object."],
+                answer: "To ensure the acceptance materializes into a contract.",
+                explanation: "The acceptance must relate specifically to the offer made. Then only it can materialize into a contract."
+            },
+            {
+                question: "The rule that all contracts are agreements, but all agreements are not contracts, is justified by the requirement of:",
+                options: ["Mutual consideration in agreements.", "The scope of agreements including social/moral obligations.", "The formality of written documentation.", "The capacity of parties to be natural persons."],
+                answer: "The scope of agreements including social/moral obligations.",
+                explanation: "There can be agreements which are not enforceable by law, such as social, moral or religious agreements. All agreements need not necessarily become contracts."
+            },
+            {
+                question: "What is the legal effect if a party whose consent was obtained by coercion rescinds the contract within a reasonable time?",
+                options: ["It becomes an illegal agreement.", "It becomes a void contract.", "It becomes an unenforceable contract.", "It remains a valid contract."],
+                answer: "It becomes a void contract.",
+                explanation: "The party whose consent was not free has the right to rescind the contract within a reasonable time. If so rescinded, it becomes a void contract."
+            },
+            {
+                question: "If A makes an offer to B to sell his house for ₹5 lakhs, and the letter containing the offer is posted on 10th March, when is the communication of the offer considered complete, assuming B receives the letter on 12th March and reads it the same day?",
+                options: ["10th March.", "12th March.", "15th March (due to the three-day rule).", "When B posts the acceptance."],
+                answer: "12th March.",
+                explanation: "The offer is said to have been communicated on 12th March when B received the letter. Communication is complete when it comes to the knowledge of the person to whom it is made."
+            },
+            {
+                question: "What must accompany the 'Promise' to form an 'Agreement'?",
+                options: ["Enforceability by law.", "Proposal.", "Consideration.", "Acceptance."],
+                answer: "Consideration.",
+                explanation: "Agreement = Promise + Consideration. Every promise and every set of promises, forming the consideration for each other, is an agreement."
+            },
+            {
+                question: "If an agreement lacks certainty of meaning (e.g., indefinite years of lease), what is the status of the contract?",
+                options: ["Not valid.", "Voidable.", "Illegal.", "Unenforceable."],
+                answer: "Not valid.",
+                explanation: "The agreement must be certain and not vague or indefinite. Example 9 states the contract is not valid as the period of lease is not mentioned."
+            },
+            {
+                question: "The principle of an offer requiring performance of an act without necessary communication of compliance is demonstrated by the rule regarding:",
+                options: ["Specific offers.", "Cross offers.", "General offers (unilateral contracts).", "Standing offers."],
+                answer: "General offers (unilateral contracts).",
+                explanation: "If an offer is made in the form of a promise in return for an act, the performance of that act, even without any communication thereof, is to be treated as an acceptance of the offer (Carlill vs Carbolic & Smokeball Co. principle)."
+            },
+            {
+                question: "A prospectus issued by a company inviting the public to subscribe to its securities is classified as:",
+                options: ["An express offer.", "A general offer.", "An invitation to the public to make an offer.", "An executed contract."],
+                answer: "An invitation to the public to make an offer.",
+                explanation: "Similarly, Prospectus issued by a company, is only an invitation to the public to make an offer to subscribe to the securities of the company. It is an instance of invitation to offer."
+            },
+            {
+                question: "What is the legal term for the circumstance where the offeree offers a qualified acceptance to the original proposal?",
+                options: ["Unqualified acceptance.", "Conditional Acceptance.", "Cross offer.", "Express acceptance."],
+                answer: "Conditional Acceptance.",
+                explanation: "Counter-offer... It is also called as Conditional Acceptance."
+            },
+            {
+                question: "Which term is defined in Section 2(h) of the Indian Contract Act, 1872?",
+                options: ["Agreement", "Promisee", "Offer", "Contract"],
+                answer: "Contract",
+                explanation: "The term contract is defined under section 2(h) of the Indian Contract Act, 1872 as— 'an agreement enforceable by law'."
+            },
+            {
+                question: "When is the communication of revocation of acceptance complete as against the person to whom it is made (the proposer)?",
+                options: ["When the acceptor dispatches the telegram.", "When the acceptor decides to revoke the acceptance.", "When the revocation telegram reaches the proposer.", "When the acceptance is complete against the acceptor."],
+                answer: "When the revocation telegram reaches the proposer.",
+                explanation: "As against the person to whom it is made, when it comes to his knowledge. If I revoke my acceptance by telegram... against you [the proposer], it will be complete only when I receive the telegram."
+            },
+            {
+                question: "If an agreement is not enforceable by law, it is designated as a:",
+                options: ["Void agreement [Section 2(g)].", "Voidable contract [Section 2(i)].", "Valid contract.", "Illegal contract."],
+                answer: "Void agreement [Section 2(g)].",
+                explanation: "According to Section 2(g) of the Indian Contract Act, 'an agreement not enforceable by law is void'."
+            }
+        ],
+        'Consideration': [
+            {
+                question: "What is the legal term used to describe consideration, meaning 'something in return'?",
+                options: ["Ex Gratia", "Quid pro Quo", "Ad Idem", "Ab Initio"],
+                answer: "Quid pro Quo",
+                explanation: "Consideration is a term used in the sense of quid pro quo, which means 'something in return'.",
+                
+            },
+            {
+                question: "The concept of consideration has a double aspect. What are these two aspects according to the source material?",
+                options: ["A benefit to the promisor and a loss to the third party.", "A right to the promisee and an obligation to the promisor.", "A benefit to the promisor and a detriment to the promisee.", "A monetary value and a non-monetary value."],
+                answer: "A benefit to the promisor and a detriment to the promisee.",
+                explanation: "Consideration has a double aspect of a benefit to the promisor and a detriment to the promisee.",
+                
+            },
+            {
+                question: "According to Section 2(d) of the Indian Contract Act, 1872, consideration must move at the desire of which party?",
+                options: ["The promisee", "The third party", "The promisor", "The government"],
+                answer: "The promisor",
+                explanation: "Section 2(d) defines consideration based on an act or abstinence done 'at the desire of the promisor'.",
+                
+            },
+            {
+                question: "Which English case described valuable consideration as consisting either in some right, interest, profit or benefit accruing to one party, or forbearance, detriment, loss or responsibility given, suffered or undertaken by the other?",
+                options: ["Balfour v. Balfour", "Hadley v. Baxendale", "Misa v. Currie", "Chinnayya vs. Ramayya"],
+                answer: "Misa v. Currie",
+                explanation: "The word consideration was described in the popular English case of Misa v. Currie.",
+                
+            },
+            {
+                question: "In India, consideration may proceed from the promisee or any other person. Which principle does this fact establish regarding the parties to the contract?",
+                options: ["There can be a stranger to a contract but not a stranger to consideration.", "There can be a stranger to consideration but not a stranger to a contract.", "Both a stranger to consideration and a stranger to a contract are valid.", "Neither a stranger to consideration nor a stranger to a contract is valid."],
+                answer: "There can be a stranger to a consideration but not stranger to a contract.",
+                explanation: "In India, consideration may proceed from the promisee or any other person who is not a party to the contract. In other words, there can be a stranger to a consideration but not stranger to a contract.",
+                
+            },
+            {
+                question: "In the case of Durga Prasad v. Baldeo, why was the defendant (D) not bound to pay the commission promised to the plaintiff (P)?",
+                options: ["The commission was opposed to public policy.", "The consideration was illusory.", "The market was constructed at the desire of a third party (Collector), not D.", "The contract was not registered."],
+                answer: "The market was constructed at the desire of a third party (Collector), not D.",
+                explanation: "In Durga Prasad v. Baldeo, the market was constructed by P at the desire of the C (Collector), and not at the desire of the D, meaning D was not bound to pay as it was without consideration moving at his desire.",
+                
+            },
+            {
+                question: "When consideration consists in the performance of an act, it is known as:",
+                options: ["Executory consideration", "Past consideration", "Executed consideration", "Present consideration"],
+                answer: "Executed consideration",
+                explanation: "A consideration which consists in the performance of an act is said to be executed. When it consists in a promise, it is said to be executory.",
+                
+            },
+            {
+                question: "When A pays ₹ 5,000 to B, and B promises to deliver wheat within a month, the consideration paid by A is _____ while the consideration promised by B is _____.",
+                options: ["Future, Past", "Executed, Executory", "Executory, Executed", "Present, Past"],
+                answer: "Executed, Executory",
+                explanation: "In this example, A pays the amount (performance/executed), whereas B merely makes a promise (executory).",
+                
+            },
+            {
+                question: "What is the legal status of an agreement where the consent of the promisor is freely given, but the consideration is inadequate?",
+                options: ["Void, as consideration must be approximately equal to the promise.", "Voidable, at the option of the party who received the inadequate consideration.", "Not void merely because the consideration is inadequate.", "Illegal, if the inadequacy is shocking."],
+                answer: "Not void merely because the consideration is inadequate.",
+                explanation: "Explanation 2 to Section 25 states that an agreement to which the consent of the promisor is freely given is not void merely because the consideration is inadequate.",
+                
+            },
+            {
+                question: "When can inadequate consideration be taken into account by the Court?",
+                options: ["Only if the consideration is purely nominal.", "When the consideration is less than 50% of the value.", "As evidence that the consent of the promisor was not freely given.", "If the contract is unregistered."],
+                answer: "As evidence that the consent of the promisor was not freely given.",
+                explanation: "If the consideration is shockingly less and the other party alleges that his consent was not free, inadequate consideration can be taken as evidence in support of this allegation.",
+                
+            },
+            {
+                question: "A promise to pay money to a witness for testifying in court is generally void because:",
+                options: ["It is immoral.", "It is without consideration, as the witness is legally bound to perform the act.", "It is against public policy.", "It involves past consideration."],
+                answer: "It is without consideration, as the witness is legally bound to perform the act.",
+                explanation: "The performance of an act by a person who is legally bound to perform the same cannot be consideration for a contract. Hence, a promise to pay money to a witness is void for want of consideration.",
+                
+            },
+            {
+                question: "Which of the following would NOT be considered valid consideration?",
+                options: ["A promise to pay a higher fee to a doctor for treatment over his normal fees.", "A promise to perform an act not legally bound to perform.", "Abstaining from opening a rival shop nearby.", "Payment of price for goods sold on credit."],
+                answer: "A promise to pay a higher fee to a doctor for treatment over his normal fees.",
+                explanation: "A promise to pay ₹ 2,000 to a doctor over the fees is invalid as it is the duty of a doctor to give a treatment for his normal fees, meaning it is performance of what one is legally bound to perform.",
+                
+            },
+            {
+                question: "If consideration is legally or physically impossible, it is considered:",
+                options: ["Valid and enforceable.", "Executed consideration.", "Not valid consideration.", "Voidable at the option of the promisee."],
+                answer: "Not valid consideration.",
+                explanation: "Consideration must be real and not illusory. If it is legally or physically impossible it is not considered valid consideration.",
+                
+            },
+            {
+                question: "ABC Ltd. promises to give a job to Mr. X in a Government bank against payment of ₹ 50,000. This promise is void because:",
+                options: ["It lacks adequate consideration.", "It involves past consideration.", "The promise is opposed to public policy.", "It is illusory consideration."],
+                answer: "The promise is opposed to public policy.",
+                explanation: "Anything which is immoral or opposed to public policy cannot be valued as valid consideration. The example given is void as the promise is opposed to public policy.",
+                
+            },
+            {
+                question: "Which phrase describes the rule that a stranger to a contract cannot sue on it?",
+                options: ["Doctrine of Promissory Estoppel", "Doctrine of Quantum Meruit", "Doctrine of Privity of Contract", "Doctrine of Caveat Emptor"],
+                answer: "Doctrine of Privity of Contract",
+                explanation: "The rule that a stranger to a contract cannot sue is known as a 'doctrine of privity of contract'.",
+                
+            },
+            {
+                question: "P is indebted to Q, sells property to R, and R promises P to pay off Q’s debt. If R fails to pay, Q cannot sue R. This scenario illustrates:",
+                options: ["Privity of Consideration.", "Privity of Contract.", "The rule of adequate consideration.", "Past consideration."],
+                answer: "Privity of Contract.",
+                explanation: "Q has no right to sue, as R is a stranger to the contract, illustrating the rule that the third party cannot sue on the contract.",
+                
+            },
+            {
+                question: "Under the Indian Contract Act, 1872, consideration may be:",
+                options: ["Only present or future.", "Only past or present.", "Past, present or future.", "Only past."],
+                answer: "Past, present or future.",
+                explanation: "Consideration may be past, present or future. The words 'has done or abstained from doing' contained in Section 2(d) recognize the doctrine of past consideration.",
+                
+            },
+            {
+                question: "In the case of assignment of a contract, when can the assignee enforce the contract?",
+                options: ["Only if the assignor provides fresh consideration.", "The assignee can always enforce the contract, regardless of the nature of the contract.", "The assignee can enforce the contract, provided the assignment does not involve any personal skill.", "Only if the original contract was registered."],
+                answer: "The assignee can enforce the contract, provided the assignment does not involve any personal skill.",
+                explanation: "When the benefit under a contract has been assigned, the assignee can enforce the contract but such assignment should not involve any personal skill.",
+                
+            },
+            {
+                question: "In a family settlement reduced to writing, which members may enforce the agreement?",
+                options: ["Only those who were originally parties to the settlement.", "Only beneficiaries who provided fresh consideration.", "The members of the family who originally had not been parties to the settlement.", "Only the eldest members of the family."],
+                answer: "The members of the family who originally had not been parties to the settlement.",
+                explanation: "In the case of a family settlement, the members of family who originally had not been parties to the settlement may enforce the agreement, provided the terms are reduced into writing.",
+                
+            },
+            {
+                question: "When L gives M ₹ 20,000 to be given to N, and M informs N that he is holding the money for him, N later recovering the money from M is an example of which exception to the Doctrine of Privity?",
+                options: ["Trust.", "Covenant running with the land.", "Acknowledgement or estoppel.", "Agency."],
+                answer: "Acknowledgement or estoppel.",
+                explanation: "Where the promisor (M) by his conduct acknowledges himself as an agent of the third party (N), it results into a binding obligation towards the third party.",
+                
+            },
+            {
+                question: "An agreement made without consideration is generally void under which Section of the Indian Contract Act, 1872?",
+                options: ["Section 2(d)", "Section 25", "Section 185", "Section 148"],
+                answer: "Section 25",
+                explanation: "The general rule is that an agreement made without consideration is void (Section 25).",
+                
+            },
+            {
+                question: "For an agreement made out of 'Natural Love and Affection' to be valid without consideration, which of the following conditions is NOT explicitly required under Section 25(1)?",
+                options: ["It must be in writing.", "Parties must stand in a near relationship to each other.", "It must be made under judicial supervision.", "It must be registered under the law."],
+                answer: "It must be made under judicial supervision.",
+                explanation: "The required conditions are: (i) natural love and affection, (ii) near relationship, (iii) in writing, and (iv) registered under the law. Judicial supervision is not mentioned.",
+                
+            },
+            {
+                question: "A husband, by a registered agreement, promised to pay his earnings to his wife. This agreement, though without consideration, was held valid because it satisfied the conditions of:",
+                options: ["Compensation for past voluntary services.", "Bailment.", "Natural Love and Affection.", "Agency."],
+                answer: "Natural Love and Affection.",
+                explanation: "A written and registered agreement based on natural love and affection between near relatives (e.g., husband and wife) is enforceable even without consideration.",
+                
+            },
+            {
+                question: "A promise to compensate, wholly or in part, a person who has already voluntarily done something for the promisor, is enforceable under which clause of Section 25?",
+                options: ["Section 25(1)", "Section 25(2)", "Section 25(3)", "Section 25(4)"],
+                answer: "Section 25(2)",
+                explanation: "Compensation for past voluntary services is enforceable under Section 25(2).",
+                
+            },
+            {
+                question: "Regarding the exception of 'Compensation for past voluntary services', which factor must exist?",
+                options: ["The services must have been rendered gratuitously (free of cost).", "The services must have been rendered only for a third party.", "The promisor must be in existence at the time when services were rendered.", "The promisee must have intended to be compensated at the time of service."],
+                answer: "The promisor must be in existence at the time when services were rendered.",
+                explanation: "One of the essential factors is that the promisor must be in existence at the time when services were rendered.",
+                
+            },
+            {
+                question: "P finds R’s wallet and gives it to him. R promises to give P ₹10,000. Why is this a valid contract despite the service being performed before the promise?",
+                options: ["Because finding a wallet is a legally bound duty.", "It is an example of an implied contract.", "It falls under the exception of compensation for past voluntary services (Section 25(2)).", "It is enforceable due to adequate consideration."],
+                answer: "It falls under the exception of compensation for past voluntary services (Section 25(2)).",
+                explanation: "This is a valid contract as it is a promise to compensate a person who has already voluntarily done something for the promisor.",
+                
+            },
+            {
+                question: "What is the primary legal requirement for a promise to pay a time-barred debt to be valid without consideration?",
+                options: ["It must be guaranteed by a financial institution.", "It must be made in writing and signed by the debtor or his authorised agent.", "It must be acknowledged verbally in front of a witness.", "The debt must not exceed ₹ 50,000."],
+                answer: "It must be made in writing and signed by the debtor or his authorised agent.",
+                explanation: "A promise in writing signed by the person making it or by his authorised agent, is made to pay a debt barred by limitation, making it valid without consideration.",
+                
+            },
+            {
+                question: "According to the Indian Contract Act, 1872, which specific transaction does NOT require consideration to be necessary?",
+                options: ["Assignment of contract", "Sale of goods", "Creation of an Agency", "Creation of a Partnership"],
+                answer: "Creation of an Agency",
+                explanation: "According to Section 185 of the Indian Contract Act, 1872, no consideration is necessary to create an agency.",
+                
+            },
+            {
+                question: "In the case of 'Completed gifts', the rule 'no consideration no contract' does not apply. Which part of Section 25 supports this?",
+                options: ["Explanation (1) to Section 25", "Section 25(1)", "Section 25(3)", "Section 25 itself"],
+                answer: "Explanation (1) to Section 25",
+                explanation: "Explanation (1) to Section 25 states that 'nothing in this section shall affect the validity as between the donor and donee, of any gift actually made'.",
+                
+            },
+            {
+                question: "Bailment, defined under Section 148 of the Indian Contract Act, 1872, requires consideration:",
+                options: ["Must be present or future only.", "Must be monetary.", "Is required if the purpose is financial.", "No consideration is required."],
+                answer: "No consideration is required.",
+                explanation: "No consideration is required to affect the contract of bailment, as defined in Section 148.",
+                
+            },
+            {
+                question: "The general principle states that past consideration, if it is to support a promise, must move by:",
+                options: ["A written agreement.", "A subsequent promise.", "A previous request.", "Judicial recognition."],
+                answer: "A previous request.",
+                explanation: "In order to support a promise, a past consideration must move by a previous request [10, 28(d)].",
+                
+            },
+            {
+                question: "A promise to discover treasure by magic is void because it involves consideration that is:",
+                options: ["Unlawful.", "Immoral.", "Illusory.", "Inadequate."],
+                answer: "Illusory.",
+                explanation: "A man promises to discover treasure by magic, bringing the dead person to live again. This transaction is void as it is illusory (physically impossible).",
+                
+            },
+            {
+                question: "In the case of a covenant running with the land, who may enforce the covenant affecting the land?",
+                options: ["Only the original seller of the land.", "Only the government authority.", "The successor of the seller, provided the purchaser had notice of the duties.", "The original purchaser of the land only."],
+                answer: "The successor of the seller, provided the purchaser had notice of the duties.",
+                explanation: "The person who purchases land with notice that the owner of land is bound by certain duties affecting land, the covenant affecting the land may be enforced by the successor of the seller.",
+                
+            },
+            {
+                question: "The court decision in Chinnayya Vs. Ramayya (1882) established which principle in Indian Contract Law?",
+                options: ["Consideration must always be adequate.", "A stranger to a contract can always sue.", "Consideration can legitimately move from a third party.", "Past consideration is always invalid."],
+                answer: "Consideration can legitimately move from a third party.",
+                explanation: "The leading authority in the decision of the Chinnaya Vs. Ramayya, held that the consideration can legitimately move from a third party and it is an accepted principle of law in India.",
+                
+            },
+            {
+                question: "When can a principal enforce contracts entered into by his agent?",
+                options: ["Only if the principal provided consideration directly to the third party.", "When the agent has acted within the scope of his authority and in the name of the principal.", "Only if the contract is for the sale of immovable property.", "The principal can never sue, only the agent can."],
+                answer: "When the agent has acted within the scope of his authority and in the name of the principal.",
+                explanation: "The principal can enforce the contracts entered by his agent where the agent has acted within the scope of his authority and in the name of the principal.",
+                
+            },
+            {
+                question: "What happens if a promisee undertakes liability based on the promise of a person to contribute to charity?",
+                options: ["The contract is void due to lack of consideration.", "The promise is unenforceable.", "The contract shall be valid, making the promise enforceable.", "The promisor is only bound if the promise was registered."],
+                answer: "The contract shall be valid, making the promise enforceable.",
+                explanation: "If a promisee undertakes the liability on the promise of the person to contribute to charity, there the contract shall be valid (Kadarnath v. Gorie Mohammad).",
+                
+            },
+            {
+                question: "If R saves S’s goods from fire without being asked to do so, R cannot demand any reward for his services. This is because:",
+                options: ["The act was done voluntarily and not at the desire of the promisor.", "Saving goods from fire is an act opposed to public policy.", "It is a performance of a legal duty.", "The consideration is illusory."],
+                answer: "The act was done voluntarily and not at the desire of the promisor.",
+                explanation: "R cannot demand any reward for his services, as the act being done voluntary, thus not moving at the desire of the promisor.",
+                
+            },
+            {
+                question: "In the context of consideration, 'abstinence' means:",
+                options: ["Doing something illegal.", "A promise to do something in the future.", "Abstain from doing something.", "Performance of a voluntary act."],
+                answer: "Abstain from doing something.",
+                explanation: "Consideration is abstinence—abstain from doing something.",
+                
+            },
+            {
+                question: "Which specific legal rule is violated if a lawyer agrees to represent a client for a regular fee, and the client later promises an extra bonus solely upon the condition of winning the case?",
+                options: ["Consideration must be adequate.", "Consideration must be legal.", "Performance of what one is legally bound to perform cannot be consideration.", "Consideration must move at the desire of the promisor."],
+                answer: "Performance of what one is legally bound to perform cannot be consideration.",
+                explanation: "An agreement by a client to pay to his counsel over and above the fee, in the event of success, is void, since the lawyer is legally bound to perform the service for the original fee.",
+                
+            },
+            {
+                question: "In the context of consideration, if the services were rendered in the past at the request or desire of the promisor, the subsequent promise is regarded as:",
+                options: ["A mere motive.", "An admission that the past consideration was not gratuitous.", "An illusory promise.", "A void agreement."],
+                answer: "An admission that the past consideration was not gratuitous.",
+                explanation: "In the event of the services being rendered in the past at the request or the desire of the promisor, the subsequent promise is regarded as an admission that the past consideration was not gratuitous.",
+                
+            },
+            {
+                question: "If X promises to sell a house worth ₹60 lacs for ₹10 lacs only, what is the consequence, provided consent was freely given?",
+                options: ["The transaction is voidable due to gross inadequacy.", "The transaction is void.", "The adequacy of the price in itself shall not render the transaction void.", "The inadequacy serves as conclusive proof of fraud."],
+                answer: "The adequacy of the price in itself shall not render the transaction void.",
+                explanation: "The adequacy of the price in itself shall not render the transaction void, unless the party pleads that the transaction takes place under coercion, undue influence or fraud.",
+                
+            },
+            {
+                question: "Under the exception relating to Natural Love and Affection, the parties must stand in a:",
+                options: ["Business relationship.", "Fiduciary relationship.", "Near relationship to each other.", "Commercial relationship."],
+                answer: "Near relationship to each other.",
+                explanation: "One of the conditions is that the parties must stand in near relationship to each other.",
+                
+            },
+            {
+                question: "When Mr. Y won a case due to the knowledge and intellect provided by his nephew Mr. X, and later promised Mr. X ₹ 10,000, this is valid as:",
+                options: ["A cash sale of goods.", "A completed gift.", "Compensation to past services.", "An agency contract."],
+                answer: "Compensation to past services.",
+                explanation: "This is a valid contract as it is compensation to past services (Example 24).",
+                
+            },
+            {
+                question: "What is the status of an agreement made without consideration under Section 25, if it falls under one of the recognized exceptions?",
+                options: ["Void.", "Voidable.", "Valid.", "Illegal."],
+                answer: "Valid.",
+                explanation: "The general rule is that an agreement made without consideration is void (Section 25). However, if it falls under the exceptions (like love and affection, time-barred debt, etc.), it will be valid and enforceable.",
+                
+            },
+            {
+                question: "When can a beneficiary enforce his right under a trust, even though he was not a party to the contract between the settler and the trustee?",
+                options: ["Always, as this is an exception to the Doctrine of Privity of Contract.", "Only if the trust property is movable.", "Never, as he is a stranger to the contract.", "Only if the trust is registered."],
+                answer: "Always, as this is an exception to the Doctrine of Privity of Contract.",
+                explanation: "In the case of trust, a beneficiary can enforce his right under the trust, though he was not a party to the contract.",
+                
+            },
+            {
+                question: "Mr. X promised his wife's father, Mr. Puri, that he would pay her a monthly allowance if he ill-treated her again. When ill-treatment recurred, the wife sued Mr. X. This is permissible under which exception to the Privity rule?",
+                options: ["Family settlement.", "Assignment of contract.", "Marriage contracts/arrangements.", "Covenant running with the land."],
+                answer: "Marriage contracts/arrangements.",
+                explanation: "In the case of certain marriage contracts/arrangements, a provision may be made for the benefit of a person, and he may file the suit though he is not a party to the agreement.",
+                
+            },
+            {
+                question: "According to the summary provided, which element of consideration is NOT relevant in determining validity?",
+                options: ["Legality.", "Movement at the desire of the promisor.", "Adequacy.", "Movement from the promisee or third party."],
+                answer: "Adequacy.",
+                explanation: "Inadequacy of consideration is not relevant [28(g)].",
+                
+            },
+            {
+                question: "A cash sale of goods is an example of which type of consideration?",
+                options: ["Past consideration.", "Future consideration.", "Executed consideration.", "Present consideration."],
+                answer: "Present consideration.",
+                explanation: "A cash sale of goods is an example of present consideration. The consideration is immediately made against delivery of goods (Example 9).",
+                
+            },
+            {
+                question: "If consideration consists in a promise, it is said to be:",
+                options: ["Executed.", "Executory.", "Past.", "Present."],
+                answer: "Executory.",
+                explanation: "When consideration consists in a promise, it is said to be executory.",
+                
+            },
+            {
+                question: "Which of the following describes the legal requirement for consideration, ensuring it has some recognized legal value?",
+                options: ["Consideration must be adequate.", "Consideration must be commercial.", "Consideration must be real and not illusory.", "Consideration must be beneficial to the promisee."],
+                answer: "Consideration must be real and not illusory.",
+                explanation: "Consideration must be real and must not be illusory. It must be something to which the law attaches some value.",
+                
+            },
+            {
+                question: "In the case of past voluntary services, the promise to compensate is binding only if the services should have been rendered:",
+                options: ["At the request of the promisee.", "At the request of the promisor.", "Voluntarily.", "Under a legal obligation."],
+                answer: "Voluntarily.",
+                explanation: "One essential factor is that the services should have been rendered voluntarily.",
+                
+            },
+            {
+                question: "If Mr. G promised Mr. K, secretary of a temple committee, to donate ₹ 1,00,000 for renovation, and Mr. K incurred costs based on that promise, why can Mr. K claim the money?",
+                options: ["Because the contract was for construction.", "Because the promise was registered.", "Because the promisee (secretary) undertook liability on the faith of the promise (Charity exception).", "Because the promise was supported by past consideration."],
+                answer: "Because the promisee (secretary) undertook liability on the faith of the promise (Charity exception).",
+                explanation: "If a promisee undertakes the liability on the promise of the person to contribute to charity, there the contract shall be valid (Kadarnath v. Gorie Mohammad).",
+                
+            },
+            {
+                question: "The definition of consideration in Section 2(d) covers which actions by the promisee or any other person?",
+                options: ["Has done or abstained from doing.", "Does or abstains from doing.", "Promises to do or abstain from doing.", "All of the above."],
+                answer: "All of the above.",
+                explanation: "Section 2(d) includes 'has done or abstained from doing, or does or abstains from doing or promises to do or abstain from doing something'.",
+                
+            },
+            {
+                question: "Under the exception of 'Promise to pay time barred debt', the promise is enforceable for the amount:",
+                options: ["Of the full original debt.", "Of the full original debt plus interest.", "Stated in the written promise.", "Not exceeding ₹ 1,00,000."],
+                answer: "Stated in the written promise.",
+                explanation: "In Example 25, A promises to pay ₹50,000 in final settlement of a debt of ₹60,000. It is enforceable for ₹50,000 only.",
+                
+            },
+            {
+                question: "The term 'detriment' in English Law, referenced in the unit, must be understood in the sense of:",
+                options: ["Financial loss to the promisor.", "Non-monetary loss to the third party.", "Some detriment as envisaged by English Law.", "Mental agony suffered by the promisee."],
+                answer: "Some detriment as envisaged by English Law.",
+                explanation: "Consideration has to be really understood in the sense of some detriment as envisaged by English Law.",
+                
+            },
+            {
+                question: "When A guarantees Bhuvan for payment of the price of goods sold on credit to Chaitanya, the selling of goods on credit by Bhuvan to Chaitanya is considered the consideration for A’s promise. This is an example of consideration being:",
+                options: ["An act - doing something.", "Abstinence - not doing something.", "Illusory.", "Gratuitous."],
+                answer: "An act - doing something.",
+                explanation: "Here, selling of goods on credit by Bhuvan to Chaitanya is consideration for A’s promise, which is defined as Consideration is an act- doing something (Example 1).",
+                
+            },
+            {
+                question: "Abhishek promises Bharti not to file a suit against him if she pays him ₹ 1,00,000. Here, the consideration on Abhishek's part is:",
+                options: ["Executed consideration.", "An act (payment).", "Abstinence (not filing a suit).", "Past consideration."],
+                answer: "Abstinence (not filing a suit).",
+                explanation: "Here abstinence on the part of Abhishek would constitute consideration against Bharti’s payment of ₹ 1,00,000. Consideration is abstinence - abstain from doing something (Example 3).",
+                
+            },
+            {
+                question: "Which of the following is NOT required for a promise to compensate for past voluntary services to be binding?",
+                options: ["The services should have been rendered voluntarily.", "The services must have been rendered for the promisor.", "The promisee must have incurred a monetary loss.", "The promisor must have intended to compensate the promisee."],
+                answer: "The promisee must have incurred a monetary loss.",
+                explanation: "Monetary loss is not one of the four essential factors listed for past voluntary services.",
+                
+            },
+            {
+                question: "If a written and registered agreement is based on natural love and affection, the lack of consideration renders the agreement:",
+                options: ["Void, as consideration is mandatory.", "Valid, as it is an exception under Section 25(1).", "Voidable, at the option of the promisor.", "Illegal."],
+                answer: "Valid, as it is an exception under Section 25(1).",
+                explanation: "A written and registered agreement based on natural love and affection... is enforceable even without consideration.",
+                
+            },
+            {
+                question: "The rule 'A stranger to a contract cannot sue' is subject to how many exceptions as per the provided text?",
+                options: ["Three", "Five", "Seven", "Nine"],
+                answer: "Seven",
+                explanation: "The text lists seven exceptions to the doctrine of privity of contract.",
+                
+            },
+            {
+                question: "A contract made without consideration is considered 'valid' in which of these situations?",
+                options: ["When the consideration is inadequate.", "When the contract is one of bailment (Section 148).", "When the promise is to perform a legal duty.", "When the consideration is illusory."],
+                answer: "When the contract is one of bailment (Section 148).",
+                explanation: "Bailment (Sec. 148) is explicitly listed as a situation where a contract is valid even without consideration.",
+                
+            },
+            {
+                question: "The consideration, if past, may be the motive, but cannot be the real consideration of a subsequent promise, UNLESS:",
+                options: ["It is in writing.", "The services were rendered at the request or desire of the promisor.", "The subsequent promise is registered.", "It is a time-barred debt."],
+                answer: "The services were rendered at the request or desire of the promisor.",
+                explanation: "The consideration, if past, may be the motive but cannot be the real consideration... But in the event of the services being rendered in the past at the request or the desire of the promisor, the subsequent promise is regarded as an admission that the past consideration was not gratuitous.",
+                
+            },
+            {
+                question: "The core concept of consideration is best summarized as:",
+                options: ["Promise / Performance that parties exchange with each other.", "Benefit, right, or profit to one party only.", "Something in return that must be monetary.", "A legal formality for written contracts."],
+                answer: "Promise / Performance that parties exchange with each other.",
+                explanation: "Consideration = Promise / Performance that parties exchange with each other.",
+                
+            },
+            {
+                question: "Which specific section of the Indian Contract Act, 1872, contains the exceptions where an agreement without consideration is valid?",
+                options: ["Section 2(d)", "Section 10", "Section 25", "Section 73"],
+                answer: "Section 25",
+                explanation: "The general rule is that an agreement made without consideration is void (Section 25). The Act contains certain exceptions to this rule.",
+                
+            },
+            {
+                question: "If XYZ wishes to open an electric shop next to ABC's shop, and ABC offers ₹ 2,00,000 for XYZ to shift 1 km away, what form does the consideration take from XYZ's perspective?",
+                options: ["An act of opening the shop.", "An act of shifting the shop.", "Abstinence from opening the shop nearby.", "Executed consideration."],
+                answer: "Abstinence from opening the shop nearby.",
+                explanation: "Here, consideration is given for abstaining XYZ from opening his shop nearby.",
+                
+            },
+            {
+                question: "A college promises students scoring above 95% a job in an MNC. The promise for recruitment is considered consideration for which act by the students?",
+                options: ["The subsequent employment.", "The promise to take the job.", "The act of scoring above 95%.", "The application for the job."],
+                answer: "The act of scoring above 95%.",
+                explanation: "Here the promise for recruitment of candidate will be considered as consideration for the act of students scoring above 95%.",
+                
+            },
+            {
+                question: "Which type of consideration is defined by the words 'has done or abstained from doing' in Section 2(d)?",
+                options: ["Future consideration.", "Present consideration.", "Past consideration.", "Executed consideration."],
+                answer: "Past consideration.",
+                explanation: "The words 'has done or abstained from doing' are a recognition of the doctrine of past consideration.",
+                
+            },
+            {
+                question: "R is told by the promisor, S, that he will reward R if R protects S's house from rain. R performs the act. This scenario involves which type of consideration for S's promise?",
+                options: ["Voluntary consideration.", "Executed consideration.", "Illusory consideration.", "Past gratuitous consideration."],
+                answer: "Executed consideration.",
+                explanation: "R performs the act (performance is complete) against S's promise. Consideration consisting in the performance of an act is executed consideration.",
+                
+            },
+            {
+                question: "In the case of covenant running with the land, the purchaser of the land must have been aware of the duties affecting the land. This requirement is known as:",
+                options: ["Notice.", "Ratification.", "Waiver.", "Assent."],
+                answer: "Notice.",
+                explanation: "The person who purchases land with notice that the owner of land is bound by certain duties affecting land....",
+                
+            },
+            {
+                question: "In the Chinnayya vs. Ramayya case, why was the maternal uncle able to recover the annuity from the daughter?",
+                options: ["The uncle was a party to the contract.", "The contract was based on love and affection.", "There was sufficient consideration flowing from the mother (old lady) to the daughter on behalf of the uncle (third party).", "The contract was for completed gifts."],
+                answer: "There was sufficient consideration flowing from the mother (old lady) to the daughter on behalf of the uncle (third party).",
+                explanation: "It was held that there was sufficient consideration for the uncle to recover the money from the daughter, as consideration moved from 'any other person' (the mother).",
+                
+            },
+            {
+                question: "If a promise is vague or uncertain, what effect does it have on its validity as consideration?",
+                options: ["It is a good consideration if it is written.", "It is irrelevant, as long as it moves at the desire of the promisor.", "It should not be vague or uncertain to be a good consideration.", "Vagueness only affects adequacy, not validity."],
+                answer: "It should not be vague or uncertain to be a good consideration.",
+                explanation: "A promise to do more than one is legally bound to do... provided it is not opposed to public policy, is a good consideration. It should not be vague or uncertain.",
+                
+            },
+            {
+                question: "If a person promises to pay a time-barred debt, and the promise is only oral, what is the status of the promise?",
+                options: ["Valid, if accepted by the creditor.", "Void, as it must be in writing and signed.", "Voidable, at the option of the debtor.", "Valid, under Section 25(2)."],
+                answer: "Void, as it must be in writing and signed.",
+                explanation: "The promise to pay time barred debt must be in writing signed by the person making it or his authorised agent. An oral promise is not enforceable under this exception.",
+                
+            },
+            {
+                question: "Which concept is described as having to be 'really understood in the sense of some detriment as envisaged by English Law'?",
+                options: ["Quid pro quo.", "The double aspect of consideration.", "Past consideration.", "Adequacy of consideration."],
+                answer: "The double aspect of consideration.",
+                explanation: "Having a double aspect of a benefit to the promisor and a detriment to the promisee, it has to be really understood in the sense of some detriment as envisaged by English Law.",
+                
+            },
+            {
+                question: "What is the primary distinguishing factor between compensation for voluntary services (Sec 25(2)) and ordinary past consideration?",
+                options: ["Voluntary services must be rendered to a government body.", "Ordinary past consideration requires a previous request by the promisor, while voluntary service is done without request.", "Voluntary services must be monetary.", "Ordinary past consideration is always void."],
+                answer: "Ordinary past consideration requires a previous request by the promisor, while voluntary service is done without request.",
+                explanation: "Past consideration must move by a previous request. Voluntary services are those rendered 'voluntarily', meaning without prior request, and are compensated by a *subsequent* promise.",
+                
+            },
+            {
+                question: "The rule regarding adequacy implies that the consideration in return need not be:",
+                options: ["Real.", "Legal.", "Equal to the promise given.", "At the desire of the promisor."],
+                answer: "Equal to the promise given.",
+                explanation: "Something in return need not be equal to something given. It can be considered a bad bargain of the party.",
+                
+            },
+            {
+                question: "If a contract involves past consideration, the words used in Section 2(d) that validate it are:",
+                options: ["Does or abstains from doing.", "Promises to do or abstain from doing.", "Has done or abstained from doing.", "Must be done immediately."],
+                answer: "Has done or abstained from doing.",
+                explanation: "The words 'has done or abstained from doing' are a recognition of the doctrine of past consideration.",
+                
+            },
+            {
+                question: "In the descriptive question 2 scenario (Mr. Sohanlal selling land to Mr. Mohanlal with a condition for Mr. Chotelal's use), Mr. Chotelal was entitled to sue Mr. Mohanlal primarily because:",
+                options: ["He was a relative (son).", "The contract was based on the exception of Agency.", "The case falls under the exception of covenant running with the land.", "The property papers were registered."],
+                answer: "The case falls under the exception of covenant running with the land.",
+                explanation: "It is provided in the law that 'in case covenant running with the land... the covenant affecting the land may be enforced by the successor of the seller.' Hence, Mr. Chotelal is entitled to file a petition.",
+                
+            },
+            {
+                question: "If R saves S's goods from fire without being asked to do so, and R later demands a reward, R cannot sue because the act was done:",
+                options: ["Against public policy.", "Voluntary, lacking the desire of the promisor.", "Under duress.", "As a legal obligation."],
+                answer: "Voluntary, lacking the desire of the promisor.",
+                explanation: "R cannot demand any reward for his services, as the act being done voluntary, meaning consideration did not move at the desire of the promisor.",
+                
+            },
+            {
+                question: "The legal rule that consideration must move at the desire of the promisor specifically relates to which element of consideration?",
+                options: ["Its adequacy.", "Its legality.", "The 'return' element.", "Its executory nature."],
+                answer: "The 'return' element.",
+                explanation: "Consideration must be offered by the promisee or the third party at the desire or request of the promisor. This implies 'return' element of consideration.",
+                
+            },
+            {
+                question: "If Mr. Ankit Sharma assigns his insurance policy to his son, the son can claim the policy even though he was not a party to the contract. This is an application of the exception related to:",
+                options: ["Trust.", "Completed gift.", "Assignment of a contract.", "Family settlement."],
+                answer: "Assignment of a contract.",
+                explanation: "When the benefit under a contract has been assigned, the assignee can enforce the contract (Example 17).",
+                
+            },
+            {
+                question: "Which specific condition, if alleged by the promisor, allows the court to examine inadequate consideration as evidence?",
+                options: ["That the contract was unregistered.", "That the promisor was suffering a financial loss.", "That the consent was not free (coercion, undue influence, or fraud).", "That the consideration was purely monetary."],
+                answer: "That the consent was not free (coercion, undue influence, or fraud).",
+                explanation: "If the party pleads that the transaction takes place under coercion, undue influence or fraud, inadequate consideration can be taken as evidence.",
+                
+            },
+            {
+                question: "Which section of the Indian Contract Act, 1872, defines bailment?",
+                options: ["Section 2(d)", "Section 25", "Section 148", "Section 185"],
+                answer: "Section 148",
+                explanation: "Section 148 of the Indian Contract Act, 1872, defines bailment.",
+                
+            },
+            {
+                question: "If Abhishek promises Bharti not to file a suit against her in return for payment, what form of consideration is involved?",
+                options: ["Forbearance.", "Benefit.", "Profit.", "Interest."],
+                answer: "Forbearance.",
+                explanation: "Forbearance (abstinence from filing a suit) is included in the definition of valuable consideration mentioned in Misa v. Currie ('forbearance, detriment, loss, or responsibility given, suffered or undertaken by the other').",
+                
+            },
+            {
+                question: "The term 'valuable consideration in the sense of law' specifically requires the consideration to consist of:",
+                options: ["Monetary exchange.", "Only a right or interest.", "A benefit accruing to the promisor or a detriment suffered by the promisee.", "Only an executed act."],
+                answer: "A benefit accruing to the promisor or a detriment suffered by the promisee.",
+                explanation: "The definition states consideration may consist either in some right, interest, profit or benefit accruing to one party (promisor) or forbearance, detriment, loss or responsibility given, suffered or undertaken by the other (promisee).",
+                
+            },
+            {
+                question: "Which statement regarding consideration is FALSE, according to the legal rules?",
+                options: ["It must move at the desire of the promisor.", "It must be approximately of equal value with the promise.", "It may move from any person.", "It must be legal."],
+                answer: "It must be approximately of equal value with the promise.",
+                explanation: "Consideration need not be approximately of equal value with the promise for which it is exchanged, meaning it need not be adequate.",
+                
+            },
+            {
+                question: "If the terms of a family settlement are not reduced into writing, what is the status of the agreement for members who were not original parties?",
+                options: ["They may still enforce it.", "They cannot enforce the agreement.", "The agreement is voidable.", "It becomes a completed gift."],
+                answer: "They cannot enforce the agreement.",
+                explanation: "The members can enforce the agreement only 'if the terms of the settlement are reduced into writing'.",
+                
+            },
+            {
+                question: "The doctrine that allows a stranger to consideration but not a stranger to a contract to sue is primarily established by which provision of the Indian Contract Act, 1872?",
+                options: ["The wording of Section 2(d).", "Explanation 1 to Section 25.", "Section 185.", "The definition of 'act' and 'abstinence'. "],
+                answer: "The wording of Section 2(d).",
+                explanation: "The definition of consideration as given in Section 2(d) makes that proposition clear, stating consideration can move from 'the promisee or any other person'.",
+                
+            },
+            {
+                question: "If consideration is found to be immoral, the agreement is:",
+                options: ["Voidable.", "Valid if adequate.", "Not valued as valid consideration.", "Enforceable under Section 25(1)."],
+                answer: "Not valued as valid consideration.",
+                explanation: "Anything which is immoral or opposed to public policy also cannot be valued as valid consideration.",
+                
+            },
+            {
+                question: "A promise to pay a time-barred debt must be signed by the debtor or his authorised agent. This requirement ensures compliance with which element?",
+                options: ["Voluntary service.", "In writing.", "Adequacy.", "Legality."],
+                answer: "In writing.",
+                explanation: "Where a promise in writing signed by the person making it or by his authorised agent, is made to pay a debt barred by limitation.",
+                
+            },
+            {
+                question: "According to the source, what is the general rule regarding the necessity of consideration in a valid contract?",
+                options: ["Consideration is optional for written agreements.", "Consideration is an essential element without which no single promise will be enforceable.", "Consideration is only required if the value exceeds ₹ 50,000.", "Consideration must be provided by the promisor."],
+                answer: "Consideration is an essential element without which no single promise will be enforceable.",
+                explanation: "Consideration is an essential element of a valid contract without which no single promise will be enforceable.",
+                
+            },
+            {
+                question: "If A promises to sell a house worth ₹60 lacs for ₹10 lacs, and the seller later attempts to plead fraud, the court will primarily determine:",
+                options: ["Whether the consideration was fair.", "Whether the consideration was adequate.", "Whether the consent of the promisor was freely given.", "Whether the promise was registered."],
+                answer: "Whether the consent of the promisor was freely given.",
+                explanation: "The court will take inadequacy into account in determining the question whether the consent of the promisor was freely given.",
+                
+            },
+            {
+                question: "Which exception to the doctrine of privity involves the successor of a seller enforcing a duty on the purchaser of the property?",
+                options: ["Acknowledgement.", "Family Settlement.", "Covenant running with the land.", "Trust."],
+                answer: "Covenant running with the land.",
+                explanation: "In the case of covenant running with the land, the covenant affecting the land may be enforced by the successor of the seller.",
+                
+            },
+            {
+                question: "When Mr. Y deposits his goods in Mr. A's godown and receives the keys, Mr. Y gets:",
+                options: ["Ownership but not possession.", "Possession but not ownership.", "Both ownership and possession.", "Neither ownership nor possession."],
+                answer: "Possession but not ownership.",
+                explanation: "Mr. Y gets possession of godown but not the ownership (Example 26, relating to Bailment).",
+                
+            },
+            {
+                question: "If a contract involves past services rendered at the desire of the promisor, the subsequent promise to compensate validates the contract by showing that:",
+                options: ["The consideration was gratuitous.", "The services were legally bound.", "The consideration was not gratuitous.", "The services were illegal."],
+                answer: "The consideration was not gratuitous.",
+                explanation: "The subsequent promise is regarded as an admission that the past consideration was not gratuitous.",
+                
+            },
+            {
+                question: "If a father, out of natural love and affection, promises to give his newly wedded daughter-in-law a golden necklace, which condition is necessary to make the agreement legally valid without consideration?",
+                options: ["The necklace must be worth less than ₹ 1,00,000.", "The promise must be in writing and registered.", "The daughter-in-law must promise to repay the amount later.", "The father and daughter-in-law must be cohabiting."],
+                answer: "The promise must be in writing and registered.",
+                explanation: "The agreement is valid only if it is made in writing, signed, and registered (Example 23, fulfilling the requirements of Section 25(1)).",
+                
+            },
+            {
+                question: "A valuable consideration, as per the legal definition, must include either benefit to the promisor or:",
+                options: ["Profit to a third party.", "A detriment to the promisee.", "A guarantee from a bank.", "Monetary payment only."],
+                answer: "A detriment to the promisee.",
+                explanation: "It may consist either in some right, interest, profit or benefit accruing to one party (promisor) or forbearance, detriment, loss or responsibility given, suffered or undertaken by the other (promisee).",
+                
+            },
+            {
+                question: "Which situation explicitly demonstrates 'executed consideration'?",
+                options: ["A makes a promise to B to deliver goods next month.", "A pays the amount immediately, and B promises future delivery of goods.", "A promises B that he will pay the amount next week.", "A promises to abstain from suing B."],
+                answer: "A pays the amount immediately, and B promises future delivery of goods.",
+                explanation: "Executed consideration consists in the performance of an act. A pays the amount (performance is complete).",
+                
+            },
+            {
+                question: "If a covenant running with the land exists, and the current owner is bound by duties affecting the land, the successor of the seller may enforce it because:",
+                options: ["The covenant is restrictive.", "The covenant is always monetary.", "The successor is the original contracting party.", "The purchaser bought the land with notice of the restriction."],
+                answer: "The purchaser bought the land with notice of the restriction.",
+                explanation: "The covenant may be enforced if the person purchases land with notice that the owner of the land is bound by certain duties affecting land.",
+                
+            },
+            {
+                question: "When considering the compensation for past voluntary services (Sec 25(2)), the services must have been rendered for:",
+                options: ["The promisee.", "The promisor.", "The government.", "Any near relative."],
+                answer: "The promisor.",
+                explanation: "The services must have been rendered for the promisor.",
+                
+            },
+            {
+                question: "The legal rule that consideration must be something the promisor is NOT already bound to do prevents the enforceability of which kind of promise?",
+                options: ["A promise to settle a time-barred debt.", "A promise to perform a public duty.", "A promise to donate to charity.", "A promise based on natural love and affection."],
+                answer: "A promise to perform a public duty.",
+                explanation: "The performance of an act by a person who is legally bound to perform the same cannot be consideration.",
+                
+            },
+            {
+                question: "Which pair represents a valid exception to the rule 'No consideration, No Contract'?",
+                options: ["Agency and Voidable contracts.", "Bailment and Illegal contracts.", "Completed gifts and Natural Love & Affection.", "Inadequate consideration and Past services."],
+                answer: "Completed gifts and Natural Love & Affection.",
+                explanation: "Completed gifts and Natural Love & Affection (under Section 25(1)) are both listed exceptions to the lack of consideration.",
+                
+            },
+            {
+                question: "The term 'detriment' is understood as part of the legal sense of consideration, particularly relating to the position of the:",
+                options: ["Promisor.", "Third party.", "Promisee.", "Agent."],
+                answer: "Promisee.",
+                explanation: "Consideration has a double aspect of a benefit to the promisor and a detriment to the promisee.",
+                
+            },
+            {
+                question: "In the context of the validity of an agreement without consideration, the requirement for a promise to pay a time-barred debt is found in:",
+                options: ["Section 25(1).", "Section 25(2).", "Section 25(3).", "Explanation 2 to Section 25."],
+                answer: "Section 25(3).",
+                explanation: "Promise to pay time barred debt is valid without consideration under Section 25(3).",
+                
+            },
+            {
+                question: "If Mr. X is paid ₹ 50,000 to secure a job in a government bank, this consideration is invalid because it is:",
+                options: ["Opposed to public policy.", "Unlawful (involving a crime).", "Immoral.", "Illusory."],
+                answer: "Opposed to public policy.",
+                explanation: "The promise is void as the promise is opposed to public policy.",
+                
+            },
+            {
+                question: "What is the status of consideration if it is unlawful?",
+                options: ["It is voidable.", "It is insufficient.", "It is invalid, regardless of adequacy.", "It makes the contract valid if done at the promisor's desire."],
+                answer: "It is invalid, regardless of adequacy.",
+                explanation: "Only presence of consideration is not sufficient, it must be lawful.",
+                
+            },
+            {
+                question: "In India, who can provide the consideration for a contract?",
+                options: ["The promisor only.", "The promisee only.", "The promisee or any other person.", "Only a person who is a party to the contract."],
+                answer: "The promisee or any other person.",
+                explanation: "Consideration may move from promisee or any other person.",
+                
+            },
+            {
+                question: "When must the promisor have intended to compensate the promisee for past voluntary services?",
+                options: ["When the services were rendered.", "At the time of making the promise.", "At the time of registration.", "It is not a mandatory requirement."],
+                answer: "At the time of making the promise.",
+                explanation: "The promisor must have intended to compensate the promisee. This intent is demonstrated by the subsequent promise, making the contract valid under Section 25(2).",
+                
+            },
+            {
+                question: "If a contract involves a promise to do more than one is legally bound to do, such a promise, if not opposed to public policy, constitutes:",
+                options: ["A void agreement.", "A good consideration.", "An inadequate promise.", "Illusory consideration."],
+                answer: "A good consideration.",
+                explanation: "Where a person promises to do more that he is legally bound to do... is a good consideration.",
+                
+            },
+            {
+                question: "The provision that 'nothing in this section shall affect the validity as between the donor and donee, of any gift actually made' validates:",
+                options: ["A gratuitous promise.", "A gift requiring registration.", "A completed gift.", "A promise to make a future gift."],
+                answer: "A completed gift.",
+                explanation: "This quote is Explanation (1) to Section 25, which validates completed gifts.",
+                
+            },
+            {
+                question: "In the case of past consideration, the consideration must be given and accepted in exchange for the promise, meaning it generally cannot be:",
+                options: ["Monetary.", "A mere motive for the subsequent promise.", "Provided by a third party.", "Inadequate."],
+                answer: "A mere motive for the subsequent promise.",
+                explanation: "The consideration, if past, may be the motive but cannot be the real consideration of a subsequent promise (unless rendered at a previous request).",
+                
+            },
+            {
+                question: "Which of the following is NOT an exception to the rule of 'No Consideration, No Contract'?",
+                options: ["Promise to pay time-barred debt.", "Agency.", "Compensation for involuntary services.", "Charity (where liability is undertaken)."],
+                answer: "Compensation for involuntary services.",
+                explanation: "The exception applies to 'Compensation for past voluntary services' [23, 33(a)].",
+                
+            },
+            {
+                question: "If two brothers agree to pay an allowance to their mother upon partitioning joint properties, the mother can sue them if they deny the allowance, based on the exception of:",
+                options: ["Acknowledgement.", "Trust.", "Family settlement.", "Assignment."],
+                answer: "Family settlement.",
+                explanation: "Example 15/18 illustrates that the mother, though a stranger to the contract, can enforce the agreement under the family settlement exception.",
+                
+            },
+            {
+                question: "According to the source, the concept of consideration is an essential element of a valid contract because without it:",
+                options: ["The contract cannot be registered.", "The contract becomes voidable.", "No single promise will be enforceable.", "It is impossible to establish the desire of the promisor."],
+                answer: "No single promise will be enforceable.",
+                explanation: "Consideration is an essential element of a valid contract without which no single promise will be enforceable.",
+                
+            },
+            {
+                question: "In determining whether consent was freely given, the court may consider the inadequacy of consideration, as supported by which principle?",
+                options: ["Bolton v. Modden.", "Explanation 2 to Section 25.", "Section 2(d).", "Section 148."],
+                answer: "Explanation 2 to Section 25.",
+                explanation: "Explanation 2 to Section 25 allows inadequacy to be taken into account by the Court in determining the question whether the consent of the promisor was freely given.",
+                
+            },
+            {
+                question: "The form of consideration can be summarized as some benefit, right or profit to one party OR:",
+                options: ["A mere promise to a third party.", "A detriment, loss, or forbearance to the other party.", "A guarantee of future monetary gain.", "An executed gift."],
+                answer: "A detriment, loss, or forbearance to the other party.",
+                explanation: "Form of consideration = Some benefit, right or profit to one party / some detriment, loss, or forbearance to the other.",
+                
+            },
+            {
+                question: "The rule 'A stranger to a contract cannot sue' means that only a person who is a party to the contract can sue on it. This rule applies even though:",
+                options: ["The consideration is monetary.", "The consideration is adequate.", "Consideration for the agreement may proceed from a third party.", "The contract is oral."],
+                answer: "Consideration for the agreement may proceed from a third party.",
+                explanation: "Though under the Indian Contract Act, 1872, the consideration for an agreement may proceed from a third party, the third party cannot sue on contract.",
+                
+            },
+            {
+                question: "If R promises to compensate A for past work done at R's desire, A can sue R for the promised money. This is an example of:",
+                options: ["Present consideration.", "Future consideration.", "Past consideration.", "Illusory consideration."],
+                answer: "Past consideration.",
+                explanation: "A performed services to B (R) at his desire, and B (R) promises to compensate later. This is said to be past consideration (Example 8).",
+                
+            },
+            {
+                question: "Which type of covenant must be abided by all successors of the land, provided the initial purchaser had notice?",
+                options: ["Gratuitous covenant.", "Void covenant.", "Restrictive covenant running with the land.", "Personal covenant."],
+                answer: "Restrictive covenant running with the land.",
+                explanation: "Such conditions (like restricting industrial use) are called restrictive covenants and all successors are bind to it.",
+                
+            },
+            {
+                question: "If a contract involves consideration that is not real (e.g., physically impossible), it is considered:",
+                options: ["Vague.", "Illusory.", "Unlawful.", "Immoral."],
+                answer: "Illusory.",
+                explanation: "If consideration is legally or physically impossible it is not considered valid consideration; this relates to the rule that consideration must be real and not illusory.",
+                
+            },
+            {
+                question: "Which combination of elements must be present for an agreement based on Natural Love and Affection to be valid without consideration?",
+                options: ["Near relation, monetary value, registration.", "Natural love, written, oral consent.", "Near relation, natural love, written, registered.", "Natural love, registered, adequacy."],
+                answer: "Near relation, natural love, written, registered.",
+                explanation: "The four conditions are: natural love and affection, near relationship, in writing, and registered.",
+                
+            },
+            {
+                question: "If a promisee undertakes liability on the promise of the promisor to contribute to charity, the contract is enforceable based on which principle?",
+                options: ["The promisor's moral duty.", "The doctrine of promissory estoppel (implied by the undertaken liability).", "The presence of adequate consideration.", "The statutory recognition under Section 25(3)."],
+                answer: "The doctrine of promissory estoppel (implied by the undertaken liability).",
+                explanation: "If a promisee undertakes the liability on the promise... there the contract shall be valid (Charity exception).",
+                
+            },
+            {
+                question: "Why is consideration referred to as 'the price agreed to be paid by the promisee'?",
+                options: ["Because it must always be monetary.", "Because it defines the promisor's obligation.", "Because it is the exchange promised for the obligation of the promisor.", "Because it determines the contract's legality."],
+                answer: "Because it is the exchange promised for the obligation of the promisor.",
+                explanation: "Consideration is the price agreed to be paid by the promisee for the obligation of the promisor.",
+                
+            },
+            {
+                question: "If Abhishek promises Bharti not to file a suit against her in exchange for payment, the legal term for Abhishek's action is:",
+                options: ["Detriment.", "Profit.", "Gratuitous act.", "Executed act."],
+                answer: "Detriment.",
+                explanation: "Forbearance (abstinence from filing suit) constitutes 'detriment' or 'loss' suffered/undertaken by the promisee.",
+                
+            },
+            {
+                question: "If a person performs an act that they are already legally bound to perform, and a second party promises consideration for that act, the promise is:",
+                options: ["Valid, provided the consideration is adequate.", "Void for want of consideration.", "Valid, if the promise is written and registered.", "Voidable."],
+                answer: "Void for want of consideration.",
+                explanation: "The performance of an act by a person who is legally bound to perform the same cannot be consideration for a contract. Hence, such a contract is void for want of consideration.",
+                
+            },
+            {
+                question: "The legal rule that 'Consideration must not be unlawful, immoral, or opposed to public policy' addresses the requirement of consideration's:",
+                options: ["Adequacy.", "Reality.", "Legality.", "Execution."],
+                answer: "Legality.",
+                explanation: "Consideration must be legal [28(h), 30(viii)], ensuring it is not unlawful, immoral, or opposed to public policy.",
+                
+            },
+            {
+                question: "In the case of past voluntary services, what is the required relationship between the services rendered and the promisor?",
+                options: ["The services must have benefited the promisor directly.", "The services must have been requested by the promisor.", "The services must have been rendered for the promisor.", "The services must be purely non-monetary."],
+                answer: "The services must have been rendered for the promisor.",
+                explanation: "The services must have been rendered for the promisor.",
+                
+            },
+            {
+                question: "If a debt is barred by the Limitation Act, what amount can be recovered if the debtor signs a written promise to pay a smaller amount in final settlement?",
+                options: ["The full original debt.", "The amount stated in the signed written promise.", "Nothing, as time-barred debts are void.", "The promise is only enforceable if it is registered."],
+                answer: "The amount stated in the signed written promise.",
+                explanation: "The contract is enforceable for the amount stated in the written promise only (Example 25: enforceable for ₹50,000 only).",
+                
+            },
+            {
+                question: "Which of the following is listed as an exception to the Doctrine of Privity of Contract?",
+                options: ["Novation.", "Rescission.", "Trust.", "Subrogation."],
+                answer: "Trust.",
+                explanation: "In the case of trust, a beneficiary can enforce his right under the trust, though he was not a party to the contract.",
+                
+            },
+            {
+                question: "If the promisee promises to do an act in the future, the consideration is classified as:",
+                options: ["Past.", "Present.", "Executory.", "Executed."],
+                answer: "Executory.",
+                explanation: "When consideration consists in a promise, it is said to be executory.",
+                
+            },
+            {
+                question: "If a promise is legally or physically impossible, the consideration fails the test of:",
+                options: ["Adequacy.", "Movement at the desire of the promisor.", "Reality.", "Legality."],
+                answer: "Reality.",
+                explanation: "If it is legally or physically impossible it is not considered valid consideration, violating the rule that consideration must be real.",
+                
+            },
+            {
+                question: "Which statement correctly reflects the position of past consideration in India, as per the definition in Section 2(d)?",
+                options: ["Past consideration is always void.", "Past consideration is recognized.", "Past consideration is only valid if monetary.", "Past consideration is valid only for gifts."],
+                answer: "Past consideration is recognized.",
+                explanation: "The words 'has done or abstained from doing' are a recognition of the doctrine of past consideration.",
+                
+            },
+            {
+                question: "A college promises students jobs for scoring high marks. This example suggests that consideration:",
+                options: ["Must always be monetary.", "Need not to be monetary.", "Is only valid if executed.", "Requires registration."],
+                answer: "Need not to be monetary.",
+                explanation: "Consideration need not to be monetary. Here the promise for recruitment is consideration for the act of scoring high marks (Example 2).",
+                
+            },
+            {
+                question: "If R promises to compensate A for past work done at R's desire, the previous performance is legally treated as consideration because:",
+                options: ["It was a gift.", "The subsequent promise validates the preceding act done at request.", "The act was performed voluntarily.", "The promise was written."],
+                answer: "The subsequent promise validates the preceding act done at request.",
+                explanation: "In the event of the services being rendered in the past at the request or the desire of the promisor, the subsequent promise is regarded as an admission that the past consideration was not gratuitous.",
+                
+            },
+            {
+                question: "The concept of 'bad bargain' is used in the context of which rule regarding consideration?",
+                options: ["Consideration must be real.", "Consideration must be lawful.", "Consideration need not be adequate.", "Consideration must move at the desire of the promisor."],
+                answer: "Consideration need not be adequate.",
+                explanation: "It can be considered a bad bargain of the party (referencing inadequacy).",
+                
+            },
+            {
+                question: "When can an inadequate consideration NOT be used as evidence against the promisor?",
+                options: ["If the consent of the promisor was freely given.", "If the promisor is wealthy.", "If the contract is for the sale of goods.", "If the contract is oral."],
+                answer: "If the consent of the promisor was freely given.",
+                explanation: "An agreement to which the consent of the promisor is freely given is not void merely because the consideration is inadequate.",
+                
+            },
+            {
+                question: "Why is the rule that 'a stranger to a contract cannot sue' often considered weaker in India than in English Law?",
+                options: ["Because India requires contracts to be registered.", "Because the Indian definition of consideration allows a third party to furnish it.", "Because India recognizes past consideration.", "Because India prohibits illusory consideration."],
+                answer: "Because the Indian definition of consideration allows a third party to furnish it.",
+                explanation: "Though the third party cannot sue (privity), the consideration for the agreement may proceed from a third party in India, making the definition of consideration wider.",
+                
+            },
+            {
+                question: "The exception allowing a wife to sue her ill-treating husband based on a contract made between the husband and the wife's father is classified under which type of arrangement?",
+                options: ["Family settlement.", "Assignment.", "Marriage contracts/arrangements.", "Agency."],
+                answer: "Marriage contracts/arrangements.",
+                explanation: "Example 16 falls under marriage contracts/arrangements, where a provision is made for the benefit of a person who may file suit.",
+                
+            },
+            {
+                question: "The principle that 'The adequacy of the consideration is for the parties to consider at the time of making the agreement, not for the Court when it is sought to be enforced' is attributed to which case, according to the source?",
+                options: ["Misa v. Currie.", "Chinnayya vs. Ramayya.", "Bolton v. Modden.", "Durga Prasad v. Baldeo."],
+                answer: "Bolton v. Modden.",
+                explanation: "The adequacy of the consideration is for the parties to consider at the time of making the agreement, not for the Court when it is sought to be enforced (Bolton v. Modden).",
+                
+            },
+            {
+                question: "In the context of the exception regarding 'Acknowledgement or estoppel', which person must acknowledge himself as an agent of the third party?",
+                options: ["The third party.", "The promisee.", "The promisor.", "The government."],
+                answer: "The promisor.",
+                explanation: "Where the promisor by his conduct acknowledges himself as an agent of the third party, it would result into a binding obligation towards the third party.",
+                
+            },
+            {
+                question: "An agreement based on natural love and affection is required to be registered under which law?",
+                options: ["Indian Contract Act, 1872.", "Registration Act (impliedly).", "Sale of Goods Act.", "Limitation Act."],
+                answer: "Registration Act (impliedly).",
+                explanation: "It must also be registered under the law.",
+                
+            },
+            {
+                question: "If A promises to give B a gold ring, and B promises nothing in return, the agreement is void because:",
+                options: ["It is illegal.", "It lacks 'quid pro quo'.", "It is based on a promise.", "It is a bad bargain."],
+                answer: "It lacks 'quid pro quo'.",
+                explanation: "Consideration is used in the sense of quid pro quo, i.e., 'something in return'. Without consideration, no promise is enforceable.",
+                
+            },
+            {
+                question: "If a contract involves past consideration, the consideration is regarded as being given and accepted:",
+                options: ["Before the making of the promise.", "Simultaneously with the promise.", "After the making of the promise.", "Only upon subsequent performance."],
+                answer: "Before the making of the promise.",
+                explanation: "Past consideration means consideration is provided prior to the making of the contract [33(c)].",
+                
+            },
+            {
+                question: "A contract of marriage in consideration of promise of settlement is considered enforceable because:",
+                options: ["It is related to family settlement.", "It involves a voluntary service.", "It fulfils the 'desire of the promisor' rule.", "It is covered by Section 25(1)."],
+                answer: "It fulfils the 'desire of the promisor' rule.",
+                explanation: "Contract of marriage in consideration of promise of settlement is enforceable, illustrating consideration moving at the desire of the promisor.",
+                
+            },
+            {
+                question: "If the consideration is a detriment to the promisee, what is the corresponding aspect required for the promisor?",
+                options: ["A benefit.", "A loss.", "A forfeiture.", "A promise to perform a legal duty."],
+                answer: "A benefit.",
+                explanation: "It has a double aspect of a benefit to the promisor and a detriment to the promisee.",
+                
+            },
+            {
+                question: "Which kind of consideration, if provided at the request of the promisor, prevents the subsequent promise from being treated as gratuitous?",
+                options: ["Present consideration.", "Future consideration.", "Past consideration.", "Inadequate consideration."],
+                answer: "Past consideration.",
+                explanation: "The subsequent promise is regarded as an admission that the past consideration was not gratuitous (when services were rendered in the past at request).",
+                
+            },
+            {
+                question: "If Mr. A hands over the keys of his godown to Mr. Y because Mr. Y deposited goods there, the contract is a bailment. Which specific aspect of bailment is highlighted in the example?",
+                options: ["The transfer of ownership.", "The requirement of written documentation.", "The obligation to return the keys upon accomplishment of purpose.", "The presence of adequate consideration."],
+                answer: "The obligation to return the keys upon accomplishment of purpose.",
+                explanation: "As soon as Mr. Y lifts his goods from godown he is liable to hand over the keys back to Mr. A, illustrating the return obligation post accomplishment of purpose.",
+                
+            },
+            {
+                question: "For a promise to pay for past voluntary services to be binding, the services must have been rendered 'voluntarily'. This means the services were rendered:",
+                options: ["Under coercion.", "By accident.", "Without legal obligation and without prior request.", "For monetary gain."],
+                answer: "Without legal obligation and without prior request.",
+                explanation: "The services should have been rendered voluntarily (meaning without being asked, contrary to services under Section 10).",
+                
+            },
+            {
+                question: "What is the consequence if consideration is found to be opposed to public policy?",
+                options: ["It renders the promise void.", "It is a valid consideration but only if registered.", "It is voidable at the option of the promisee.", "It is subject to court review for adequacy."],
+                answer: "It renders the promise void.",
+                explanation: "Anything which is... opposed to public policy also cannot be valued as valid consideration. If consideration is invalid, the agreement is generally void.",
+                
+            },
+            {
+                question: "The agreement in the Durga Prasad v. Baldeo case failed because the consideration did not meet which crucial legal rule?",
+                options: ["Must be real.", "Must not be unlawful.", "Must move at the desire of the promisor.", "Must be adequate."],
+                answer: "Must move at the desire of the promisor.",
+                explanation: "The market was constructed at the desire of the Collector (third party), not the promisor (D), violating the fundamental requirement that consideration must be at the desire of the promisor.",
+                
+            },
+            {
+                question: "Under the exception of Natural Love and Affection, the requirement that the agreement must be in writing and registered is considered a substitution for which missing element?",
+                options: ["Legality.", "Desire of the promisor.", "Adequacy.", "Consideration itself."],
+                answer: "Consideration itself.",
+                explanation: "The agreement is valid and enforceable 'even without consideration' if the conditions, including registration, are met.",
+                
+            },
+            {
+                question: "Which of the following describes future consideration?",
+                options: ["Act or abstinence done.", "Promise to do or abstain from doing something.", "Act or abstinence being done.", "Act completed prior to the promise."],
+                answer: "Promise to do or abstain from doing something.",
+                explanation: "Section 2(d) covers promises to do or abstain from doing something, classifying it as executory or future consideration.",
+                
+            },
+            {
+                question: "If Mr. X, who is heavily indebted, sells his property to Mr. Y, and Mr. Y promises Mr. X to clear all his debts. If one of the creditors, Mr. Z, tries to sue Mr. Y for debt recovery, Mr. Z will fail because:",
+                options: ["Mr. X did not provide consideration.", "The contract was only oral.", "Mr. Z is a stranger to the contract.", "The debt was time-barred."],
+                answer: "Mr. Z is a stranger to the contract.",
+                explanation: "Mr. Z, the creditor, is not a party to the contract between Mr. X and Mr. Y, and therefore the doctrine of privity prevents him from suing.",
+                
+            },
+            {
+                question: "If a contract involves the assignment of benefits, the assignee can enforce the contract, provided the contract does not require:",
+                options: ["Monetary payment.", "A fresh agreement.", "Personal skill.", "Registration."],
+                answer: "Personal skill.",
+                explanation: "The assignee can enforce the contract but such assignment should not involve any personal skill.",
+                
+            },
+            {
+                question: "The general rule concerning consideration's value dictates that it must be something which:",
+                options: ["The parties agree upon as fair.", "The law would regard as having some value.", "Is higher than the promise given.", "Is enforceable in the Court of Law."],
+                answer: "The law would regard as having some value.",
+                explanation: "It must be something which the law would regard as having some value.",
+                
+            },
+            {
+                question: "If a promisee incurs liability based on a charitable promise (Kadarnath v. Gorie Mohammad), the legal basis for validating the contract is the conversion of the promise into:",
+                options: ["A bilateral obligation.", "A contract supported by consideration (the incurred liability/detriment).", "A voidable agreement.", "A completed gift."],
+                answer: "A contract supported by consideration (the incurred liability/detriment).",
+                explanation: "If a promisee undertakes the liability on the promise... the contract shall be valid. The detriment suffered by the promisee (incurring cost) acts as the consideration.",
+                
+            },
+            {
+                question: "Which of the following is defined by Section 2(d) as 'consideration'?",
+                options: ["An act, abstinence, or promise.", "A right, interest, or benefit.", "A quid pro quo.", "A detriment only."],
+                answer: "An act, abstinence, or promise.",
+                explanation: "Section 2(d) defines consideration as 'such an act or abstinence or promise'.",
+                
+            },
+            {
+                question: "Why is a promise to compensate a doctor over the normal fees for treatment invalid?",
+                options: ["It is immoral.", "It is illusory.", "It is the performance of an existing legal duty.", "It lacks registration."],
+                answer: "It is the performance of an existing legal duty.",
+                explanation: "It is the duty of a doctor to give a treatment for his normal fees, and performance of a legal duty cannot be consideration.",
+                
+            },
+            {
+                question: "When is past consideration NOT sufficient to support a promise?",
+                options: ["When it moves by a previous request.", "When it moves from a third party.", "When it is merely the motive for a subsequent promise.", "When it is an executed act."],
+                answer: "When it is merely the motive for a subsequent promise.",
+                explanation: "The consideration, if past, may be the motive but cannot be the real consideration of a subsequent promise (unless requested previously).",
+                
+            },
+            {
+                question: "If a contract is entered into through an agent, the third party can be sued by the principal only if the agent acted within:",
+                options: ["The financial limitations.", "The scope of his authority and in the name of the principal.", "The city limits.", "The verbal instructions."],
+                answer: "The scope of his authority and in the name of the principal.",
+                explanation: "The principal can enforce the contracts entered by his agent where the agent has acted within the scope of his authority and in the name of the principal.",
+                
+            },
+            {
+                question: "The main distinction between executed and executory consideration lies in whether the exchange is:",
+                options: ["A performance or a promise.", "Monetary or non-monetary.", "Past or future.", "Registered or unregistered."],
+                answer: "A performance or a promise.",
+                explanation: "Executed consideration is performance of an act; executory consideration is a promise.",
+                
+            },
+            {
+                question: "An agreement to pay a time-barred debt is valid without consideration, provided the promise is:",
+                options: ["Oral and registered.", "Written and signed.", "Only written.", "Signed by the creditor."],
+                answer: "Written and signed.",
+                explanation: "The promise must be in writing signed by the person making it or by his authorised agent.",
+                
+            },
+            {
+                question: "Which term describes consideration that is not real or legally possible?",
+                options: ["Inadequate.", "Unlawful.", "Illusory.", "Past."],
+                answer: "Illusory.",
+                explanation: "Consideration must be real and not illusory.",
+                
+            },
+            {
+                question: "If A guarantees payment for goods B sells to C on credit, the consideration for A's promise is the selling of goods by B to C. This is an example of consideration moving from:",
+                options: ["The promisor (A) to the promisee (B).", "The promisee (B) to the third party (C).", "The promisee (B) to the promisor (A).", "The third party (C) to the promisor (A)."],
+                answer: "The promisee (B) to the promisor (A).",
+                explanation: "B's act (selling goods) is the price paid for A's guarantee (promise).",
+                
+            },
+            {
+                question: "The legal rule that consideration must be something the law attaches value to relates to the concept that consideration must not be:",
+                options: ["Vague or uncertain.", "Excessive.", "Only monetary.", "Contradictory."],
+                answer: "Vague or uncertain.",
+                explanation: "It should not be vague or uncertain.",
+                
+            },
+            {
+                question: "If two brothers agree to pay an allowance to their mother on partition of joint properties, and the agreement is reduced to writing, the mother is allowed to sue due to the application of which legal principle?",
+                options: ["Doctrine of Caveat Emptor.", "Exception to Privity, allowing enforcement of family settlement.", "Rule of Estoppel.", "Doctrine of Merger."],
+                answer: "Exception to Privity, allowing enforcement of family settlement.",
+                explanation: "The mother, although a stranger to contract, can require their sons for such allowance in the court of law under the family settlement exception.",
+                
+            },
+            {
+                question: "Which specific section of the Indian Contract Act, 1872, specifies that no consideration is necessary to create an agency?",
+                options: ["Section 2(d)", "Section 25(3)", "Section 185", "Section 148"],
+                answer: "Section 185",
+                explanation: "According to Section 185 of the Indian Contract Act, 1872, no consideration is necessary to create an agency.",
+                
+            },
+            {
+                question: "If R promises S a reward for saving S's goods from fire, without being asked beforehand, the subsequent promise is enforceable because it falls under the category of:",
+                options: ["Compensation for past voluntary services.", "Past consideration moved by a previous request.", "Consideration moving from a third party.", "A completed gift."],
+                answer: "Compensation for past voluntary services.",
+                explanation: "P finds R's wallet (voluntary act) and R promises compensation. This is compensation for past voluntary services (Example 23).",
+                
+            },
+            {
+                question: "When consideration is inadequate, the primary concern of the Court is to ensure:",
+                options: ["That the parties are in a near relationship.", "That the promisor has not acted under coercion or fraud.", "That the value is at least half of the original price.", "That the agreement is registered."],
+                answer: "That the promisor has not acted under coercion or fraud.",
+                explanation: "Inadequate consideration can be taken as evidence if the other party alleges that his consent was not free (coercion, undue influence or fraud).",
+                
+            },
+            {
+                question: "The definition of consideration under Section 2(d) specifically recognizes the movement of consideration from:",
+                options: ["The promisee and the promisor.", "The promisor and the third party.", "The promisee or any other person.", "The agent or the principal."],
+                answer: "The promisee or any other person.",
+                explanation: "When at the desire of the promisor, the promisee or any other person has done....",
+                
+            },
+            {
+                question: "If a person is legally bound to perform an act, and receives a promise of payment for performing that act, the promise is unenforceable because:",
+                options: ["It is illusory.", "It lacks the element of 'detriment'.", "It is against public policy.", "It is vague."],
+                answer: "It lacks the element of 'detriment'.",
+                explanation: "The performance of what one is legally bound to perform cannot be consideration, as it does not constitute a legal detriment to the promisee.",
+                
+            },
+            {
+                question: "A college promises a job for scoring above 95%. This promise is enforceable because the act of scoring high marks is consideration in the form of:",
+                options: ["A future promise.", "A legal duty.", "An executed act done at the desire of the promisor (implied).", "A detriment to the third party."],
+                answer: "An executed act done at the desire of the promisor (implied).",
+                explanation: "The act of students scoring above 95% is the consideration for the promise of recruitment (Example 2, Consideration is an act-doing something).",
+                
+            },
+            {
+                question: "If a promise is unlawful, immoral, or opposed to public policy, it fails the test of:",
+                options: ["Reality.", "Legality.", "Adequacy.", "Gratuitousness."],
+                answer: "Legality.",
+                explanation: "Consideration must not be unlawful, immoral, or opposed to public policy, which concerns legality.",
+                
+            },
+            {
+                question: "If a mother (old lady) gifted property to her daughter with direction to pay an annuity to the maternal uncle (Chinnayya vs. Ramayya), the consideration for the daughter's promise moved from:",
+                options: ["The uncle (promisee).", "The daughter (promisor).", "The mother (a third party).", "The government."],
+                answer: "The mother (a third party).",
+                explanation: "The consideration moved from the mother (the old lady) to the daughter on behalf of the uncle.",
+                
+            },
+            {
+                question: "The concept of 'quid pro quo' emphasizes that consideration is a requirement for:",
+                options: ["Every contract.", "Every written agreement.", "The exchange of promises or performance.", "The registration of the contract."],
+                answer: "The exchange of promises or performance.",
+                explanation: "Consideration = Promise / Performance that parties exchange with each other.",
+                
+            },
+            {
+                question: "Which statement correctly reflects the relationship between past consideration and the requirement of a previous request?",
+                options: ["Past consideration is only valid if it was gratuitous.", "Past consideration must move by a previous request to support a promise.", "Past consideration is always supported by the doctrine of Section 25(2).", "Past consideration is always treated as a mere motive."],
+                answer: "Past consideration must move by a previous request to support a promise.",
+                explanation: "In order to support a promise, a past consideration must move by a previous request.",
+                
+            },
+            {
+                question: "If a person promises to pay a time-barred debt, the promise must be signed by the debtor or his authorised agent. This makes the promise enforceable under which criteria?",
+                options: ["It converts the time-barred debt into an ordinary debt.", "It fulfils the requirement of a valid contract, even without fresh consideration.", "It falls under the exception of Natural Love and Affection.", "It requires judicial stamping."],
+                answer: "It fulfils the requirement of a valid contract, even without fresh consideration.",
+                explanation: "It is valid without consideration [Section 25(3)].",
+                
+            },
+            {
+                question: "What happens if a covenant running with the land is not restrictive?",
+                options: ["It can still be enforced by the successor of the seller.", "The exception does not apply.", "The contract becomes void.", "The land must be sold immediately."],
+                answer: "It can still be enforced by the successor of the seller.",
+                explanation: "The source provides 'Such are called restrictive covenants' but defines the exception based on 'duties affecting land'. The successor can enforce the covenant affecting the land, provided the purchaser had notice.",
+                
+            },
+            {
+                question: "The exception for 'Completed gifts' means that between the donor and donee, the validity of a gift actually made is:",
+                options: ["Affected by Section 25.", "Not affected by Section 25.", "Voidable.", "Requires judicial approval."],
+                answer: "Not affected by Section 25.",
+                explanation: "Explanation (1) to Section 25 states 'nothing in this section shall affect the validity... of any gift actually made'.",
+                
+            },
+            {
+                question: "In the context of the doctrine of privity, what is the meaning of a 'stranger to a contract'?",
+                options: ["A person who provided consideration.", "A person who is not a party to the agreement.", "A person who is legally bound to perform.", "The principal in an agency contract."],
+                answer: "A person who is not a party to the agreement.",
+                explanation: "Only a person who is party to a contract can sue on it... the third party cannot sue on contract [16, 29(j)].",
+                
+            },
+            {
+                question: "For a written and registered agreement based on natural love and affection to be valid, what must the relationship between the parties be?",
+                options: ["Legal guardian and ward.", "Near relation.", "Commercial partners.", "Unrelated friends."],
+                answer: "Near relation.",
+                explanation: "Parties must stand in near relationship to each other.",
+                
+            },
+            {
+                question: "Which statement accurately defines 'executed consideration'?",
+                options: ["A promise made for a future act.", "A promise made for an act already completed at request.", "A consideration which consists in the performance of an act.", "An act that is legally impossible."],
+                answer: "A consideration which consists in the performance of an act.",
+                explanation: "A consideration which consists in the performance of an act is said to be executed.",
+                
+            },
+            {
+                question: "If the consent of the promisor is freely given, the primary statutory consequence of inadequate consideration is that the agreement is:",
+                options: ["Not void.", "Void.", "Illegal.", "Voidable."],
+                answer: "Not void.",
+                explanation: "An agreement to which the consent of the promisor is freely given is not void merely because the consideration is inadequate (Explanation 2 to Section 25).",
+                
+            },
+            {
+                question: "The exception of 'Acknowledgement or estoppel' relies on the promisor acknowledging himself as:",
+                options: ["A beneficiary.", "An agent of the third party.", "A trustee.", "A legal representative."],
+                answer: "An agent of the third party.",
+                explanation: "The promisor by his conduct acknowledges himself as an agent of the third party.",
+                
+            },
+            {
+                question: "When A promises B money if B abstains from opening a shop, the consideration for A is B's:",
+                options: ["Benefit.", "Loss.", "Forbearance.", "Promise to pay."],
+                answer: "Forbearance.",
+                explanation: "Abstinence on the part of B is forbearance, which constitutes valid consideration.",
+                
+            },
+            {
+                question: "Why is the promise to pay a time-barred debt enforceable under Section 25(3)?",
+                options: ["It is considered a moral obligation.", "The written promise acts as the necessary consideration.", "The statutory exception overrides the need for consideration.", "The debt is revived completely."],
+                answer: "The statutory exception overrides the need for consideration.",
+                explanation: "The agreement is valid and enforceable 'without consideration' under Section 25(3).",
+                
+            },
+            {
+                question: "The provision that consideration must be something the promisor is NOT already bound to do ensures that the consideration has:",
+                options: ["A new legal value.", "A monetary value.", "A written form.", "A future element."],
+                answer: "A new legal value.",
+                explanation: "It must be something which the promisor is not already bound to do [30(vi)].",
+                
+            },
+            {
+                question: "According to the unit summary, consideration must move:",
+                options: ["At the discretion of the promisee.", "At the desire of the promisor.", "Only from the third party.", "At the direction of the court."],
+                answer: "At the desire of the promisor.",
+                explanation: "Consideration must move at the desire of the promisor [28(b)].",
+                
+            },
+            {
+                question: "If the services were rendered in the past, for the subsequent promise to be valid, the previous request by the promisor:",
+                options: ["Is a legal requirement for the promise to be binding.", "Is irrelevant, as long as the promise is registered.", "Only applies to monetary compensation.", "Only makes the promise voidable."],
+                answer: "Is a legal requirement for the promise to be binding.",
+                explanation: "In order to support a promise, a past consideration must move by a previous request.",
+                
+            },
+            {
+                question: "Which principle allows Mr. Chotelal to sue Mr. Mohanlal (who purchased the land) despite Mr. Chotelal being a stranger to the sale contract?",
+                options: ["Privity of Consideration (due to flow from father).", "Family settlement (as they are relatives).", "Covenant running with the land (due to notice of duty).", "Acknowledgement or estoppel."],
+                answer: "Covenant running with the land (due to notice of duty).",
+                explanation: "The case is decided on the principle of 'covenant running with the land' where the purchaser has notice of the duties affecting the land.",
+                
+            },
+            {
+                question: "The concept of bailment involves the delivery of goods for some purpose, upon a contract that the goods will be returned or disposed of according to directions. Crucially, the source confirms that bailment:",
+                options: ["Requires execution and registration.", "Does not require consideration.", "Is a type of agency.", "Must be between near relatives."],
+                answer: "Does not require consideration.",
+                explanation: "No consideration is required to affect a contract of bailment [26, 31(vi)].",
+                
+            },
+            {
+                question: "Which type of consideration is recognized by the words 'does or abstains from doing' in Section 2(d)?",
+                options: ["Past consideration.", "Present consideration.", "Future consideration.", "Executory consideration."],
+                answer: "Present consideration.",
+                explanation: "Does or abstains from doing refers to present action, which makes it present consideration.",
+                
+            },
+            {
+                question: "If ABC Ltd. promises Mr. X a job in a government bank against payment of ₹ 50,000, the consideration is void because it is:",
+                options: ["Unlawful.", "Immoral.", "Opposed to public policy.", "Both unlawful and opposed to public policy."],
+                answer: "Opposed to public policy.",
+                explanation: "Example 13 specifically states the promise is 'opposed to public policy'.",
+                
+            },
+            {
+                question: "In the context of inadequate consideration, who bears the responsibility for considering the value exchange at the time of the agreement?",
+                options: ["The Court.", "The promisor.", "The promisee.", "The parties themselves."],
+                answer: "The parties themselves.",
+                explanation: "The adequacy of the consideration is for the parties to consider at the time of making the agreement.",
+                
+            },
+            {
+                question: "The legal rule that consideration must be real means it must not be:",
+                options: ["Illusory.", "Inadequate.", "Unlawful.", "Executory."],
+                answer: "Illusory.",
+                explanation: "Consideration must be real and not illusory [14, 30(vii)].",
+                
+            },
+            {
+                question: "Which of the following scenarios results in a valid contract, even without consideration?",
+                options: ["A verbal promise to give a gift.", "A registered agreement between friends for affection.", "A promise to pay a time-barred debt, made in writing and signed.", "A contract of sale of goods where the consideration is inadequate."],
+                answer: "A promise to pay a time-barred debt, made in writing and signed.",
+                explanation: "A written promise to pay time-barred debt is valid without consideration. The agreement between friends lacks the 'near relation' requirement.",
+                
+            },
+            {
+                question: "If R saves S's goods from fire without being asked, and S subsequently promises a reward, the original act of saving is considered:",
+                options: ["Gratuitous.", "Voluntary service.", "A legal duty.", "Executed consideration."],
+                answer: "Voluntary service.",
+                explanation: "Example 5 confirms the act was voluntary. Example 23 confirms subsequent promise compensates voluntary service.",
+                
+            },
+            {
+                question: "What is the crucial differentiating point between Indian Law and English Law regarding the flow of consideration?",
+                options: ["English Law rejects past consideration, Indian Law accepts it.", "English Law requires consideration to be adequate, Indian Law does not.", "English Law requires consideration to flow from the promisee, while Indian Law allows it from any person.", "English Law rejects executed consideration, Indian Law accepts it."],
+                answer: "English Law requires consideration to flow from the promisee, while Indian Law allows it from any person.",
+                explanation: "In India, consideration may proceed from the promisee or any other person. English law traditionally requires the promisee to suffer the detriment (or provide the benefit), suggesting consideration flows from the promisee.",
+                
+            },
+            {
+                question: "In the case of past voluntary services, why must the promisor be in existence when the services were rendered?",
+                options: ["To ensure the services were requested.", "To satisfy the requirement of 'near relationship'.", "It is one of the four essential binding factors under Section 25(2).", "To prove the services were not gratuitous."],
+                answer: "It is one of the four essential binding factors under Section 25(2).",
+                explanation: "The promisor must be in existence at the time when services were rendered is an essential factor.",
+                
+            },
+            {
+                question: "The concept that 'Consideration must be something to which the law attaches value' supports the rejection of consideration that is:",
+                options: ["Monetary.", "Unlawful.", "Executed.", "Sufficient."],
+                answer: "Unlawful.",
+                explanation: "Consideration must be real and must not be illusory. It must be something to which the law attaches some value. This inherently excludes consideration that is unlawful or opposed to public policy.",
+                
+            }
+        ],
+        'Other Essential Elements of a Contract': [
+            {
+                question: "Which of the following conditions must be satisfied for an agreement to qualify as a contract under Section 10 of the Indian Contract Act, 1872?",
+                options: ["The parties must be competent to contract", "It must be made by the free consent of the parties", "It must be made for a lawful consideration and with a lawful object", "All of the above"],
+                answer: "All of the above",
+                explanation: "Section 10 of the Indian Contract Act, 1872, specifies four conditions: the parties must be competent to contract; it must be made by the free consent of the parties; it must be made for a lawful consideration and with a lawful object; and it should not have been expressly declared as void by law."
+            },
+            {
+                question: "Under the Indian Majority Act, 1875, a person domiciled in India attains the age of majority upon completion of:",
+                options: ["21 years of age", "16 years of age", "18 years of age", "25 years of age"],
+                answer: "18 years of age",
+                explanation: "In India, the age of majority is regulated by the Indian Majority Act, 1875, and every person domiciled in India shall attain the age of majority on the completion of 18 years of age and not before."
+            },
+            {
+                question: "What is the legal standing of a contract made with or by a minor?",
+                options: ["Voidable at the minor's option", "Void ab-initio", "Valid but unenforceable against the minor", "Valid upon ratification after attaining majority"],
+                answer: "Void ab-initio",
+                explanation: "A minor is not competent to contract and any agreement with or by a minor is void from the very beginning (void ab-initio). This was established in the case of Mohori Bibi vs. Dharmo Das Ghose (1903)."
+            },
+            {
+                question: "If X, a minor, executes a promissory note in favour of Y, and later, upon attaining majority, X executes a new promissory note in place of the old one, what is the legal status of the new promissory note?",
+                options: ["Valid, as it is a promise made after attaining majority", "Voidable, as it relates to a previous void transaction", "Valid, provided Y can prove consideration existed for the original note", "Void, being without consideration"],
+                answer: "Void, being without consideration",
+                explanation: "A minor cannot ratify the agreement on attaining majority as the original agreement is void ab initio. If a new promissory note is made in place of the old one after attaining majority, it is also void, being without consideration."
+            },
+            {
+                question: "A minor can be admitted to the benefits of a partnership firm:",
+                options: ["If the partnership deed permits it", "With the consent of the major partners and the Registrar of Firms", "With the consent of all the partners", "Only if he is a major shareholder in the firm"],
+                answer: "With the consent of all the partners",
+                explanation: "A minor cannot become partner in a partnership firm. However, he may with the consent of all the partners, be admitted to the benefits of partnership (Section 30 of the Indian Partnership Act, 1932)."
+            },
+            {
+                question: "In a situation where a minor fraudulently misrepresents himself as a major to obtain a loan, which legal principle is applied?",
+                options: ["Rule of equity", "Doctrine of necessaries", "Rule of estoppel cannot be applied against a minor", "Doctrine of restitution requires repayment of the full amount"],
+                answer: "Rule of estoppel cannot be applied against a minor",
+                explanation: "A minor can always plead minority and is not stopped to do so even where he has taken any loan or entered into any contract by falsely representing that he was major. Rule of estoppel cannot be applied against a minor."
+            },
+            {
+                question: "Under Section 68 of the Indian Contract Act, 1872, what is the extent of liability when necessaries are supplied to a minor?",
+                options: ["The minor is personally liable for the full promised price", "The minor's property is liable, but there is no personal liability", "The minor is liable only if he received the goods by fraud", "The guardian is personally liable for the full value of the necessaries"],
+                answer: "The minor's property is liable, but there is no personal liability",
+                explanation: "A claim for necessaries supplied to a minor is enforceable by law. But there is no personal liability of the minor, but only his property is liable."
+            },
+            {
+                question: "Which of the following is NOT a condition that must be satisfied to render a minor’s estate liable for necessaries?",
+                options: ["The contract must be for goods reasonably necessary for his support in the station in life", "The minor must not have already a sufficient supply of these necessaries", "The minor must have explicitly promised to pay the full price", "The goods cannot include luxuries or costly articles"],
+                answer: "The minor must have explicitly promised to pay the full price",
+                explanation: "Two conditions must be satisfied: (i) The contract must be for the goods reasonably necessary for his support in the station in life, and (ii) The minor must not have already a sufficient supply of these necessaries. A minor is not liable for any price that he may promise."
+            },
+            {
+                question: "Shruti, a minor, purchased a laptop for her online classes on credit for ₹ 70,000. Her assets are worth ₹ 20,000. How much can the shopkeeper recover?",
+                options: ["₹ 70,000, as the laptop is a necessary item for her education", "₹ 20,000, recoverable only through her assets", "Nothing, as the contract is void ab initio", "₹ 70,000, holding Shruti personally liable"],
+                answer: "₹ 20,000, recoverable only through her assets",
+                explanation: "The shop keeper could not hold Shruti personally liable and could recover only amount recoverable through her assets i.e. upto ₹ 20,000. The minor is not personally liable, only their property is liable."
+            },
+            {
+                question: "A contract made by a guardian on behalf of a minor, which is for the purchase of immovable property, is generally considered:",
+                options: ["Valid, provided the minor benefits from the purchase", "Void, as the guardian of a minor has no power to bind the minor by such a contract", "Voidable at the option of the minor upon attaining majority", "Enforceable only if sanctioned by the court"],
+                answer: "Void, as the guardian of a minor has no power to bind the minor by such a contract",
+                explanation: "But all contracts made by guardian on behalf of a minor are not valid. For instance, the guardian of a minor has no power to bind the minor by a contact for the purchase of immovable Property."
+            },
+            {
+                question: "Why can a minor not be declared insolvent?",
+                options: ["Because minors are protected by the Indian Majority Act, 1875", "Because he is incapable of contracting debts and dues are payable only from his personal properties", "Because a minor's estate is generally insufficient to cover debts", "Because he cannot sue or be sued in a court of law"],
+                answer: "Because he is incapable of contracting debts and dues are payable only from his personal properties",
+                explanation: "A minor cannot be declared insolvent as he is incapable of contracting debts and dues are payable from the personal properties of minor and he shall never be held personally liable."
+            },
+            {
+                question: "If a minor acts as an agent, what is his liability towards his principal for his acts?",
+                options: ["He is fully liable for his actions, as agency contracts are an exception", "He is jointly liable with his parents or guardian", "He is not liable to his principal for his acts", "He is liable only if the agency contract was for necessaries"],
+                answer: "He is not liable to his principal for his acts",
+                explanation: "A minor can act as an agent. But he will not be liable to his principal for his acts."
+            },
+            {
+                question: "In a joint contract between an adult (A) and a minor (M), who is legally liable on the contract?",
+                options: ["The minor (M) is liable up to the extent of his share", "Both A and M are jointly and severally liable", "The adult (A) will be liable on the contract, and not the minor (M)", "Neither party is liable, as the contract is void ab initio"],
+                answer: "The adult (A) will be liable on the contract, and not the minor (M)",
+                explanation: "In such a case, the adult will be liable on the contract and not the minor. This position was established in Sain Das vs. Ram Chand."
+            },
+            {
+                question: "When an adult stands as surety (guarantor) for a minor in a contract of guarantee, the adult is liable to the third party because:",
+                options: ["The minor ratified the contract indirectly through the surety", "The contract of guarantee itself is a direct contract between the surety and the third party", "The minor's guardian has impliedly consented to the arrangement", "The doctrine of restitution requires the surety to pay"],
+                answer: "The contract of guarantee itself is a direct contract between the surety and the third party",
+                explanation: "In a contract of guarantee when an adult stands surety for a minor then he (adult) is liable to third party as there is direct contract between the surety and the third party."
+            },
+            {
+                question: "Regarding a minor's position as a shareholder in a company:",
+                options: ["A minor can be a shareholder only through a lawful guardian by transfer or transmission of fully paid shares", "A minor can receive allotment of shares if approved by the court", "A minor is always barred from being a shareholder under any circumstances", "If a minor becomes a member by mistake, the contract is voidable at the option of the minor"],
+                answer: "A minor can be a shareholder only through a lawful guardian by transfer or transmission of fully paid shares",
+                explanation: "A minor, being incompetent to contract cannot be a shareholder of the company. But, a minor may, acting though his lawful guardian become a shareholder by transfer or transmission of fully paid shares to him."
+            },
+            {
+                question: "If a minor borrows a horse for riding only but then lends it to a friend who jumps and kills the horse, the minor is held liable under:",
+                options: ["Breach of contract", "Fraud", "Torts", "Undue Influence"],
+                answer: "Torts",
+                explanation: "A minor is liable in tort unless the tort in reality is a breach of contract. In this example, the minor was held liable for torts because he used the horse beyond the permitted contractual terms."
+            },
+            {
+                question: "According to Section 12 of the Indian Contract Act, a person is considered to be of sound mind for contracting purposes if, at the time of making the contract, they are capable of:",
+                options: ["Understanding it", "Forming a rational judgement as to its effect upon their interests", "Both Understanding it and Forming a rational judgement", "Being certified as medically sane by a psychiatrist"],
+                answer: "Both Understanding it and Forming a rational judgement",
+                explanation: "A person is said to be of sound mind for the purposes of making a contract if, at the time when he makes it is capable of understanding it and of forming a rational judgement as to its effect upon his interests."
+            },
+            {
+                question: "A person who is usually of unsound mind, but occasionally of sound mind, may make a contract:",
+                options: ["During the intervals when he is of sound mind", "Only with the permission of his legal guardian", "Only for the supply of necessaries", "He can never enter into a valid contract"],
+                answer: "During the intervals when he is of sound mind",
+                explanation: "A person who is usually of unsound mind, but occasionally of sound mind, may make a contract when he is of sound mind."
+            },
+            {
+                question: "A contract entered into by a person who is delirious from fever or who is so drunk that he cannot understand the terms of the contract, is:",
+                options: ["Voidable at his option", "Valid, as long as he is usually sane", "Voidable, subject to court approval", "Cannot contract whilst such delirium or drunkenness lasts"],
+                answer: "Cannot contract whilst such delirium or drunkenness lasts",
+                explanation: "A sane man, who is delirious from fever, or who is so drunk that he cannot understand the terms of a contract, or form a rational judgement as to its effect on his interests, cannot contract whilst such delirium or drunkenness lasts. A contract by a person who is not of sound mind is void."
+            },
+            {
+                question: "Which category of persons may be disqualified from contracting due to their legal status?",
+                options: ["Foreign Sovereigns and Ambassadors", "Alien enemy", "Corporations and Convicts", "All of the above"],
+                answer: "All of the above",
+                explanation: "Incompetency to contract may arise from political status, corporate status, legal status, etc. The following persons fall in this category: Foreign Sovereigns and Ambassadors, Alien enemy, Corporations, Convicts, Insolvent etc.."
+            },
+            {
+                question: "The concept of 'consensus ad idem' means that parties agree upon:",
+                options: ["The legal implication of the agreement", "The same price and quality", "The same thing in the same sense", "The same time and place"],
+                answer: "The same thing in the same sense",
+                explanation: "Two or more persons are said to consent when they agree upon the same thing in the same sense. Parties are said to have consented when they not only agreed upon the same thing but also agreed upon that thing in the same sense."
+            },
+            {
+                question: "If two parties enter into a contract concerning a particular ship, but each party, misled by similarity of name, had a different ship in mind, this scenario implies:",
+                options: ["A mistake of law, making the contract voidable", "A fundamental error resulting in the absence of consent (not ad idem)", "Coercion, rendering the contract voidable", "Misrepresentation, rendering the contract void"],
+                answer: "A fundamental error resulting in the absence of consent (not ad idem)",
+                explanation: "If two persons enter into an apparent contract concerning a particular person or ship, and it turns out that each of them, misled by similarity of name, had a different person or ship in his mind, no contract would exist between them as they were not ad idem, i.e., of the same mind. This suggests an absence of consent."
+            },
+            {
+                question: "When consent to an agreement is caused by coercion, fraud, misrepresentation, or undue influence, the resulting agreement is a contract that is:",
+                options: ["Void", "Illegal", "Voidable at the option of the party whose consent was so caused", "Valid, but only for necessaries"],
+                answer: "Voidable at the option of the party whose consent was so caused",
+                explanation: "When consent to an agreement is caused by coercion, fraud, misrepresentation, or undue influence, the agreement is a contract voidable at the option of the party whose consent was so caused."
+            },
+            {
+                question: "If consent is vitiated by Mistake, the contract becomes:",
+                options: ["Voidable", "Void", "Valid", "Illegal"],
+                answer: "Void",
+                explanation: "When the consent is vitiated by mistake, the contract becomes void."
+            },
+            {
+                question: "Coercion is defined under Section 15 as committing or threatening to commit any act forbidden by the Indian Penal Code OR:",
+                options: ["Obtaining property by unlawful means", "The unlawful detaining, or threatening to detain any property, to the prejudice of any person whatever", "A wrongful act causing mental or bodily distress", "Using parental or fiduciary influence over another"],
+                answer: "The unlawful detaining, or threatening to detain any property, to the prejudice of any person whatever",
+                explanation: "Coercion is defined as ‘the committing, or threatening to commit, any act forbidden by the Indian Penal Code or the unlawful detaining, or threatening to detain any property, to the prejudice of any person whatever, with the intention of causing any person to enter into an agreement’."
+            },
+            {
+                question: "A threat to commit suicide amounts to coercion because:",
+                options: ["Suicide is explicitly punishable under the Indian Penal Code", "Suicide is forbidden by the Indian Penal Code", "It involves the unlawful detention of property", "It falls under undue influence due to mental pressure"],
+                answer: "Suicide is forbidden by the Indian Penal Code",
+                explanation: "Section 15 declares that committing or threatening to commit any act forbidden by Indian Penal Code is coercion. Hence, a threat to commit suicide will be regarded as coercion, even though suicide itself is not punishable (as a dead man cannot be punished)."
+            },
+            {
+                question: "In the case of coercion, does the act of coercion need to proceed from a party to the contract, or be directed only against the other contracting party?",
+                options: ["Yes, coercion must proceed from the party benefitting from the contract.", "Yes, coercion must be directed only against the other contracting party.", "No, coercion need not proceed from a party to the contract and may be directed against any third person whatever.", "Coercion must proceed from a stranger to the contract."],
+                answer: "No, coercion need not proceed from a party to the contract and may be directed against any third person whatever.",
+                explanation: "It is to be noted that the section does not require that coercion must proceed from a party to the contract; nor is it necessary that subject of the coercion must be the other contracting party, it may be directed against any third person whatever."
+            },
+            {
+                question: "If a contract is induced by coercion, and the aggrieved party rescinds the contract, what must happen to any money paid or anything delivered under coercion (Section 72)?",
+                options: ["The court may, at its discretion, order return of benefits.", "The aggrieved party retains the benefits as compensation.", "The recipient must repay or return it.", "The benefits are forfeited."],
+                answer: "The recipient must repay or return it.",
+                explanation: "A person to whom money has been paid or anything delivered under coercion must repay or return it (Section 72)."
+            },
+            {
+                question: "According to Section 16, a contract is induced by 'undue influence' when one party is in a position to dominate the will of the other AND:",
+                options: ["The dominating party uses physical force or threat of violence.", "The dominating party obtains an unfair advantage over the other.", "The dominating party misrepresents a material fact.", "The contract is declared void by law."],
+                answer: "The dominating party obtains an unfair advantage over the other.",
+                explanation: "A contract is said to be induced by ‘undue influence’ where the relations subsisting between the parties are such that one of the parties is in a position to dominate the will of the other and he uses that position to obtain an unfair advantage over the other."
+            },
+            {
+                question: "Which of the following relationships is generally NOT considered a fiduciary relationship in the context of undue influence?",
+                options: ["Solicitor and client", "Father and son", "Creditor and debtor", "Banker and customer in an ordinary course of business loan"],
+                answer: "Banker and customer in an ordinary course of business loan",
+                explanation: "Fiduciary relationships exist between parties like father and son, solicitor and client, husband and wife, creditor and debtor. However, a loan taken by a customer from a banker at an unusually high rate of interest during a financial stringency is considered a transaction in the ordinary course of business and is generally not induced by undue influence."
+            },
+            {
+                question: "In the context of undue influence, a doctor is deemed to be in a position to dominate the will of his patient when the patient is:",
+                options: ["A minor", "Under coercion", "Enfeebled by protracted illness", "A foreign sovereign"],
+                answer: "Enfeebled by protracted illness",
+                explanation: "An undue influence can be used against a person where the mental capacity of the person is temporarily or permanently affected by the reason of mental or bodily distress, illness or of old age. Example 16 states: A doctor is deemed to be in a position to dominate the will of his patient enfeebled by protracted illness."
+            },
+            {
+                question: "A money-lender charges A, who is deeply in debt, an unconscionable rate of interest on a fresh loan. Upon whom does the burden of proof lie to demonstrate that the contract was *not* induced by undue influence?",
+                options: ["A (the debtor)", "B (the money-lender)", "The court, based on fairness", "Both A and B equally"],
+                answer: "B (the money-lender)",
+                explanation: "Where one of the parties to a contract is in a position to dominate the will of the other and the contract is apparently unconscionable i.e., unfair, it is presumed by law that consent must have been obtained by undue influence. In the example provided (Example 17), it lies on B (the money-lender) to prove that the contract was not induced by undue influence."
+            },
+            {
+                question: "If a contract is set aside due to undue influence, and the party entitled to avoid it has received a benefit thereunder, the court:",
+                options: ["Must order the benefit to be returned absolutely.", "Has the discretion to set aside the contract absolutely or upon such terms and conditions as seem just.", "Must enforce the contract in a modified form without exception.", "Must declare the contract void ab initio."],
+                answer: "Has the discretion to set aside the contract absolutely or upon such terms and conditions as seem just.",
+                explanation: "Any such contract may be set aside either absolutely or, if the party who was entitled to avoid it has received any benefit thereunder, upon such terms and conditions as to the Court may seem just (Section 19A)."
+            },
+            {
+                question: "Which characteristic differentiates Coercion from Undue Influence?",
+                options: ["Coercion involves moral pressure, while Undue Influence involves physical pressure.", "Coercion involves criminal action or threat of such, while Undue Influence does not involve illegal acts.", "Coercion always requires a fiduciary relationship, while Undue Influence does not.", "Coercion makes the contract void, while Undue Influence makes it voidable."],
+                answer: "Coercion involves criminal action or threat of such, while Undue Influence does not involve illegal acts.",
+                explanation: "In Coercion, it involves committing or threatening to commit an act forbidden by Indian Penal Code or detaining or threatening to detain property unlawfully. In Undue Influence, no such illegal act is committed or a threat is given. Coercion involves physical force or threat; Undue Influence involves moral or mental pressure."
+            },
+            {
+                question: "In the context of undue influence, the relation between the parties must exist in such a manner that one of them is in a position to dominate the will of the other. This position arises in cases of:",
+                options: ["Real and apparent authority", "Fiduciary relationship", "Mental distress", "All of the above"],
+                answer: "All of the above",
+                explanation: "A person is deemed to be in such position in the following circumstances: (a) Real and apparent authority, (b) Fiduciary relationship, (c) Mental distress."
+            },
+            {
+                question: "Which Section of the Indian Contract Act, 1872, defines 'Fraud'?",
+                options: ["Section 15", "Section 16", "Section 17", "Section 18"],
+                answer: "Section 17",
+                explanation: "Definition of Fraud under Section 17."
+            },
+            {
+                question: "Which of the following acts, committed by a party with an intent to deceive another party, means and includes 'Fraud'?",
+                options: ["The active concealment of a fact by one having knowledge or belief of the fact", "A promise made without any intention of performing it", "The suggestion, as a fact, of that which is not true, by one who does not believe it to be true", "All of the above"],
+                answer: "All of the above",
+                explanation: "These are all listed under Section 17 as acts that constitute fraud."
+            },
+            {
+                question: "When A sells a horse he knows to be unsound to B, but A says nothing about the unsoundness, this silence usually amounts to:",
+                options: ["Active concealment", "Fraud, if the horse is a necessary item", "Not fraud by A, unless A has a duty to speak", "Misrepresentation"],
+                answer: "Not fraud by A, unless A has a duty to speak",
+                explanation: "Example 21: A sell, by auction, to B, a horse which A knows to be unsound, A says nothing to B about the unsoundness of the horse. This is not fraud by A. Silence is fraud only where there is a duty to speak or when silence is equal to speech."
+            },
+            {
+                question: "A, who is about to sell goods, says that the goods are worth ₹ 50,000. This statement is categorized as:",
+                options: ["A statement of fact", "A statement of opinion", "A fraudulent representation", "An active concealment"],
+                answer: "A statement of opinion",
+                explanation: "If he says the goods are worth Rs. 50,000, it is a statement of opinion. (If he says the goods cost him Rs. 50,000, that is a statement of fact)."
+            },
+            {
+                question: "Which essential element of fraud was missing in Example 25, where 'A' bought shares based on an untrue statement about 'B' being a director, but 'A' had never heard of 'B'?",
+                options: ["The representation must be false", "The representation must be related to a fact", "The other party must have been induced to act upon the representation or assertion", "The other party must have suffered a loss"],
+                answer: "The other party must have been induced to act upon the representation or assertion",
+                explanation: "A’s claim was dismissed because the untrue statement had not induced ‘A’ to buy the shares."
+            },
+            {
+                question: "When the consent of a party is caused by fraud, which remedy is NOT available to the defrauded party?",
+                options: ["He can sue for damages.", "He can insist on the performance of the contract on the condition that he shall be put in the true position.", "He can be compelled to ratify the contract.", "He can rescind the contract within a reasonable time."],
+                answer: "He can be compelled to ratify the contract.",
+                explanation: "The remedies available are: (1) Rescind the contract, (2) Sue for damages, (3) Insist on performance and being put in the true position."
+            },
+            {
+                question: "A contract induced by silence amounting to fraud is NOT voidable if:",
+                options: ["The party defrauded failed to claim damages.", "The party whose consent was caused had the means of discovering the truth with ordinary diligence.", "The silence was accidental.", "The fraudulent act was also a tort."],
+                answer: "The party whose consent was caused had the means of discovering the truth with ordinary diligence.",
+                explanation: "If the party whose consent was caused by silence which amounting to fraud, had the means of discovering the truth with ordinary diligence, the contract is not voidable."
+            },
+            {
+                question: "A misstatement of a material fact made by the maker believing it to be true, but which is not justified by the information he possesses, constitutes:",
+                options: ["Active fraud", "Coercion", "Misrepresentation", "Mistake of fact"],
+                answer: "Misrepresentation",
+                explanation: "Misrepresentation (Section 18) includes a statement of fact, which if false, would constitute misrepresentation if the maker believes it to be true but which is not justified by the information he possesses."
+            },
+            {
+                question: "What is the key difference in intent between Fraud and Misrepresentation?",
+                options: ["Fraud requires intent to deceive; Misrepresentation has no such intention.", "Fraud relates to opinions; Misrepresentation relates to facts.", "Fraud involves physical force; Misrepresentation involves mental pressure.", "Fraud is only committed by a party to the contract; Misrepresentation can be by a stranger."],
+                answer: "Fraud requires intent to deceive; Misrepresentation has no such intention.",
+                explanation: "In Fraud, the intention is to deceive the other party by hiding the truth. In Misrepresentation, there is no such intention to deceive the other party."
+            },
+            {
+                question: "In case of Misrepresentation, the injured party can repudiate the contract or sue for restitution, but they cannot generally claim:",
+                options: ["Rescission", "Specific performance", "Damages", "Injunction"],
+                answer: "Damages",
+                explanation: "The injured party is entitled to repudiate the contract or sue for restitution but cannot claim the damages."
+            },
+            {
+                question: "If a party uses a fraudulent act to obtain consent, can they plead that the injured party had the means to discover the truth?",
+                options: ["Yes, if the means of discovery were readily available.", "No, the party using the fraudulent act cannot secure or protect himself by saying that the injured party had means to discover the truth.", "Yes, under the doctrine of *caveat emptor*.", "Only if the fraud was passive concealment."],
+                answer: "No, the party using the fraudulent act cannot secure or protect himself by saying that the injured party had means to discover the truth.",
+                explanation: "The party using the fraudulent act cannot secure or protect himself by saying that the injured party had means to discover the truth. (Note the exception applies to silence amounting to fraud or misrepresentation, but not to fraud generally.)"
+            },
+            {
+                question: "In the case where A applies for shares based on a statement made by B, who derived the information second-hand (not directly from the source), and the statement turns out false, this act constitutes:",
+                options: ["Fraud, because the statement was false", "Mistake, because the information was derived indirectly", "Coercion, because pressure was applied", "Misrepresentation, because the information received second-hand did not warrant the positive statement"],
+                answer: "Misrepresentation, because the information received second-hand did not warrant the positive statement",
+                explanation: "The statement amounts to misrepresentation, because the information received second-hand did not warrant A to make the positive statement to B (Example 26)."
+            },
+            {
+                question: "In which scenario, related to consent, does the contract become Voidable?",
+                options: ["Bilateral Mistake as to existence of subject matter", "Unilateral Mistake as to identity of person", "Coercion", "Mistake of Indian Law"],
+                answer: "Coercion",
+                explanation: "Coercion vitiates consent and makes the contract voidable. Bilateral mistake makes the contract void. Mistake of Indian Law does not make the contract voidable. Unilateral mistake generally makes the contract neither void nor voidable."
+            },
+            {
+                question: "A party whose consent was caused by misrepresentation can lose the right to rescind the contract if they:",
+                options: ["Fail to sue within one year", "Insist on damages instead of rescission", "Take a benefit under the contract after becoming aware of the misrepresentation", "Are able to prove fraud instead"],
+                answer: "Take a benefit under the contract after becoming aware of the misrepresentation",
+                explanation: "The aggrieved party loses the right to rescind the contract if he, after becoming aware of the misrepresentation, takes a benefit under the contract or in some way affirms it."
+            },
+            {
+                question: "Mr. SAMANT told Mr. CHHOTU that his car runs 30 KMs per litre of petrol. Both the fuel meter and speed meter were working perfectly. If the claim was false, why could Mr. CHHOTU NOT rescind the contract on grounds of misrepresentation?",
+                options: ["Because the claim was an opinion, not a fact.", "Because the misrepresentation was innocent.", "Because CHHOTU had the means of discovering the truth with ordinary diligence.", "Because rescission is only available for fraud, not misrepresentation."],
+                answer: "Because CHHOTU had the means of discovering the truth with ordinary diligence.",
+                explanation: "If consent was caused by misrepresentation, the contract is nevertheless not voidable if the party whose consent was so caused had the means of discovering the truth with ordinary diligence. Since both meters were working perfectly, CHHOTU had the means to discover the truth."
+            },
+            {
+                question: "A contract requires free consent. In the diagram showing elements vitiating free consent, which of the following is categorized under Unilateral Mistake (making the contract void)?",
+                options: ["As to identity of person", "As to subject matter", "Possibility of performance", "As to nature of contract"],
+                answer: "As to identity of person",
+                explanation: "The diagram in the source categorizes Unilateral Mistake as to identity of person or nature of contract (making the contract void), and Bilateral Mistake (making the contract void) as to subject matter or possibility of performance. (Note: Although Section 22 generally states unilateral mistake is not voidable, the diagram specifically addresses certain types of unilateral mistake as void)."
+            },
+            {
+                question: "Mistake of Indian Law is treated as:",
+                options: ["Making the contract voidable", "Making the contract void", "Not voidable", "A bilateral mistake of fact"],
+                answer: "Not voidable",
+                explanation: "A person cannot be allowed to get any relief on the ground that it had done a particular act in ignorance of law. Example 30 shows that a contract based on erroneous belief about the Indian Law of Limitation is not voidable."
+            },
+            {
+                question: "If A and B enter into a contract based on the erroneous belief that a particular debt is barred by the Indian Law of Limitation, the contract is:",
+                options: ["Void", "Voidable", "Not voidable", "Illegal"],
+                answer: "Not voidable",
+                explanation: "A contract on the erroneous belief that a particular debt is barred by the Indian Law of Limitation is not voidable."
+            },
+            {
+                question: "How is a mistake of foreign law treated under the Indian Contract Act, 1872?",
+                options: ["It is treated as a bilateral mistake of law, making the agreement voidable.", "It is treated as a mistake of fact, making the agreement void.", "It is treated the same as a mistake of Indian law, making the agreement not voidable.", "It makes the agreement illegal."],
+                answer: "It is treated as a mistake of fact, making the agreement void.",
+                explanation: "Mistake of foreign law is treated as mistake of fact and the agreement in such a case is void."
+            },
+            {
+                question: "Where both parties to an agreement are under a mistake as to a matter of fact essential to the agreement, this is known as a bilateral mistake. In such a case, the agreement is:",
+                options: ["Voidable (Section 22)", "Void (Section 20)", "Valid (Section 10)", "Illegal (Section 23)"],
+                answer: "Void (Section 20)",
+                explanation: "Where both the parties to an agreement are under a mistake as to a matter of fact essential to the agreement, there is a bilateral mistake. In such a case, the agreement is void (Section 20)."
+            },
+            {
+                question: "A contract is NOT voidable merely because it was caused by one of the parties being under a mistake as to a matter of fact. This is stated under:",
+                options: ["Section 13", "Section 20", "Section 22", "Section 23"],
+                answer: "Section 22",
+                explanation: "According to Section 22, a contract is not voidable merely because it was caused by one of the parties to it being under a mistake as to a matter of fact (Unilateral Mistake)."
+            },
+            {
+                question: "Which of the following is listed as a case of Bilateral Mistake that renders the agreement void?",
+                options: ["Mistake as to the identity of the person", "Mistake as to the character of the written document", "Mistake as to the possibility of legal performance", "Mistake as to the title of the subject-matter"],
+                answer: "Mistake as to the title of the subject-matter",
+                explanation: "Mistake as to the title of the subject-matter is explicitly listed under 'Cases of Bilateral Mistakes'. Mistake as to identity of person and character of written document are listed under Unilateral Mistake."
+            },
+            {
+                question: "The essential elements of a valid contract (Capacity, Free Consent, Lawful Consideration & Object) fall under which Unit in the provided text?",
+                options: ["UNIT-1: Offer and Acceptance", "UNIT-2: Consideration", "UNIT-3: Other Essential Elements of a Contract", "UNIT-4: Performance of Contract"],
+                answer: "UNIT-3: Other Essential Elements of a Contract",
+                explanation: "The source material is titled 'UNIT-3: OTHER ESSENTIAL ELEMENTS OF A CONTRACT' and covers Capacity to Contract, Free Consent, and Lawful Consideration & Object."
+            },
+            {
+                question: "Under Section 23, the consideration or object of an agreement is unlawful if it defeats the provisions of law. This means:",
+                options: ["The agreement is forbidden directly by a statute.", "The agreement is immoral or opposed to public policy.", "The agreement, indirectly, would defeat the purpose of the law.", "The agreement involves injury to property."],
+                answer: "The agreement, indirectly, would defeat the purpose of the law.",
+                explanation: "If the consideration or the object of an agreement is of such a nature that not directly but indirectly, it would defeat the provisions of the law, the agreement is void."
+            },
+            {
+                question: "A contract for marriage arranged by a father for his 17-year-old boy, wherein dowry is taken from the girl's parents, is void because:",
+                options: ["It is immoral.", "It is fraudulent.", "The consideration and object both are forbidden by law.", "It tends to create a monopoly."],
+                answer: "The consideration and object both are forbidden by law.",
+                explanation: "Such marriage contract cannot take place as in India the minimum age for boy marriage is 21 years and dowry is not permissible in Indian law. Such is not a valid contract as the consideration and object both are forbidden by law."
+            },
+            {
+                question: "A, B, and C enter into an agreement to divide among them gains acquired by fraud. This agreement is void because:",
+                options: ["It is opposed to public policy (Stifling Prosecution).", "The object is unlawful as it is fraudulent.", "It involves injury to the person of another.", "It defeats the provisions of law (Indian Penal Code)."],
+                answer: "The object is unlawful as it is fraudulent.",
+                explanation: "The agreement is void, as its object, viz., acquisition of gains by fraud is unlawful. Agreements which are entered into to promote fraud are void."
+            },
+            {
+                question: "An agreement where A promises to repay his debt by doing manual labour daily for a special period, imposing what amounts to slavery, is void because:",
+                options: ["The object is immoral.", "The consideration is illegal as it involves injury to the person A.", "It is an agreement in restraint of trade.", "It is a wagering agreement."],
+                answer: "The consideration is illegal as it involves injury to the person A.",
+                explanation: "The consideration is illegal as it imposes what, in substance, amounts to slavery on the part of A, involving injury to the person A. The object too is illegal, as it seeks to impose slavery which is opposed to public policy."
+            },
+            {
+                question: "Where P advanced money to D, a married woman, to enable her to obtain a divorce from her husband, and D agreed to marry P later, P cannot recover the amount because:",
+                options: ["The agreement was made under undue influence.", "The agreement had for its object the divorce of D, which is against good morals (immoral).", "The consideration was unlawful in part.", "D was incompetent to contract."],
+                answer: "The agreement had for its object the divorce of D, which is against good morals (immoral).",
+                explanation: "The agreement was held void because the promise of marriage given under these circumstances was against good morals (immoral), as the object was the divorce of D from her husband."
+            },
+            {
+                question: "Which principle restricts the freedom of contract in the name of the good for the community?",
+                options: ["Insolvency Law", "Public Policy", "Rule of Estoppel", "Consensus ad idem"],
+                answer: "Public Policy",
+                explanation: "In the name of public policy, freedom of contract is restricted by law only for the good for the community."
+            },
+            {
+                question: "A contract entered into by an Indian resident with a person owing allegiance to a Government at war with India, without the license of the Government of India, is void because:",
+                options: ["It is fraudulent.", "It is a wagering agreement.", "The object is opposed to public policy (Trading with enemy).", "It is an agreement with an incompetent party."],
+                answer: "The object is opposed to public policy (Trading with enemy).",
+                explanation: "Any trade with person owing allegiance to a Government at war with India without the licence of the Government of India is void, as the object is opposed to public policy (Trading with enemy)."
+            },
+            {
+                question: "What is an agreement to stifle prosecution?",
+                options: ["An agreement to present legal proceedings already instituted from running their normal course using force.", "An agreement to refer disputes to arbitration.", "An agreement by an employee not to compete with the employer.", "An agreement to secure a public office for a reward."],
+                answer: "An agreement to present legal proceedings already instituted from running their normal course using force.",
+                explanation: "An agreement to stifle prosecution i.e. 'an agreement to present proceedings already instituted from running their normal course using force' tends to be a perversion or an abuse of justice; therefore, such an agreement is void."
+            },
+            {
+                question: "Under the Indian Criminal Procedure Code, if A agrees to sell land to B in consideration of B abstaining from taking criminal proceedings against A related to an offence which is compoundable, the agreement is:",
+                options: ["Opposed to public policy and void.", "Not opposed to public policy and valid.", "Voidable at the option of A.", "Illegal and punishable."],
+                answer: "Not opposed to public policy and valid.",
+                explanation: "Under the Indian Criminal Procedure Code, there is a statutory list of compoundable offences, and an agreement to drop proceeding relating to such offences... is not opposed to public policy."
+            },
+            {
+                question: "Maintenance is defined as an agreement in which a person promises to maintain a suit in which he has:",
+                options: ["A substantial financial interest.", "No interest.", "A legitimate legal claim.", "A guaranteed victory."],
+                answer: "No interest.",
+                explanation: "Maintenance is an agreement in which a person promises to maintain suit in which he has no interest."
+            },
+            {
+                question: "An agreement where A agrees to pay expenses to B if B sues C, and B agrees to pay half of the amount received from the suit result to A, is defined as:",
+                options: ["Maintenance", "Stifling prosecution", "Champerty", "Trafficking"],
+                answer: "Champerty",
+                explanation: "Champerty is an agreement in which a person agrees to assist another in litigation in-exchange of a promise to hand over a portion of the proceeds of the action (Example 40)."
+            },
+            {
+                question: "Agreements for Maintenance or Champerty are valid, UNLESS:",
+                options: ["They are made by a stranger to the suit.", "They are unreasonable so as to be unjust to the other party or made by a malicious motive.", "The suit is based on tort law.", "The proceeds of the action exceed ₹ 50,000."],
+                answer: "They are unreasonable so as to be unjust to the other party or made by a malicious motive.",
+                explanation: "The agreement for supplying funds by way of Maintenance or Champerty is valid unless (a) It is unreasonable so as to be unjust to other party or (b) It is made by a malicious motive like that of gambling in litigation or oppressing other party by encouraging unrighteous suits and not with the bonafide object of assisting a claim believed to be just."
+            },
+            {
+                question: "An agreement to pay money to a public servant to induce him to retire from his office so that another person may secure the appointment is void because it amounts to:",
+                options: ["Stifling prosecution", "Trafficking relating to Public Offices and titles", "Interest against obligation", "Agreement tending to create monopolies"],
+                answer: "Trafficking relating to Public Offices and titles",
+                explanation: "An agreement to trafficking in public office is opposed to public policy... An agreement to pay money to a public servant in order to induce him to retire from his office so that another person may secure the appointment is void."
+            },
+            {
+                question: "If XYZ and ABC, the only manufacturers of oxygen cylinders in a region, contract to supply the cylinders at very high rates to enjoy monopoly rates, this contract is opposed to public policy because:",
+                options: ["It involves fraudulent acquisition of gains.", "It defeats the provisions of price control law.", "It tends to create monopolies.", "It is a form of wagering agreement."],
+                answer: "It tends to create monopolies.",
+                explanation: "Agreements having for their object the establishment of monopolies are opposed to public policy and therefore void."
+            },
+            {
+                question: "An agreement to negotiate marriage for reward, known as a marriage brokerage contract, is:",
+                options: ["Valid, if the reward is reasonable.", "Void, as it is opposed to public policy.", "Voidable, if consent was obtained under undue influence.", "Valid, provided the parties are not minors."],
+                answer: "Void, as it is opposed to public policy.",
+                explanation: "An agreement to negotiate marriage for reward, which is known as a marriage brokerage contract, is void, as it is opposed to public policy."
+            },
+            {
+                question: "Why is an agreement by an agent to receive compensation from a third party without his principal’s consent for the performance of his agency invalid?",
+                options: ["It is a marriage brokerage agreement.", "It tends to create an interest against obligation.", "It is a restraint of trade.", "It involves unlawful consideration in part."],
+                answer: "It tends to create an interest against obligation.",
+                explanation: "The object of such agreements is opposed to public policy. An agreement by an agent to receive without his principal’s consent compensation from another for the performance of his agency is invalid."
+            },
+            {
+                question: "By virtue of Section 24, if any part of a single consideration for one or more objects is unlawful, the entire agreement is:",
+                options: ["Voidable", "Valid, retaining the lawful part", "Void", "Illegal"],
+                answer: "Void",
+                explanation: "If any part of a single consideration for one or more objects, or any one or any part of any one of several considerations for a single object, is unlawful, the agreement is void."
+            },
+            {
+                question: "The general rule regarding severability of contracts with unlawful parts is that where the illegal part cannot be severed from the legal part, the contract is:",
+                options: ["Void only to the extent of the illegal part.", "Altogether void.", "Voidable at the option of the party not responsible for the illegality.", "Enforceable in a modified form."],
+                answer: "Altogether void.",
+                explanation: "The general rule is that where the legal part of a contract can be severed from the illegal part, the bad part may be rejected and the good one can be retained. But where the illegal part cannot be severed, the contract is altogether void."
+            },
+            {
+                question: "An agreement which abridges the usual period for starting legal proceedings is:",
+                options: ["Valid, if accepted by both parties", "Voidable", "Void, as it is in restraint of legal proceedings", "Subject to approval by the judiciary"],
+                answer: "Void, as it is in restraint of legal proceedings",
+                explanation: "An agreement in restraint of legal proceeding is the one by which any party thereto is restricted absolutely from enforcing his rights under a contract through a Court or which abridges the usual period for starting legal proceedings. A contract of this nature is void (Section 28)."
+            },
+            {
+                question: "Which agreement, although in restraint of trade (Section 27), is specifically validated by an exception?",
+                options: ["An agreement by an employee not to practice any business after leaving employment.", "An agreement by a manufacturer to sell their entire production to one wholesaler.", "An agreement between partners not to carry on competing business during the continuance of partnership.", "An agreement among sellers to only sell a commodity above a fixed price."],
+                answer: "An agreement between partners not to carry on competing business during the continuance of partnership.",
+                explanation: "Under Section 11 of the Indian Partnership Act, an agreement between partners not to carry on competing business during the continuance of partnership is valid."
+            },
+            {
+                question: "An agreement by which any person is restrained from exercising a lawful profession, trade or business of any kind, is void to that extent. This is established by:",
+                options: ["Section 26", "Section 27", "Section 28", "Section 29"],
+                answer: "Section 27",
+                explanation: "Agreement in restraint of trade (Section 27): An agreement by which any person is restrained from exercising a lawful profession, trade or business of any kind, is to that extent void."
+            },
+            {
+                question: "An agreement to sell 'a hundred tons of oil' without specifying the kind of oil is void due to uncertainty (Section 29). However, if the seller was a dealer only in coconut oil, the agreement would be valid because:",
+                options: ["The intent of the parties overrides the uncertainty.", "The meaning would be capable of being made certain.", "It qualifies as a contract for necessaries.", "It falls under a bilateral mistake of fact."],
+                answer: "The meaning would be capable of being made certain.",
+                explanation: "An agreement, the meaning of which is not certain, is void, but where the meaning thereof is capable of being made certain, the agreement is valid. If A was a dealer only in coconut oil, its meaning would be capable of being made certain (Example 46)."
+            },
+            {
+                question: "Which of the following is NOT an expressly declared void agreement?",
+                options: ["Agreements in restraint of marriage (Section 26)", "Agreements made under Unilateral mistake of fact (Section 22)", "Agreements made without consideration (Section 25)", "Wagering Agreement (Section 30)"],
+                answer: "Agreements made under Unilateral mistake of fact (Section 22)",
+                explanation: "Unilateral mistake (Section 22) generally results in the contract being neither void nor voidable. The others are expressly declared void agreements."
+            },
+            {
+                question: "Every agreement in restraint of marriage of any person other than a minor, is:",
+                options: ["Voidable", "Void", "Valid", "Illegal"],
+                answer: "Void",
+                explanation: "Every agreement in restraint of marriage of any person other than a minor, is void (Section 26)."
+            },
+            {
+                question: "An agreement in which each side stands to win or lose depending on the determination of an uncertain event, and in the occurrence of which neither party has legitimate interest, is known as:",
+                options: ["A contingent contract", "A contract of indemnity", "A quasi contract", "A wagering agreement"],
+                answer: "A wagering agreement",
+                explanation: "An agreement by way of a wager is void. The essence of a wager is that each side should stand to win or lose, depending on the way an uncertain event takes place in reference to which the chance is taken and in the occurrence of which neither of the parties has legitimate interest."
+            },
+            {
+                question: "In a wagering agreement, if A agrees to pay ₹ 50,000 to B if it rains, and B promises to pay a like amount to A if it does not rain, and subsequently A gains control over the weather event, the agreement:",
+                options: ["Remains a wager.", "Ceases to be a wager because one party has control over the event.", "Becomes illegal.", "Becomes a contract of insurance."],
+                answer: "Ceases to be a wager because one party has control over the event.",
+                explanation: "If one of the parties has control over the event, the agreement is not a wager."
+            },
+            {
+                question: "Which of the following is an essential element of a wagering agreement?",
+                options: ["The event must be certain.", "The parties must have a legitimate interest in the event, except for the stake.", "There must be common intention to bet at the timing of making such agreement.", "It must be conditional on a legal provision."],
+                answer: "There must be common intention to bet at the timing of making such agreement.",
+                explanation: "Essentials of a Wager include: (3) There must be uncertainty of event. (5) There must be common intention to bet at the timing of making such agreement. (6) Parties should have no interest in the event except for stake."
+            },
+            {
+                question: "Lottery transactions, even if sanctioned by the Government of India, are considered:",
+                options: ["Valid contracts of chance.", "Wagering transactions.", "Illegal and Void.", "Contingent contracts."],
+                answer: "Wagering transactions.",
+                explanation: "Even if the lottery is sanctioned by the Government of India it is a wagering transaction. The only effect of such sanction is that the person responsible for running the lottery will not be punished under the Indian Penal Code."
+            },
+            {
+                question: "Under the Prize Competition Act, 1955, prize competitions in games of skill are NOT wagers, provided the prize money does not exceed:",
+                options: ["₹ 500", "₹ 1,000", "₹ 5,000", "₹ 10,000"],
+                answer: "₹ 1,000",
+                explanation: "According to the Prize Competition Act, 1955 prize competitions in games of skill are not wagers provided the prize money does not exceed ₹ 1,000."
+            },
+            {
+                question: "An agreement or a share market transaction where the parties intend to settle only the difference between the contract price and the market price on a specified day (without delivery) is defined as:",
+                options: ["A valid commercial transaction", "A contingent contract", "A gambling/speculative transaction and hence void", "A contract of insurance"],
+                answer: "A gambling/speculative transaction and hence void",
+                explanation: "Speculative transactions: an agreement or a share market transaction where the parties intend to settle the difference between the contract price and the market price of certain goods or shares on a specified day, is a gambling and hence void."
+            },
+            {
+                question: "Under Section 30, an agreement to contribute toward plate, prize or sum of money of the value of ₹ 500 or above to be awarded to the winner of a horse race is:",
+                options: ["A void wagering transaction.", "A voidable contract.", "Not a wagering transaction.", "An illegal agreement."],
+                answer: "Not a wagering transaction.",
+                explanation: "Section 30 is not applicable in an agreement to contribute toward plate, prize or sum of money of the value of ₹ 500 or above to be awarded to the winner of a horse race."
+            },
+            {
+                question: "Chit funds do not fall within the scope of wager because:",
+                options: ["They are sanctioned by the government.", "They are conditional on a certain event.", "The prime motive is investment, not gambling for money.", "The parties have a legitimate interest in the fund beyond the stake."],
+                answer: "The parties have a legitimate interest in the fund beyond the stake.",
+                explanation: "Chit fund does not come within the scope of wager (Section 30). In case of a chit fund, a certain number of persons decide to contribute a fixed sum for a specified period."
+            },
+            {
+                question: "A contract of insurance is distinguished from a wagering agreement primarily based on:",
+                options: ["The legal enforceability (Insurance is valid, wager is void).", "The amount of the premium paid.", "The presence of an insurable interest.", "Whether the event is certain or uncertain."],
+                answer: "The presence of an insurable interest.",
+                explanation: "Insured party has insurable interest in the life or property sought to be insured. There is no property in case of wagering agreement. Also, insurance is valid and enforceable, while wager is void and unenforceable."
+            },
+            {
+                question: "Except for life insurance, a contract of insurance is essentially a contract to:",
+                options: ["Provide financial profit.", "Indemnify the loss.", "Guarantee investment returns.", "Compensate all potential losses."],
+                answer: "Indemnify the loss.",
+                explanation: "Except life insurance, the contract of insurance indemnifies the insured person against loss."
+            },
+            {
+                question: "If consent is caused by Mistake, the consequence is that the contract is Void. This category of void contracts includes:",
+                options: ["Unilateral Mistake of Fact", "Mistake of Indian Law", "Bilateral Mistake of Fact", "Mistake of calculation"],
+                answer: "Bilateral Mistake of Fact",
+                explanation: "When both the parties are at a mistake to a matter of fact to the agreement, the agreement is altogether void. This is known as Bilateral Mistake."
+            },
+            {
+                question: "Which element must be proven by a party seeking to avoid a contract on the ground of Undue Influence?",
+                options: ["The other party caused physical harm.", "The transaction is unfair or unconscionable.", "The contract was made without consideration.", "The relation was strictly master and servant."],
+                answer: "The transaction is unfair or unconscionable.",
+                explanation: "The party must prove that (a) The other party is in position to dominate his will, (b) the other party actually used his position to obtain his consent, (c) transaction is unfair or unconscionable."
+            },
+            {
+                question: "If a father, by reason of his authority over his son, obtains a bond from the son for a greater amount than the sum due in respect of an advance made during the son's minority, the father has employed:",
+                options: ["Coercion (Act forbidden by IPC)", "Fraud (Active concealment)", "Undue Influence (Misuse of parental influence)", "Misrepresentation (Unwarranted assertion)"],
+                answer: "Undue Influence (Misuse of parental influence)",
+                explanation: "A having advanced money to his son, B, during his minority, upon B’s coming of age obtains, by misuse of parental influence, a bond from B for a greater amount than the sum due in respect of the advance. A employs undue influence (Example 12)."
+            },
+            {
+                question: "A student was induced by his teacher to sell his new car at less than the purchase price to secure more marks. If the student sues the teacher, the legal ground would be:",
+                options: ["Coercion, due to threat of failure.", "Undue Influence, due to real or apparent authority.", "Fraud, due to false promise of marks.", "Bilateral Mistake, rendering the contract void."],
+                answer: "Undue Influence, due to real or apparent authority.",
+                explanation: "A person is deemed to be in position to dominate the will of another where he holds a real or apparent authority over the other. The relationship between a teacher and a student implies authority."
+            },
+            {
+                question: "Which element vitiating consent involves committing an act forbidden by the Indian Penal Code?",
+                options: ["Undue Influence", "Fraud", "Coercion", "Mistake"],
+                answer: "Coercion",
+                explanation: "Coercion is the committing, or threatening to commit, any act forbidden by the Indian Penal Code."
+            },
+            {
+                question: "A promise made without any intention of performing it is explicitly defined as an act constituting:",
+                options: ["Misrepresentation (Section 18)", "Coercion (Section 15)", "Fraud (Section 17)", "Undue Influence (Section 16)"],
+                answer: "Fraud (Section 17)",
+                explanation: "One of the acts constituting Fraud (Section 17) is 'a promise made without any intention of performing it'."
+            },
+            {
+                question: "In the context of fraud, when does silence equal speech?",
+                options: ["When the contract is for the sale of immovable property.", "When the seller makes a statement about a key fact that is untrue.", "When the other party relies on the silence as confirmation of a specific fact.", "When there is a fiduciary relationship."],
+                answer: "When the other party relies on the silence as confirmation of a specific fact.",
+                explanation: "Silence is equal to speech when the circumstances are such that the other party says, 'If you do not deny it, I shall assume that [the fact is true]'. If the first party says nothing, A’s silence is equivalent to speech (Example 23)."
+            },
+            {
+                question: "If X, having advanced money to Y, obtains a bond from Y on terms which appear unconscionable (unfair) while Y is in mental distress due to old age, the resulting contract is likely:",
+                options: ["Voidable due to Undue Influence.", "Void due to lack of consideration.", "Valid as commercial transactions are protected.", "Voidable due to Coercion."],
+                answer: "Voidable due to Undue Influence.",
+                explanation: "Mental distress is a circumstance where a person is in a position to dominate the will of the other. Unconscionable bargains are also presumed to be induced by undue influence. Such a contract is voidable."
+            },
+            {
+                question: "What happens if a contract is made under a mutual mistake (bilateral mistake) regarding the possibility of physical performance?",
+                options: ["It is voidable.", "It is void.", "It is valid but unenforceable.", "It is treated as misrepresentation."],
+                answer: "It is void.",
+                explanation: "Bilateral Mistake as to subject matter or possibility of performance (including physical) renders the contract void."
+            },
+            {
+                question: "A Hindu father arranges his minor daughter's marriage (under 18) and takes a payment from the groom's family. The contract is void because the object is:",
+                options: ["In restraint of marriage (Section 26).", "Immoral.", "Forbidden by law (Child marriage and dowry).", "Tending to create monopoly."],
+                answer: "Forbidden by law (Child marriage and dowry).",
+                explanation: "The transaction relates to child marriage (minimum age is 18 for girls) and dowry, both forbidden by Indian Law, making the consideration and object unlawful."
+            },
+            {
+                question: "Where a minor is liable for a tort, but the tort is in reality a breach of contract, the minor is:",
+                options: ["Liable in contract.", "Liable in tort.", "Not liable.", "Liable only if the contract was for necessaries."],
+                answer: "Not liable.",
+                explanation: "A minor is liable in tort unless the tort in reality is a breach of contract. (The example given in the source where the minor was held liable for killing the horse was because the act of lending was outside the contract's scope, making it a tort, not a breach of contract)."
+            },
+            {
+                question: "Which category of persons is specifically mentioned as disqualified from contracting due to their political status?",
+                options: ["Lunatics", "Insolvents", "Foreign Sovereigns and Ambassadors", "Minors"],
+                answer: "Foreign Sovereigns and Ambassadors",
+                explanation: "Incompetency to contract may arise from political status, corporate status, legal status, etc. Foreign Sovereigns and Ambassadors fall under this category."
+            },
+            {
+                question: "In the case of a fraudulent misrepresentation (Fraud), the knowledge of truth held by the person making the suggestion is:",
+                options: ["They believe the statement to be true.", "They know the statement is untrue.", "They are ignorant of the truth.", "They believe the statement is true but do not have sufficient grounds."],
+                answer: "They know the statement is untrue.",
+                explanation: "In Fraud, the person making the suggestion believes that the statement as untrue. Specifically, the representation is made with a knowledge of its falsity or without belief in its truth or recklessly not caring whether it is true or false."
+            },
+            {
+                question: "If A is selling a horse to B and tells B that the mare is thoroughly sound, genuinely believing it to be true without sufficient ground for the belief. The mare is later found to be unsound. This is legally defined as:",
+                options: ["Fraud", "Coercion", "Undue Influence", "Misrepresentation"],
+                answer: "Misrepresentation",
+                explanation: "The representation made by A is a misrepresentation because the statement turns out to be false, even though A genuinely believed the mare to be sound (Example 28). This fits the definition of a statement of fact which the maker believes true but is not justified by information possessed."
+            },
+            {
+                question: "If a contract is avoided due to undue influence, the court may set it aside either absolutely or enforce it in a modified form. This provision is detailed in:",
+                options: ["Section 19", "Section 19A", "Section 20", "Section 72"],
+                answer: "Section 19A",
+                explanation: "Effect of undue influence is governed by Section 19A."
+            },
+            {
+                question: "A contract requires that the representation inducing the other party must be related to a fact. Which of the following is considered a statement of fact?",
+                options: ["The goods are worth ₹ 50,000.", "The goods cost the seller ₹ 50,000.", "The contract will yield high returns.", "The legal consequences are favorable."],
+                answer: "The goods cost the seller ₹ 50,000.",
+                explanation: "Example 24: ‘A’ who is about to sell goods says that goods cost him Rs. 50,000. This is statement of fact. Saying the goods are worth Rs. 50,000 is a statement of opinion."
+            },
+            {
+                question: "A wagering agreement in India is classified as:",
+                options: ["Illegal and void", "Void but not illegal", "Voidable", "Contingent"],
+                answer: "Void but not illegal",
+                explanation: "An agreement by way of wager is void. Wagering agreement (Section 30) is one of the expressly declared void agreements. (Although the MCQ solution in the source indicates (b) Void but not illegal, the source text primarily states they are void.)"
+            },
+            {
+                question: "In the Mohori Bibi vs. Dharmo Das Ghose case, why was the contract for mortgage held void?",
+                options: ["The money lender obtained consent through coercion.", "The contract was made without consideration.", "The party (Mr. D) was a minor, hence incompetent to contract.", "The property was mortgaged for an amount exceeding its value."],
+                answer: "The party (Mr. D) was a minor, hence incompetent to contract.",
+                explanation: "Held the contract is void as Mr. D is minor and therefore he is not liable to pay anything to lender. The case established that a minor is not competent to contract and the agreement is void ab-initio."
+            },
+            {
+                question: "If A agrees to reward B, an intended witness in a suit against A, in consideration of B’s absenting himself from the trial, the agreement is void because:",
+                options: ["It is a champerty agreement.", "It is an agreement for stifling prosecution.", "It interferes with the course of justice.", "It is a restraint of legal proceedings."],
+                answer: "It interferes with the course of justice.",
+                explanation: "An agreement whose object is to induce any judicial officer of the State to act partially or corruptly is void, as it is opposed to public policy; so also is an agreement by A to reward B, who is an intended witness in a suit against A in consideration of B’s absenting himself from the trial."
+            },
+            {
+                question: "A patient in a lunatic asylum, who is at intervals, of sound mind, may contract:",
+                options: ["Never, as he is usually of unsound mind.", "During those intervals of sound mind.", "Only for necessaries.", "Only with the sanction of the court."],
+                answer: "During those intervals of sound mind.",
+                explanation: "A patient in a lunatic asylum, who is at intervals, of sound mind, may contract during those intervals (Example 8)."
+            },
+            {
+                question: "In a contract of guarantee for a minor, the minor is considered the:",
+                options: ["Principal debtor, but not liable.", "Surety, and is jointly liable.", "Agent, and is not liable.", "Beneficiary, and is fully liable."],
+                answer: "Principal debtor, but not liable.",
+                explanation: "The adult is liable as surety because there is a direct contract between the surety and the third party. The minor is the person whose default the surety guarantees, making the minor the principal debtor (though the minor incurs no personal liability)."
+            },
+            {
+                question: "If a contract is induced by Undue Influence, the burden of proof initially lies on:",
+                options: ["The party seeking to enforce the contract.", "The court to determine the nature of the relationship.", "The aggrieved party (the one whose will was dominated).", "The money-lender or person in authority."],
+                answer: "The aggrieved party (the one whose will was dominated).",
+                explanation: "Burden of proof: When a party to contract decides to avoid the contract on the ground of undue influence, he has to prove that—(a) The other party is in position to dominate his will, (b) the other party actually used his position to obtain his consent, (c) transaction is unfair or unconscionable. (The summary table also states: Firstly, Lies on the aggrieved party after that other party has to prove that no undue influence)."
+            },
+            {
+                question: "The essential elements required for Free Consent, as defined in Section 14, exclude consent caused by:",
+                options: ["Coercion (Section 15)", "Undue Influence (Section 16)", "Fraud (Section 17)", "All of these"],
+                answer: "All of these",
+                explanation: "Consent is said to be free when it is not caused by: 1. Coercion (Sec 15); 2. Undue Influence (Sec 16); 3. Fraud (Sec 17); 4. Misrepresentation (Sec 18); or 5. Mistake (Secs 20, 21, and 22)."
+            },
+            {
+                question: "If A, a minor, receives ₹ 20,000 by falsely representing himself as major and spends the entire amount, Mr. X, who lent the money, can recover:",
+                options: ["The entire ₹ 20,000.", "The unspent portion of the amount.", "Nothing, as A can always plead minority.", "Only the amount recoverable from A's fixed assets."],
+                answer: "Nothing, as A can always plead minority.",
+                explanation: "The minor shall not be liable for any amount which he has already spent even though he received the same by fraud. Thus, a minor can always plead minority."
+            },
+            {
+                question: "When does the rule of estoppel apply against a minor who fraudulently misrepresented his age?",
+                options: ["When the loan amount is substantial.", "When the minor is liable for necessaries.", "When the minor is held liable for torts.", "Rule of estoppel cannot be applied against a minor."],
+                answer: "Rule of estoppel cannot be applied against a minor.",
+                explanation: "Rule of estoppel cannot be applied against a minor. It means he can be allowed to plea his minority in defence."
+            },
+            {
+                question: "The distinction between Coercion and Undue Influence based on relationship is that:",
+                options: ["Undue Influence requires some sort of relationship between the parties; Coercion does not.", "Coercion requires a fiduciary relationship; Undue Influence does not.", "Both require fiduciary relationships.", "Coercion is always exercised between parties to the contract; Undue Influence can be by a stranger."],
+                answer: "Undue Influence requires some sort of relationship between the parties; Coercion does not.",
+                explanation: "In Coercion, it is not necessary that there must be some sort of relationship between the parties. In Undue Influence, some sort of relationship between the parties is absolutely necessary."
+            },
+            {
+                question: "Which of the following elements makes a contract voidable, but does NOT allow the aggrieved party to claim damages?",
+                options: ["Fraud", "Misrepresentation", "Coercion", "Undue Influence"],
+                answer: "Misrepresentation",
+                explanation: "The injured party (in misrepresentation) is entitled to repudiate the contract or sue for restitution but cannot claim the damages. Fraud, Coercion, and Undue Influence allow for damages or setting aside of the contract."
+            },
+            {
+                question: "If an agreement is made without consideration (Section 25), it is classified as:",
+                options: ["Voidable", "Void", "Valid", "Contingent"],
+                answer: "Void",
+                explanation: "Agreements made without consideration (Section 25) are expressly declared void agreements."
+            },
+            {
+                question: "Which of the following is considered an act fitted to deceive under the definition of Fraud (Section 17)?",
+                options: ["Active concealment of a fact.", "Any other act fitted to deceive.", "Breach of duty without intent to deceive.", "Mistake regarding the subject matter."],
+                answer: "Any other act fitted to deceive.",
+                explanation: "Section 17 lists 'any other act fitted to deceive' as one of the actions constituting Fraud."
+            },
+            {
+                question: "A contract made by a certified guardian of a minor, appointed by the Court, for the sale of the minor’s property, with the sanction of the court, may be enforced by:",
+                options: ["The minor only.", "The guardian only.", "Either party to the contract.", "The court only."],
+                answer: "Either party to the contract.",
+                explanation: "A contract entered into by a certified guardian (appointed by the Court) of a minor, with the sanction of the court for the sale of the minor’s property, may be enforced by either party to the contract."
+            },
+            {
+                question: "The maxim ‘Ignorance of law is no excuse’ applies specifically to:",
+                options: ["Mistake of Foreign Law", "Mistake of Indian Law", "Unilateral Mistake of Fact", "Bilateral Mistake of Fact"],
+                answer: "Mistake of Indian Law",
+                explanation: "Mistake of Indian Law means a person cannot be allowed to get any relief on the ground that it had done a particular act in ignorance of law. This is supported by the Test Your Knowledge answer."
+            },
+            {
+                question: "What is the legal effect if A enters into an agreement with B who has robbed A of ₹ 10,000, agreeing to drop prosecution in consideration of B’s returning ₹ 8,000 (assuming robbery is a public offence)?",
+                options: ["A can recover ₹ 8,000, as B agreed to pay.", "A can recover ₹ 10,000 plus damages.", "A can recover nothing because the agreement is void (Stifling Prosecution).", "A can recover ₹ 8,000, as it is a compoundable offence."],
+                answer: "A can recover nothing because the agreement is void (Stifling Prosecution).",
+                explanation: "The compromise of any public offence (like robbery) is generally illegal. An agreement to stifle prosecution is void. Thus, A can recover nothing (MCQ Answer 20)."
+            },
+            {
+                question: "An agreement made for the purpose of procuring a public recognition like Padma Vibhushan for a reward is legally considered:",
+                options: ["Valid, provided the person is deserving.", "Void, as it is tantamount to the sale of public offices/titles.", "Voidable, if the reward is unconscionable.", "A contract of service."],
+                answer: "Void, as it is tantamount to the sale of public offices/titles.",
+                explanation: "An agreement to procure a public recognition like Padma Vibhushan for reward is void."
+            },
+            {
+                question: "When A applies to a banker for a loan during a money market stringency, and the banker grants the loan at an unusually high interest rate, but without using a position to dominate the will, the contract is:",
+                options: ["Induced by undue influence, due to unconscionable bargain.", "Void, being opposed to public policy.", "Valid, as a transaction in the ordinary course of business.", "Voidable, due to economic coercion."],
+                answer: "Valid, as a transaction in the ordinary course of business.",
+                explanation: "This is a transaction in the ordinary course of business, and the contract is not induced by undue influence (Example 18)."
+            },
+            {
+                question: "In the case of a minor, the principle of 'No specific performance' applies because:",
+                options: ["Minors can only be beneficiaries.", "His agreement is absolutely void.", "He can always plead minority.", "He is incapable of performing legal duties."],
+                answer: "His agreement is absolutely void.",
+                explanation: "A minor’s agreement being absolutely void, there can be no question of the specific performance of such an agreement."
+            },
+            {
+                question: "If an agreement is in restraint of trade, the local limits within which the seller of goodwill agrees not to carry on a similar business must be:",
+                options: ["At least 10 kilometers.", "Specified and fixed by law.", "Reasonable.", "Determined by the buyer."],
+                answer: "Reasonable.",
+                explanation: "The local limits within which the seller of the goodwill agrees not to carry on similar business must be reasonable."
+            },
+            {
+                question: "An agreement between two parties to refer any future dispute between them in respect of any subject to arbitration is a:",
+                options: ["Void agreement in restraint of legal proceedings.", "Valid exception to the rule of restraint of legal proceedings.", "Voidable agreement.", "Wagering agreement."],
+                answer: "Valid exception to the rule of restraint of legal proceedings.",
+                explanation: "A contract by which the parties agree that any dispute between them in respect of any subject shall be referred to arbitration... is a valid contract (exception to Section 28)."
+            },
+            {
+                question: "Crossword puzzles where prizes depend upon the correspondence of the competitor’s solution with a previously prepared solution (game of chance) are considered:",
+                options: ["Valid games of skill.", "Voidable contracts.", "Wagering transactions.", "Legal lotteries."],
+                answer: "Wagering transactions.",
+                explanation: "Crossword puzzles in which prizes depend upon the correspondence of the competitor’s solution with a previously prepared solution kept with the editor of a newspaper is a lottery and therefore, a wagering transaction."
+            },
+            {
+                question: "A contract results from a proposal by one party and its acceptance by the other party. In the order of discussing essential elements, which two elements are discussed *before* Capacity to Contract in the overall structure of contract law?",
+                options: ["Free Consent and Lawful Object", "Offer and Acceptance, and Consideration", "Mistake and Fraud", "Lawful Object and Void Agreements"],
+                answer: "Offer and Acceptance, and Consideration",
+                explanation: "We have already discussed offer, acceptance and consideration in detail. We shall now discuss in detail the elements which constitute a valid contract enforceable in law (referring to Capacity, Consent, etc., in Unit 3)."
+            },
+            {
+                question: "If consent is obtained by coercion, the contract is voidable. This means it is enforceable:",
+                options: ["By the party who exercised coercion.", "At the option of the party whose consent was obtained.", "By either party, unless rescinded by the court.", "Only for necessaries supplied."],
+                answer: "At the option of the party whose consent was obtained.",
+                explanation: "Contract induced by coercion is voidable at the option of the party whose consent was so obtained."
+            },
+            {
+                question: "In the context of misrepresentation (Section 18), when is there a breach of duty?",
+                options: ["When a person commits an act forbidden by the IPC.", "When a person makes a statement knowing it to be false.", "When there is a breach of duty by a person without any intention to deceive which brings an advantage to him.", "When the party fails to discover the truth with ordinary diligence."],
+                answer: "When there is a breach of duty by a person without any intention to deceive which brings an advantage to him.",
+                explanation: "Misrepresentation occurs when there is a breach of duty by a person without any intention to deceive which brings an advantage to him."
+            },
+            {
+                question: "If a father sells a horse he knows to be unsound to his daughter without mentioning the defect, this silence amounts to fraud because:",
+                options: ["The horse is a necessary item.", "The transaction is a gift.", "The relationship between the parties creates a duty to speak.", "The daughter failed to exercise ordinary diligence."],
+                answer: "The relationship between the parties creates a duty to speak.",
+                explanation: "Example 22: In the above example, B is A’s daughter. Here, the relation between the parties would make it A’s duty to tell B if the horse is unsound (Duty to speak)."
+            },
+            {
+                question: "Under Section 10, one of the essential elements is that the parties must be competent to contract. Competence refers to:",
+                options: ["Lawful object", "Consensus ad idem", "Capacity", "Free consent"],
+                answer: "Capacity",
+                explanation: "Capacity refers to the competence of the parties to make a contract. It is one of the essential elements to form a valid contract."
+            },
+            {
+                question: "A person who is usually of sound mind, but occasionally of unsound mind, is prohibited from contracting:",
+                options: ["During the intervals when he is of sound mind.", "When he is of unsound mind.", "Only if he is also a minor.", "If the contract is unconscionable."],
+                answer: "When he is of unsound mind.",
+                explanation: "A person who is usually of sound mind, but occasionally of unsound mind, may not make a contract when he is of unsound mind."
+            },
+            {
+                question: "Which agreement is void because it involves unlawful consideration in part?",
+                options: ["An agreement for a single object supported by one or more considerations, any part of which is unlawful.", "An agreement where the object is immoral.", "An agreement where a minor is the beneficiary.", "An agreement in restraint of legal proceedings."],
+                answer: "An agreement for a single object supported by one or more considerations, any part of which is unlawful.",
+                explanation: "By virtue of Section 24, if any part of a single consideration for one or more objects, or any one or any part of any one of several considerations for a single object, is unlawful, the agreement is void."
+            },
+            {
+                question: "An agreement which contemplates the use of under-hand means to influence legislation is void because:",
+                options: ["It is fraudulent.", "It interferes with the course of justice.", "It is opposed to public policy.", "It is a restraint of trade."],
+                answer: "It is opposed to public policy.",
+                explanation: "An agreement which contemplates the use of under-hand means to influence legislation is void... for the same reasons as interference with the course of justice, falling under agreements opposed to public policy."
+            },
+            {
+                question: "A minor can draw, deliver and endorse negotiable instruments:",
+                options: ["But only if co-signed by his guardian.", "Without incurring personal liability.", "Only if the instrument is for necessaries.", "Only after attaining the age of 16."],
+                answer: "Without incurring personal liability.",
+                explanation: "A minor can draw, deliver and endorse negotiable instruments without himself being liable."
+            },
+            {
+                question: "If a party insists on the performance of a contract induced by fraud, they must do so on the condition that:",
+                options: ["The fraudulent party must compensate them for all potential losses.", "They shall be put in the position in which they would have been had the representation made been true.", "The contract must be modified by the court.", "The fraudulent party accepts criminal prosecution."],
+                answer: "They shall be put in the position in which they would have been had the representation made been true.",
+                explanation: "He can insist on the performance of the contract on the condition that he shall be put in the position in which he would have been had the representation made been true."
+            },
+            {
+                question: "The essential ingredients of Undue Influence require a relationship between the parties and a position to dominate the will, but they also require that the object must be:",
+                options: ["To enter a voidable contract.", "To take undue advantage.", "To hide the truth.", "To commit an illegal act."],
+                answer: "To take undue advantage.",
+                explanation: "The object must be to take undue advantage: Where the person is in a position to influence the will of the other in getting consent, must have the object to take advantage of the other."
+            },
+            {
+                question: "A threat to kidnap one’s son in consideration of ₹ 5,00,000 is void because of:",
+                options: ["Inadequacy of consideration.", "Absence of free consent.", "Incompetence of parties.", "Uncertainty of meaning."],
+                answer: "Absence of free consent.",
+                explanation: "The threat constitutes coercion, which vitiates free consent. (MCQ Answer 22)."
+            },
+            {
+                question: "If A, who is the manager of a firm, agrees to pass a contract to X if X pays A ₹ 200,000 privately, the agreement is void because:",
+                options: ["It is a champerty agreement.", "It is an agreement tending to create an interest against obligation.", "The consideration is void for uncertainty.", "It is an agreement in restraint of trade."],
+                answer: "It is an agreement tending to create an interest against obligation.",
+                explanation: "The agreement is void as it tends to create an interest against obligation (Example 66(2))."
+            },
+            {
+                question: "If an agreement is made between two parties to refer to arbitration any question between them which has already arisen or which may arise in future, this contract is valid only if:",
+                options: ["The award is recoverable by law.", "It is in writing.", "It relates to immovable property.", "The value of the dispute is above ₹ 1,000."],
+                answer: "It is in writing.",
+                explanation: "A contract by which the parties agree to refer to arbitration any question between them which has already arisen or which may arise in future, is valid; but such a contract must be in writing."
+            },
+            {
+                question: "If A agrees to sell a stock to B, but A and B intend to settle only the difference between the contract price and the market price on a specified day, this transaction is:",
+                options: ["A valid commercial transaction if the stock exchange rules permit.", "A void wagering agreement.", "A contingent contract.", "A valid speculative transaction."],
+                answer: "A void wagering agreement.",
+                explanation: "A share market transaction where the parties intend to settle the difference... is a gambling and hence void."
+            },
+            {
+                question: "Why is an agreement of service where an employee binds himself, during the term of his agreement, not to compete with his employer, considered valid?",
+                options: ["Because it is outside the scope of Section 27 (Restraint of Trade).", "Because it is in restraint of trade but the restriction is reasonable.", "Because the employee receives adequate compensation.", "Because it is required by law."],
+                answer: "Because it is outside the scope of Section 27 (Restraint of Trade).",
+                explanation: "An agreement of service by which an employee binds himself, during the term of his agreement, not to compete with his employer is not in restraint of trade."
+            },
+            {
+                question: "When can a minor be held liable for repayment of an amount obtained by fraud, even though he can plead minority?",
+                options: ["If the amount was substantial.", "If the amount relates to necessaries.", "If he has not spent the same.", "Only if his parents consent to repayment."],
+                answer: "If he has not spent the same.",
+                explanation: "However, if he has not spent the same, he may be asked to repay it but the minor shall not be liable for any amount which he has already spent even though he received the same by fraud."
+            },
+            {
+                question: "The concept of 'Utility rather than ornament' is the criterion for determining:",
+                options: ["Lawful object.", "Reasonable local limits for restraint of trade.", "Minor's status in life.", "What constitutes necessaries for a minor."],
+                answer: "What constitutes necessaries for a minor.",
+                explanation: "The whole question turns upon the minor’s status in life. Utility rather than ornament is the criterion."
+            },
+            {
+                question: "The effect of a contract induced by Undue Influence is that it is voidable. The court, in setting it aside, may order the repayment of benefits upon just terms. This contrasts with Coercion where repayment (under Section 72) is:",
+                options: ["Mandatory.", "Discretionary.", "Not applicable.", "Limited to cash payments."],
+                answer: "Mandatory.",
+                explanation: "In case of coercion... as per Section 64, any benefit received has to be restored back to the other party. (Section 72 also states the recipient must repay/return it). In Undue Influence, the court has the discretion."
+            },
+            {
+                question: "If a fraud committed against a party did not cause the consent of that party to the agreement, the contract is:",
+                options: ["Voidable, but only for damages.", "Voidable, but only for rescission.", "Not voidable.", "Illegal."],
+                answer: "Not voidable.",
+                explanation: "Exception: A fraud which did not cause the consent of the party to agreement, the contract is not voidable."
+            },
+            {
+                question: "A contract is formed by the proposal and acceptance resulting in an agreement. The element that makes this agreement enforceable by law is:",
+                options: ["Lawful object and consideration.", "Capacity to contract.", "Free consent.", "All elements constituting a valid contract."],
+                answer: "All elements constituting a valid contract.",
+                explanation: "We shall now discuss in detail the elements which constitute a valid contract enforceable in law. These include Capacity, Free Consent, Lawful Consideration & Object, and Not Expressly Declared Void."
+            },
+            {
+                question: "Which agreement is considered void because it is in restraint of marriage?",
+                options: ["An agreement restraining a minor from marrying.", "An agreement restraining a major person from marrying.", "A marriage brokerage agreement.", "An agreement where divorce is the object."],
+                answer: "An agreement restraining a major person from marrying.",
+                explanation: "Every agreement in restraint of marriage of any person other than a minor, is void. An agreement restraining a minor from marrying is permissible."
+            },
+            {
+                question: "The term 'Mistake' is legally defined as:",
+                options: ["Intentional false suggestion.", "Active concealment of fact.", "Innocent or erroneous belief which leads the party to misunderstand the others.", "Domination of the will of another."],
+                answer: "Innocent or erroneous belief which leads the party to misunderstand the others.",
+                explanation: "Mistake may be defined as innocent or erroneous belief which leads the party to misunderstand the others."
+            },
+            {
+                question: "If A and B are under a bilateral mistake regarding the quality of the subject matter, the agreement is void under:",
+                options: ["Section 10", "Section 14", "Section 20", "Section 22"],
+                answer: "Section 20",
+                explanation: "Bilateral mistake (mistake as to matter of fact essential to the agreement) renders the agreement void (Section 20). Mistake as to the quality of the subject-matter is a case of bilateral mistake."
+            },
+            {
+                question: "A crossword puzzle competition where prizes are awarded solely on the basis of skill and intelligence is:",
+                options: ["A wagering agreement.", "Valid under the Prize Competition Act, 1955.", "A lottery.", "Illegal if the prize exceeds ₹ 1,000."],
+                answer: "Valid under the Prize Competition Act, 1955.",
+                explanation: "Crossword puzzles, picture competitions and athletic competitions where prizes are awarded on the basis of skill and intelligence are the games of skill and hence such competitions are valid."
+            },
+            {
+                question: "In a joint contract between an adult and a minor, the adult is held liable because:",
+                options: ["The minor acts as the agent of the adult.", "The contract is divisible and the minor’s part is severed.", "The adult is deemed to have a direct contract with the third party.", "The contract is enforceable against the major purchaser, not the minor (Sain Das vs. Ram Chand)."],
+                answer: "The contract is enforceable against the major purchaser, not the minor (Sain Das vs. Ram Chand).",
+                explanation: "In Sain Das vs. Ram Chand, where there was a joint purchase by two purchasers, one of them was a minor, it was held that the vendor could enforce the contract against the major purchaser and not the minor."
+            },
+            {
+                question: "A mere attempt to deceive a party to a contract:",
+                options: ["Is fraud even though the party is not deceived.", "Is not fraud unless the party is actually deceived.", "Is classified as misrepresentation.", "Always makes the contract void."],
+                answer: "Is not fraud unless the party is actually deceived.",
+                explanation: "One of the essential elements of fraud is that the other party must have been induced to act upon the representation or assertion, and must have been deceived. (MCQ Answer 24)."
+            },
+            {
+                question: "Under what condition can a partner, under Section 36 of the Indian Partnership Act, 1932, agree to refrain from carrying on a similar business after retiring (outgoing partner)?",
+                options: ["The restriction must be worldwide.", "The agreement must be specified for an unlimited time period.", "The restrictions imposed must be reasonable.", "The agreement must be registered with the court."],
+                answer: "The restrictions imposed must be reasonable.",
+                explanation: "If an outgoing partner makes an agreement with the continuing partners that he will not carry on any business similar to that of the firm within a specified period or within specified local limits, such an agreement, thought in restraint of trade, will be valid, if the restrictions imposed are reasonable."
+            },
+            {
+                question: "If B, an agriculturist, is induced by undue influence by A (money lender) to execute a bond for ₹ 2,00,000 when only ₹ 1,00,000 was advanced, the court is likely to set aside the bond, ordering B to repay:",
+                options: ["The full ₹ 2,00,000.", "Only the principal sum of ₹ 1,00,000 without interest.", "₹ 1,00,000 with such interest as may seem just.", "Nothing, as the contract is void ab initio."],
+                answer: "₹ 1,00,000 with such interest as may seem just.",
+                explanation: "The court may set aside the bond, ordering B to repay ₹ 1,00,000 with such interest as may seem just (Example 20). This illustrates the court’s discretion under Section 19A."
+            },
+            {
+                question: "Which element of a valid contract deals with whether the parties are capable of legally entering into the agreement?",
+                options: ["Free Consent", "Capacity to Contract", "Lawful Object", "Consideration"],
+                answer: "Capacity to Contract",
+                explanation: "Capacity refers to the competence of the parties to make a contract. It is listed as 'the parties must be competent to contract'."
+            },
+            {
+                question: "If a minor entered into a contract of buying a scooty and mentioned that her parents would be liable for the payment, the parents are liable:",
+                options: ["Because the scooty is a necessary item.", "When the child is acting as an agent for parents.", "Never, as the contract is void ab initio.", "Only if the minor had assets to cover the cost."],
+                answer: "When the child is acting as an agent for parents.",
+                explanation: "The parents will be held liable only when the child is acting as an agent for parents. In the absence of authority, express or implied, an infant is not capable of binding his parent or guardian, even for necessaries."
+            },
+            {
+                question: "If consent is caused by Fraud, Misrepresentation, or Coercion, the contract is voidable. If consent is caused by Bilateral Mistake of fact, the contract is:",
+                options: ["Illegal.", "Voidable.", "Void.", "Valid."],
+                answer: "Void.",
+                explanation: "Bilateral mistake makes the agreement void (Section 20). When consent is caused by coercion, fraud, misrepresentation, or undue influence, the contract is voidable."
+            },
+            {
+                question: "If an agreement is to print a book in violation of another’s copyright, the object is unlawful because:",
+                options: ["It is forbidden by law relating to copyright.", "It involves injury to the property of another.", "Both (a) and (b).", "It is immoral."],
+                answer: "Both (a) and (b).",
+                explanation: "An agreement to print a book in violation of another’s copyright is void, as the object is to cause injury to the property of another. It is also void as the object of the agreement is forbidden by the law relating to copyright."
+            },
+            {
+                question: "If a person promises to maintain a suit in which he has no interest, this agreement is known as:",
+                options: ["Champerty", "Maintenance", "Stifling Prosecution", "Trafficking"],
+                answer: "Maintenance",
+                explanation: "Maintenance is an agreement in which a person promises to maintain suit in which he has no interest."
+            },
+            {
+                question: "Why are life insurance contracts not considered wagering agreements?",
+                options: ["They are based on the certainty of the event (death).", "The insured party has an insurable interest in the life sought to be insured.", "The premium is not based on scientific calculation.", "The contract is only for compensation, not profit."],
+                answer: "The insured party has an insurable interest in the life sought to be insured.",
+                explanation: "A contract of insurance is a type of contingent contract and is valid under law. The insured party has insurable interest in the life or property sought to be insured."
+            },
+            {
+                question: "Calculation of premium in a contract of insurance is based on:",
+                options: ["Mutual agreement.", "The size of the potential stake.", "Scientific and actuarial calculation of risks.", "The market price of the insured asset."],
+                answer: "Scientific and actuarial calculation of risks.",
+                explanation: "Calculation of premium is based on scientific and actuarial calculation of risks."
+            },
+            {
+                question: "If the meaning of an agreement is not certain, the agreement is void (Section 29). This rule applies unless:",
+                options: ["The parties confirm the intention later.", "The agreement is for future goods.", "The meaning thereof is capable of being made certain.", "The value of the contract exceeds ₹ 1,000."],
+                answer: "The meaning thereof is capable of being made certain.",
+                explanation: "An agreement, the meaning of which is not certain, is void, but where the meaning thereof is capable of being made certain, the agreement is valid."
+            },
+            {
+                question: "Which of the following elements vitiating free consent involves the breach of a duty without any intention to deceive?",
+                options: ["Fraud", "Coercion", "Undue Influence", "Misrepresentation"],
+                answer: "Misrepresentation",
+                explanation: "Misrepresentation occurs when there is a breach of duty by a person without any intention to deceive which brings an advantage to him."
+            },
+            {
+                question: "What is the consequence of entering into a contract with a person of unsound mind?",
+                options: ["The contract is voidable at their option.", "The contract is void.", "The contract is enforceable for necessaries.", "The contract is valid if the consideration is fair."],
+                answer: "The contract is void.",
+                explanation: "A contract by a person who is not of sound mind is void. (Note: Liability for necessities is limited to their estate)."
+            },
+            {
+                question: "The essential characteristic of a wagering agreement is the existence of:",
+                options: ["A promise to transfer property.", "Mutual chances of win or lose.", "A legal purpose.", "Adequate consideration."],
+                answer: "Mutual chances of win or lose.",
+                explanation: "Essentials of a Wager: Mutual Chances of win or lose. The essence of a wager is that each side should stand to win or lose."
+            },
+            {
+                question: "If a contract is caused by mistake of fact, but only one party is under that mistake (Unilateral Mistake), the contract is generally:",
+                options: ["Void (Section 20).", "Voidable (Section 19).", "Neither void nor voidable (Section 22).", "Void, relating to identity of the person."],
+                answer: "Neither void nor voidable (Section 22).",
+                explanation: "Unilateral Mistake: According to Section 22, a contract is not voidable merely because it was caused by one of the parties to it being under a mistake as to a matter of fact. (The summary table also confirms: Unilateral Mistake - Contract is neither void nor voidable)."
+            },
+            {
+                question: "Which ground for unlawful consideration is demonstrated by an agreement where India entered into a war-like situation with China, and Mr. A from India entered into a contract with China for the import of toys?",
+                options: ["Immoral", "Fraudulent", "Opposed to public policy (Trading with enemy)", "Defeating the provisions of law"],
+                answer: "Opposed to public policy (Trading with enemy)",
+                explanation: "Such contract is void as China is alien enemy of India. The contract is void as the object is opposed to public policy (Trading with enemy)."
+            },
+            {
+                question: "If consent is vitiated by Coercion, the burden of proof lies on:",
+                options: ["The party who exercised the coercion.", "The aggrieved party.", "The Court.", "The police."],
+                answer: "The aggrieved party.",
+                explanation: "Burden of Proof for Coercion: Lies on the aggrieved party."
+            },
+            {
+                question: "In the context of misrepresentation, the statement must be false, and the maker believes it to be true, but in the context of fraud, the maker:",
+                options: ["Believes it to be true but cannot justify it.", "Knows the statement is untrue.", "Is indifferent to whether it is true or false.", "Must suffer a loss."],
+                answer: "Knows the statement is untrue.",
+                explanation: "In Fraud, the person making the suggestion believes that the statement as untrue. In Misrepresentation, the person making the statement believes it to be true, although it is not true."
+            },
+            {
+                question: "Why are agreements tending to create monopolies opposed to public policy?",
+                options: ["They interfere with the course of justice.", "They encourage unrighteous suits.", "They negatively affect the public interest by controlling prices or supply.", "They involve trafficking in public offices."],
+                answer: "They negatively affect the public interest by controlling prices or supply.",
+                explanation: "Agreements having for their object the establishment of monopolies are opposed to public policy and therefore void. (Example 42 shows this through supplying goods at very high rates during the covid period)."
+            },
+            {
+                question: "A minor can never enter into a partnership, but he can be admitted to the benefits of partnership under Section 30 of which Act?",
+                options: ["The Indian Contract Act, 1872", "The Indian Majority Act, 1875", "The Indian Partnership Act, 1932", "The Sale of Goods Act, 1930"],
+                answer: "The Indian Partnership Act, 1932",
+                explanation: "A minor being incompetent to contract cannot be a partner in a partnership firm, but under Section 30 of the Indian Partnership Act, he can be admitted to the benefits of partnership."
+            },
+            {
+                question: "Which of the following is NOT an element listed under the definition of Fraud (Section 17)?",
+                options: ["Active concealment of a fact.", "Threatening to detain property unlawfully.", "Any such act or omission as the law specially declares to be fraudulent.", "A promise made without any intention of performing it."],
+                answer: "Threatening to detain property unlawfully.",
+                explanation: "Threatening to detain property unlawfully falls under Coercion (Section 15)."
+            },
+            {
+                question: "When does a contract involving a Bilateral Mistake of Fact become void?",
+                options: ["When the mistake relates to a matter of law.", "When the mistake relates to a matter of fact essential to the agreement.", "When the mistake is solely unilateral.", "When the mistake concerns the price and is unilateral."],
+                answer: "When the mistake relates to a matter of fact essential to the agreement.",
+                explanation: "Where both the parties to an agreement are under a mistake as to a matter of fact essential to the agreement, there is a bilateral mistake. In such a case, the agreement is void (Section 20)."
+            },
+            {
+                question: "If A (a CA aspirant) takes a loan from B (a money-lender) at a very high rate of interest due to A's helplessness, and B did not mislead A, this contract is considered valid because:",
+                options: ["It is voidable at A's option due to mental distress.", "It is vitiated by undue influence due to close friendship.", "The mere fact of high interest rate does not necessarily imply undue influence.", "It is void due to unconscionable consideration."],
+                answer: "The mere fact of high interest rate does not necessarily imply undue influence.",
+                explanation: "This refers to Example 17/18 and MCQ 14: The contract is valid as a friend could not be supposed to have wielded undue influence only because the money lent carried higher rate of interest, unless B actually used his position to dominate A's will."
+            },
+            {
+                question: "The legal consequence of contracting with a minor is that the agreement is void ab-initio. This is an outcome of:",
+                options: ["Incapacity to contract.", "Lack of free consent.", "Unlawful object.", "Restraint of trade."],
+                answer: "Incapacity to contract.",
+                explanation: "Capacity refers to the competence of the parties. A minor is not competent to contract."
+            },
+            {
+                question: "If a contract is voidable due to fraud, and the defrauded party elects to insist on its performance, this implies:",
+                options: ["The right to claim damages is forfeited.", "The contract is ratified and becomes irreversible.", "The original contract remains voidable until the conditions are met.", "The contract is treated as a new, valid agreement."],
+                answer: "The contract is ratified and becomes irreversible.",
+                explanation: "The defrauded party can rescind (avoid) or insist on performance. If he insists on performance (meaning he affirms it), the contract is no longer voidable."
+            },
+            {
+                question: "Which situation falls under the category of Unilateral Mistake of Fact (Section 22)?",
+                options: ["Both parties mistake the existence of the subject matter.", "One party is mistaken about the identity of the person they are contracting with.", "Both parties mistake the law of the foreign country.", "One party mistakes the title of the goods."],
+                answer: "One party is mistaken about the identity of the person they are contracting with.",
+                explanation: "Unilateral Mistake includes mistake as to identity of person or character of written document. Unilateral mistake generally does not make the contract voidable."
+            },
+            {
+                question: "The phrase 'agreement whose object is to procure a public post' is void because it is opposed to public policy under the head of:",
+                options: ["Trafficking relating to Public Offices and titles.", "Interference with the course of justice.", "Maintenance and Champerty.", "Agreements tending to create monopolies."],
+                answer: "Trafficking relating to Public Offices and titles.",
+                explanation: "The object is to procure a public post. This is an agreement to trafficking in public office."
+            },
+            {
+                question: "If a person is delirious from fever and contracts for necessary medical supplies, the liability for payment falls on:",
+                options: ["The person, personally.", "The property of that person, similar to a minor.", "The guardian, personally.", "No one, as the contract is void."],
+                answer: "The property of that person, similar to a minor.",
+                explanation: "A contract by a person who is not of sound mind is void. However, the liability for necessities of life supplied to persons of unsound mind is the same as in case of minors (Section 68), meaning only the property is liable."
+            }
+        ],
+        'Performance of Contract': [
+            {
+                question: "According to Section 37 of The Indian Contract Act, 1872, parties to a contract must either perform or offer to perform their respective promises unless such performance is:",
+                options: [
+                    "Waived by the promisor",
+                    "Made impossible by a third party",
+                    "Dispensed with or excused under the provisions of the Contract Act or any other law",
+                    "Refused by the promisor's agent"
+                ],
+                answer: "Dispensed with or excused under the provisions of the Contract Act or any other law",
+                explanation: "According to Section 37, the parties must either perform, or offer to perform, their respective promises unless such performance is dispensed with or excused under the provisions of the Contract Act or of any other law."
+            },
+            {
+                question: "When a promisor offers to perform his obligation but the promisee refuses to accept the performance, this type of performance is legally referred to as:",
+                options: [
+                    "Actual performance",
+                    "Voidable performance",
+                    "Attempted performance or tender of performance",
+                    "Substituted performance"
+                ],
+                answer: "Attempted performance or tender of performance",
+                explanation: "If the promisor offers to perform his obligation but the promisee refuses to accept the performance, it is termed as Offer to perform, attempted performance, or tender of performance."
+            },
+            {
+                question: "For a tender of performance to be valid, if A offers to B to repay only the principal amount of the loan, it is not a valid tender because:",
+                options: [
+                    "It was not made at a proper time",
+                    "It was not for the whole obligation",
+                    "It must be unconditional",
+                    "It was not made at a proper place"
+                ],
+                answer: "It must be unconditional",
+                explanation: "A valid tender must be unconditional. Offering only the principal amount when principal and interest are due is not valid because the whole obligation is not offered unconditionally."
+            },
+            {
+                question: "A promises to deliver 100 bales of cotton on an agreed day and place, but offers to deliver only 80 bales. Which condition for a valid tender is violated?",
+                options: [
+                    "It must be unconditional",
+                    "It must be made at proper time and place",
+                    "It must be for whole obligation",
+                    "It must provide reasonable opportunity to examine goods"
+                ],
+                answer: "It must be for whole obligation",
+                explanation: "A valid tender must be for the whole obligation. Offering 80 bales instead of 100 bales is not a valid tender."
+            },
+            {
+                question: "A contract requires A to deliver goods to B's warehouse on a certain date. For the tender to be valid, A must bring the goods under circumstances that B may have reasonable opportunity of satisfying himself regarding:",
+                options: [
+                    "The contract’s future enforcement",
+                    "The solvency of A",
+                    "The payment method agreed upon",
+                    "The quality and quantity of the goods contracted for"
+                ],
+                answer: "The quality and quantity of the goods contracted for",
+                explanation: "A condition for a valid tender is that the promisee must have reasonable opportunity to examine the goods to satisfy himself that the thing offered is of the quality and quantity contracted for."
+            },
+            {
+                question: "Contracts which involve the exercise of personal skill or are founded on personal confidence must be performed by:",
+                options: [
+                    "The promisor himself",
+                    "A competent agent employed by the promisor",
+                    "The promisor’s legal representatives",
+                    "A third person authorized by the promisee"
+                ],
+                answer: "The promisor himself",
+                explanation: "If the contract involves the exercise of personal skill or diligence, or is founded on personal confidence, the promise must be performed by the promisor himself."
+            },
+            {
+                question: "As regards a contract that does not involve the use of personal skill, if the promisor dies before the time appointed for performance, the contract must be fulfilled by:",
+                options: [
+                    "The contract becomes void automatically",
+                    "The deceased promisor's agent only",
+                    "The promisor's legal representatives, unless a contrary intention appears",
+                    "The promisee, by employing someone else"
+                ],
+                answer: "The promisor's legal representatives, unless a contrary intention appears",
+                explanation: "For contracts not involving personal skill, the legal representatives of the deceased promisor are bound to perform it unless a contrary intention appears from the contract. Their liability is limited to the value of the property inherited."
+            },
+            {
+                question: "What is the extent of liability of a deceased promisor's legal representatives under a contract that does not involve personal skill?",
+                options: [
+                    "Unlimited, covering all debts",
+                    "Limited to the value of the property they inherit from the deceased",
+                    "Limited to 50% of the contract value",
+                    "They are only liable if expressly agreed upon in the contract"
+                ],
+                answer: "Limited to the value of the property they inherit from the deceased",
+                explanation: "Legal Representatives are bound to perform the contract, but their liability under a contract is limited to the value of the property they inherit from the deceased (Section 37, para 2)."
+            },
+            {
+                question: "Under Section 41, if a promisee accepts performance of the promise from a third person, what is the consequence?",
+                options: [
+                    "The promisor remains primarily liable, but can sue the third party",
+                    "The promisor is discharged, and the promisee cannot afterwards enforce it against the promisor",
+                    "The contract becomes voidable at the option of the promisor",
+                    "The third person automatically becomes a party to the contract"
+                ],
+                answer: "The promisor is discharged, and the promisee cannot afterwards enforce it against the promisor",
+                explanation: "When a promisee accepts performance of the promise from a third person, he cannot afterwards enforce it against the promisor, resulting in the discharge of the promisor (Section 41)."
+            },
+            {
+                question: "A, B, and C jointly promised to pay ₹6,00,000 to D. If A dies before performance, who must fulfill the promise?",
+                options: [
+                    "B and C must perform the promise alone, as A’s liability ceases",
+                    "A’s legal representatives must jointly with B and C perform the promise",
+                    "D can only sue A’s estate",
+                    "The contract is discharged by impossibility"
+                ],
+                answer: "A’s legal representatives must jointly with B and C perform the promise",
+                explanation: "When two or more persons have made a joint promise, if any of them dies, his legal representatives must, jointly with the surviving promisors, fulfil the promise (Section 42)."
+            },
+            {
+                question: "In the context of joint liabilities (Section 42), if all original co-promisors die, who must fulfill the promise?",
+                options: [
+                    "The promise is automatically terminated",
+                    "The legal representatives of the last survivor must fulfill the promise",
+                    "The legal representatives of all of them must fulfill the promise jointly",
+                    "The promisee must suffer the loss"
+                ],
+                answer: "The legal representatives of all of them must fulfill the promise jointly",
+                explanation: "After the death of the last survivor, the legal representatives of all the original co-promisors must fulfil the promise jointly."
+            },
+            {
+                question: "Regarding the distinction between succession and assignment, when the benefits of a contract are succeeded to by process of law (succession), the liability of the legal heir is limited to:",
+                options: [
+                    "The entire debt owed by the deceased",
+                    "The extent of the property inherited by him",
+                    "A maximum of 50% of the total debt",
+                    "The liability is nullified"
+                ],
+                answer: "The extent of the property inherited by him",
+                explanation: "In succession, if a son succeeds to the estate of his father, he will be liable to pay the debts, but his liability will be limited to the extent of the property inherited by him."
+            },
+            {
+                question: "Under the concept of assignment, what is generally assignable but not the liability thereunder?",
+                options: [
+                    "The burden of the contract",
+                    "The personal consideration involved",
+                    "The benefits of a contract",
+                    "The capacity to contract"
+                ],
+                answer: "The benefits of a contract",
+                explanation: "In the matter of assignment, the benefit of a contract can only be assigned but not the liabilities thereunder, because assigning liability involves a third party."
+            },
+            {
+                question: "A creditor cannot assign the benefit of a promise if:",
+                options: [
+                    "The debt is time-barred",
+                    "The benefit is coupled with a liability or when a personal consideration has entered into the making of the contract",
+                    "The amount is less than ₹1,00,000",
+                    "The debtor is insolvent"
+                ],
+                answer: "The benefit is coupled with a liability or when a personal consideration has entered into the making of the contract",
+                explanation: "Where the benefit is coupled with a liability or when a personal consideration has entered into the making of the contract, the benefit cannot be assigned."
+            },
+            {
+                question: "Section 43 of the Indian Contract Act makes the liability in the event of a joint contract both joint and several. This means the promisee may:",
+                options: [
+                    "Only compel all promisors to perform jointly",
+                    "Compel only the wealthiest promisor to perform",
+                    "Compel any one or more of such joint promisors to perform the whole of the promise",
+                    "Sue for damages only"
+                ],
+                answer: "Compel any one or more of such joint promisors to perform the whole of the promise",
+                explanation: "Section 43 resolves that the promisee may, in the absence of express agreement to the contrary, compel any one or more of such joint promisors to perform the whole of the promise."
+            },
+            {
+                question: "A, B, and C jointly promise to pay D ₹3,00,000. If A is compelled to pay the whole amount, A is entitled to receive contribution from B and C. If C is unable to pay anything, what is the proportional obligation of B to A?",
+                options: [
+                    "B is entitled to pay nothing, as C defaulted",
+                    "B is entitled to pay ₹1,00,000 (equal share)",
+                    "B must bear the entire loss of C, making his contribution ₹2,00,000",
+                    "B and A must bear C's loss equally, making B liable for ₹1,50,000"
+                ],
+                answer: "B and A must bear C's loss equally, making B liable for ₹1,50,000",
+                explanation: "If any one of two or more joint promisors makes default in contribution, the remaining joint promisors must bear the loss arising from such default in equal shares. Total debt ₹3,00,000. A paid ₹3,00,000. A should recover ₹1,00,000 from B and ₹1,00,000 from C. Since C defaults, A and B bear C's ₹1,00,000 loss equally (₹50,000 each). B must pay his share (₹1,00,000) plus half of C's loss (₹50,000), totaling ₹1,50,000 to A (Example 15)."
+            },
+            {
+                question: "The Explanation to Section 43 states that nothing shall prevent a surety from recovering payments made on behalf of the principal, nor does it entitle the principal to recover anything from the surety on account of payment made by the principal. This confirms that Section 43 rules regarding contribution:",
+                options: [
+                    "Supersede the laws relating to surety",
+                    "Do not entitle the principal to contribution from the surety",
+                    "Make the surety primarily liable",
+                    "Apply only if the principal is insolvent"
+                ],
+                answer: "Do not entitle the principal to contribution from the surety",
+                explanation: "The Explanation to Section 43 clarifies that the principal is not entitled to recover anything from the surety on account of payment made by the principal."
+            },
+            {
+                question: "A, B, and C jointly promised to pay ₹9,00,000 to D. D released A from liability. According to Section 44, what is the consequence of D releasing A?",
+                options: [
+                    "B and C are also discharged from liability for the entire amount.",
+                    "B and C remain liable to pay the entire ₹9,00,000 to D, and A remains liable for contribution to B and C.",
+                    "A is discharged entirely, and B and C are liable only for ₹6,00,000.",
+                    "The contract becomes voidable at the option of B and C."
+                ],
+                answer: "B and C remain liable to pay the entire ₹9,00,000 to D, and A remains liable for contribution to B and C.",
+                explanation: "A release of one joint promisor by the promisee does not discharge the other joint promisors, neither does it free the joint promisor so released from responsibility to the other joint promisors (Section 44)."
+            },
+            {
+                question: "The law relating to Devolution of joint rights (Section 45) stipulates that when a promise is made to two or more persons jointly, the right to claim performance rests with them during their joint lives. After the death of one promisee, the right rests with:",
+                options: [
+                    "The surviving promisees alone",
+                    "The representative of such deceased person jointly with the survivor or survivors",
+                    "The promisor, as the right is extinguished",
+                    "The court"
+                ],
+                answer: "The representative of such deceased person jointly with the survivor or survivors",
+                explanation: "Section 45 states that after the death of any of them, the right rests with the representative of such deceased person jointly with the survivor or survivors."
+            },
+            {
+                question: "If a contract specifies that the promisor is to perform his promise without application by the promisee, and no time for performance is specified, the engagement must be performed:",
+                options: [
+                    "Immediately upon demand",
+                    "Within a reasonable time",
+                    "Within 30 days of the contract date",
+                    "At the promisor's convenience"
+                ],
+                answer: "Within a reasonable time",
+                explanation: "Section 46 states that where, by the contract, a promisor is to perform his promise without application by the promisee, and no time is specified, the engagement must be performed within a reasonable time."
+            },
+            {
+                question: "Under Section 47, when a promise is to be performed on a certain day, and the promisor has undertaken to perform it without application by the promisee, the performance must occur:",
+                options: [
+                    "At any hour of the day or night",
+                    "At any time during the usual hours of business, on such day and at the place where the promise ought to be performed",
+                    "Only if the promisee applies for performance",
+                    "Within seven days after the due date"
+                ],
+                answer: "At any time during the usual hours of business, on such day and at the place where the promise ought to be performed",
+                explanation: "Section 47 dictates performance must be at any time during the usual hours of business, on such day and the place at which the promise ought to be performed."
+            },
+            {
+                question: "Under Section 48, when a promise is to be performed on a certain day, and the promisor has *not* undertaken to perform it without application by the promisee, who has the duty to apply for performance?",
+                options: [
+                    "It is the duty of the promisor to seek direction",
+                    "It is the duty of the promisee to apply for performance at a proper place and within the usual hours of business",
+                    "It is void due to ambiguity",
+                    "The duty is shared equally between the parties"
+                ],
+                answer: "It is the duty of the promisee to apply for performance at a proper place and within the usual hours of business",
+                explanation: "Section 48 states that in this scenario, it is the duty of the promisee to apply for performance at a proper place and within the usual hours of business."
+            },
+            {
+                question: "Under Section 49, where no application is to be made by the promisee, and no place is fixed for performance, what is the promisor's duty?",
+                options: [
+                    "To perform at the promisor's place of business",
+                    "To apply to the promisee to appoint a reasonable place for the performance of the promise, and to perform it there",
+                    "To wait indefinitely until the promisee fixes the place",
+                    "To deliver the goods at the nearest public place"
+                ],
+                answer: "To apply to the promisee to appoint a reasonable place for the performance of the promise, and to perform it there",
+                explanation: "Section 49 makes it the duty of the promisor to apply to the promisee to appoint a reasonable place for the performance of the promise, and to perform it at such a place."
+            },
+            {
+                question: "When a contract consists of reciprocal promises to be simultaneously performed (Mutual and Concurrent), what is the requirement for performance under Section 51?",
+                options: [
+                    "The promisor must perform first, regardless of the promisee's willingness",
+                    "The promisee must perform first",
+                    "No promisor needs to perform his promise unless the promisee is ready and willing to perform his reciprocal promise",
+                    "The contract is void due to lack of order"
+                ],
+                answer: "No promisor needs to perform his promise unless the promisee is ready and willing to perform his reciprocal promise",
+                explanation: "Section 51 dictates that when reciprocal promises are to be simultaneously performed, neither promisor needs to perform unless the promisee is ready and willing to perform his reciprocal promise."
+            },
+            {
+                question: "According to Section 52, when the order of performance of reciprocal promises is not expressly fixed by the contract, they shall be performed:",
+                options: [
+                    "Simultaneously by both parties",
+                    "In the order which the nature of the transaction requires",
+                    "In the chronological order the promises were made",
+                    "At the discretion of the promisee"
+                ],
+                answer: "In the order which the nature of the transaction requires",
+                explanation: "Where the order is not expressly fixed by the contract, reciprocal promises shall be performed in that order which the nature of the transaction requires (Section 52)."
+            },
+            {
+                question: "A and B contract that A shall build a house for B at a fixed price. Which promise must be performed first according to the nature of the transaction (Section 52)?",
+                options: [
+                    "A's promise to build the house must be performed after B's promise to pay.",
+                    "A's promise to build the house must be performed before B's promise to pay for it.",
+                    "Both promises must be performed simultaneously.",
+                    "The payment must be made in installments equal to the stage of construction."
+                ],
+                answer: "A's promise to build the house must be performed before B's promise to pay for it.",
+                explanation: "The nature of the transaction requires that A's promise to build the house must be performed before B's promise to pay for it (Example 22)."
+            },
+            {
+                question: "When one party to a contract containing reciprocal promises prevents the other from performing his promise (Section 53), the contract becomes:",
+                options: [
+                    "Voidable at the option of the party so prevented, and they are entitled to compensation",
+                    "Void automatically, with no compensation",
+                    "Enforceable by the preventing party",
+                    "Discharged by frustration"
+                ],
+                answer: "Voidable at the option of the party so prevented, and they are entitled to compensation",
+                explanation: "Under Section 53, the contract becomes voidable at the option of the party so prevented, and he is entitled to compensation from the other party for any loss sustained."
+            },
+            {
+                question: "Section 54 applies to reciprocal promises that are dependent. If the promisor who has to perform his promise first fails to perform it, what is the consequence?",
+                options: [
+                    "The promisee must perform his promise anyway, but can claim damages.",
+                    "The promisor can still claim performance of the other's promise but must pay compensation.",
+                    "The promisor cannot claim performance of the other’s promise, and is also liable for compensation for his non-performance.",
+                    "The contract is immediately discharged by frustration."
+                ],
+                answer: "The promisor cannot claim performance of the other’s promise, and is also liable for compensation for his non-performance.",
+                explanation: "If the promisor who has to perform his promise before the performance of the other’s promise fails to perform it, he cannot claim performance of the other’s promise, and is also liable for compensation (Section 54)."
+            },
+            {
+                question: "If a party fails to perform a promise at or before the specified time, and the intention of the parties was that time should be of the essence of the contract, the contract becomes:",
+                options: [
+                    "Voidable at the option of the promisee",
+                    "Immediately void",
+                    "Irrevocable, but subject to penalty",
+                    "Enforceable only through specific performance"
+                ],
+                answer: "Voidable at the option of the promisee",
+                explanation: "When time is of the essence, failure to perform by the specified time makes the contract, or so much of it as has not been performed, voidable at the option of the promisee (Section 55)."
+            },
+            {
+                question: "If time is *not* of the essence of the contract, and the promisor fails to perform by the specified time, the promisee is entitled to:",
+                options: [
+                    "Rescind the contract immediately",
+                    "Compensation from the promisor for any loss occasioned by such failure",
+                    "Treat the contract as voidable",
+                    "Specific performance only"
+                ],
+                answer: "Compensation from the promisor for any loss occasioned by such failure",
+                explanation: "If time was not of the essence, the contract does not become voidable, but the promisee is entitled to compensation from the promisor for any loss occasioned by such failure (Section 55)."
+            },
+            {
+                question: "If a promisee accepts performance of a voidable contract at a time other than agreed upon, when can the promisee still claim compensation for loss occasioned by the non-performance at the agreed time?",
+                options: [
+                    "Only if the loss exceeds a minimum threshold",
+                    "Never, as acceptance implies waiver",
+                    "Unless, at the time of acceptance, he gives notice to the promisor of his intention to do so",
+                    "Only if the promisor agrees to the compensation claim"
+                ],
+                answer: "Unless, at the time of acceptance, he gives notice to the promisor of his intention to do so",
+                explanation: "If the promisee accepts late performance, he cannot claim compensation unless, at the time of acceptance, he gives notice to the promisor of his intention to do so (Section 55)."
+            },
+            {
+                question: "An agreement to do something which is obviously impossible in itself (Initial Impossibility) results in the agreement being:",
+                options: [
+                    "Voidable at the option of the promisor",
+                    "Void",
+                    "Valid, if compensation is paid",
+                    "A contingent contract"
+                ],
+                answer: "Void",
+                explanation: "Initial impossibility, where parties agree upon doing something obviously impossible in itself, makes the agreement void."
+            },
+            {
+                question: "If, at the time of entering into a contract, the promisor alone knows about the impossibility of performance (Initial Impossibility), the promisee is entitled to:",
+                options: [
+                    "Claim compensation for any loss suffered",
+                    "Demand specific performance",
+                    "Imprison the promisor",
+                    "A novation of the contract"
+                ],
+                answer: "Claim compensation for any loss suffered",
+                explanation: "Where the promisor alone knows about the impossibility of performance, the promisee is entitled to claim compensation for any loss he suffered on account of non-performance."
+            },
+            {
+                question: "Subsequent or Supervening Impossibility occurs when the performance of a promise becomes impossible or illegal after the contract is made, due to occurrences like a change in law or destruction of the subject matter. The effect of subsequent impossibility is that it makes the contract:",
+                options: [
+                    "Voidable at the option of the promisor",
+                    "Void, and the parties are discharged from further performance",
+                    "Valid, but penalties apply",
+                    "A contingent contract"
+                ],
+                answer: "Void, and the parties are discharged from further performance",
+                explanation: "Subsequent or Supervening Impossibility makes the contract void, and the parties are discharged from further performance of the contract (Section 56)."
+            },
+            {
+                question: "Under Section 57, where persons reciprocally promise, first to do things which are legal, and secondly, to do certain other things which are illegal, what is the validity status of the two sets of promises?",
+                options: [
+                    "The entire transaction is void",
+                    "The entire transaction is a valid contract",
+                    "The first set is a valid contract, but the second is a void agreement",
+                    "The second set is voidable, but the first is enforceable"
+                ],
+                answer: "The first set is a valid contract, but the second is a void agreement",
+                explanation: "The first set of promises (legal) is a valid contract, but the second set (illegal) is a void agreement (Section 57)."
+            },
+            {
+                question: "If A and B agree that A shall pay B ₹1,00,000, for which B shall afterwards deliver to A either rice or smuggled opium (an alternative promise where one branch is illegal), Section 58 states that:",
+                options: [
+                    "The entire contract is void due to the illegal branch",
+                    "The legal branch (rice) alone can be enforced",
+                    "The contract is valid for both options until delivery is attempted",
+                    "B can choose which branch to enforce"
+                ],
+                answer: "The legal branch (rice) alone can be enforced",
+                explanation: "In the case of an alternative promise where one branch is legal and the other illegal, the legal branch alone can be enforced (Section 58)."
+            },
+            {
+                question: "When a debtor owing several distinct debts to the same creditor makes a payment with express intimation as to which debt it should be applied, the creditor must apply it accordingly. This rule is contained in:",
+                options: [
+                    "Section 61",
+                    "Section 59",
+                    "Section 60",
+                    "Section 58"
+                ],
+                answer: "Section 59",
+                explanation: "Application of payment where debt to be discharged is indicated by the debtor is governed by Section 59."
+            },
+            {
+                question: "Under Section 60 (where the debtor omits to intimate), the creditor may apply payment at his discretion to any lawful debt actually due and payable, including debts that are time-barred. However, the creditor cannot apply the payment to a debt that is:",
+                options: [
+                    "Secured",
+                    "Undisputed",
+                    "Disputed",
+                    "Less than six months old"
+                ],
+                answer: "Disputed",
+                explanation: "The creditor cannot apply the payment to the disputed debt, even if the debtor omits to intimate (Section 60)."
+            },
+            {
+                question: "Where neither the debtor nor the creditor makes any appropriation (Section 61), the payment shall be applied in discharge of the debts:",
+                options: [
+                    "In order of magnitude (largest debt first)",
+                    "In order of time, whether they are barred by limitation or not",
+                    "Proportionately, regardless of time or standing",
+                    "As decided by the promisee's agent"
+                ],
+                answer: "In order of time, whether they are barred by limitation or not",
+                explanation: "Where neither party makes any appropriation, the payment shall be applied in discharge of the debts in order of time, whether they are or are not barred by the law of limitation (Section 61)."
+            },
+            {
+                question: "If, under Section 61, neither party appropriates and the debts owed are of equal standing, the payment shall be applied:",
+                options: [
+                    "To the most recent debt",
+                    "In discharge of each proportionately",
+                    "To the debt with the highest interest rate",
+                    "At the creditor’s discretion"
+                ],
+                answer: "In discharge of each proportionately",
+                explanation: "If the debts are of equal standing, the payments shall be applied in discharge of each proportionately (Section 61)."
+            },
+            {
+                question: "Novation means the substitution of a new contract for the old one. This substitution may occur between:",
+                options: [
+                    "Only the same parties",
+                    "The same parties or between different parties",
+                    "Only different parties, replacing the original debtor",
+                    "The original promisor and a third-party agent"
+                ],
+                answer: "The same parties or between different parties",
+                explanation: "Novation is where a new contract is substituted for the old one either between the same parties or between different parties, the consideration mutually being the discharge of old contract."
+            },
+            {
+                question: "When parties agree to rescind a contract, which of the following statements is true?",
+                options: [
+                    "A new contract must immediately come into existence to replace the old one.",
+                    "Only the old contract is cancelled and no new contract comes to exist in its place.",
+                    "The original contract automatically becomes voidable.",
+                    "The terms of the contract are slightly modified."
+                ],
+                answer: "Only the old contract is cancelled and no new contract comes to exist in its place.",
+                explanation: "In the case of rescission, only the old contract is cancelled and no new contract comes to exist in its place."
+            },
+            {
+                question: "The primary distinction between Novation and Alteration is that in alteration:",
+                options: [
+                    "There is altogether a substitution of a new contract in place of the old contract.",
+                    "The contract must be performed with modified terms.",
+                    "The parties to the contract must remain the same.",
+                    "Novation automatically follows alteration."
+                ],
+                answer: "The parties to the contract must remain the same.",
+                explanation: "In case of alteration, the terms of the contract may be altered by mutual agreement by the contracting parties but the parties to the contract will remain the same. In novation, parties may change."
+            },
+            {
+                question: "The act of accepting a lesser sum of money in satisfaction of a whole debt, thereby discharging the entire debt, is legally defined as:",
+                options: [
+                    "Rescission",
+                    "Alteration",
+                    "Waiver",
+                    "Remission"
+                ],
+                answer: "Remission",
+                explanation: "Section 63 allows the promisee to dispense with or remit, wholly or in part, the performance, or accept any satisfaction he thinks fit. Accepting a lesser sum in satisfaction of the whole debt is remission."
+            },
+            {
+                question: "When a person at whose option a contract is voidable rescinds it (Section 64), he is required to:",
+                options: [
+                    "Pay compensation for the loss incurred by the other party.",
+                    "Restore any benefit he has received thereunder to the person from whom it was received.",
+                    "Ensure the original contract is substituted by a new one.",
+                    "Forfeit any security deposit paid."
+                ],
+                answer: "Restore any benefit he has received thereunder to the person from whom it was received.",
+                explanation: "The party rescinding a voidable contract shall, if he has received any benefit thereunder, restore such benefit, so far as may be, to the person from whom it was received (Section 64)."
+            },
+            {
+                question: "If an agreement is discovered to be void, or when a contract becomes void (Section 65), the person who received an advantage under it is bound to:",
+                options: [
+                    "Restore it, or make compensation for it to the person from whom he received it",
+                    "Notify the other party only",
+                    "Suffer a penalty equal to the advantage received",
+                    "Wait for the court to decide the restoration"
+                ],
+                answer: "Restore it, or make compensation for it to the person from whom he received it",
+                explanation: "Section 65 states that when an agreement is discovered to be void or when a contract becomes void, any person who has received any advantage under such agreement or contract is bound to restore it, or to make compensation for it."
+            },
+            {
+                question: "A pays B ₹40,000 as a deposit for the sale of land, which A is entitled to forfeit if B fails to complete the sale. If B fails to complete the sale and A retains the deposit, this deposit is legally considered:",
+                options: [
+                    "A benefit received under the contract, refundable under Section 65",
+                    "A penalty for non-performance",
+                    "A security that the purchaser would fulfill his contract, and ancillary to the contract",
+                    "An altered term of the contract"
+                ],
+                answer: "A security that the purchaser would fulfill his contract, and ancillary to the contract",
+                explanation: "The deposit is not a benefit received under the contract (Section 65); it is a security that the purchaser would fulfil his contract and is ancillary to the contract for the sale of the land."
+            },
+            {
+                question: "How must the rescission of a contract voidable at the option of one party be communicated to the other party (Section 66)?",
+                options: [
+                    "Through registered post only",
+                    "In the same manner as a proposal is communicated under Section 4 of the Contract Act",
+                    "Only through a court order",
+                    "Verbally, regardless of the contract terms"
+                ],
+                answer: "In the same manner as a proposal is communicated under Section 4 of the Contract Act",
+                explanation: "Rescission must be communicated to the other party in the same manner as a proposal is communicated under Section 4 of the Contract Act."
+            },
+            {
+                question: "If a promisee neglects or refuses to afford the promisor reasonable facilities for the performance of his promise (Section 67), what is the consequence?",
+                options: [
+                    "The promisor must seek an injunction.",
+                    "The promisor is excused by such neglect or refusal as to any non-performance caused thereby.",
+                    "The contract becomes void.",
+                    "The promisee is entitled to compensation."
+                ],
+                answer: "The promisor is excused by such neglect or refusal as to any non-performance caused thereby.",
+                explanation: "If any promisee neglects or refuses to afford the promisor reasonable facilities for the performance of his promise, the promisor is excused by such neglect or refusal (Section 67)."
+            },
+            {
+                question: "When X takes a land on lease from Y, and subsequently X purchases that very land, the earlier contract of lease stands terminated by:",
+                options: [
+                    "Novation",
+                    "Waiver",
+                    "Merger of rights",
+                    "Anticipatory breach"
+                ],
+                answer: "Merger of rights",
+                explanation: "When inferior rights (lessee rights) and superior rights (ownership rights) coincide and meet in one person, the inferior rights merge into the superior rights, discharging the contract."
+            },
+            {
+                question: "Which of the following causes supervening impossibility (post-contractual impossibility)?",
+                options: [
+                    "Existence of impossibility at the time of contract formation",
+                    "An unforeseen change in law or declaration of a war",
+                    "The debtor intimating the debt appropriation",
+                    "Neglect of the promisee to offer facilities"
+                ],
+                answer: "An unforeseen change in law or declaration of a war",
+                explanation: "Supervening impossibility may take place owing to an unforeseen change in law, destruction of subject-matter, non-occurrence of a particular state of things, or the declaration of a war (Section 56)."
+            },
+            {
+                question: "If a promisor repudiates a contract before the stipulated time for its performance has arrived, this is known as:",
+                options: [
+                    "Actual breach of contract",
+                    "Anticipatory breach of contract",
+                    "Remission",
+                    "Rescission"
+                ],
+                answer: "Anticipatory breach of contract",
+                explanation: "When a person repudiates a contract before the stipulated time for its performance has arrived, he is deemed to have committed anticipatory breach."
+            },
+            {
+                question: "Under Section 46, the expression 'reasonable time' for performance, where no application is required and no time is specified, is to be interpreted having regard to:",
+                options: [
+                    "The customary law of the place of contract",
+                    "The length of the Limitation Act period",
+                    "The facts and circumstances of a particular case",
+                    "The arbitrary decision of the promisor"
+                ],
+                answer: "The facts and circumstances of a particular case",
+                explanation: "The expression reasonable time is to be interpreted having regard to the facts and circumstances of a particular case (Explanation to Section 46)."
+            },
+            {
+                question: "If a contract involves the use of personal skill (Example: A promises to paint a picture for B), and A dies before painting the picture, the contract:",
+                options: [
+                    "Must be enforced by A’s representative",
+                    "Can be enforced by B against A's estate",
+                    "Cannot be enforced either by A’s representative or by B",
+                    "Must be performed by A's agent"
+                ],
+                answer: "Cannot be enforced either by A’s representative or by B",
+                explanation: "A contract which involves personal skill comes to an end on the death of the promisor and cannot be enforced."
+            },
+            {
+                question: "Which section of the Indian Contract Act deals with the consequence of refusal of performance or refusal to accept performance by either of the parties?",
+                options: [
+                    "Section 37",
+                    "Section 41",
+                    "Section 38",
+                    "Section 42"
+                ],
+                answer: "Section 38",
+                explanation: "The learning outcomes mention 'Consequence of refusal of performance or refusal to accept performance, by either of the parties'. Section 38 governs attempted performance/tender, which is a key part of refusal to accept performance. Also, Section 39 discusses refusal of performance."
+            },
+            {
+                question: "Which of the following is *not* a condition required to be satisfied for a valid tender or attempted performance?",
+                options: [
+                    "It must be for whole obligation",
+                    "It must be made at the promisor's residence",
+                    "It must be unconditional",
+                    "It must be made at proper time and place"
+                ],
+                answer: "It must be made at the promisor's residence",
+                explanation: "The conditions listed are: (i) unconditional, (ii) proper time and place, (iii) reasonable opportunity to examine goods, and (iv) for whole obligation. The place is defined as 'proper place,' not necessarily the promisor's residence."
+            },
+            {
+                question: "X, Y and Z jointly promise to pay ₹6,000 to A. Z is compelled to pay the whole amount. X is insolvent, but his assets pay half his debts. How much is Z entitled to receive from Y?",
+                options: [
+                    "₹3,000",
+                    "₹2,000",
+                    "₹1,000",
+                    "₹2,500"
+                ],
+                answer: "₹2,500",
+                explanation: "Original equal share is ₹2,000 each. X defaults by ₹1,000 (since assets cover ₹1,000). The remaining loss of ₹1,000 is borne equally by Z and Y (₹500 each). Y must pay Z his own share (₹2,000) plus half of X's deficit (₹500), totaling ₹2,500 (Example 16)."
+            },
+            {
+                question: "If a debtor, owing several debts, makes a payment but omits to intimate which debt it should cover (Section 60), the creditor's right to appropriate the payment is:",
+                options: [
+                    "Restricted to only the legally recoverable debts",
+                    "At the creditor's discretion to any lawful debt, even if recovery is barred by limitation",
+                    "Only to debts incurred in the last three years",
+                    "Void, requiring the money to be returned to the debtor"
+                ],
+                answer: "At the creditor's discretion to any lawful debt, even if recovery is barred by limitation",
+                explanation: "The creditor may apply the payment at his discretion to any lawful debt actually due and payable to him, whether its recovery is or is not barred by the law in force for the time being as to the limitation of suits (Section 60)."
+            },
+            {
+                question: "In the context of appropriation of payments, if neither the debtor nor the creditor makes any appropriation, and the payment is applied in discharge of debts in order of time, this application rule includes:",
+                options: [
+                    "Only debts that are not barred by the law of limitation",
+                    "Debts that are barred by the law in force for the time being as to the limitation of suits",
+                    "Only debts that are secured by collateral",
+                    "Only debts disputed by the debtor"
+                ],
+                answer: "Debts that are barred by the law in force for the time being as to the limitation of suits",
+                explanation: "Under Section 61, the payment shall be applied in discharge of the debts in order of time, whether they are or are not barred by the law in force for the time being as to the limitation of suits."
+            },
+            {
+                question: "Which section of the Indian Contract Act deals with the restoration of benefit under a voidable contract?",
+                options: [
+                    "Section 62",
+                    "Section 63",
+                    "Section 64",
+                    "Section 65"
+                ],
+                answer: "Section 64",
+                explanation: "Section 64 deals with the Restoration of Benefit under a Voidable Contract."
+            },
+            {
+                question: "The phrase 'impossible in the nature of things' refers to:",
+                options: [
+                    "Subsequent impossibility",
+                    "Initial impossibility",
+                    "Legal impossibility",
+                    "Supervening illegality"
+                ],
+                answer: "Initial impossibility",
+                explanation: "Initial Impossibility is defined as when the parties agree upon doing of something which is obviously impossible in itself. Impossible in itself means impossible in the nature of things."
+            },
+            {
+                question: "According to Section 48, when a promise is to be performed on a certain day and application is required from the promisee, the question 'what is a proper time and place' is defined as:",
+                options: [
+                    "A question of law",
+                    "A question of fact",
+                    "A subjective opinion of the parties",
+                    "A question determined by prior dealings"
+                ],
+                answer: "A question of fact",
+                explanation: "The Explanation to Section 48 states that the question 'what is a proper time and place' is, in each particular case, a question of fact."
+            },
+            {
+                question: "If a contract involving payment is silent on the time of performance, and no application by the promisee is stipulated, the promisor must perform within a reasonable time. The definition of reasonable time is:",
+                options: [
+                    "Fixed at 90 days by the Act",
+                    "Dependent on industry norms only",
+                    "Interpreted having regard to the facts and circumstances of a particular case",
+                    "Cannot be determined without explicit agreement"
+                ],
+                answer: "Interpreted having regard to the facts and circumstances of a particular case",
+                explanation: "The expression reasonable time is to be interpreted having regard to the facts and circumstances of a particular case (Explanation to Section 46)."
+            },
+            {
+                question: "The effect of Section 43 is to make the liability in the event of a joint contract:",
+                options: [
+                    "Purely joint",
+                    "Only several, but not joint",
+                    "Both joint and several",
+                    "Contingent upon one promisor's death"
+                ],
+                answer: "Both joint and several",
+                explanation: "We thus observe that the effect of Section 43 is to make the liability in the event of a joint contract, both joint & several."
+            },
+            {
+                question: "Which of the following contracts does *not* come to an end on the death of the promisor?",
+                options: [
+                    "A contract to paint a portrait",
+                    "A contract founded on personal consideration",
+                    "A contract for the delivery of certain goods for a price",
+                    "A contract involving the use of personal skill"
+                ],
+                answer: "A contract for the delivery of certain goods for a price",
+                explanation: "A contract which involves the use of personal skill or is founded on personal consideration comes to an end on the death of the promisor. Any other contract is generally binding on legal representatives."
+            },
+            {
+                question: "When a promisor offers to perform his obligation but the promisee refuses to accept performance, what is the consequence for the promisor?",
+                options: [
+                    "The promisor is still liable for non-performance.",
+                    "The promisor is not responsible for non-performance and does not lose his rights under the contract.",
+                    "The contract becomes voidable at the option of the promisee.",
+                    "The promisor must offer performance a second time."
+                ],
+                answer: "The promisor is not responsible for non-performance and does not lose his rights under the contract.",
+                explanation: "If an offer of performance is not accepted, the promisor is not responsible for non-performance and does not lose his rights under the contract."
+            },
+            {
+                question: "If A contracts to deliver 1,000 Kgs of wheat to B's warehouse, but offers to deliver the goods at 2 a.m., this is generally considered not a valid tender because:",
+                options: [
+                    "The goods cannot be examined in the dark.",
+                    "It must be made at proper time and place, and 2 a.m. is not a proper time unless agreed.",
+                    "It violates the rule of whole obligation.",
+                    "The tender must be unconditional."
+                ],
+                answer: "It must be made at proper time and place, and 2 a.m. is not a proper time unless agreed.",
+                explanation: "A valid tender must be made at proper time and place. If the promisor wants to deliver goods at 2 a.m., this is not a valid tender unless it was so agreed (Example 4)."
+            },
+            {
+                question: "In the case of Novation, what serves as the mutual consideration for the discharge of the old contract?",
+                options: [
+                    "The new contract itself",
+                    "The payment of a penalty",
+                    "The promisee's express waiver",
+                    "The court's approval"
+                ],
+                answer: "The new contract itself",
+                explanation: "On novation, the old contract is discharged, and the consideration mutually is the discharge of the old contract by the substitution of the new contract."
+            },
+            {
+                question: "If X, a singer, enters a contract with Y to sing two nights a week for two months, but X willfully absents herself on the sixth night, Y is at liberty to put an end to the contract because X violated the condition of:",
+                options: [
+                    "Performance being unconditional",
+                    "Performance involving personal skill",
+                    "Tender being for the whole obligation (impliedly breaking the continuous contract)",
+                    "Reciprocal promises being independent"
+                ],
+                answer: "Tender being for the whole obligation (impliedly breaking the continuous contract)",
+                explanation: "This example (Example 6) illustrates that failure to perform a substantial part of the obligation gives the other party the right to end the contract. (Note: Although breach is implied, the context is drawn from 'It must be for whole obligation' in Section 4.2)."
+            },
+            {
+                question: "If a contract is discharged by lapse of time, as specified by the Limitation Act, 1963, the promisee is:",
+                options: [
+                    "Entitled to sue only if the promisor agrees",
+                    "Deprived of remedy at law",
+                    "Entitled to extend the performance time indefinitely",
+                    "Required to enter into a new contract"
+                ],
+                answer: "Deprived of remedy at law",
+                explanation: "If a contract is not performed within the specified period as prescribed by the Limitation Act, 1963, the promisee is deprived of remedy at law."
+            },
+            {
+                question: "A hires B's ship to convey cargo from Kolkata to Mauritius. A does not provide any cargo. According to Section 54, what is the consequence?",
+                options: [
+                    "B must wait for A indefinitely.",
+                    "A can claim B's promise performance and sue for specific performance.",
+                    "A cannot claim the performance of B’s promise, and must make compensation to B for the loss sustained.",
+                    "The contract becomes voidable at A's option."
+                ],
+                answer: "A cannot claim the performance of B’s promise, and must make compensation to B for the loss sustained.",
+                explanation: "A fails to perform the dependent promise first. Therefore, A cannot claim B's performance and is liable for compensation (Example 25, Section 54)."
+            },
+            {
+                question: "If A and B contract to marry each other, and before the fixed time, A becomes mad, the contract becomes void due to:",
+                options: [
+                    "Initial impossibility (known to promisor)",
+                    "Subsequent impossibility (non-existence or non-occurrence of a particular state of things)",
+                    "Breach of contract",
+                    "Merger of rights"
+                ],
+                answer: "Subsequent impossibility (non-existence or non-occurrence of a particular state of things)",
+                explanation: "The contract becomes void due to subsequent impossibility, specifically categorized as non-existence or non-occurrence of particular state of things, resulting from personal incapacity like dangerous malady (Example 44 and point (c))."
+            },
+            {
+                question: "Under Section 64, when a voidable contract is rescinded by the entitled party, the other party thereto:",
+                options: [
+                    "Must still perform his remaining promise",
+                    "Need not perform any promise therein contained in which he is the promisor",
+                    "Must pay damages to the rescinding party",
+                    "Is entitled to retain all benefits received"
+                ],
+                answer: "Need not perform any promise therein contained in which he is the promisor",
+                explanation: "When a person at whose option a contract is voidable rescinds it, the other party thereto need not perform any promise therein contained in which he is the promisor."
+            },
+            {
+                question: "An insurance company rescinds a policy due to undisclosed material facts (voidable contract). According to Section 64, the company must repay the premium collected reduced by:",
+                options: [
+                    "A fixed penalty of 10%",
+                    "The maximum amount insured",
+                    "The amount of expenses incurred by it in this connection",
+                    "Nothing, as the rescinding party keeps the benefit"
+                ],
+                answer: "The amount of expenses incurred by it in this connection",
+                explanation: "The premium collected must be repaid to the policy holder, reduced by the amount of expenses incurred by the insurance company in connection with the policy (Example 35)."
+            },
+            {
+                question: "A pays B ₹1,00,000 for B's promise to marry C, A's daughter. C is dead at the time of the promise. The agreement is void. Under Section 65, B must repay A ₹1,00,000. This obligation is based on the principle that:",
+                options: [
+                    "A compensation equivalent to the position prior to the contract should be paid or the advantage received must be restored",
+                    "The agreement is voidable",
+                    "The payment was a gift",
+                    "B breached the contract"
+                ],
+                answer: "A compensation equivalent to the position prior to the contract should be paid or the advantage received must be restored",
+                explanation: "In such a case (void agreement), the advantage received must be restored back or a compensation, sufficient to put the position prior to contract, should be paid (Example 36, Analysis of Section 65)."
+            },
+            {
+                question: "If a contract contains reciprocal promises where A must supply plywood and B must make a shoe rack, and A fails to arrange the materials on the appointed day, what is A's legal position under Section 54?",
+                options: [
+                    "A is entitled to compel B to wait for the materials.",
+                    "A must make compensation to B for the loss B sustains by the non-performance of the contract.",
+                    "The contract becomes voidable at A's option.",
+                    "A can sue B for anticipatory breach."
+                ],
+                answer: "A must make compensation to B for the loss B sustains by the non-performance of the contract.",
+                explanation: "A fails to perform the dependent promise (supply materials) first. A cannot claim B’s promise performance and must make compensation to B for the loss (Example 26)."
+            },
+            {
+                question: "What happens if a creditor does not file a suit against the buyer for recovery of the price within three years?",
+                options: [
+                    "The contract is immediately voided.",
+                    "The debt becomes time-barred and hence irrecoverable.",
+                    "The debt is only recoverable through arbitration.",
+                    "The buyer must still pay the debt."
+                ],
+                answer: "The debt becomes time-barred and hence irrecoverable.",
+                explanation: "If no action is taken by the promisee within the specified period of limitation (three years), the debt becomes time-barred and hence irrecoverable (Example 47)."
+            },
+            {
+                question: "In the case of a joint contract, if one of the joint promisors is made to perform the whole contract, he can call for a contribution from others. This right is derived from which concept related to Section 43?",
+                options: [
+                    "The promisee's right to compel performance.",
+                    "The sharing of loss by default in contribution.",
+                    "Each promisor may compel contribution.",
+                    "The effect of release of one joint promisor."
+                ],
+                answer: "Each promisor may compel contribution.",
+                explanation: "Each promisor may compel contribution—Each of two or more joint promisors may compel every other joint promisor to contribute equally with himself to the performance of the promise, unless a contrary intention appears from the contract."
+            },
+            {
+                question: "If B, a promisee, accepts performance from C (a third person) on behalf of A (the promisor), and A was not aware of the payment, B is intending to sue A for the whole amount. Under Section 41, B can sue A for:",
+                options: [
+                    "The whole amount",
+                    "Only the balance amount (Total - Amount paid by C)",
+                    "Only if A later ratifies the payment",
+                    "Nothing, as the contract is void"
+                ],
+                answer: "Only the balance amount (Total - Amount paid by C)",
+                explanation: "Performance by a stranger, if accepted by the promisee, discharges the promisor. The promisee can sue only for the balance amount (Example 11)."
+            },
+            {
+                question: "According to the sources, the distinction between novation and alteration is described as:",
+                options: [
+                    "Substantial",
+                    "Very clear",
+                    "Very slender",
+                    "Non-existent"
+                ],
+                answer: "Very slender",
+                explanation: "In other words, the distinction between novation and alteration is very slender."
+            },
+            {
+                question: "When A agrees to sell a house to B for ₹50,00,000 and also agrees that if B uses it as a gambling house, he will pay a further sum of ₹75,00,000. Which part constitutes a valid contract?",
+                options: [
+                    "Both parts are void due to the illegal condition.",
+                    "The agreement to pay ₹75,00,000 for illegal use.",
+                    "The first set of reciprocal promises (selling the house and paying ₹50,00,000).",
+                    "Neither part is valid until B uses it for gambling."
+                ],
+                answer: "The first set of reciprocal promises (selling the house and paying ₹50,00,000).",
+                explanation: "The first set of reciprocal promises, i.e. to sell the house and to pay ₹50,00,000 for it, constitutes a valid contract. The object of the second, being unlawful, is void (Example 31, Section 57)."
+            },
+            {
+                question: "What is the primary difference in requirements between Novation and Alteration regarding the contract document itself?",
+                options: [
+                    "Novation requires a partial change in terms; alteration requires a substitution of the whole contract.",
+                    "Novation requires substitution of a new contract in place of the old contract; alteration may only involve a change in some terms and conditions.",
+                    "Alteration must involve a change in parties; novation must involve a change in price.",
+                    "Novation is oral; alteration must be written."
+                ],
+                answer: "Novation requires substitution of a new contract in place of the old contract; alteration may only involve a change in some terms and conditions.",
+                explanation: "In case of novation there is altogether a substitution of new contract in place of the old contract. But in case of alteration it is not essential to substitute a new contract; there may be a change in some of the terms and conditions."
+            },
+            {
+                question: "If X borrows ₹5,00,000 from Y and repays the amount on the due date, this mode of performance is known as:",
+                options: [
+                    "Attempted performance",
+                    "Actual performance",
+                    "Tender of performance",
+                    "Substituted performance"
+                ],
+                answer: "Actual performance",
+                explanation: "Actual Performance is where a party has fulfilled their obligations under the contract within the time and in the manner prescribed (Example 1)."
+            },
+            {
+                question: "If the promisor wants to deliver the goods at 8.30 pm when the usual business hours are over, the promisee may refuse to accept delivery. This refusal is justified under which section relating to time and place of performance?",
+                options: [
+                    "Section 46",
+                    "Section 47",
+                    "Section 49",
+                    "Section 50"
+                ],
+                answer: "Section 47",
+                explanation: "Section 47 requires performance at any time during the usual hours of business. Delivery offered after 8.30 pm may be refused because the usual business hours are over (Example 19)."
+            },
+            {
+                question: "If a contract specifies that A is bound to perform the promise himself (e.g., paint a picture), and A dies, what prevents B from enforcing the contract against A’s legal representatives?",
+                options: [
+                    "Section 43 (Joint Promisors)",
+                    "The contract involves personal consideration and skill",
+                    "Section 60 (Appropriation of Payments)",
+                    "Section 50 (Manner prescribed by Promisee)"
+                ],
+                answer: "The contract involves personal consideration and skill",
+                explanation: "A contract which involves the use of personal skill or is founded on personal consideration comes to an end on the death of the promisor (Example 10)."
+            },
+            {
+                question: "If a promisee fails to afford reasonable facilities for performance (Section 67), the promisor is excused from non-performance. An example provided is:",
+                options: [
+                    "A failure to pay the contract price.",
+                    "An apprentice refuses to learn.",
+                    "A joint promisor becomes insolvent.",
+                    "A debtor fails to intimate debt appropriation."
+                ],
+                answer: "An apprentice refuses to learn.",
+                explanation: "Example 37 states: If an apprentice refuses to learn, the teacher cannot be held liable for not teaching."
+            },
+            {
+                question: "What happens if a contract that was possible at the time of making is subsequently made unlawful by a change in law?",
+                options: [
+                    "The contract remains valid but is subject to penalty.",
+                    "It becomes void due to supervening illegality, a form of supervening impossibility.",
+                    "It is discharged by rescission.",
+                    "The parties must enter into novation."
+                ],
+                answer: "It becomes void due to supervening illegality, a form of supervening impossibility.",
+                explanation: "Subsequent or Supervening impossibility occurs if performance becomes illegal by a change of circumstances, e.g., a change in law, making the contract void (Section 56)."
+            },
+            {
+                question: "Which of the following is NOT listed as a way a contract may be discharged by operation of law?",
+                options: [
+                    "By death of the promisor",
+                    "By insolvency",
+                    "By assignment of benefits to a third party",
+                    "By merger of rights"
+                ],
+                answer: "By assignment of benefits to a third party",
+                explanation: "Discharge by operation of law includes death of the promisor, insolvency, and merger of rights. Assignment is a separate concept."
+            },
+            {
+                question: "If a contract is voidable and the party entitled to rescind elects to do so, the rescission may be revoked in the same manner as:",
+                options: [
+                    "A contract is performed.",
+                    "A penalty is incurred.",
+                    "A proposal is revoked.",
+                    "A debt is appropriated."
+                ],
+                answer: "A proposal is revoked.",
+                explanation: "A rescission may be revoked in the same manner as a proposal is revoked (Section 66)."
+            },
+            {
+                question: "According to Section 43, if A, B, and C are joint promisors, and D compels A to perform the whole promise, A's primary right against B and C is the right of:",
+                options: [
+                    "Indemnity",
+                    "Subrogation",
+                    "Contribution",
+                    "Damages"
+                ],
+                answer: "Contribution",
+                explanation: "If one of the joint promisors is made to perform the whole contract, he can call for a contribution from others."
+            },
+            {
+                question: "The concept where the inferior rights associated with a contract vanish because they coincide with superior rights in the same person is called:",
+                options: [
+                    "Discharge by alteration",
+                    "Discharge by remission",
+                    "Discharge by merger of rights",
+                    "Discharge by novation"
+                ],
+                answer: "Discharge by merger of rights",
+                explanation: "When the inferior rights and the superior rights coincide and meet in one and the same person, the inferior rights merge into the superior rights, discharging the contract."
+            },
+            {
+                question: "If time is not of the essence in a contract and the promisor fails to perform on time, but the promisee later accepts the performance, the promisee cannot claim compensation unless:",
+                options: [
+                    "The loss is quantifiable.",
+                    "The performance was actually rendered at the original time.",
+                    "The promisee gave notice to the promisor of his intention to claim compensation at the time of acceptance.",
+                    "The promisor agrees to pay compensation."
+                ],
+                answer: "The promisee gave notice to the promisor of his intention to claim compensation at the time of acceptance.",
+                explanation: "The promisee cannot claim compensation for any loss occasioned by the non-performance at the time agreed, unless, at the time of acceptance, he gives notice to the promisor of his intention to do so (Section 55)."
+            },
+            {
+                question: "If A contracts to deliver goods to B, and B refuses to take the delivery when A takes the goods to the appointed place during business hours, this is an example of:",
+                options: [
+                    "Actual performance by A",
+                    "Attempted performance by A",
+                    "Breach of contract by A",
+                    "Performance by operation of law"
+                ],
+                answer: "Attempted performance by A",
+                explanation: "This is an attempted performance as A the promisor has done what he was required to do under the contract (Example 2)."
+            },
+            {
+                question: "Which of the following is defined as fulfillment of obligations to the contract?",
+                options: [
+                    "Discharge of a contract",
+                    "Assignment of contract",
+                    "Performance of Contract",
+                    "Reciprocal promises"
+                ],
+                answer: "Performance of Contract",
+                explanation: "Meaning: “Performance of Contract” means fulfilment of obligations to the contract."
+            },
+            {
+                question: "In the scenario where the promisor alone knows about the impossibility of performance at the time of contract formation (initial impossibility), what degree of diligence should the promisor have exercised?",
+                options: [
+                    "Extreme diligence",
+                    "Reasonable diligence",
+                    "No diligence is required",
+                    "Diligence proportional to the contract value"
+                ],
+                answer: "Reasonable diligence",
+                explanation: "The promisee is entitled to claim compensation if the promisor alone knows about the impossibility, or even if he does not know though he should have known it with reasonable diligence."
+            },
+            {
+                question: "If a contract is performed in a manner or at a time sanctioned by the promisee, this conforms to which section?",
+                options: [
+                    "Section 47",
+                    "Section 49",
+                    "Section 50",
+                    "Section 52"
+                ],
+                answer: "Section 50",
+                explanation: "The performance of any promise may be made in any such manner, or at any time which the promisee prescribes or sanctions (Section 50)."
+            },
+            {
+                question: "According to the principles of Novation, Rescission, and Alteration (Section 62), if parties agree to any of these actions, the effect is that:",
+                options: [
+                    "The contract must be performed with modifications.",
+                    "The original contract need not be performed.",
+                    "The promisee loses the right to compensation.",
+                    "The contract becomes voidable."
+                ],
+                answer: "The original contract need not be performed.",
+                explanation: "If the parties to a contract agree to substitute a new contract for it, or to rescind or alter it, the original contract need not be performed."
+            },
+            {
+                question: "If X agrees to sell his horse to Y for ₹5,000 but the horse died in an accident after the contract was made, this discharge is specifically due to:",
+                options: [
+                    "Initial impossibility",
+                    "Destruction of the subject-matter essential to that performance",
+                    "Declaration of war",
+                    "Discharge by operation of law (insolvency)"
+                ],
+                answer: "Destruction of the subject-matter essential to that performance",
+                explanation: "The contract becomes void due to destruction of the subject (Example 46), which is listed as a cause of supervening impossibility."
+            },
+            {
+                question: "If a promisee fails to afford reasonable facilities for the performance of the promise, the promisor is excused. This principle is contained in:",
+                options: [
+                    "Section 41",
+                    "Section 55",
+                    "Section 67",
+                    "Section 51"
+                ],
+                answer: "Section 67",
+                explanation: "Effects of neglect of promisee to afford promisor reasonable facilities for performance is governed by Section 67."
+            },
+            {
+                question: "When a promisor is to perform without application by the promisee, and no place is fixed for performance, the promisor must apply to the promisee to appoint a reasonable place. This rule ensures performance happens where:",
+                options: [
+                    "The promisor chooses.",
+                    "The promisee determines the place, provided it is reasonable.",
+                    "The contract was signed.",
+                    "The court orders."
+                ],
+                answer: "The promisee determines the place, provided it is reasonable.",
+                explanation: "The promisor has the duty to apply to the promisee to appoint a reasonable place for performance, and to perform it at such a place (Section 49)."
+            },
+            {
+                question: "Which phrase summarizes the type of payment that Section 65 requires a party to restore under an agreement discovered to be void?",
+                options: [
+                    "Any amount forfeited as a penalty",
+                    "Any amount received ancillary to the contract",
+                    "Whatever he has received under the contract",
+                    "Losses incurred by the innocent party"
+                ],
+                answer: "Whatever he has received under the contract",
+                explanation: "The Act requires that a party must give back whatever he has received under the contract. The benefit to be restored under this section must be benefit received under the contract (and not any other amount)."
+            },
+            {
+                question: "Reciprocal promises where each party must perform his promise without waiting for the performance or readiness to perform on the part of the other are classified as:",
+                options: [
+                    "Mutual and Dependent",
+                    "Mutual and Independent",
+                    "Mutual and Concurrent",
+                    "Contingent"
+                ],
+                answer: "Mutual and Independent",
+                explanation: "Mutual and Independent promises mean Each party must perform his promise without waiting for the performance or readiness to perform on the part of the other."
+            },
+            {
+                question: "When two or more persons have made a joint promise, and the promisee releases one joint promisor (Section 44), that released promisor:",
+                options: [
+                    "Is entirely free from all contractual obligations",
+                    "Is discharged from liability to the promisee but remains liable to the other joint promisors for contribution",
+                    "Is discharged from contribution liability but remains liable to the promisee",
+                    "Must pay a penalty to the promisee"
+                ],
+                answer: "Is discharged from liability to the promisee but remains liable to the other joint promisors for contribution",
+                explanation: "The release does not discharge the other joint promisors, nor does it free the joint promisor so released from responsibility to the other joint promisor or promisors (Section 44)."
+            },
+            {
+                question: "If a debtor, Murari, makes a payment of ₹9,680 by cheque and owes a bill of exactly ₹9,680 (due May 2021) without specific instruction, the payment will be appropriated against that bill based on the principle of:",
+                options: [
+                    "Appropriation by Creditor (Section 60)",
+                    "Express intimation",
+                    "Circumstances implying that the payment is to be applied to that particular debt (Section 59)",
+                    "Order of time (Section 61)"
+                ],
+                answer: "Circumstances implying that the payment is to be applied to that particular debt (Section 59)",
+                explanation: "A payment made with express intimation *or* under circumstances implying that the payment is to be applied to the discharge of some particular debt, must be applied accordingly (Section 59). A cheque matching the exact amount of the bill implies appropriation."
+            },
+            {
+                question: "When is a contract discharged by 'actual performance'?",
+                options: [
+                    "When one party merely offers to fulfill the obligation.",
+                    "When a party accepts a lesser sum in satisfaction of the whole debt.",
+                    "When each of the parties has done what he had agreed to do under the agreement.",
+                    "When the subject matter is destroyed."
+                ],
+                answer: "When each of the parties has done what he had agreed to do under the agreement.",
+                explanation: "Actual performance is said to have taken place, when each of the parties has done what he had agreed to do under the agreement."
+            },
+            {
+                question: "If A promises to paint a picture for B for a certain price, and A dies before painting it, the contract is discharged because:",
+                options: [
+                    "It is a reciprocal promise that failed.",
+                    "It is discharged by anticipatory breach.",
+                    "It involves personal skill and comes to an end on the death of the promisor.",
+                    "The liability of the legal representative is limited."
+                ],
+                answer: "It involves personal skill and comes to an end on the death of the promisor.",
+                explanation: "A contract which involves the use of personal skill or is founded on personal consideration comes to an end on the death of the promisor (Example 10)."
+            },
+            {
+                question: "The order of performance of reciprocal promises is fixed by Section 52. If the order is expressly fixed by the contract, they shall be performed:",
+                options: [
+                    "Simultaneously",
+                    "In that order",
+                    "In the order which the nature of the transaction requires",
+                    "According to the common law"
+                ],
+                answer: "In that order",
+                explanation: "When the order of performance of the reciprocal promises is expressly fixed by the contract, they shall be performed in that order."
+            },
+            {
+                question: "If a contract becomes voidable on account of the promisor’s failure to perform on time (time being essential), and the promisee accepts late performance, the promisee loses the right to compensation for the delay unless:",
+                options: [
+                    "He secures a court order.",
+                    "He gives notice of his intention to claim compensation at the time of acceptance.",
+                    "The promisor consents to the compensation.",
+                    "The loss is minimal."
+                ],
+                answer: "He gives notice of his intention to claim compensation at the time of acceptance.",
+                explanation: "The promisee cannot claim compensation for any loss occasioned by the non-performance of the promise at the time agreed, unless, at the time of acceptance, he gives notice to the promisor of his intention to do so (Section 55)."
+            },
+            {
+                question: "When parties agree to rescind a contract, they mutually agree to cancel it. Novation also involves rescission because:",
+                options: [
+                    "Both require a change in parties.",
+                    "Novation requires mutual agreement.",
+                    "The old contract is discharged in both cases.",
+                    "Rescission is automatically included in every alteration."
+                ],
+                answer: "The old contract is discharged in both cases.",
+                explanation: "It is needless to point out that novation also involves rescission. Both in novation and in rescission, the contract is discharged by mutual agreement."
+            },
+            {
+                question: "What happens if A, a Hindu already married, contracts to marry B, a Hindu girl?",
+                options: [
+                    "The contract is valid but only if A divorces his first wife.",
+                    "The agreement is void due to initial impossibility (impossible in law), but A must compensate B.",
+                    "The agreement is void but A is not liable for compensation.",
+                    "It is a voidable contract at B's option."
+                ],
+                answer: "The agreement is void due to initial impossibility (impossible in law), but A must compensate B.",
+                explanation: "The agreement is void (impossible in law), but A must make compensation to B for the loss caused to her by the non-performance of the contract (Example 27). This falls under initial impossibility, where the promisor knew or should have known the impossibility."
+            },
+            {
+                question: "Which section of the Indian Contract Act allows a promisee to dispense with or remit the performance of a promise?",
+                options: [
+                    "Section 62",
+                    "Section 63",
+                    "Section 64",
+                    "Section 65"
+                ],
+                answer: "Section 63",
+                explanation: "Promisee may waive or remit performance of promise (Section 63)."
+            },
+            {
+                question: "If X, Y and Z jointly borrowed money, upon the death of X, his representative S along with Y and Z should jointly repay the debt. This rule applies unless:",
+                options: [
+                    "X had an Agent.",
+                    "The contract reveals a contrary intention.",
+                    "The borrowed amount is small.",
+                    "Y and Z are insolvent."
+                ],
+                answer: "The contract reveals a contrary intention.",
+                explanation: "This rule (Devolution of joint liabilities, Section 42) is applicable only if the contract reveals no contrary intention (Example 13)."
+            },
+            {
+                question: "In the context of appropriation of payments, if the creditor applies payment to a lawful debt that is time-barred, this is permissible under which section?",
+                options: [
+                    "Section 59",
+                    "Section 60",
+                    "Section 61",
+                    "Section 43"
+                ],
+                answer: "Section 60",
+                explanation: "Under Section 60 (creditor's discretion), the creditor may apply payment to any lawful debt, 'where its recovery is or is not barred by the law in force for the time being as to the limitation of suits'."
+            },
+            {
+                question: "If B promises to pay A ₹5,00,000 if he is able to swim across the Indian Ocean from Mumbai to Aden within a week, and both parties know this is impossible, the agreement is void because:",
+                options: [
+                    "It is a wagering contract.",
+                    "It is void due to impossibility known to the parties (Initial Impossibility).",
+                    "It is a voidable contract.",
+                    "It lacks consideration."
+                ],
+                answer: "It is void due to impossibility known to the parties (Initial Impossibility).",
+                explanation: "In this case, there is no real agreement, since both parties are certain the act is impossible of achievement. Therefore, the agreement, being impossible in itself, is void (Example 28)."
+            },
+            {
+                question: "In the matter of assignment, why can a debtor generally not relieve himself of his liability to the creditor by assigning his obligation to someone else?",
+                options: [
+                    "Assignment of liability is prohibited by Section 41.",
+                    "Assignment only applies to immovable property.",
+                    "This is because when liability is assigned, a third party gets involved therein, requiring creditor consent/novation.",
+                    "The liability automatically transfers upon the creditor's death."
+                ],
+                answer: "This is because when liability is assigned, a third party gets involved therein, requiring creditor consent/novation.",
+                explanation: "A debtor cannot relieve himself of his liability to creditor by assigning to someone else his obligation to repay the debt. This is because when liability is assigned, a third party gets involved therein."
+            },
+            {
+                question: "A contract is discharged by 'Novation' if:",
+                options: [
+                    "The terms are minimally changed.",
+                    "The old contract is cancelled without replacement.",
+                    "A new contract is substituted for it, either between the same or different parties.",
+                    "The promisor dies."
+                ],
+                answer: "A new contract is substituted for it, either between the same or different parties.",
+                explanation: "Novation means substitution of an existing contract with a new one. The parties to a contract may substitute a new contract for the old. (Section 62)."
+            },
+            {
+                question: "If the promisee neglects or refuses to afford the promisor reasonable facilities for performance (Section 67), the consequence for the promisor is:",
+                options: [
+                    "He must seek specific performance.",
+                    "He is excused as to any non-performance caused thereby.",
+                    "He must tender performance multiple times.",
+                    "He remains liable but can sue the promisee."
+                ],
+                answer: "He is excused as to any non-performance caused thereby.",
+                explanation: "If any promisee neglects or refuses to afford the promisor reasonable facilities for the performance of his promise, the promisor is excused by such neglect or refusal as to any non-performance caused thereby."
+            },
+            {
+                question: "If the performance of a contract is offered late (time being essential), and the promisee accepts it without notice of claiming compensation, the promisee has essentially waived their right to compensation for the delay. This action is covered under which section?",
+                options: [
+                    "Section 53",
+                    "Section 55 (Effect of acceptance of performance at time other than agreed upon)",
+                    "Section 64",
+                    "Section 44"
+                ],
+                answer: "Section 55 (Effect of acceptance of performance at time other than agreed upon)",
+                explanation: "Section 55 covers the effect of acceptance of performance at time other than agreed upon, stating the promisee cannot claim compensation unless notice is given at the time of acceptance."
+            },
+            {
+                question: "Which type of impossibility is sometimes called the post-contractual impossibility?",
+                options: [
+                    "Initial Impossibility",
+                    "Commercial Impossibility",
+                    "Supervening Impossibility",
+                    "Legal Impossibility"
+                ],
+                answer: "Supervening Impossibility",
+                explanation: "Subsequent or Supervening impossibility is also called the post-contractual impossibility."
+            },
+            {
+                question: "When reciprocal promises are classified as 'Mutual and Dependent' (Section 54), which party's failure to perform first prevents them from claiming performance from the other?",
+                options: [
+                    "The promisee only",
+                    "The promisor who has to perform his promise before the performance of the other's promise",
+                    "Either party equally",
+                    "The party who suffers the loss"
+                ],
+                answer: "The promisor who has to perform his promise before the performance of the other's promise",
+                explanation: "If the promisor who has to perform his promise before the performance of the other’s promise fails to perform it, he cannot claim performance of the other’s promise."
+            },
+            {
+                question: "If X, Y, and Z are joint promisors, and X becomes insolvent with only half assets sufficient to pay his debts. Who bears the loss arising from X's default in contribution?",
+                options: [
+                    "The promisee (D) bears the loss.",
+                    "X's estate bears the loss.",
+                    "The remaining joint promisors (Y and Z) must bear the loss in equal shares.",
+                    "The loss is cancelled."
+                ],
+                answer: "The remaining joint promisors (Y and Z) must bear the loss in equal shares.",
+                explanation: "If any one of two or more joint promisors makes default in such contribution, the remaining joint promisors must bear the loss arising from such default in equal shares (Section 43)."
+            },
+            {
+                question: "Under Section 64, what must a party who has received a benefit under a voidable contract do upon rescission?",
+                options: [
+                    "Retain the benefit as liquidated damages.",
+                    "Restore such benefit, so far as may be, to the person from whom it was received.",
+                    "Pay compensation equal to the original contract price.",
+                    "Transfer the benefit to a third party."
+                ],
+                answer: "Restore such benefit, so far as may be, to the person from whom it was received.",
+                explanation: "The party rescinding a voidable contract shall, if he has received any benefit thereunder from another party to such contract, restore such benefit, so far as may be, to the person from whom it was received."
+            },
+            {
+                question: "If A promises B and C jointly to repay a loan, and B dies, the right to demand payment rests with:",
+                options: [
+                    "A's legal representatives only.",
+                    "B's legal representatives jointly with C during C's life-time.",
+                    "C alone, as B's right is extinguished.",
+                    "The promisor A."
+                ],
+                answer: "B's legal representatives jointly with C during C's life-time.",
+                explanation: "The right to claim performance rests with the representative of the deceased person jointly with the survivor or survivors (Section 45, Example 18)."
+            },
+            {
+                question: "The liability of joint promisors is joint and several, meaning the promisee may compel any one of them to perform the whole promise. This rule applies unless:",
+                options: [
+                    "The promisee has already released one promisor.",
+                    "A surety is involved.",
+                    "A contrary intention appears from the contract (express agreement to the contrary).",
+                    "The amount exceeds ₹10,00,000."
+                ],
+                answer: "A contrary intention appears from the contract (express agreement to the contrary).",
+                explanation: "The promisee may, in the absence of express agreement to the contrary, compel any one or more of such joint promisors to perform the whole of the promise (Section 43)."
+            },
+            {
+                question: "If a promisor (A) is excused from non-performance because the promisee (B) neglected to afford reasonable facilities, what recourse does A have?",
+                options: [
+                    "A must perform the contract later.",
+                    "A is entitled to rescind the contract and claim compensation.",
+                    "A is discharged and has no further rights.",
+                    "A must substitute a new contract."
+                ],
+                answer: "A is entitled to rescind the contract and claim compensation.",
+                explanation: "If the promisee fails to afford reasonable facilities, the promisor is excused from non-performance, and 'He may sue for specific performance or he may avoid the contract and claim compensation'."
+            },
+            {
+                question: "Which of the following scenarios results in the contract being discharged by breach, provided time is not essential essence of the contract?",
+                options: [
+                    "A fails to deliver goods on the due date.",
+                    "A repudiates the contract before the due date.",
+                    "A and B mutually agree to rescind the contract.",
+                    "The subject matter is destroyed."
+                ],
+                answer: "A fails to deliver goods on the due date.",
+                explanation: "If one party defaults in performing his part of the contract on the due date, he is said to have committed actual breach thereof (Example 48)."
+            },
+            {
+                question: "The contracts which involve the use of personal skill or diligence are specifically excluded from performance by:",
+                options: [
+                    "The Promisor himself",
+                    "An Agent or Legal Representative",
+                    "The Promisee",
+                    "A joint promisor"
+                ],
+                answer: "An Agent or Legal Representative",
+                explanation: "Contracts which involve the exercise of personal skill or diligence... must be performed by the promisor himself. They come to an end on the death of the promisor, and cannot be performed by an Agent."
+            },
+            {
+                question: "When a contract becomes void, Section 65 requires the person who received the advantage to restore it or make compensation. This compensation should be sufficient to:",
+                options: [
+                    "Punish the defaulting party.",
+                    "Cover the promisee's lost profits.",
+                    "Put the position prior to contract.",
+                    "Cover only incidental expenses."
+                ],
+                answer: "Put the position prior to contract.",
+                explanation: "In such a case (Section 65), either the advantage received must be restored back or a compensation, sufficient to put the position prior to contract, should be paid."
+            },
+            {
+                question: "If A contracts to act at a theatre for six months, but is too ill to act on several occasions, the contract to act on those occasions becomes void due to:",
+                options: [
+                    "Breach of contract",
+                    "Initial impossibility",
+                    "Subsequent impossibility (personal incapacity)",
+                    "Default of contribution"
+                ],
+                answer: "Subsequent impossibility (personal incapacity)",
+                explanation: "The contract to act on those occasions becomes void because of personal incapacity (illness), which is a form of subsequent impossibility (Example 45)."
+            },
+            {
+                question: "Which section confirms that the promisor or his representative must perform the contract unless the nature of the contract permits performance by a third person?",
+                options: [
+                    "Section 37, 40, and 41",
+                    "Section 59, 60, and 61",
+                    "Section 42, 43, and 44",
+                    "Section 62"
+                ],
+                answer: "Section 37, 40, and 41",
+                explanation: "Summary point 1: The promisor or his representative must perform unless the nature of contract shows that it may be performed by a third person, but the promisee may accept performance by a third party. (Sections 37, 40 and 41)."
+            },
+            {
+                question: "If the promisee requires the performance of a promise at a particular time and place, this is governed by:",
+                options: [
+                    "Section 46",
+                    "Section 48",
+                    "Section 50",
+                    "Section 51"
+                ],
+                answer: "Section 50",
+                explanation: "Performance in manner or at time prescribed or sanctioned by promisee is governed by Section 50."
+            },
+            {
+                question: "Which mode of contract discharge inherently involves the cancellation of the original contract followed by the creation of a new, substituted contract?",
+                options: [
+                    "Rescission",
+                    "Remission",
+                    "Alteration (without substitution)",
+                    "Novation"
+                ],
+                answer: "Novation",
+                explanation: "On novation, the old contract is discharged and consequently it need not be performed... some new contract is substituted for it."
+            },
+            {
+                question: "In a contract where B is required to execute work for A for ₹1,000, but A prevents B from doing so, B elects to rescind the voidable contract. B is entitled to recover from A:",
+                options: [
+                    "Only the estimated profit margin.",
+                    "Compensation for any loss incurred by its non-performance.",
+                    "The full contract amount of ₹1,000.",
+                    "Nothing, since the contract is rescinded."
+                ],
+                answer: "Compensation for any loss incurred by its non-performance.",
+                explanation: "The contract is voidable at the option of B; and if he elects to rescind it, he is entitled to recover from A compensation for any loss which he has incurred by its non-performance (Example 23, Section 53)."
+            },
+            {
+                question: "The rule that the promisor must offer to perform and such offer must be unconditional is a key condition for:",
+                options: [
+                    "Actual performance",
+                    "Discharge by operation of law",
+                    "A valid tender (attempted performance)",
+                    "A contingent contract"
+                ],
+                answer: "A valid tender (attempted performance)",
+                explanation: "The promisor must offer to perform and such offer must be unconditional, and be made at the proper time and place... (Summary point 4)."
+            },
+            {
+                question: "When does the liability of legal representatives of a deceased promisor under a contract that does not involve personal skill cease?",
+                options: [
+                    "Upon the transfer of the inherited property.",
+                    "When the value of inherited property is exhausted in repayment.",
+                    "If the contract is voidable.",
+                    "If the promisee fails to make an application for performance."
+                ],
+                answer: "When the value of inherited property is exhausted in repayment.",
+                explanation: "Their liability under a contract is limited to the value of the property they inherit from the deceased. If the debts exceed the value of the estate, they would not be called upon to pay the excess."
+            },
+            {
+                question: "Which statement accurately describes the relationship between the discharge of a contract and the obligations created by it?",
+                options: [
+                    "A contract is discharged when obligations increase.",
+                    "A contract is discharged when the obligations created by it come to an end.",
+                    "Discharge refers only to the successful completion of the contract.",
+                    "Discharge only happens by mutual agreement."
+                ],
+                answer: "A contract is discharged when the obligations created by it come to an end.",
+                explanation: "A contract is discharged when the obligations created by it come to an end."
+            },
+            {
+                question: "If time is *not* essential to the contract, and performance is late, the contract:",
+                options: [
+                    "Becomes voidable.",
+                    "Does not become voidable, but compensation is payable for the loss.",
+                    "Is automatically discharged.",
+                    "Requires novation to continue."
+                ],
+                answer: "Does not become voidable, but compensation is payable for the loss.",
+                explanation: "If it was not the intention of the parties that time should be of essence of the contract, the contract does not become voidable... but the promisee is entitled to compensation."
+            },
+            {
+                question: "If a debtor (Murari) makes a payment of ₹15,000 without notice of appropriation, and owes a debt of ₹12,120 that was due in May 2018 (time-barred), the creditor (Girdhari) can appropriate the ₹15,000 first against the time-barred debt under:",
+                options: [
+                    "Section 59",
+                    "Section 61",
+                    "Section 60",
+                    "Section 43"
+                ],
+                answer: "Section 60",
+                explanation: "Under Section 60 (Creditor’s discretion), the creditor may apply the payment to any lawful debt, including a time-barred debt, if the debtor has omitted to intimate."
+            },
+            {
+                question: "When parties enter into an agreement that is impossible of performance, and both the promisor and promisee are ignorant of the impossibility, the contract is:",
+                options: [
+                    "Voidable",
+                    "Void",
+                    "Valid, but the promisor must pay compensation",
+                    "Enforceable"
+                ],
+                answer: "Void",
+                explanation: "Where both the promisor and the promisee are ignorant of the impossibility of performance, the contract is void."
+            },
+            {
+                question: "If a contract contains reciprocal promises and one party prevents the other from performing his promise (Section 53), the party so prevented is entitled to compensation, and the contract becomes:",
+                options: [
+                    "Voidable at the option of the party prevented",
+                    "Void at the option of the party who prevented performance",
+                    "Immediately void",
+                    "Valid and enforceable by all parties"
+                ],
+                answer: "Voidable at the option of the party prevented",
+                explanation: "The contract becomes voidable at the option of the party so prevented."
+            },
+            {
+                question: "Which aspect is crucial in differentiating between Novation and Alteration?",
+                options: [
+                    "Whether the contract is in writing.",
+                    "Whether the fundamental terms change.",
+                    "Whether the contracting parties remain the same.",
+                    "Whether the contract is time-barred."
+                ],
+                answer: "Whether the contracting parties remain the same.",
+                explanation: "In Novation, there may be a change in the contracting parties. But in alteration, the parties to the contract will remain the same."
+            },
+            {
+                question: "In the case of assignment, if the benefit of a promise is assigned, the assignee is entitled to:",
+                options: [
+                    "Acquire the assignor's liabilities as well.",
+                    "Realise the debt from the debtor.",
+                    "Replace the original debtor.",
+                    "Compel the creditor to accept a lesser amount."
+                ],
+                answer: "Realise the debt from the debtor.",
+                explanation: "If a creditor assigns the benefit of a promise, he thereby entitles the assignee to realise the debt from the debtor."
+            },
+            {
+                question: "The primary obligation under Section 37 is that parties must either perform or offer to perform their promises unless excused. This section relates to:",
+                options: [
+                    "Impossibility of Acts",
+                    "Performance of Contract",
+                    "Appropriation of Payments",
+                    "Voidable Agreements"
+                ],
+                answer: "Performance of Contract",
+                explanation: "According to Section 37, the parties to a contract must either perform, or offer to perform, their respective promises, which is the meaning of Performance of Contract."
+            },
+            {
+                question: "If A contracts to deliver 1,000 Kgs of wheat to B's warehouse, and B refuses to accept delivery, A's legal status is that he:",
+                options: [
+                    "Is discharged from performance and retains his rights under the contract.",
+                    "Must wait until B changes his mind.",
+                    "Must sell the goods to a third party.",
+                    "Has committed a breach."
+                ],
+                answer: "Is discharged from performance and retains his rights under the contract.",
+                explanation: "If an offer of performance is not accepted, the promisor is not responsible for non-performance and does not lose his rights under the contract."
+            },
+            {
+                question: "Which contract type is characterized by promises that have to be simultaneously performed?",
+                options: [
+                    "Mutual and Dependent",
+                    "Mutual and Independent",
+                    "Mutual and Concurrent",
+                    "Alternative Promise"
+                ],
+                answer: "Mutual and Concurrent",
+                explanation: "Mutual and Concurrent promises are those that have to be simultaneously performed."
+            },
+            {
+                question: "In a scenario where the promisor dies, which contract comes to an end automatically?",
+                options: [
+                    "A contract to pay a debt.",
+                    "A contract for the supply of common raw materials.",
+                    "A contract requiring the promisor to paint a unique mural.",
+                    "A contract to deliver goods on credit."
+                ],
+                answer: "A contract requiring the promisor to paint a unique mural.",
+                explanation: "Contracts which involve the exercise of personal skill... come to an end on the death of the promisor."
+            },
+            {
+                question: "If a party commits 'Anticipatory breach' (repudiating the contract before the stipulated time), the injured party has the right to:",
+                options: [
+                    "Only sue for specific performance.",
+                    "Sue for damages and is also discharged from performing his part of the contract.",
+                    "Wait until the due date to sue.",
+                    "Demand immediate novation."
+                ],
+                answer: "Sue for damages and is also discharged from performing his part of the contract.",
+                explanation: "If one of the parties to a contract breaks the promise the party injured thereby, has not only a right of action for damages but he is also discharged from performing his part of the contract (applies to both actual and anticipatory breach)."
+            },
+            {
+                question: "If X, Y, and Z jointly promised to pay D, and D releases X from liability, X is still responsible to Y and Z. X is liable for contribution of:",
+                options: [
+                    "His share of the payment to D.",
+                    "His share of the payment to Y and Z.",
+                    "The entire debt amount.",
+                    "Half the debt amount."
+                ],
+                answer: "His share of the payment to Y and Z.",
+                explanation: "The released promisor is liable to make the contribution to the other joint promisors (Example 17)."
+            },
+            {
+                question: "What is the primary mode of contract discharge listed that involves parties fulfilling their obligations within the time and manner prescribed?",
+                options: [
+                    "Discharge by mutual agreement",
+                    "Discharge by performance",
+                    "Discharge by operation of law",
+                    "Discharge by breach"
+                ],
+                answer: "Discharge by performance",
+                explanation: "Discharge by performance takes place when the parties to the contract fulfil their obligations arising under the contract within the time and in the manner prescribed."
+            },
+            {
+                question: "If A promises B to repay a loan, and B accepts ₹2,00,000 in satisfaction of the whole debt of ₹5,00,000, this is a discharge by:",
+                options: [
+                    "Waiver",
+                    "Remission",
+                    "Alteration",
+                    "Novation"
+                ],
+                answer: "Remission",
+                explanation: "A contract may be discharged by remission (Section 63). Accepting a lesser sum in satisfaction of the whole debt is remission (Example 34)."
+            },
+            {
+                question: "If A and B agree to sell rice or smuggled opium (alternative promise, Section 58), the agreement is valid only for the delivery of rice. This means the court will enforce the promise that is:",
+                options: [
+                    "More profitable",
+                    "Legal",
+                    "Alternative",
+                    "Illegal"
+                ],
+                answer: "Legal",
+                explanation: "In the case of the alternative promise, one branch of which is legal and the other illegal, the legal branch alone can be enforced (Example 32)."
+            },
+            {
+                question: "The general rule under Section 42 states that joint promises must be fulfilled jointly by all such persons. The exception is:",
+                options: [
+                    "If the promisee refuses performance.",
+                    "If a contrary intention appears by the contract.",
+                    "If the promisor is a minor.",
+                    "If the performance is partial."
+                ],
+                answer: "If a contrary intention appears by the contract.",
+                explanation: "When two or more persons have made a joint promise, then unless a contrary intention appears by the contract, all such persons must jointly fulfil the promise."
+            },
+            {
+                question: "If a promisee, at the time of accepting late performance (time being essential), gives notice of intention to claim compensation, the promisee is essentially exercising a right granted by the proviso to:",
+                options: [
+                    "Section 53",
+                    "Section 55",
+                    "Section 56",
+                    "Section 62"
+                ],
+                answer: "Section 55",
+                explanation: "This proviso defines the 'Effect of acceptance of performance at time other than agreed upon' under Section 55."
+            },
+            {
+                question: "In the context of subsequent impossibility, personal incapacity like a dangerous malady is categorized as leading to impossibility due to:",
+                options: [
+                    "Initial impossibility",
+                    "Destruction of assets",
+                    "The non-existence or non-occurrence of particular state of things",
+                    "Statutory change in law"
+                ],
+                answer: "The non-existence or non-occurrence of particular state of things",
+                explanation: "Subsequent impossibility may take place owing to 'the non-existence or non-occurrence of particular state of things, which was naturally contemplated for performing the contract, as a result of some personal incapacity like dangerous malady'."
+            },
+            {
+                question: "If a debtor has omitted to intimate which debt the payment is to be applied to, and the creditor also makes no appropriation, the rule of appropriation applies the payment in:",
+                options: [
+                    "The highest amount first.",
+                    "Discharge of each proportionately if debts are of equal standing.",
+                    "The order dictated by the Limitation Act.",
+                    "The order chosen by the promisee's attorney."
+                ],
+                answer: "Discharge of each proportionately if debts are of equal standing.",
+                explanation: "If the debts are of equal standing, the payments shall be applied in discharge of each proportionately (Section 61)."
+            },
+            {
+                question: "When a debtor owes several debts and pays the creditor, the debtor has the right of appropriating the payment:",
+                options: [
+                    "Only if the debt is not time-barred.",
+                    "Only after the creditor agrees.",
+                    "At the time of payment.",
+                    "Within seven days after payment."
+                ],
+                answer: "At the time of payment.",
+                explanation: "The debtor has, at the time of payment, the right of appropriating the payment (Summary point 5)."
+            },
+            {
+                question: "If A contracts to deliver goods to B, and A offers performance during non-usual business hours (e.g., 2 a.m.), the tender is invalid because it violates the condition related to:",
+                options: [
+                    "Reasonable opportunity to examine goods.",
+                    "Proper time and place.",
+                    "Whole obligation.",
+                    "Unconditional nature."
+                ],
+                answer: "Proper time and place.",
+                explanation: "A valid tender must be made at proper time and place (Example 4, Example 19)."
+            },
+            {
+                question: "In the case of subsequent impossibility due to the destruction of the subject matter, such as a horse dying in an accident, the valid contract:",
+                options: [
+                    "Is converted into a voidable contract.",
+                    "Changes into a void contract.",
+                    "Leads to specific performance.",
+                    "Leads to rescission."
+                ],
+                answer: "Changes into a void contract.",
+                explanation: "A valid contract changes into void contract because of impossibility of performance (Example 46)."
+            },
+            {
+                question: "The rule that if the performance consists of payment of money and there are several debts, the payment shall be appropriated as per the provisions of Sections 59, 60, and 61 is included in the unit overview under the title:",
+                options: [
+                    "Performance of Contract",
+                    "Appropriation of Payments",
+                    "Rights of Joint Promisees",
+                    "Contracts which need not be Performed"
+                ],
+                answer: "Appropriation of Payments",
+                explanation: "Section 4.8 is titled Appropriation of Payments, covering Sections 59 to 61."
+            },
+            {
+                question: "What is the primary consequence for the injured party if the other party commits an actual breach of contract on the due date?",
+                options: [
+                    "They lose all rights under the contract.",
+                    "They are discharged from performing their part of the contract.",
+                    "They must wait until the contract is fulfilled.",
+                    "They must apply for court-ordered alteration."
+                ],
+                answer: "They are discharged from performing their part of the contract.",
+                explanation: "If one of the parties to a contract breaks the promise the party injured thereby, has not only a right of action for damages but he is also discharged from performing his part of the contract."
+            },
+            {
+                question: "When a debtor, owing several distinct debts, directs payment towards a particular debt (Section 59), the creditor:",
+                options: [
+                    "Can apply it to any debt he chooses.",
+                    "Must apply it accordingly if accepted.",
+                    "Can refuse acceptance if the debt is time-barred.",
+                    "Must confirm the appropriation in writing."
+                ],
+                answer: "Must apply it accordingly if accepted.",
+                explanation: "The payment, if accepted, must be applied accordingly (Section 59)."
+            },
+            {
+                question: "If a contract involves the use of personal skill, and the promisor is alive but becomes paralyzed (Mr. C in Example 2), Mr. Rich can:",
+                options: [
+                    "Force Mr. C's son to complete the work.",
+                    "Sue Mr. C for specific performance.",
+                    "Ask for refund of advance money as the agreement became void.",
+                    "Require novation of the contract."
+                ],
+                answer: "Ask for refund of advance money as the agreement became void.",
+                explanation: "Since painting involves personal skill, the agreement has become void because of paralysis (subsequent impossibility). Mr. Rich can ask for refund of money paid in advance (Section 65)."
+            },
+            {
+                question: "The concept of 'Actual performance' and 'Attempted performance' are classifications based on:",
+                options: [
+                    "Section 37",
+                    "Section 43",
+                    "Section 62",
+                    "Section 56"
+                ],
+                answer: "Section 37",
+                explanation: "On the basis of Section 37, 'Performance of Contract' may be actual or attempted."
+            },
+            {
+                question: "When a creditor assigns the benefit of a promise, he entitles the assignee to realize the debt from the debtor. However, the benefit cannot be assigned if:",
+                options: [
+                    "The assignee is a company.",
+                    "The benefit is coupled with a liability or when a personal consideration has entered into the contract.",
+                    "The original contract was oral.",
+                    "The debtor is wealthy."
+                ],
+                answer: "The benefit is coupled with a liability or when a personal consideration has entered into the contract.",
+                explanation: "Where the benefit is coupled with a liability or when a personal consideration has entered into the making of the contract then the benefit cannot be assigned."
+            },
+            {
+                question: "Section 45 governs the devolution of joint rights. After the death of the last survivor of joint promisees, the right to claim performance rests with:",
+                options: [
+                    "The promisor, as the right is extinguished.",
+                    "The legal representatives of all jointly.",
+                    "The government.",
+                    "The representative of the last survivor alone."
+                ],
+                answer: "The legal representatives of all jointly.",
+                explanation: "After the death of the last survivor, the right rests with the representatives of all jointly (Section 45)."
+            },
+            {
+                question: "If A and B contract to sell a horse for ₹2,50,000, unaware that the horse was dead a day before the agreement, the contract is void because:",
+                options: [
+                    "It is an agreement discovered to be void due to initial impossibility (unknown to parties).",
+                    "It is a case of subsequent impossibility.",
+                    "It is a voidable contract.",
+                    "It is discharged by rescission."
+                ],
+                answer: "It is an agreement discovered to be void due to initial impossibility (unknown to parties).",
+                explanation: "Where both the promisor and the promisee are ignorant of the impossibility of performance, the contract is void (Example 29)."
+            },
+            {
+                question: "What happens if a debtor fails to complete a sale of land within the specified period, and the contract allows the deposit to be forfeited by the seller?",
+                options: [
+                    "The seller must refund the deposit under Section 65.",
+                    "The seller is entitled to rescind the contract and retain the deposit as security.",
+                    "The contract becomes void automatically.",
+                    "The seller must pay compensation to the buyer."
+                ],
+                answer: "The seller is entitled to rescind the contract and retain the deposit as security.",
+                explanation: "A is entitled to rescind the contract and to retain the deposit. The deposit is not a benefit received under the contract (Section 65), but a security."
+            },
+            {
+                question: "The type of breach that occurs when one party defaults in performing his part of the contract on the due date is called:",
+                options: [
+                    "Anticipatory breach",
+                    "Actual breach of contract",
+                    "Novation",
+                    "Frustration"
+                ],
+                answer: "Actual breach of contract",
+                explanation: "If one party defaults in performing his part of the contract on the due date, he is said to have committed actual breach thereof."
+            },
+            {
+                question: "If A contracts with B to repair B's house, but B refuses to point out the places requiring repair, A is excused from non-performance. This is an application of:",
+                options: [
+                    "Section 43",
+                    "Section 53",
+                    "Section 67",
+                    "Section 50"
+                ],
+                answer: "Section 67",
+                explanation: "If a promisee neglects or refuses to afford the promisor reasonable facilities for the performance of his promise, the promisor is excused (Example 38, Section 67)."
+            },
+            {
+                question: "The rules regarding appropriation of payments apply when a debtor owes several debts to the same creditor and makes a payment that is:",
+                options: [
+                    "Sufficient to discharge all debts.",
+                    "Not sufficient to discharge all the debts.",
+                    "Only covering disputed debts.",
+                    "Secured by collateral."
+                ],
+                answer: "Not sufficient to discharge all the debts.",
+                explanation: "The appropriation rules apply when a debtor owes several debts to the same creditor and makes payment, which is not sufficient to discharge all the debts."
+            },
+            {
+                question: "If the promisor dies, the legal representatives are bound to perform the contract, provided the contract is not one of personal skill. However, the legal representative's liability is strictly limited to:",
+                options: [
+                    "The contract price.",
+                    "The value of the property they inherit.",
+                    "The amount of liquid assets.",
+                    "The promisee’s anticipated profit."
+                ],
+                answer: "The value of the property they inherit.",
+                explanation: "Their liability under a contract is limited to the value of the property they inherit from the deceased."
+            },
+            {
+                question: "When reciprocal promises are Mutual and Independent (classification 3), which statement is true regarding performance?",
+                options: [
+                    "Performance must be simultaneous.",
+                    "One party must perform first.",
+                    "Each party must perform his promise without waiting for the performance of the other.",
+                    "The contract is voidable if delay occurs."
+                ],
+                answer: "Each party must perform his promise without waiting for the performance of the other.",
+                explanation: "Mutual and Independent promises require each party to perform his promise without waiting for the performance or readiness to perform on the part of the other."
+            },
+            {
+                question: "If a promisor attempts to deliver goods at the appointed place and time, but the promisee refuses delivery, this discharge mode is categorized as:",
+                options: [
+                    "Attempted performance",
+                    "Novation",
+                    "Breach by promisor",
+                    "Remission"
+                ],
+                answer: "Attempted performance",
+                explanation: "When the promisor offers to perform his obligation, but the promisee refuses to accept the performance, it amounts to attempted performance or tender (Example 40)."
+            },
+            {
+                question: "The rule concerning the sharing of loss by default in contribution among joint promisors (Section 43) states that the remaining joint promisors must bear the loss in:",
+                options: [
+                    "Proportion to their original promise.",
+                    "Equal shares.",
+                    "The ratio of the original debt.",
+                    "The ratio of their solvency."
+                ],
+                answer: "Equal shares.",
+                explanation: "The remaining joint promisors must bear the loss arising from such default in equal shares."
+            },
+            {
+                question: "If a contract is discharged by impossibility due to the declaration of a war, this is an example of:",
+                options: [
+                    "Initial impossibility",
+                    "Subsequent impossibility",
+                    "Frustration ab initio",
+                    "Breach of a reciprocal promise"
+                ],
+                answer: "Subsequent impossibility",
+                explanation: "Supervening impossibility may take place owing to the declaration of a war (Section 56)."
+            },
+            {
+                question: "The rule of Devolution of joint liabilities (Section 42) primarily addresses:",
+                options: [
+                    "The right of contribution among promisors.",
+                    "The liability of all promisors and their representatives to jointly fulfill the promise.",
+                    "The promisee's right to release one promisor.",
+                    "The time and place of performance."
+                ],
+                answer: "The liability of all promisors and their representatives to jointly fulfill the promise.",
+                explanation: "Section 42 states that all such persons must jointly fulfil the promise, and if any dies, his legal representatives must join the survivors."
+            },
+            {
+                question: "If A contracts to deliver 1,000 maunds of jute to B on a fixed day, A must apply to B to appoint a reasonable place for receiving it. This is required under:",
+                options: [
+                    "Section 46",
+                    "Section 47",
+                    "Section 49",
+                    "Section 50"
+                ],
+                answer: "Section 49",
+                explanation: "This example (Example 20) illustrates the promisor's duty under Section 49 when no application is to be made by the promisee and no place is fixed."
+            },
+            {
+                question: "The consequence of a promisor's refusal to perform a contract (Section 39) is that the contract is:",
+                options: [
+                    "Voidable at the option of the promisee.",
+                    "Immediately void.",
+                    "Remitted.",
+                    "Subject to alteration."
+                ],
+                answer: "Voidable at the option of the promisee.",
+                explanation: "Summary point 6 implies that if performance is refused, the promisee may avoid the contract (which is the meaning of voidable at the option of the promisee)."
+            },
+            {
+                question: "In the context of the Explanation to Section 43, a surety can recover payments made on behalf of the principal because:",
+                options: [
+                    "The surety is jointly liable.",
+                    "The rule does not prevent the surety from recovering from his principal.",
+                    "The principal agreed to indemnity.",
+                    "The payment was appropriated under Section 60."
+                ],
+                answer: "The rule does not prevent the surety from recovering from his principal.",
+                explanation: "Nothing in this section shall prevent a surety from recovering, from his principal, payments made by the surety on behalf of the principal (Explanation to Section 43)."
+            },
+            {
+                question: "If a contract contains reciprocal promises that are dependent, and the promisor who should perform first fails to perform, they are also liable for:",
+                options: [
+                    "Specific performance.",
+                    "Rescission.",
+                    "Compensation for non-performance.",
+                    "Novation."
+                ],
+                answer: "Compensation for non-performance.",
+                explanation: "The promisor cannot claim performance of the other’s promise, and is also liable for compensation for his non-performance (Section 54)."
+            },
+            {
+                question: "If A promises to deliver goods to B, and A offers performance at the appointed time and place, but B refuses to accept, A has performed by:",
+                options: [
+                    "Waiver.",
+                    "Actual performance.",
+                    "Tender.",
+                    "Remission."
+                ],
+                answer: "Tender.",
+                explanation: "When the promisor offers to perform his obligation, but the promisee refuses to accept the performance, it amounts to attempted performance or tender."
+            },
+            {
+                question: "In a joint contract scenario, if the contract does not specify otherwise, the promisors must contribute:",
+                options: [
+                    "Proportionately to their benefits.",
+                    "Equally.",
+                    "As per the promisee's discretion.",
+                    "Only if one defaults."
+                ],
+                answer: "Equally.",
+                explanation: "Each of two or more joint promisors may compel every other joint promisor to contribute equally with himself to the performance of the promise, unless a contrary intention appears from the contract."
+            },
+            {
+                question: "What happens if a debtor makes a payment that is not sufficient to discharge all his debts, and the appropriation is done by the creditor under Section 60?",
+                options: [
+                    "The creditor must notify the debtor within 7 days.",
+                    "The payment must be applied to the oldest debt first.",
+                    "The creditor may apply it to any lawful debt actually due, excluding disputed debts.",
+                    "The payment is distributed proportionately."
+                ],
+                answer: "The creditor may apply it to any lawful debt actually due, excluding disputed debts.",
+                explanation: "The creditor may apply it at his discretion to any lawful debt actually due and payable to him... However, he cannot apply the payment to the disputed debt."
+            },
+            {
+                question: "If X borrows ₹5,00,000 from Y, and they agree that C will pay Y and Y will accept ₹5,00,000 from C instead of A, A's liability ends by:",
+                options: [
+                    "Alteration",
+                    "Rescission",
+                    "Novation",
+                    "Remission"
+                ],
+                answer: "Novation",
+                explanation: "This is a case of novation between different parties (A and B contract substituted by B and C contract) (Example 33)."
+            },
+            {
+                question: "If a contract is discharged by breach, the injured party is entitled to discharge from their part of the contract and:",
+                options: [
+                    "A right of action for damages.",
+                    "A right of specific performance only.",
+                    "A right to rescind the contract only.",
+                    "A right to demand alteration."
+                ],
+                answer: "A right of action for damages.",
+                explanation: "The party injured thereby, has not only a right of action for damages but he is also discharged from performing his part of the contract."
+            },
+            {
+                question: "Performance of Reciprocal Promises involving an agreement to do an impossible act is contained in which section range?",
+                options: [
+                    "Sections 51 to 58",
+                    "Sections 59 to 61",
+                    "Sections 40 to 42",
+                    "Sections 62 to 67"
+                ],
+                answer: "Sections 51 to 58",
+                explanation: "The law on Performance of Reciprocal Promise is contained in Sections 51 to 58, which includes Agreement to do Impossible Act (Section 56)."
+            },
+            {
+                question: "An agreement where A and B agree to sell a horse, unaware it was dead previously, is void due to the fact that the impossibility was:",
+                options: [
+                    "Subsequent",
+                    "Known to the promisor only",
+                    "Unknown to the parties (Initial Impossibility)",
+                    "Caused by the promisee"
+                ],
+                answer: "Unknown to the parties (Initial Impossibility)",
+                explanation: "Where both the promisor and the promisee are ignorant of the impossibility of performance (Example 29), the contract is void."
+            },
+            {
+                question: "What must the promisee apply for, if the promise is to be performed on a certain day, and the promisor has not undertaken to perform it without application by the promisee (Section 48)?",
+                options: [
+                    "A written confirmation of ability to perform.",
+                    "Performance at a proper place and within the usual hours of business.",
+                    "Security deposit.",
+                    "An extension of time."
+                ],
+                answer: "Performance at a proper place and within the usual hours of business.",
+                explanation: "It is the duty of the promisee to apply for performance at a proper place and within the usual hours of business."
+            },
+            {
+                question: "Which rule specifies that if the contract is silent on the order of performance of reciprocal promises, they must be performed in the order required by the nature of the transaction?",
+                options: [
+                    "Section 51",
+                    "Section 52",
+                    "Section 53",
+                    "Section 54"
+                ],
+                answer: "Section 52",
+                explanation: "Section 52 addresses the Order of performance of reciprocal promises."
+            },
+            {
+                question: "If the promisor, who knew of the initial impossibility, is liable to compensate the promisee, this liability arises because the promisor should have known the fact through:",
+                options: [
+                    "Market research",
+                    "Statutory decree",
+                    "Reasonable diligence",
+                    "Contractual waiver"
+                ],
+                answer: "Reasonable diligence",
+                explanation: "The promisee is entitled to claim compensation if the promisor... should have known it with reasonable diligence."
+            }
+        ],
+        'Breach of Contract and its Remedies': [],
+        'Contingent and Quasi Contracts': [],
+        'Contract of Indemnity and Guarantee': [],
+        'Bailment and Pledge': [],
+        'Agency': [],
+    },
 
 
+    'The Sale of Goods Act, 1930': {
+
+        'Formation of the Contract of Sale': [],
+
+        'Conditions & Warranties': [],
+
+        'Transfer of Ownership and Delivery of Goods': [],
+
+        'Unpaid Seller': []
+    },
 
 
+    'The Indian Partnership Act, 1932': {
 
-    //  Chapter - 2
+        'General Nature of Partnership': [],
 
-    'Indian Contract Act': [
+        'Relations of Partners': [],
+
+        'Registration and Dissolution of a Firm': []
+    },
+
+
+    'The Limited Liability Partnership Act, 2008': [
         {
-            question: 'Which section of Indian Contract Act defines a contract?',
-            options: ['Section 2(e)', 'Section 2(h)', 'Section 10', 'Section 73'],
-            answer: 'Section 2(h)',
-            explanation: 'Section 2(h) of the Indian Contract Act defines contract as an agreement enforceable by law.'
+            question: "The Limited Liability Partnership Act, 2008, was notified by the Ministry of Law and Justice on:",
+            options: ["9th January 2007", "12th December 2008", "7th January 2009", "31st March 2009"],
+            answer: "9th January 2007",
+            explanation: "The Ministry of Law and Justice notified the Limited Liability Partnership Act, 2008, on 9th January 2007."
         },
         {
-            question: 'Which of the following is not essential for a valid contract?',
-            options: ['Free consent', 'Lawful object', 'Adequate consideration', 'Competency of parties'],
-            answer: 'Adequate consideration',
-            explanation: 'Adequacy of consideration is not required, only lawful consideration is.'
+            question: "The LLP Act, 2008, was assented to by the President of India on which specific date?",
+            options: ["9th January 2007", "12th December 2008", "7th January 2009", "31st March 2009"],
+            answer: "7th January 2009",
+            explanation: "The President of India assented to the Limited Liability Partnership Bill on 7th January, 2009."
         },
         {
-            question: 'Which element invalidates consent under Section 14?',
-            options: [
-                'Unilateral mistake',
-                'Coercion',
-                'Absence of written proof',
-                'Inadequate consideration'
-            ],
-            answer: 'Coercion',
-            explanation: 'Consent is not free if caused by coercion (Sec 15), undue influence (Sec 16), fraud (Sec 17), misrepresentation (Sec 18), or mistake (Sec 20-22).'
+            question: "The Limited Liability Partnership Act, 2008, contains how many sections and schedules?",
+            options: ["69 sections and 3 schedules", "81 sections and 4 schedules", "92 sections and 5 schedules", "101 sections and 4 schedules"],
+            answer: "81 sections and 4 schedules",
+            explanation: "The LLP Act, 2008, has 81 sections and 4 schedules."
         },
         {
-            question: 'Consideration must be:',
-            options: [
-                'Adequate and monetary',
-                'Given by the promisee only',
-                'Lawful and real',
-                'In writing for contracts > ₹100'
-            ],
-            answer: 'Lawful and real',
-            explanation: 'Section 23 requires consideration to be lawful. It need not be adequate (Sec 25) and may flow from any person (Sec 2(d)).'
-        }, {
-            question: 'A contract with a person of unsound mind is:',
-            options: [
-                'Valid if approved by guardian',
-                'Voidable at minor\'s option',
-                'Void ab initio',
-                'Enforceable after ratification'
-            ],
-            answer: 'Void ab initio',
-            explanation: 'Section 11 declares contracts by persons incompetent to contract (minors, unsound mind, disqualified by law) as void.'
-        }, {
-            question: 'A contingent contract depends on:',
-            options: [
-                'Mutual promises',
-                'Future uncertain event',
-                'Third-party approval',
-                'Penalty clauses'
-            ],
-            answer: 'Future uncertain event',
-            explanation: 'Section 31 defines contingent contracts as those enforceable only upon happening/non-happening of specified uncertain future events.'
-        }, {
-            question: 'A contract is discharged by novation under:',
-            options: [
-                'Section 62',
-                'Section 56',
-                'Section 73',
-                'Section 40'
-            ],
-            answer: 'Section 62',
-            explanation: 'Section 62 allows discharge by novation (substituting new contract), rescission, or alteration.'
-        }, {
-            question: 'Claim for "necessaries" supplied to incompetent persons is covered under:',
-            options: [
-                'Section 68',
-                'Section 69',
-                'Section 70',
-                'Section 72'
-            ],
-            answer: 'Section 68',
-            explanation: 'Section 68 entitles reimbursement for necessaries supplied to incompetent persons (minors/unsound mind).'
-        }, {
-            question: 'Compensation for breach of contract under Section 73:',
-            options: [
-                'Includes penalty charges',
-                'Requires actual loss proof',
-                'Covers remote damages',
-                'Mandates criminal prosecution'
-            ],
-            answer: 'Requires actual loss proof',
-            explanation: 'Section 73 provides compensation only for natural/ordinary losses arising directly from breach, not remote damages.'
+            question: "Which specific subject is covered by the First Schedule of the LLP Act, 2008?",
+            options: ["Conversion of a private company into LLP", "Conversion of a firm into LLP", "Mutual rights and duties of partners in the absence of a formal agreement", "Conversion of an unlisted public company into LLP"],
+            answer: "Mutual rights and duties of partners in the absence of a formal agreement",
+            explanation: "The First Schedule deals with mutual rights and duties of partners, as well limited liability partnership and its partners where there is absence of a formal agreement with respect to them."
+        },
+        {
+            question: "The conversion of an unlisted public company into an LLP is governed by which Schedule of the LLP Act, 2008?",
+            options: ["First Schedule", "Second Schedule", "Third Schedule", "Fourth Schedule"],
+            answer: "Fourth Schedule",
+            explanation: "The Fourth Schedule deals with conversion of unlisted public company into LLP."
+        },
+        {
+            question: "Which Act is explicitly declared as not applicable to Limited Liability Partnerships (LLPs)?",
+            options: ["The Companies Act, 2013", "The Indian Partnership Act, 1932", "The Trade Marks Act, 1999", "The Sale of Goods Act, 1930"],
+            answer: "The Indian Partnership Act, 1932",
+            explanation: "The Indian Partnership Act, 1932, is not applicable to LLPs."
+        },
+        {
+            question: "The LLP form of business organization provides the benefits of limited liability but allows its members the flexibility of organizing their internal structure based on:",
+            options: ["Statute-based governance structure", "Mandatory legal clauses", "A mutually arrived agreement", "SEBI Regulations"],
+            answer: "A mutually arrived agreement",
+            explanation: "LLP provides the benefits of limited liability but allows its members the flexibility of organizing their internal structure as a partnership based on a mutually arrived agreement."
+        },
+        {
+            question: "An LLP is called a 'hybrid' structure because it contains elements of:",
+            options: ["A company and a Hindu Undivided Family", "A public company and a private company", "A corporate structure and a partnership firm structure", "A partnership and a sole proprietorship"],
+            answer: "A corporate structure and a partnership firm structure",
+            explanation: "Since LLP contains elements of both ‘a corporate structure’ as well as ‘a partnership firm structure’ LLP is called a hybrid between a company and a partnership."
+        },
+        {
+            question: "According to Section 2(1)(d), which entity is included in the definition of a 'Body Corporate' under the LLP Act, 2008?",
+            options: ["A corporation sole", "A co-operative society registered under any law", "A company incorporated outside India", "A partnership firm setup under the Indian Partnership Act, 1932"],
+            answer: "A company incorporated outside India",
+            explanation: "The definition of Body Corporate includes a company incorporated outside India."
+        },
+        {
+            question: "Which entity is explicitly excluded from the definition of a 'Body Corporate' under the LLP Act, 2008?",
+            options: ["A limited liability partnership registered under this Act", "A company as defined in clause (20) of section 2 of the Companies Act, 2013", "A corporation sole", "A limited liability partnership incorporated outside India"],
+            answer: "A corporation sole",
+            explanation: "The definition of Body Corporate does not include a corporation sole."
+        },
+        {
+            question: "The term 'Business' under Section 2(1)(e) includes every trade, profession, service, and occupation, excluding only:",
+            options: ["Any activity related to primary agriculture", "Any activity which is philanthropic in nature", "Any activity related to investment by venture capital funds", "Any activity which the Central Government may, by notification, exclude"],
+            answer: "Any activity which the Central Government may, by notification, exclude",
+            explanation: "Business includes every trade, profession, service and occupation except any activity which the Central Government may, by notification, exclude."
+        },
+        {
+            question: "For the purposes of the LLP Act, a firm set up under the Indian Partnership Act, 1932, is included within the definition of 'Entity' for the application of which specific sections?",
+            options: ["Sections 1 to 10", "Sections 18, 46, 47, 48, 49, 50, 52 and 53", "Sections 75 to 81", "Sections 14 and 15"],
+            answer: "Sections 18, 46, 47, 48, 49, 50, 52 and 53",
+            explanation: "The definition of 'Entity' includes a firm set up under the Indian Partnership Act, 1932, for the purposes of sections 18, 46, 47, 48, 49, 50, 52 and 53."
+        },
+        {
+            question: "In the case of an LLP incorporated after the 30th day of September of a year, when may its financial year end?",
+            options: ["On the 31st day of December of the following year", "On the 31st day of March of the year next following that year", "On the date of its incorporation anniversary", "The 18 months period following incorporation"],
+            answer: "On the 31st day of March of the year next following that year",
+            explanation: "In the case of a LLP incorporated after the 30th day of September of a year, the financial year may end on the 31st day of March of the year next following that year."
+        },
+        {
+            question: "What is the mandatory general period for the financial year of an LLP, aligning with Income Tax law?",
+            options: ["1st July to 30th June", "1st January to 31st December", "1st April to 31st March of next year", "Date of registration to 31st March"],
+            answer: "1st April to 31st March of next year",
+            explanation: "The financial year for LLP should always be from 1st April to 31st March each year."
+        },
+        {
+            question: "A 'Foreign LLP' must establish which necessary element within India?",
+            options: ["A registered Head Office", "A place of business", "A resident director", "An investment capital account"],
+            answer: "A place of business",
+            explanation: "Foreign LLP means a LLP formed, incorporated or registered outside India which establishes a place of business within India."
+        },
+        {
+            question: "A Limited Liability Partnership agreement (Section 2(1)(o)) is a written agreement determining mutual rights and duties between:",
+            options: ["Partners and the Registrar only", "The LLP and the Designated Partners only", "The LLP and the Central Government", "The partners inter se or between the LLP and its partners"],
+            answer: "The partners inter se or between the LLP and its partners",
+            explanation: "The Limited Liability Partnership agreement means any written agreement between the partners of the LLP or between the LLP and its partners which determines the mutual rights and duties of the partners and their rights and duties in relation to that LLP."
+        },
+        {
+            question: "To be eligible as a partner in an LLP, an individual must not have applied to be adjudicated as an insolvent if:",
+            options: ["He has completed 60 years of age", "His application is pending", "He is resident outside India", "He has a turnover below the prescribed limit"],
+            answer: "His application is pending",
+            explanation: "An individual shall not be capable of becoming a partner of a LLP if he has applied to be adjudicated as an insolvent and his application is pending."
+        },
+        {
+            question: "If an LLP is classified as a 'Small Limited Liability Partnership', its maximum contribution must not exceed (unless a higher limit is prescribed):",
+            options: ["Five lakh rupees", "Ten lakh rupees", "Twenty-five lakh rupees", "Fifty lakh rupees"],
+            answer: "Twenty-five lakh rupees",
+            explanation: "Small Limited Liability Partnership means an LLP the contribution of which does not exceed twenty-five lakh rupees or such higher amount, not exceeding five crore rupees, as may be prescribed."
+        },
+        {
+            question: "If an LLP carries on business with only one partner for more than six months, that partner, having knowledge of the fact, shall be personally liable for obligations incurred:",
+            options: ["Only after the expiry of six months", "Only during the first six months", "During that period (after six months)", "Throughout the entire existence of the LLP"],
+            answer: "During that period (after six months)",
+            explanation: "The person, who is the only partner of the LLP during the time that it so carries on business after those six months... shall be liable personally for the obligations of the LLP incurred during that period."
+        },
+        {
+            question: "What is the mandatory minimum requirement for Designated Partners in every LLP?",
+            options: ["At least one individual DP", "At least two DPs who are individuals, with at least one resident in India", "At least three DPs, regardless of residency", "At least two DPs who must both be resident in India"],
+            answer: "At least two DPs who are individuals, with at least one resident in India",
+            explanation: "Every LLP shall have at least two designated partners who are individuals and at least one of them shall be a resident in India."
+        },
+        {
+            question: "For the purpose of Section 7 (Designated Partners), a person qualifies as 'Resident in India' if they have stayed in India for a period of not less than how many days during the financial year?",
+            options: ["182 days", "180 days", "120 days", "90 days"],
+            answer: "120 days",
+            explanation: "The term resident in India means a person who has stayed in India for a period of not less than 120 days during the financial year."
+        },
+        {
+            question: "If all the partners in an LLP are bodies corporate, who must act as the designated partners?",
+            options: ["At least two partners who are representatives of the largest corporate partner", "At least two individuals who are nominees of such bodies corporate", "The Managing Director of the oldest corporate partner", "The compliance officer of the Central Government"],
+            answer: "At least two individuals who are nominees of such bodies corporate",
+            explanation: "If in LLP, all the partners are bodies corporate..., at least two individuals who are nominees of such bodies corporate shall act as designated partners."
+        },
+        {
+            question: "The characteristic of 'Perpetual Succession' in an LLP ensures that:",
+            options: ["The LLP can only be dissolved by the Central Government", "Changes in partners affect only the internal structure, not existence", "The partners are shielded from joint liability", "The LLP is immune from all legal proceedings"],
+            answer: "Changes in partners affect only the internal structure, not existence",
+            explanation: "The LLP can continue its existence irrespective of changes in partners. Death, insanity, retirement or insolvency of partners has no impact on the existence of LLP."
+        },
+        {
+            question: "In the concept of 'Mutual Agency' specific to an LLP:",
+            options: ["All partners are agents of each other", "One partner can bind all other partners by their acts", "All partners will be the agents of the LLP alone", "The Designated Partners are agents of the Central Government"],
+            answer: "All partners will be the agents of the LLP alone",
+            explanation: "All partners will be the agents of the LLP alone. No one partner can bind the other partner by his acts."
+        },
+        {
+            question: "Which of the following activities can an Artificial Legal Person like an LLP *not* perform?",
+            options: ["Holding property in its own name", "Entering into contracts", "Being dissolved by law", "Practicing a learned profession like CA or Medicine"],
+            answer: "Practicing a learned profession like CA or Medicine",
+            explanation: "A LLP can do everything which any natural person can do, except of course that, it cannot be sent to jail, cannot take an oath, cannot marry or get divorce nor can it practice a learned profession like CA or Medicine."
+        },
+        {
+            question: "If an LLP decides to have a common seal [Section 14(c)], under whose custody shall it remain?",
+            options: ["The Registrar of Companies", "The Senior-most partner", "Some responsible official", "The legal advisor"],
+            answer: "Some responsible official",
+            explanation: "It shall remain under the custody of some responsible official and it shall be affixed in the presence of at least 2 designated partners of the LLP."
+        },
+        {
+            question: "The contribution agreed upon by a partner in an LLP, which limits their liability, may be of what nature?",
+            options: ["Only tangible assets", "Only cash", "Tangible or intangible nature or both", "Intangible only (like goodwill)"],
+            answer: "Tangible or intangible nature or both",
+            explanation: "Such contribution may be of tangible or intangible nature or both."
+        },
+        {
+            question: "Who is entitled to manage the business of the LLP?",
+            options: ["The Central Government", "The Registrar", "The partners in the LLP", "Only the Resident Designated Partners"],
+            answer: "The partners in the LLP",
+            explanation: "The partners in the LLP are entitled to manage the business of LLP. But only the designated partners are responsible for legal compliances."
+        },
+        {
+            question: "What is the maximum limit on the number of partners in an LLP?",
+            options: ["50 partners", "100 partners", "200 partners", "There is no maximum limit"],
+            answer: "There is no maximum limit",
+            explanation: "There is no maximum limit on the partners in LLP."
+        },
+        {
+            question: "What is the primary motive required for the essential element of 'Business for Profit Only' when forming an LLP?",
+            options: ["To engage in social entrepreneurship", "To minimize tax liability", "Carrying on a lawful business with a view to earn profit", "To provide pro-bono professional services"],
+            answer: "Carrying on a lawful business with a view to earn profit",
+            explanation: "The essential requirement for forming LLP is carrying on a lawful business with a view to earn profit."
+        },
+        {
+            question: "Which authority holds the power to investigate the affairs of an LLP?",
+            options: ["The Registrar of Companies", "The Ministry of Law and Justice", "The Central Government", "The Income Tax Department"],
+            answer: "The Central Government",
+            explanation: "The Central Government shall have powers to investigate the affairs of an LLP by appointment of competence authority for the purpose."
+        },
+        {
+            question: "Conversion into LLP is permitted for which of the following entities?",
+            options: ["A listed public company", "A firm", "A corporation sole", "A co-operative society"],
+            answer: "A firm",
+            explanation: "A firm, private company or an unlisted public company would be allowed to be converted into LLP."
+        },
+        {
+            question: "Every document required to be filed under the LLP Act must be filed in computer readable electronic form on the website www.mca.gov.in and authenticated by:",
+            options: ["The LLP’s auditor", "The LLP’s Chartered Accountant", "A partner or designated partner of LLP by the use of electronic or digital signature", "The Registrar"],
+            answer: "A partner or designated partner of LLP by the use of electronic or digital signature",
+            explanation: "Every form or application of document required to be filed... shall be filed in computer readable electronic form on its website www.mca.gov.in and authenticated by a partner or designated partner of LLP by the use of electronic or digital signature."
+        },
+        {
+            question: "A Foreign LLP is defined by Section 2(1)(m) as an LLP formed outside India which has done what within India?",
+            options: ["Obtained a PAN card", "Established a registered office", "Established a place of business", "Appointed an Indian resident agent"],
+            answer: "Established a place of business",
+            explanation: "Foreign limited liability partnership is defined as a limited liability partnership formed, incorporated, or registered outside India which established as place of business within India."
+        },
+        {
+            question: "Which document is noted as the most important document needed for the registration of an LLP?",
+            options: ["Memorandum of Association", "LLP Agreement", "Incorporation Document", "Statement of Accounts and Solvency"],
+            answer: "Incorporation Document",
+            explanation: "The most important document needed for registration is the incorporation document."
+        },
+        {
+            question: "The incorporation document must be filed with the Registrar of the State in which:",
+            options: ["The LLP intends to conduct its main business", "The designated partners reside", "The registered office of the LLP is to be situated", "The subscribers reside"],
+            answer: "The registered office of the LLP is to be situated",
+            explanation: "The incorporation document shall be filed... with the Registrar of the State in which the registered office of the LLP is to be situated."
+        },
+        {
+            question: "Which professional is *not* listed as authorized to make the compliance statement to be filed along with the incorporation document?",
+            options: ["An Advocate", "A Chartered Accountant", "A Company Secretary", "A Registered Valuer"],
+            answer: "A Registered Valuer",
+            explanation: "The statement must be made by either an advocate, or a Company Secretary or a Chartered Accountant or a Cost Accountant (CWA)."
+        },
+        {
+            question: "The incorporation document must mandatorily state:",
+            options: ["The capital structure and valuation of contribution", "The name and address of the persons who are to be designated partners on incorporation", "The detailed minutes of the first partnership meeting", "The registered trade marks intended to be used"],
+            answer: "The name and address of the persons who are to be designated partners on incorporation",
+            explanation: "The incorporation document shall state the name and address of the persons who are to be designated partners of the LLP on incorporation."
+        },
+        {
+            question: "If a person makes a statement in the incorporation documentation that he knows to be false, the minimum fine is:",
+            options: ["₹ 1,000", "₹ 5,000", "₹ 10,000", "₹ 50,000"],
+            answer: "₹ 10,000",
+            explanation: "The fine shall not be less than ₹ 10,000."
+        },
+        {
+            question: "If a person makes a false statement in the incorporation documentation, the imprisonment term may extend to:",
+            options: ["1 year", "2 years", "3 years", "5 years"],
+            answer: "2 years",
+            explanation: "Imprisonment for a term which may extend to 2 years."
+        },
+        {
+            question: "Within how many days shall the Registrar register the incorporation document and issue the certificate of incorporation after the requirements of Section 11(1)(b) and (c) have been complied with?",
+            options: ["7 days", "14 days", "30 days", "60 days"],
+            answer: "14 days",
+            explanation: "The Registrar shall, within a period of 14 days, register the incorporation document and give a certificate that the LLP is incorporated."
+        },
+        {
+            question: "The certificate issued by the Registrar under Section 12 shall be signed by the Registrar and authenticated by:",
+            options: ["His personal signature", "The official stamp of the Ministry of Corporate Affairs", "His official seal", "A digital signature of the Central Government"],
+            answer: "His official seal",
+            explanation: "The certificate issued under clause (b) of sub-section (1) shall be signed by the Registrar and authenticated by his official seal."
+        },
+        {
+            question: "What is the specific legal implication of the Certificate of Incorporation issued by the Registrar?",
+            options: ["It grants unlimited liability to the partners", "It is preliminary evidence of registration", "It is conclusive evidence that the LLP is incorporated by the name specified therein", "It confirms the LLP’s financial standing"],
+            answer: "It is conclusive evidence that the LLP is incorporated by the name specified therein",
+            explanation: "The certificate shall be conclusive evidence that the LLP is incorporated by the name specified therein."
+        },
+        {
+            question: "Under Section 14, which specific right does an LLP acquire upon registration by its name?",
+            options: ["Acquiring, owning, holding and developing or disposing of property", "Binding other partners by the acts of any partner", "Exemption from all subsequent legal compliances", "Automatic reservation of its name worldwide"],
+            answer: "Acquiring, owning, holding and developing or disposing of property",
+            explanation: "On registration an LLP shall, by its name, be capable of acquiring, owning, holding and developing or disposing of property, whether movable or immovable, tangible or intangible."
+        },
+        {
+            question: "If an LLP contravenes the provisions relating to the registered office (Section 13), the maximum penalty for the LLP is:",
+            options: ["₹ 10,000", "₹ 25,000", "₹ 50,000", "₹ 1,00,000"],
+            answer: "₹ 50,000",
+            explanation: "The LLP and its every partner shall be liable to a penalty of ₹ 500 for each day during which the default continues, subject to a maximum of ₹ 50,000 for the LLP and its every partner."
+        },
+        {
+            question: "A person applying to the Registrar for reservation of a name for a proposed LLP may reserve the name for a maximum period of:",
+            options: ["60 days", "3 months", "6 months", "1 year"],
+            answer: "3 months",
+            explanation: "The Registrar may, if he is satisfied... reserve the name for a period of 3 months from the date of intimation by the Registrar."
+        },
+        {
+            question: "An LLP shall not be registered by a name which, in the opinion of the Central Government, is identical or too nearly resembles the name of:",
+            options: ["An unregistered trade mark", "Any other LLP or a company or a registered trade mark of any other person", "A charitable trust or society", "A foreign holding company"],
+            answer: "Any other LLP or a company or a registered trade mark of any other person",
+            explanation: "No LLP shall be registered by a name which... is identical or too nearly resembles to that of any other LLP or a company or a registered trade mark of any other person under the Trade Marks Act, 1999."
+        },
+        {
+            question: "If the Central Government directs an LLP to change its name because it resembles a registered trade mark, the proprietor's application for such direction must be maintainable within what period from the date of incorporation or registration of the LLP?",
+            options: ["1 year", "2 years", "3 years", "5 years"],
+            answer: "3 years",
+            explanation: "An application of the proprietor of the registered trade marks shall be maintainable within a period of 3 years from the date of incorporation or registration or change of name of the LLP."
+        },
+        {
+            question: "Following a Central Government direction to change its name, within what period must the LLP give notice of the change to the Registrar?",
+            options: ["7 days", "15 days", "30 days", "3 months"],
+            answer: "15 days",
+            explanation: "The LLP shall within a period of 15 days from the date of such change, give notice of the change to Registrar along with the order of the Central Government."
+        },
+        {
+            question: "If an LLP changes its name following a Central Government direction and the Registrar carries out necessary changes in the certificate of incorporation, the LLP must change its name in the LLP agreement within:",
+            options: ["15 days of the CG order", "30 days of the change in the certificate of incorporation", "3 months of the CG order", "90 days of the initial direction"],
+            answer: "30 days of the change in the certificate of incorporation",
+            explanation: "Within 30 days of such change in the certificate of incorporation, such LLP shall change its name in the LLP agreement."
+        },
+        {
+            question: "In the case of a traditional Partnership Firm, what is the mandatory requirement regarding its registration?",
+            options: ["Registration is mandatory under all circumstances", "Registration is voluntary", "Registration is mandatory if the firm has more than 20 partners", "Registration is mandatory only if capital exceeds ₹ 10 lakhs"],
+            answer: "Registration is voluntary",
+            explanation: "Registration is voluntary. Only the registered partnership firm can sue the third parties."
+        },
+        {
+            question: "In a traditional Partnership Firm, the liability of each partner is:",
+            options: ["Limited to their agreed contribution", "Limited to the amount unpaid on shares", "Unlimited, extending up to the personal assets of the partners", "Limited to the assets of the firm only"],
+            answer: "Unlimited, extending up to the personal assets of the partners",
+            explanation: "Liability of each partner is unlimited. It can be extended up to the personal assets of the partners."
+        },
+        {
+            question: "Regarding legal compliance in a traditional Partnership Firm, who is responsible for all the compliances and penalties under the Indian Partnership Act, 1932?",
+            options: ["Only the managing partner", "All partners are responsible", "There are no statutory penalties under the 1932 Act", "The firm itself (if registered)"],
+            answer: "All partners are responsible",
+            explanation: "All partners are responsible for all the compliances and penalties under the Act."
+        },
+        {
+            question: "Which annual document is a Partnership firm *not* required to file with the registrar of firms?",
+            options: ["Annual return", "Statement of solvency", "Annual statement of accounts", "The Partnership firm is not required to file any annual document with the registrar of firms"],
+            answer: "The Partnership firm is not required to file any annual document with the registrar of firms",
+            explanation: "Partnership firm is not required to file any annual document with the registrar of firms."
+        },
+        {
+            question: "In an LLP, a minor:",
+            options: ["Can be admitted to the benefits of the LLP with prior consent of partners", "Cannot be admitted to the benefits of LLP", "Can be a partner if contribution is non-monetary", "Can be a Designated Partner"],
+            answer: "Cannot be admitted to the benefits of LLP",
+            explanation: "Minor cannot be admitted to the benefits of LLP."
+        },
+        {
+            question: "The internal governance structure of a Limited Liability Company is regulated by:",
+            options: ["A contract agreement between members", "The Companies Act, 2013 (Statute)", "The Memorandum and Articles of Association", "Government gazette notifications"],
+            answer: "The Companies Act, 2013 (Statute)",
+            explanation: "The internal governance structure of a company is regulated by statute (i.e., Companies Act, 2013)."
+        },
+        {
+            question: "What is the maximum number of members permitted in a Private Company under the Companies Act, 2013?",
+            options: ["20 members", "50 members", "100 members", "200 members"],
+            answer: "200 members",
+            explanation: "A Private company has a maximum limit of 200 members."
+        },
+        {
+            question: "What is the minimum number of members required to form a Public Company?",
+            options: ["Two members", "Five members", "Seven members", "No minimum limit"],
+            answer: "Seven members",
+            explanation: "A Public company requires a minimum of 7 members."
+        },
+        {
+            question: "In a Limited Liability Company, the affairs are managed by:",
+            options: ["The shareholders", "The designated partners", "The Registrar of Companies", "The board of directors elected by the shareholders"],
+            answer: "The board of directors elected by the shareholders",
+            explanation: "The affairs of the company are managed by board of directors elected by the shareholders."
+        },
+        {
+            question: "What is the minimum number of directors required for a Public Company (Public Co.)?",
+            options: ["Two directors", "Three directors", "Five directors", "Seven directors"],
+            answer: "Three directors",
+            explanation: "Public Co. requires a minimum of 3 directors."
+        },
+        {
+            question: "LLP framework is particularly suitable for professionals such as Chartered Accountants and Company Secretaries because:",
+            options: ["They are not allowed to use corporation form of entity to limit their liability", "They require unlimited liability exposure", "Their services do not require multidisciplinary combinations", "They are exempt from the LLP Act, 2008"],
+            answer: "They are not allowed to use corporation form of entity to limit their liability",
+            explanation: "LLP is a special type of partnership that can be used as business organizations owned by certain type of professionals... who are not allowed to use corporation form of entity to limit their liability."
+        },
+        {
+            question: "The flexibility in the structure and operation of an LLP makes it a suitable vehicle for small enterprises and for investment by:",
+            options: ["Mutual funds", "Venture capital", "Public deposits", "Commercial banks"],
+            answer: "Venture capital",
+            explanation: "Owing to flexibility in its structure and operation, the LLP is a suitable vehicle for small enterprises and for investment by venture capital."
+        },
+        {
+            question: "Which term is used to refer to the persons who contribute to an LLP?",
+            options: ["Members", "Shareholders", "Partners", "Directors"],
+            answer: "Partners",
+            explanation: "The persons who contribute to LLP are known as partners of the LLP."
+        },
+        {
+            question: "If an individual partner is found to be of unsound mind by a Court of competent jurisdiction, he shall not be capable of becoming a partner in a LLP if:",
+            options: ["He is resident in India", "He has invested more than ₹ 25 Lakhs", "The finding is in force", "The LLP has unlimited liability"],
+            answer: "The finding is in force",
+            explanation: "An individual shall not be capable of becoming a partner of a LLP, if he has been found to be of unsound mind by a Court of competent jurisdiction and the finding is in force."
+        },
+        {
+            question: "The LLP Act, 2008, was amended by:",
+            options: ["The Limited Liability Partnership (Amendment) Act, 2015", "The Limited Liability Partnership (Amendment) Act, 2021", "The Companies (Amendment) Act, 2013", "The LLP Rules, 2009"],
+            answer: "The Limited Liability Partnership (Amendment) Act, 2021",
+            explanation: "The Limited Liability Act, 2008 has been amended through the Limited Liability Partnership (Amendment) Act, 2021 dated 13th August, 2021."
+        },
+        {
+            question: "The lawmakers enacted the LLP Act, 2008, to provide an alternative corporate form that would offer an alternative to the traditional partnership with:",
+            options: ["Unlimited personal liability", "Limited governance structure", "Statute-based internal agreement", "Fixed capital structure"],
+            answer: "Unlimited personal liability",
+            explanation: "A need has been felt for a new corporate form that would provide an alternative to the traditional partnership with unlimited personal liability on the one hand."
+        },
+        {
+            question: "The core conceptual benefit of an LLP, contrasting with a company, is that it allows partners the flexibility of organizing their internal structure:",
+            options: ["Based on mandatory statutory provisions", "As a traditional partnership", "Only through the Board of Directors", "Based on equity shareholding rules"],
+            answer: "As a traditional partnership",
+            explanation: "LLP allows its partners the flexibility of organising their internal structure as a traditional partnership."
+        },
+        {
+            question: "The maximum contribution limit for a Small Limited Liability Partnership can be prescribed up to:",
+            options: ["₹ 1 crore", "₹ 5 crore", "₹ 25 crore", "₹ 50 crore"],
+            answer: "₹ 5 crore",
+            explanation: "Contribution... does not exceed twenty-five lakh rupees or such higher amount, not exceeding five crore rupees, as may be prescribed."
+        },
+        {
+            question: "The maximum turnover limit for a Small Limited Liability Partnership can be prescribed up to:",
+            options: ["₹ 1 crore", "₹ 5 crore", "₹ 10 crore", "₹ 50 crore"],
+            answer: "₹ 50 crore",
+            explanation: "Turnover... does not exceed forty lakh rupees or such higher amount, not exceeding fifty crore rupees, as may be prescribed."
+        },
+        {
+            question: "What must be included in the statement accompanying the incorporation document, signed by the professional and subscriber?",
+            options: ["A business plan for the next five years", "That all the requirements of this Act and the rules made thereunder have been complied with", "A declaration of solvency for the subsequent year", "Confirmation of DPIN allotment for all prospective partners"],
+            answer: "That all the requirements of this Act and the rules made thereunder have been complied with",
+            explanation: "There shall be filed along with the incorporation document, a statement... that all the requirements of this Act and the rules made thereunder have been complied with."
+        },
+        {
+            question: "If the Central Government allots a new name to a defaulting LLP (Section 17(3)), what must the Registrar do?",
+            options: ["Dissolve the LLP", "Issue a public notice of the default", "Enter the new name in the register and issue a fresh certificate of incorporation with the new name", "Appoint an investigation authority"],
+            answer: "Enter the new name in the register and issue a fresh certificate of incorporation with the new name",
+            explanation: "The Registrar shall enter the new name in the register of LLP in place of the old name and issue a fresh certificate of incorporation with new name, which the LLP shall use thereafter."
+        },
+        {
+            question: "Which professional group is specifically mentioned as being unable to form an LLP under the 'Artificial Legal Person' concept?",
+            options: ["Engineers", "Accounting Professionals", "Doctors", "Legal Advisors"],
+            answer: "Doctors",
+            explanation: "It cannot practice a learned profession like CA or Medicine."
+        },
+        {
+            question: "A document may be served on an LLP by sending it by post under a certificate of posting or by registered post, addressed to:",
+            options: ["The Designated Partner’s residence", "The registered office and any other address specifically declared by the LLP for the purpose", "The Central Government", "The local police station"],
+            answer: "The registered office and any other address specifically declared by the LLP for the purpose",
+            explanation: "A document may be served on a LLP... at the registered office and any other address specifically declared by the LLP for the purpose."
+        },
+        {
+            question: "The minimum penalty for the LLP (and every partner) for contravention of registered office provisions (Section 13) is imposed:",
+            options: ["Annually", "Bi-annually", "For each day during which the default continues", "Only if the default exceeds six months"],
+            answer: "For each day during which the default continues",
+            explanation: "The LLP and its every partner shall be liable to a penalty of ₹ 500 for each day during which the default continues."
+        },
+        {
+            question: "If an LLP changes its name, the change takes effect:",
+            options: ["Immediately upon the Central Government's direction", "Immediately upon passing a resolution by the partners", "Only upon filing the notice of such change with the Registrar", "30 days after the change in the LLP agreement"],
+            answer: "Only upon filing the notice of such change with the Registrar",
+            explanation: "Any such change shall take effect only upon such filing."
+        },
+        {
+            question: "The liability of a partner in an LLP is limited to their agreed contribution, except when?",
+            options: ["The LLP faces insolvency", "The LLP carries on illegal business", "In case of willful fraud", "The partner leaves the firm"],
+            answer: "In case of willful fraud",
+            explanation: "Liability of each partner is limited to the extent to agreed contribution except in case of willful fraud."
+        },
+        {
+            question: "Which governmental body has the authority to frame the Rules with regard to the LLP Act, 2008, and amend them by notifications?",
+            options: ["The Registrar of Companies", "The Ministry of Corporate Affairs", "The Central Government", "The Parliament of India"],
+            answer: "The Central Government",
+            explanation: "The Central Government has the authority to frame the Rules with regard to the LLP Act, 2008, and can amend them by notifications in the Official Gazette, from time to time."
+        },
+        {
+            question: "The LLP itself is liable for the full extent of its assets due to which characteristic?",
+            options: ["Limited liability of partners", "Mutual Agency", "Separate legal entity", "Business for profit only"],
+            answer: "Separate legal entity",
+            explanation: "The LLP as a separate legal entity, is liable to the full extent of its assets."
+        },
+        {
+            question: "If the LLP agreement is silent on the mutual rights and duties of the partners, these rights and duties are governed by:",
+            options: ["The Indian Partnership Act, 1932", "The provisions of the LLP Act, 2008 (specifically the First Schedule)", "The consensus of the designated partners", "Customary commercial law"],
+            answer: "The provisions of the LLP Act, 2008 (specifically the First Schedule)",
+            explanation: "In the absence of any such agreement, the mutual rights and duties shall be governed by the provisions of the LLP Act, 2008."
+        },
+        {
+            question: "In the context of conversion into LLP, the Third Schedule specifically deals with the conversion of:",
+            options: ["Partnership firm", "Unlisted public company", "Private company", "Joint Hindu Family business"],
+            answer: "Private company",
+            explanation: "The Third Schedule deals with conversion of a private company into LLP."
+        },
+        {
+            question: "If the number of partners of an LLP is reduced below two, for how long can the LLP carry on business before the sole partner incurs personal liability for obligations incurred thereafter?",
+            options: ["One month", "Three months", "Six months", "One year"],
+            answer: "Six months",
+            explanation: "If at any time the number of partners of a LLP is reduced below two and the LLP carries on business for more than six months while the number is so reduced, the person... shall be liable personally."
+        },
+        {
+            question: "Which of the following is an advantage of the LLP form of business, as listed in the source?",
+            options: ["Unlimited personal liability for operational partners", "Rigid capital structure", "Easy to dissolve", "High compliance cost"],
+            answer: "Easy to dissolve",
+            explanation: "Advantages of LLP form include: Easy to form, All partners enjoy limited liability, Flexible capital structure, Easy to dissolve."
+        },
+        {
+            question: "A Limited Liability Partnership is capable of being an owner of which type of property?",
+            options: ["Only tangible, immovable property", "Only movable property", "Movable or immovable, tangible or intangible property", "Only intellectual property"],
+            answer: "Movable or immovable, tangible or intangible property",
+            explanation: "On registration an LLP shall... be capable of acquiring, owning, holding and developing or disposing of property, whether movable or immovable, tangible or intangible."
+        },
+        {
+            question: "Who must hold a Designated Partner Identification Number (DPIN) allotted by the Ministry of Corporate Affairs?",
+            options: ["Every partner of the LLP", "A person or nominee of body corporate intending to be appointed as designated partner of LLP", "The Registrar of Companies", "All individuals subscribing to the incorporation document"],
+            answer: "A person or nominee of body corporate intending to be appointed as designated partner of LLP",
+            explanation: "A person or nominee of body corporate intending to be appointed as designated partner of LLP should hold a Designated Partner Identification Number (DPIN) allotted by Ministry of Corporate Affairs."
+        },
+        {
+            question: "In the context of the LLP Act, 2008, what does 'Compromise or Arrangement' primarily include?",
+            options: ["Internal partner dispute resolution", "Merger and amalgamation of LLPs", "Settlement of tax liabilities", "Negotiations with creditors for debt reduction"],
+            answer: "Merger and amalgamation of LLPs",
+            explanation: "Any compromise or agreements including merger and amalgamation of LLPs shall be in accordance with the provisions of the LLP Act, 2008."
+        },
+        {
+            question: "If the registered name of an LLP is registered by a name which is identical or too nearly resembles that of any other LLP or a company, the Central Government may direct the change of name, acting on an application from:",
+            options: ["The Central Government's own motion only", "The concerned LLP or proprietor or a company", "Any two partners of the LLP", "The Registrar of Companies only"],
+            answer: "The concerned LLP or proprietor or a company",
+            explanation: "Then on an application of such LLP or proprietor referred to in clauses (a) and (b) respectively or a company, the Central Government may direct that such LLP to change its name."
+        },
+        {
+            question: "Which statement best describes the legal liability of the creditors of an LLP?",
+            options: ["Creditors of LLP shall be the creditors of the partners jointly", "Creditors of LLP shall be the creditors of LLP alone", "Creditors of LLP shall be the creditors of the Designated Partners", "Creditors of LLP can recover debt from the personal assets of any partner"],
+            answer: "Creditors of LLP shall be the creditors of LLP alone",
+            explanation: "Creditors of LLP shall be the creditors of LLP alone."
+        },
+        {
+            question: "If Mr. X, a partner, commits an unauthorized act in the course of the LLP's business, the other partners are shielded from joint liability due to which feature?",
+            options: ["Limited Liability", "Perpetual Succession", "Mutual Agency (lack of partner-to-partner agency)", "Common Seal"],
+            answer: "Mutual Agency (lack of partner-to-partner agency)",
+            explanation: "No partner is liable on account of the independent or un-authorized actions of other partners, thus individual partners are shielded from joint liability."
+        },
+        {
+            question: "The LLP Act, 2008, was enacted to enable professional expertise and entrepreneurial initiative to combine, organize and operate in a manner that is:",
+            options: ["Highly regulated and rigid", "Flexible, innovative and efficient", "Subject to unlimited personal liability", "Identical to a traditional partnership firm"],
+            answer: "Flexible, innovative and efficient",
+            explanation: "In order to enable professional expertise and entrepreneurial initiative and combine, organize and operate in flexible, innovative and efficient manner, the LLP Act, 2008 was enacted."
+        },
+        {
+            question: "In the context of the 'Partners' definition (Section 2(1)(q)), a partner is any person who becomes a partner in the LLP in accordance with:",
+            options: ["The decision of the Registrar", "The statutory provisions of the Companies Act, 2013", "The LLP agreement", "The general consent of all subscribers"],
+            answer: "The LLP agreement",
+            explanation: "Partner, in relation to a LLP, means any person who becomes a partner in the LLP in accordance with the LLP agreement."
+        },
+        {
+            question: "Who, among the following, is responsible for filing the Annual statement of accounts, Statement of solvency, and Annual return with the Registrar of LLP every year?",
+            options: ["The LLP", "The Designated Partners only", "The Central Government", "All partners jointly"],
+            answer: "The LLP",
+            explanation: "LLP is required to file: (i) Annual statement of accounts (ii) Statement of solvency (iii) Annual return with the registration of LLP every year."
+        },
+        {
+            question: "The liability of a member in a Limited Liability Company is generally limited to:",
+            options: ["The full extent of the company’s assets", "The amount unpaid on the shares held by them", "The amount of the market value of the shares held", "Their agreed contribution in the LLP"],
+            answer: "The amount unpaid on the shares held by them",
+            explanation: "Liability of a member is limited to the amount unpaid on the shares held by them."
+        },
+        {
+            question: "If the Central Government determines an LLP name to be 'undesirable', what is the consequence?",
+            options: ["The name must be reserved for 3 months", "The name must contain 'Private Limited'", "No LLP shall be registered by that name", "The LLP must pay an additional fee"],
+            answer: "No LLP shall be registered by that name",
+            explanation: "No LLP shall be registered by a name which, in the opinion of the Central Government is undesirable."
+        },
+        {
+            question: "The LLP is capable of entering into contracts and holding property in its own name due to the characteristic of:",
+            options: ["Limited Liability", "Perpetual Succession", "E-filing of documents", "Investigation powers"],
+            answer: "Perpetual Succession",
+            explanation: "It is capable of entering into contracts and holding property in its own name."
+        },
+        {
+            question: "In a Limited Liability Partnership, who are the 'ultimate owners'?",
+            options: ["Designated Partners", "Shareholders", "Directors", "Partners"],
+            answer: "Partners",
+            explanation: "The major constituents of a LLP are its partners who are the ultimate owners. LLP has partners but no directors or shareholders."
+        },
+        {
+            question: "Which category of enterprises is explicitly mentioned as suitable for the LLP form?",
+            options: ["Large Multinational Corporations (MNCs)", "Producer Companies in Handloom, Handicrafts sector", "Government undertakings", "Financial institutions requiring rigid statutory governance"],
+            answer: "Producer Companies in Handloom, Handicrafts sector",
+            explanation: "LLP framework could be used for... Producer Companies in Handloom, Handicrafts sector."
+        },
+        {
+            question: "The characteristic 'Artificial Legal Person' means an LLP is invisible, intangible, and immortal, implying that it can only be dissolved by:",
+            options: ["Unanimous partner resolution", "Insolvency of the managing partner", "Law alone", "The Registrar’s voluntary strike-off"],
+            answer: "Law alone",
+            explanation: "A LLP is invisible, intangible, immortal (it can be dissolved by law alone) but not fictitious because it really exists."
+        },
+        {
+            question: "Which of the following conditions makes an individual incapable of becoming a partner in an LLP?",
+            options: ["He is an undischarged insolvent", "He is a non-resident of India", "He is already a partner in a traditional firm", "He is over 70 years of age"],
+            answer: "He is an undischarged insolvent",
+            explanation: "An individual shall not be capable of becoming a partner of a LLP, if he is an undischarged insolvent."
+        },
+        {
+            question: "The concept of LLP was brought in to provide a combination of limited liability and the flexibility of a partnership to entities engaged in:",
+            options: ["Services of any kind", "Heavy manufacturing and construction", "Retail trade only", "Agriculture and primary industry"],
+            answer: "Services of any kind",
+            explanation: "The LLP form enables entrepreneurs, professionals and enterprises providing services of any kind...."
+        },
+        {
+            question: "If a partner or designated partner authenticates a document by electronic or digital signature for e-filing, the document is considered to be filed in what format?",
+            options: ["Hard copy format", "Physical format", "Computer readable electronic form", "Notarized paper format"],
+            answer: "Computer readable electronic form",
+            explanation: "Every form or application of document required to be filed... shall be filed in computer readable electronic form."
+        },
+        {
+            question: "The LLP is considered a 'legal entity separate from that of its partners' according to which section of the LLP Act?",
+            options: ["Section 1", "Section 3", "Section 5", "Section 14"],
+            answer: "Section 3",
+            explanation: "Section 3 of LLP Act provides that a LLP is a body corporate formed and incorporated under this Act and is a legal entity separate from that of its partners."
+        },
+        {
+            question: "If an LLP has both individuals and bodies corporate as partners, the designated partners must be:",
+            options: ["Two individuals who are partners or nominees of such bodies corporate", "Only the individual partners", "The Registrar of Companies as nominee", "Only the nominees of the bodies corporate"],
+            answer: "Two individuals who are partners or nominees of such bodies corporate",
+            explanation: "If in LLP... one or more partners are individuals and bodies corporate, at least two individuals who are partners of such LLP or nominees of such bodies corporate shall act as designated partners."
+        },
+        {
+            question: "Which term is used for the persons who invest the money in the shares of a Limited Liability Company?",
+            options: ["Partners", "Subscribers", "Designated Partners", "Members"],
+            answer: "Members",
+            explanation: "The persons who invest the money in the shares are known as members of the company."
+        },
+        {
+            question: "The concept of LLP came into existence partly to facilitate multidisciplinary combinations required to provide a menu of solutions to:",
+            options: ["Local Indian vendors", "Government ministries", "International clients", "Individual consumers"],
+            answer: "International clients",
+            explanation: "Such services would require multidisciplinary combinations that would offer a menu of solutions to international clients."
+        },
+        {
+            question: "What happens if an LLP is in default in complying with the Central Government's direction to change its name?",
+            options: ["The Registrar dissolves the LLP", "The LLP must pay a penalty of ₹ 5 Lakhs", "The Central Government shall allot a new name to the LLP", "The LLP’s certificate of incorporation is temporarily suspended"],
+            answer: "The Central Government shall allot a new name to the LLP",
+            explanation: "If the LLP is in default in complying with any direction given under sub-section (1), the Central Government shall allot a new name to the LLP."
+        },
+        {
+            question: "In a traditional partnership, who can become a partner?",
+            options: ["Foreign nationals only", "Only individuals", "Foreign nationals cannot become a partner in a partnership firm", "Only bodies corporate"],
+            answer: "Foreign nationals cannot become a partner in a partnership firm",
+            explanation: "Foreign nationals cannot become a partner in a partnership firm."
+        },
+        {
+            question: "Why is the LLP form considered suited to enterprises in new knowledge and technology based fields?",
+            options: ["Because the corporate form is not suited there", "Because they primarily require unlimited liability", "Because they are exempt from all registration rules", "Because they operate exclusively outside India"],
+            answer: "Because the corporate form is not suited there",
+            explanation: "LLP framework is suited for Enterprises in new knowledge and technology based fields where the corporate form is not suited."
+        },
+        {
+            question: "A Foreign LLP is included in the definition of a 'Body Corporate' under Section 2(1)(d), provided it is registered:",
+            options: ["Within India", "Under the Companies Act, 2013", "Outside India", "By the Central Government"],
+            answer: "Outside India",
+            explanation: "Body Corporate includes a limited liability partnership incorporated outside India."
+        },
+        {
+            question: "The LLP Act, 2008, is applicable to:",
+            options: ["Only metropolitan cities of India", "The whole of India", "Only the States of India, excluding Union Territories", "Only to LLPs with resident partners"],
+            answer: "The whole of India",
+            explanation: "The LLP Act, 2008 is applicable to the whole of India."
+        },
+        {
+            question: "Who must subscribe their names to an incorporation document for an LLP to be incorporated?",
+            options: ["At least one designated partner", "Two or more persons associated for carrying on a lawful business with a view to profit", "The legal advisor and the chartered accountant", "The Registrar and the designated partner"],
+            answer: "Two or more persons associated for carrying on a lawful business with a view to profit",
+            explanation: "Two or more persons associated for carrying on a lawful business with a view to profit shall subscribe their names to an incorporation document."
+        },
+        {
+            question: "The LLP is described as a business organization which is an alternative corporate business vehicle providing the benefits of limited liability but with:",
+            options: ["High compliance cost", "Low compliance cost", "Mandatory common seal", "Rigid internal rules"],
+            answer: "Low compliance cost",
+            explanation: "It is an alternative corporate business vehicle that not only gives the benefits of limited liability at low compliance cost but allows its partners the flexibility of organising their internal structure as a traditional partnership."
+        },
+        {
+            question: "If an LLP is registered, the change in partners shall not affect:",
+            options: ["The LLP’s profitability", "The rights or liabilities of the LLP", "The agreed contribution of the remaining partners", "The term of the LLP agreement"],
+            answer: "The rights or liabilities of the LLP",
+            explanation: "Any change in the partners of a LLP shall not affect the existence, rights or liabilities of the LLP."
+        },
+        {
+            question: "Creditors of a Limited Liability Partnership shall be the creditors of the LLP alone because of which characteristic?",
+            options: ["Limited Liability", "Mutual Agency", "Artificial Legal Person", "Business for Profit Only"],
+            answer: "Limited Liability",
+            explanation: "The LLP is liable to the full extent of its assets but liability of the partners is limited to their agreed contribution in the LLP. In other words, creditors of LLP shall be the creditors of LLP alone."
+        },
+        {
+            question: "Who is responsible for the custody of the Common Seal, if the LLP decides to have one?",
+            options: ["The Registrar of Companies", "The Central Government", "A designated partner", "Some responsible official"],
+            answer: "Some responsible official",
+            explanation: "It shall remain under the custody of some responsible official."
+        },
+        {
+            question: "The flexibility of a partnership structure allows the LLP form to be suited to the requirements of professionals and enterprises engaged in:",
+            options: ["Any scientific, technical or artistic discipline", "Only legal and accounting services", "Only management consultancy", "High-risk financial trading"],
+            answer: "Any scientific, technical or artistic discipline",
+            explanation: "The LLP form enables entrepreneurs, professionals and enterprises providing services of any kind or engaged in scientific and technical disciplines...."
+        },
+        {
+            question: "Who can be a partner in an LLP?",
+            options: ["Only Indian citizens", "Any individual or body corporate", "Only Resident Individuals", "Only professionals listed under the Act"],
+            answer: "Any individual or body corporate",
+            explanation: "Any individual or body corporate may be a partner in a LLP."
+        },
+        {
+            question: "If an individual is declared an undischarged insolvent, he is disqualified from becoming a partner in an LLP under which section?",
+            options: ["Section 4", "Section 5", "Section 6", "Section 7"],
+            answer: "Section 5",
+            explanation: "Section 5 lists the conditions under which an individual shall not be capable of becoming a partner, including being an undischarged insolvent."
+        },
+        {
+            question: "Which of the following is *not* a characteristic of an LLP?",
+            options: ["Perpetual Succession", "Unlimited liability of all partners", "Separate legal entity", "E-filing of documents"],
+            answer: "Unlimited liability of all partners",
+            explanation: "LLP is characterized by Limited liability, not unlimited liability."
+        },
+        {
+            question: "The Registrar may accept the statement delivered under Section 11(1)(c) as sufficient evidence that which requirement has been complied with?",
+            options: ["Requirement of minimum capital contribution", "Requirement of having a Common Seal", "Requirement of having two or more persons subscribing to the incorporation document [Section 11(1)(a)]", "Requirement of filing with the Central Government"],
+            answer: "Requirement of having two or more persons subscribing to the incorporation document [Section 11(1)(a)]",
+            explanation: "The Registrar may accept the statement delivered under clause (c) of sub-section (1) of section 11 as sufficient evidence that the requirement imposed by clause (a) of that sub-section has been complied with."
+        },
+        {
+            question: "If an LLP is incorporated on 15th October, 2019, its financial year may end on 31st March, 2021, based on the exception provided in which section?",
+            options: ["Section 2(1)(d)", "Section 2(1)(e)", "Section 2(1)(l)", "Section 2(1)(n)"],
+            answer: "Section 2(1)(l)",
+            explanation: "This exception relates to the definition of Financial Year under Section 2(1)(l)."
+        },
+        {
+            question: "A foreign national:",
+            options: ["Cannot become a partner in an Indian LLP", "Can become a partner in a LLP", "Can only be a Designated Partner", "Must be resident in India to be a partner in an LLP"],
+            answer: "Can become a partner in a LLP",
+            explanation: "Foreign nationals can become a partner in a LLP."
+        },
+        {
+            question: "What is the minimum number of directors required for a Private Company (Pvt. Co.)?",
+            options: ["One", "Two", "Three", "Five"],
+            answer: "Two",
+            explanation: "Pvt. Co. – 2 directors."
+        },
+        {
+            question: "In the context of the LLP Act, 2008, the term 'Resident in India' criteria (120 days) applies specifically to:",
+            options: ["All partners", "Individuals applying for partnership", "Designated partners who are individuals", "Foreign LLP representatives"],
+            answer: "Designated partners who are individuals",
+            explanation: "The criteria for 'Resident in India' is defined for the purpose of Designated partners (Section 7)."
+        },
+        {
+            question: "The LLP is characterized as a body corporate that has 'perpetual succession'. This means its existence continues forever, but it can be dissolved by:",
+            options: ["Insolvency of the LLP", "A majority decision of partners", "Operation of law alone", "Notice to the Registrar"],
+            answer: "Operation of law alone",
+            explanation: "A LLP is invisible, intangible, immortal (it can be dissolved by law alone)."
+        },
+        {
+            question: "The LLP Act, 2008, was the result of a need felt for a corporate form that would offer an alternative to the traditional partnership and the statute-based governance structure of:",
+            options: ["The limited liability company", "The sole proprietorship", "The Hindu Undivided Family", "The joint venture"],
+            answer: "The limited liability company",
+            explanation: "A need has been felt for a new corporate form that would provide an alternative to the traditional partnership... and the statute-based governance structure of the limited liability company."
+        },
+        {
+            question: "Which term is used as a suffix for the name of a public company?",
+            options: ["LLP", "Private limited", "Limited", "Incorporated"],
+            answer: "Limited",
+            explanation: "Name of the public company to contain the word 'limited' as suffix."
+        },
+        {
+            question: "Which governing document determines the internal governance structure of an LLP?",
+            options: ["The Companies Act, 2013", "The LLP Agreement", "The First Schedule of the LLP Act", "The Central Government Rules"],
+            answer: "The LLP Agreement",
+            explanation: "The internal governance structure of a LLP is governed by contract agreement between the partners."
+        },
+        {
+            question: "The LLP is considered a new form of legal business entity with:",
+            options: ["Unlimited personal liability", "Limited liability", "Joint and several liability", "Liability determined by the Central Government"],
+            answer: "Limited liability",
+            explanation: "A LLP is a new form of legal business entity with limited liability."
+        },
+        {
+            question: "The minimum penalty fine for making a false statement in the incorporation documentation (Section 29) is:",
+            options: ["₹ 5,000", "₹ 10,000", "₹ 25,000", "₹ 50,000"],
+            answer: "₹ 10,000",
+            explanation: "The fine shall not be less than ₹ 10,000."
+        },
+        {
+            question: "The professionals mentioned in the source (e.g., Engineering consultants, Legal Advisors) were afraid of entering into business due to:",
+            options: ["High taxation rates", "Unlimited liability", "Regulatory complexity", "Lack of investment capital"],
+            answer: "Unlimited liability",
+            explanation: "The professionals like Engineering consultants, Legal Advisors and Accounting Professional are afraid of entering into business due to unlimited liability."
+        },
+        {
+            question: "The phrase 'doing and suffering such other acts and things as bodies corporate may lawfully do and suffer' is an effect of registration under which section?",
+            options: ["Section 13", "Section 14", "Section 15", "Section 16"],
+            answer: "Section 14",
+            explanation: "This capacity is listed under the 'Effect of registration (Section 14)'."
+        },
+        {
+            question: "The liability of partners in a traditional partnership firm extends up to:",
+            options: ["Agreed capital contribution", "The maximum limit set by the Registrar", "The amount of unpaid shares", "The personal assets of the partners"],
+            answer: "The personal assets of the partners",
+            explanation: "Liability of each partner is unlimited. It can be extended upto the personal assets of the partners."
+        },
+        {
+            question: "The LLP form provides flexibility to partners to devise the LLP agreement as per their choice. This flexibility is based on:",
+            options: ["The Central Government’s approval", "The Indian Partnership Act, 1932", "The provisions of the LLP Act, 2008", "A mutual agreement"],
+            answer: "A mutual agreement",
+            explanation: "The LLP Act, 2008 provides flexibility to partner to devise the agreement as per their choice."
+        },
+        {
+            question: "Which of the following is *not* a required content element of the incorporation document?",
+            options: ["The name of the LLP", "The proposed business of the LLP", "The audited balance sheet of the preceding year", "The address of the registered office of the LLP"],
+            answer: "The audited balance sheet of the preceding year",
+            explanation: "The document must state name, proposed business, and address of the registered office."
+        },
+        {
+            question: "Who must authenticate the certificate of incorporation issued under Section 12(1)(b)?",
+            options: ["The Central Government", "The designated partners", "The Registrar", "The Company Secretary"],
+            answer: "The Registrar",
+            explanation: "The certificate issued under clause (b) of sub-section (1) shall be signed by the Registrar."
+        },
+        {
+            question: "If the Central Government allots a new name to a defaulting LLP, the LLP is prevented from subsequently changing its name in accordance with the provisions of Section 16.",
+            options: ["True, the allotted name is permanent.", "False, nothing prevents the LLP from subsequently changing its name in accordance with Section 16.", "True, only if the previous default involved willful fraud.", "False, it can change the name only with the Registrar's permission."],
+            answer: "False, nothing prevents the LLP from subsequently changing its name in accordance with Section 16.",
+            explanation: "Nothing contained in this sub-section shall prevent a LLP from subsequently changing its name in accordance with the provisions of section 16."
+        },
+        {
+            question: "A private company must contain which suffix in its name?",
+            options: ["Limited Liability Partnership", "Limited", "Private limited", "Public Limited"],
+            answer: "Private limited",
+            explanation: "Pvt. Co. to contain the word 'Private limited' as suffix."
+        },
+        {
+            question: "Under the LLP Act, 2008, the partners are entitled to manage the business, but only the designated partners are responsible for:",
+            options: ["Tax payments", "Legal compliances", "Capital contribution", "Appointment of auditors"],
+            answer: "Legal compliances",
+            explanation: "Only the designated partners are responsible for legal compliances."
+        },
+        {
+            question: "The LLP Act was primarily enacted to enable the combination of professional expertise and entrepreneurial initiative and risk capital to provide further momentum to the impressive economic growth, particularly in which sector?",
+            options: ["Manufacturing sector", "Agriculture sector", "Services sector", "Infrastructure sector"],
+            answer: "Services sector",
+            explanation: "Since India has witnessed considerable growth in services sector... It was necessary that entrepreneurship knowledge and risk capital combine to provide a further momentum to our impressive economic growth."
+        },
+        {
+            question: "The LLP Act, 2008, is deemed to have been enforced with effect from:",
+            options: ["9th January, 2007", "7th January, 2009", "31st March, 2009", "13th August, 2021"],
+            answer: "31st March, 2009",
+            explanation: "Ministry of Corporate Affairs enforced the LLP Act, with effect from- 31st March, 2009."
+        },
+        {
+            question: "If an LLP is incorporated on 15th October, 2019, its first financial year must end no later than 31st March:",
+            options: ["2020", "2021", "2022", "2023"],
+            answer: "2021",
+            explanation: "If a LLP has been incorporated on 15th October, 2019, then its financial year may be from 15th October, 2019 to 31st March, 2021."
+        },
+        {
+            question: "In a Limited Liability Partnership, who are considered the agents of the LLP for the purpose of the business?",
+            options: ["Every partner of a LLP", "Only the designated partners", "The Central Government", "The Registrar of Companies"],
+            answer: "Every partner of a LLP",
+            explanation: "Every partner of a LLP is, for the purpose of the business of LLP, the agent of the LLP, but not of other partners."
+        },
+        {
+            question: "If an individual is declared 'undischarged insolvent', they are legally prohibited from becoming a partner in a LLP. This falls under the criteria of:",
+            options: ["Minimum number of partners (Section 6)", "Designated partners (Section 7)", "Partners (Section 5)", "Non-applicability of the Indian Partnership Act (Section 4)"],
+            answer: "Partners (Section 5)",
+            explanation: "The disqualification for being an undischarged insolvent is listed under Section 5 (Partners)."
+        },
+        {
+            question: "The concept of 'Limited Liability Partnership' means a partnership formed and registered under:",
+            options: ["The Indian Partnership Act, 1932", "The Companies Act, 2013", "This Act (The LLP Act, 2008)", "The Trade Marks Act, 1999"],
+            answer: "This Act (The LLP Act, 2008)",
+            explanation: "Limited Liability Partnership means a partnership formed and registered under this Act."
+        },
+        {
+            question: "The primary administrative body entrusted with the task of administering the LLP Act, 2008, alongside the Registrar of Companies (ROC), is:",
+            options: ["The Ministry of Finance", "The Ministry of Law and Justice", "The Ministry of Corporate Affairs (MCA)", "The Securities and Exchange Board of India (SEBI)"],
+            answer: "The Ministry of Corporate Affairs (MCA)",
+            explanation: "The Ministry of Corporate Affairs and the Registrar of Companies (ROC) are entrusted with the task of administrating the LLP Act, 2008."
+        },
+        {
+            question: "The liability of a partner in an LLP is limited to:",
+            options: ["The maximum asset value of the LLP", "The minimum prescribed capital", "Their agreed contribution in the LLP", "The total amount of LLP debt"],
+            answer: "Their agreed contribution in the LLP",
+            explanation: "The liability of the partners will be limited to their agreed contribution in the LLP."
+        },
+        {
+            question: "For the purpose of LLP registration, the incorporation document must state:",
+            options: ["The name and address of the persons who are to be designated partners of the LLP on incorporation", "The date of the first annual general meeting", "A list of all intended commercial contracts", "The tax registration details of all partners"],
+            answer: "The name and address of the persons who are to be designated partners of the LLP on incorporation",
+            explanation: "The incorporation document shall state the name and address of the persons who are to be designated partners of the LLP on incorporation."
+        },
+        {
+            question: "A key advantage of the LLP form is that it is organized and operates on the basis of:",
+            options: ["A hierarchical management structure", "An agreement", "Strict statutory regulation only", "Quarterly mandatory compliance filings"],
+            answer: "An agreement",
+            explanation: "LLP form is a form of business model which: is organized and operates on the basis of an agreement."
+        },
+        {
+            question: "A Limited Liability Partnership is capable, by its name, of having a common seal:",
+            options: ["Only if the Central Government mandates it", "Only if it decides to have one", "Mandatorily, as it is a body corporate", "Only if it is a foreign LLP"],
+            answer: "Only if it decides to have one",
+            explanation: "On registration an LLP shall... be capable of having a common seal, if it decides to have one."
+        },
+        {
+            question: "Which term is used as a suffix for the name of a private company?",
+            options: ["Limited", "LLP", "Private limited", "OPC"],
+            answer: "Private limited",
+            explanation: "Pvt. Co. to contain the word 'Private limited' as suffix."
+        },
+        {
+            question: "If an LLP is registered by a name that too nearly resembles a registered trade mark, the proprietor of the trade mark can make an application to the Central Government for direction to change the LLP name under which section?",
+            options: ["Section 15", "Section 16", "Section 17", "Section 18"],
+            answer: "Section 17",
+            explanation: "Section 17 deals with the Change of name of LLP, including applications based on registered trade marks."
+        },
+        {
+            question: "Under the concept of conversion into LLP, which entity is covered by the Second Schedule?",
+            options: ["A private company", "A firm", "A foreign LLP", "A listed public company"],
+            answer: "A firm",
+            explanation: "The Second Schedule deals with conversion of a firm into LLP."
+        },
+        {
+            question: "Which of the following is an essential element required to incorporate an LLP?",
+            options: ["To have unlimited liability insurance", "To have registered office in India to which all communications will be made and received", "To appoint a minimum of five designated partners", "To complete incorporation document submission physically"],
+            answer: "To have registered office in India to which all communications will be made and received",
+            explanation: "Essential elements include: To have registered office in India to which all communications will be made and received."
+        },
+        {
+            question: "What is the primary difference regarding mutual agency between an LLP and a traditional Partnership firm?",
+            options: ["In LLP, all partners bind the LLP; in a Firm, partners bind the firm and other partners", "In LLP, partners bind other partners; in a Firm, partners bind only the firm", "Mutual agency does not exist in LLP", "Only Designated Partners have agency in LLP"],
+            answer: "In LLP, all partners bind the LLP; in a Firm, partners bind the firm and other partners",
+            explanation: "LLP: Each partner can bind the LLP but not the other partners. Partnership firm: Each partner can bind the firm as well as other partners."
+        },
+        {
+            question: "In the case of a traditional Partnership firm, the death, insanity, retirement or insolvency of the partner(s):",
+            options: ["Does not affect its existence", "Ensures its perpetual succession", "May affect its existence", "Only affects the partner's internal duties"],
+            answer: "May affect its existence",
+            explanation: "The death, insanity, retirement or insolvency of the partner(s) may affect its existence. It has no perpetual succession."
+        },
+        {
+            question: "If an LLP is to be considered a 'Small Limited Liability Partnership', its turnover for the immediately preceding financial year must not exceed (unless a higher limit is prescribed):",
+            options: ["₹ 10 lakh rupees", "₹ 25 lakh rupees", "₹ 40 lakh rupees", "₹ 50 lakh rupees"],
+            answer: "₹ 40 lakh rupees",
+            explanation: "The turnover... does not exceed forty lakh rupees or such higher amount... as may be prescribed."
+        },
+        {
+            question: "Who has the authority to specify by notification in the Official Gazette, which other body corporate (not being a company or LLP) shall not be included in the definition of 'Body Corporate'?",
+            options: ["The Registrar of Companies", "The Central Government", "The Parliament", "The Ministry of Law and Justice"],
+            answer: "The Central Government",
+            explanation: "Does not include... any other body corporate... which the Central Government may, by notification in the Official Gazette, specify in this behalf."
+        },
+        {
+            question: "An LLP allows its members the flexibility of organizing their internal structure based on a mutually arrived agreement, providing the benefits of limited liability. This best describes the LLP as:",
+            options: ["A traditional partnership", "A statute-governed corporation", "An alternative corporate business vehicle", "A charitable institution"],
+            answer: "An alternative corporate business vehicle",
+            explanation: "LLP as a form of business organization is an alternative corporate business vehicle."
+        },
+        {
+            question: "The Registrar uses which statement as sufficient evidence that the requirement of subscription of names has been complied with?",
+            options: ["The statement delivered under clause (c) of sub-section (1) of section 11", "The LLP Agreement", "The list of assets contributed", "The bank solvency certificate"],
+            answer: "The statement delivered under clause (c) of sub-section (1) of section 11",
+            explanation: "The Registrar may accept the statement delivered under clause (c) of sub-section (1) of section 11 as sufficient evidence that the requirement imposed by clause (a) of that sub-section has been complied with."
+        },
+        {
+            question: "The name of the LLP must contain 'limited liability partnership' or 'LLP' as the last words, as mandated by which section?",
+            options: ["Section 13", "Section 14", "Section 15", "Section 16"],
+            answer: "Section 15",
+            explanation: "Section 15 (1) states: Every limited liability partnership shall have either the words 'limited liability partnership' or the acronym 'LLP' as the last words of its name."
+        },
+        {
+            question: "Who must file the notice of change of the registered office address with the Registrar?",
+            options: ["The LLP only", "The Designated Partners only", "The LLP and its every partner", "The Registrar itself"],
+            answer: "The LLP only",
+            explanation: "A LLP may change the place of its registered office and file the notice of such change with the Registrar."
+        },
+        {
+            question: "If an individual is 'found to be of unsound mind' by a Court of competent jurisdiction, they are disqualified from being a partner in an LLP, provided:",
+            options: ["The Court order is still in force", "The individual has been institutionalized", "The individual is over 18 years of age", "The LLP has more than 5 partners"],
+            answer: "The Court order is still in force",
+            explanation: "An individual shall not be capable of becoming a partner of a LLP, if... the finding is in force."
+        },
+        {
+            question: "In a Limited Liability Partnership, who has limited liability?",
+            options: ["Only the LLP's assets", "Only the Designated Partners", "All partners", "The Central Government"],
+            answer: "All partners",
+            explanation: "All partners enjoy limited liability."
+        },
+        {
+            question: "The flexibility derived from the LLP structure makes it suitable for which type of entity besides small enterprises?",
+            options: ["Government corporations", "Investment by venture capital", "Non-profit organizations", "Foreign trade barriers"],
+            answer: "Investment by venture capital",
+            explanation: "Owing to flexibility in its structure and operation, the LLP is a suitable vehicle for small enterprises and for investment by venture capital."
+        },
+        {
+            question: "The Central Government may direct a registered LLP to change its name if it resembles a registered trade mark, only if the resemblance is:",
+            options: ["Slightly similar", "Likely to be mistaken for it", "Merely coincidental", "Already approved by the Registrar"],
+            answer: "Likely to be mistaken for it",
+            explanation: "If... its registered name, is registered by a name which is... likely to be mistaken for it."
+        },
+        {
+            question: "The required compliance statement for incorporation must confirm compliance with the requirements of the Act and the rules made thereunder in respect of incorporation and matters:",
+            options: ["Subsequent thereto only", "Precedent and incidental thereto", "Related to capital structure", "Related to foreign investment"],
+            answer: "Precedent and incidental thereto",
+            explanation: "In respect of incorporation and matters precedent and incidental thereto."
         }
-    ]
+    ],
+
+    'The Companies Act, 2013': [
+        {
+            question: "Which of the following bodies corporate, incorporated outside India, qualifies as a 'Foreign Company' under Section 2(42) of the Companies Act, 2013?",
+            options: ["A company that only conducts business activity in India through electronic mode without a physical office.", "A body corporate incorporated outside India that has a place of business in India through an agent.", "A company incorporated in India having a liaison office abroad.", "Only companies incorporated outside India that physically establish a registered office in India."],
+            answer: "A body corporate incorporated outside India that has a place of business in India through an agent.",
+            explanation: "A Foreign Company means any company or body corporate incorporated outside India which has a place of business in India whether by itself or through an agent, physically or through electronic mode; and conducts any business activity in India in any other manner. A company incorporated in India (like Mike Limited in the example) having an office abroad is not a foreign company."
+        },
+        {
+            question: "The Companies Act, 2013 was enacted primarily to:",
+            options: ["Simplify the process of judicial interpretation and expand the scope of government control.", "Consolidate and amend the law relating to companies, preceding the Companies Act, 1956.", "Replace the Companies Act, 1956 due to changes in national and international economic environment and improve corporate governance.", "Standardize all regulations governing Banking and Insurance companies."],
+            answer: "Replace the Companies Act, 1956 due to changes in national and international economic environment and improve corporate governance.",
+            explanation: "The Companies Act, 2013 was enacted to consolidate and amend the law relating to the companies. It was preceded by the 1956 Act. The Central Government decided to replace the 1956 Act due to changes in the national and international economic environment and to facilitate expansion and growth. The 2013 Act aims to improve corporate governance, simplify regulations, and strengthen minority investor interests."
+        },
+        {
+            question: "In the context of the applicability of the Companies Act, 2013, which statement is true regarding Banking Companies?",
+            options: ["The Act applies universally to all Banking Companies without exception.", "The Act applies, except where its provisions are inconsistent with the IRDA Act, 1999.", "The Act applies, except where its provisions are inconsistent with the Banking Regulation Act, 1949.", "Banking Companies are entirely excluded from the applicability of the Companies Act, 2013."],
+            answer: "The Act applies, except where its provisions are inconsistent with the Banking Regulation Act, 1949.",
+            explanation: "The provisions of the Act shall apply to Banking companies except where the provisions of the said Act are inconsistent with the provisions of the Banking Regulation Act, 1949."
+        },
+        {
+            question: "According to Professor Haney, a company is defined as:",
+            options: ["An artificial being, invisible, intangible, existing only in contemplation of law.", "An incorporated association, which is an artificial person created by law, having a separate entity, with a perpetual succession and a common seal.", "A company incorporated under this Act or under any previous company law.", "An association formed for promoting charitable objects and prohibiting the payment of any dividend."],
+            answer: "An incorporated association, which is an artificial person created by law, having a separate entity, with a perpetual succession and a common seal.",
+            explanation: "In the words of professor Haney, 'A company is an incorporated association, which is an artificial person created by law, having a separate entity, with a perpetual succession and a common seal'. Chief Justice Marshall defined it as 'an artificial being, invisible, intangible, existing only in contemplation of law'."
+        },
+        {
+            question: "Which of the following features is NOT a consequence of a company possessing a Separate Legal Entity?",
+            options: ["The company can own property in its own name.", "The company can contract, sue and be sued in its own name.", "A member can have an insurable interest in the property of the company.", "The company can raise loans and incur liabilities."],
+            answer: "A member can have an insurable interest in the property of the company.",
+            explanation: "A member does not even have an insurable interest in the property of the company, as established in Macaura Vs. Northern Assurance Co. Limited (1925). The other options are rights derived from its separate legal personality."
+        },
+        {
+            question: "In the landmark case Macaura Vs. Northern Assurance Co. Limited, the court held that a shareholder could not claim compensation because:",
+            options: ["Macaura was a major creditor, which barred him from claiming insurance.", "The company had perpetual succession, making the claim invalid.", "No shareholder has any right to any item of property owned by the company, as they have no legal or equitable interest in them.", "The insurance policy covered only the company's debts, not its assets."],
+            answer: "No shareholder has any right to any item of property owned by the company, as they have no legal or equitable interest in them.",
+            explanation: "It was held that the insurance company was not liable to Macaura as no shareholder has any right to any item of property owned by the company, for he has no legal or equitable interest in them. The timber was not insured in the company’s name."
+        },
+        {
+            question: "What is the primary factor that limits the liability of a member in a company limited by shares?",
+            options: ["The total amount of the company's existing debts.", "The nominal value of shares held by them.", "The amount stipulated in the Articles of Association.", "The minimum paid-up capital prescribed by the Act."],
+            answer: "The nominal value of shares held by them.",
+            explanation: "The liability of the members of the company is limited to the extent of the nominal value of shares held by them. Shareholders cannot be asked to pay anything more than the unpaid value of their shares."
+        },
+        {
+            question: "In the case of a company limited by guarantee, when are members typically called upon to discharge their liability (the guaranteed amount)?",
+            options: ["At any time during the company’s life-time.", "Only during the winding up of the company and subject to certain conditions.", "When the company fails to raise initial working funds.", "When the subscribed capital is less than the called-up capital."],
+            answer: "Only during the winding up of the company and subject to certain conditions.",
+            explanation: "In a company limited by guarantee, the members may be called upon to discharge their liability only after commencement of the winding up and only subject to certain conditions. In a company limited by shares, they may be called upon to do so at any time, during the company's life or winding up."
+        },
+        {
+            question: "Which of the following acts can a company, being an Artificial Legal Person, NOT perform?",
+            options: ["Incur liabilities.", "Sue and be sued in its own name.", "Be sent to jail.", "Enter into contracts."],
+            answer: "Be sent to jail.",
+            explanation: "A company can do everything which any natural person can do except be sent to jail, take an oath, marry or practice a learned profession."
+        },
+        {
+            question: "The Companies (Amendment) Act, 2015 made the Common Seal optional by omitting which section's reference?",
+            options: ["Section 2(20).", "Section 9.", "Section 43.", "Section 455."],
+            answer: "Section 9.",
+            explanation: "The Companies (Amendment) Act, 2015 has made the common seal optional by omitting the words 'and a common seal' from Section 9. In case a company opts not to have a common seal, authorization is made by two directors or by a director and the Company Secretary."
+        },
+        {
+            question: "The foundation of the concept of corporate veil or independent corporate personality was laid down in which landmark case?",
+            options: ["Macaura Vs. Northern Assurance Co. Limited.", "Daimler Co. Ltd. vs. Continental Tyre & Rubber Co.", "Salomon Vs. Salomon and Co Ltd.", "Ashbury Railway Carriage and Iron Company Limited v. Riche."],
+            answer: "Salomon Vs. Salomon and Co Ltd.",
+            explanation: "The Salomon Vs. Salomon and Co Ltd. laid down the foundation of the concept of corporate veil or independent corporate personality, establishing that a company is a person distinct and separate from its members."
+        },
+        {
+            question: "Which of the following is an established circumstance for lifting the Corporate Veil for the purpose of protecting revenue/tax?",
+            options: ["When the company is formed for a future project and has no significant accounting transaction.", "When the company is under the control of people of an enemy country.", "When corporate entity is used to evade or circumvent tax.", "When a company forms a subsidiary to act as its agent for obtaining licenses."],
+            answer: "When corporate entity is used to evade or circumvent tax.",
+            explanation: "One ground for lifting the corporate veil is 'To protect revenue/tax'. Where corporate entity is used to evade or circumvent tax, the Court can disregard the corporate entity."
+        },
+        {
+            question: "In the case of The Workmen Employed in Associated Rubber Industries Limited v. The Associated Rubber Industries Ltd., the Supreme Court upheld the piercing of the veil because the company's action was designed to:",
+            options: ["Defeat the application of the Doctrine of Indoor Management.", "Determine the company’s character (enemy or friend).", "Reduce the amount to be paid by way of bonus to workmen.", "Circumvent the legal obligation to register Special Resolutions."],
+            answer: "Reduce the amount to be paid by way of bonus to workmen.",
+            explanation: "It was found that the sole purpose for the formation of the subsidiary company was to use it as a device to reduce the amount to be paid by way of bonus to workmen, leading the Supreme Court to uphold the piercing of the veil."
+        },
+        {
+            question: "Which case provides the illustration where the corporate veil was lifted to ascertain whether a company was an 'enemy company'?",
+            options: ["Salomon vs. Salomon & Co. Ltd.", "Daimler Co. Ltd. vs. Continental Tyre & Rubber Co.", "Juggilal vs. Commissioner of Income Tax AIR (SC).", "Macaura Vs. Northern Assurance Co. Limited."],
+            answer: "Daimler Co. Ltd. vs. Continental Tyre & Rubber Co.",
+            explanation: "The leading case on lifting the veil to determine the character of the company (enemy or friend) is Daimler Co. Ltd. vs. Continental Tyre & Rubber Co.."
+        },
+        {
+            question: "In an Unlimited Company with share capital, when can the creditors institute proceedings against the members for their claims?",
+            options: ["Only when the company becomes insolvent.", "So long as the company is a going concern, based on the unpaid value of shares.", "Only after instituting proceedings for the winding up of the company.", "The liability can be enforced by the company at any time, regardless of winding up."],
+            answer: "Only after instituting proceedings for the winding up of the company.",
+            explanation: "The creditors can institute proceedings for winding up of the company for their claims. The official liquidator may call the members for their contribution towards the liabilities and debts of the company, which can be unlimited."
+        },
+        {
+            question: "A One Person Company (OPC) is classified as which type of company under the Companies Act, 2013?",
+            options: ["A public company.", "A private limited company.", "An unlimited company.", "A small company."],
+            answer: "A private limited company.",
+            explanation: "According to section 3(1)(c) of the Companies Act, 2013, OPC is a private limited company with the minimum paid up share capital as may be prescribed and having one member."
+        },
+        {
+            question: "What is the minimum residency period required for a natural person who is an Indian citizen to be eligible to incorporate or be a nominee in an OPC?",
+            options: ["Not less than 182 days during the immediately preceding financial year.", "Not less than 120 days during the immediately preceding financial year.", "Not less than 90 days during the immediately preceding financial year.", "No residency requirement exists for Indian citizens."],
+            answer: "Not less than 120 days during the immediately preceding financial year.",
+            explanation: "The term 'resident in India' means a person who has stayed in India for a period of not less than one hundred and twenty days during the immediately preceding financial year. Only such a natural person is eligible to incorporate an OPC or be a nominee."
+        },
+        {
+            question: "What is the maximum number of members a Private Company (excluding OPC) can have, taking into account the statutory exclusions?",
+            options: ["100.", "150.", "200.", "Unlimited."],
+            answer: "200.",
+            explanation: "A Private Company limits the number of its members to two hundred, except in case of One Person Company. Exclusions include persons who are in the employment of the company and former employees who continue to be members."
+        },
+        {
+            question: "Which key restriction must a Private Company include in its Articles of Association, as per Section 2(68)?",
+            options: ["Prohibits issuing securities with differential voting rights.", "Restricts the right to transfer its shares.", "Prohibits accepting deposits from the public.", "Mandates a common seal for all official documents."],
+            answer: "Restricts the right to transfer its shares.",
+            explanation: "A Private company, by its articles, (i) restricts the right to transfer its shares."
+        },
+        {
+            question: "For the purpose of calculating the limit on the number of members (200) in a private company, two or more persons holding one or more shares jointly shall be treated as:",
+            options: ["Separate members for each person.", "A single member.", "Excluded entirely from the count.", "A maximum of two members, irrespective of the actual count."],
+            answer: "A single member.",
+            explanation: "Where two or more persons hold one or more shares in a company jointly, they shall, for the purposes of this clause, be treated as a single member."
+        },
+        {
+            question: "As per the Companies (Specification of definition details) Amendment Rules, 2022, what is the current maximum paid-up capital threshold for a company to be classified as a 'Small Company'?",
+            options: ["Fifty lakh rupees.", "Two crore rupees.", "Four crore rupees.", "Ten crore rupees."],
+            answer: "Four crore rupees.",
+            explanation: "For the purposes of sub-clause (i) and sub-clause (ii) of clause (85) of section 2 of the Act, paid up capital and turnover of the small company shall not exceed rupees four crores and rupees forty crores respectively."
+        },
+        {
+            question: "Which type of company is specifically excluded from being classified as a 'Small Company'?",
+            options: ["A company limited by shares.", "A private company formed as an OPC.", "A holding company or a subsidiary company.", "A company formed for commercial objects."],
+            answer: "A holding company or a subsidiary company.",
+            explanation: "The exceptions to the Small Company definition include a holding company or a subsidiary company; a company registered under section 8; or a company or body corporate governed by any special Act."
+        },
+        {
+            question: "A company which is a subsidiary of a public company shall be deemed to be a public company, even if its articles retain the characteristics of a private company. This is mandated by which section?",
+            options: ["Section 2(85).", "Section 2(62).", "Section 2(71).", "Section 2(46)."],
+            answer: "Section 2(71).",
+            explanation: "Section 2(71) defines a Public Company and includes a proviso stating that a company which is a subsidiary of a company, not being a private company (i.e., a subsidiary of a public company), shall be deemed to be public company for the purposes of this Act even where such subsidiary company continues to be a private company in its articles."
+        },
+        {
+            question: "How many persons are required to form a Public Company for any lawful purpose according to Section 3(1)(a) of the Companies Act, 2013?",
+            options: ["One or more.", "Two or more.", "Seven or more.", "Three or more."],
+            answer: "Seven or more.",
+            explanation: "According to section 3(1)(a), a company may be formed for any lawful purpose by seven or more persons, where the company to be formed is to be a public company."
+        },
+        {
+            question: "A company (Holding Company) controls the composition of the Board of Directors of another company (Subsidiary Company) if the Holding Company can appoint or remove:",
+            options: ["At least two directors.", "The Chairman and the Managing Director.", "All or a majority of the directors.", "A minimum of one-third of the directors."],
+            answer: "All or a majority of the directors.",
+            explanation: "The composition of a company’s Board of Directors shall be deemed to be controlled by another company if that other company by exercise of some power exercisable by it at its discretion can appoint or remove all or a majority of the directors."
+        },
+        {
+            question: "Company A is a subsidiary of Company B, and Company C is a subsidiary of Company A. What is the relationship between Company B and Company C?",
+            options: ["Company C is an Associate of Company B.", "Company B is the Holding Company of Company C.", "Company C is not directly related to Company B.", "Company B is a Joint Venture partner of Company C."],
+            answer: "Company B is the Holding Company of Company C.",
+            explanation: "If B is a subsidiary of A and C is a subsidiary of B, C will be the subsidiary of A. Therefore, A is the Holding Company of C (and B is the Holding Company of A). Reversing the example, let A be the holding company, B its subsidiary, and C the subsidiary of B. Then C is also a subsidiary of A. If the question refers to A being the holding company, and B and C being subsidiaries in a chain (A holds B, B holds C), A is the holding company of both B and C."
+        },
+        {
+            question: "What threshold of total voting power constitutes 'significant influence' for one company (A) over another company (B), making B an Associate Company of A?",
+            options: ["Control of at least 51% of total voting power.", "Control of at least 20% of total voting power.", "Control of at least 10% of total voting power.", "Control of at least 25% of total voting power."],
+            answer: "Control of at least 20% of total voting power.",
+            explanation: "The expression 'significant influence' means control of at least twenty per cent of total voting power, or control of or participation in business decisions under an agreement."
+        },
+        {
+            question: "A 'Government Company' is defined as any company in which not less than what percentage of the paid-up share capital is held by the Central Government, State Government(s), or both?",
+            options: ["50%", "51%", "49%", "60%"],
+            answer: "51%",
+            explanation: "Government Company means any company in which not less than 51% of the paid-up share capital is held by the Central Government, or by any State Government or Governments, or partly by the Central Government and partly by one or more State Governments."
+        },
+        {
+            question: "When computing the 51% holding for a Government Company, if shares with differential voting rights have been issued, the term 'paid-up share capital' shall be construed as:",
+            options: ["'Authorized capital'.", "'Issued capital'.", "'Total voting power'.", "'Subscribed capital'."],
+            answer: "'Total voting power'.",
+            explanation: "For the purposes of this clause [Section 2(45)], the 'paid up share capital' shall be construed as 'total voting power', where shares with differential voting rights have been issued."
+        },
+        {
+            question: "Which organization type listed below is explicitly provided in the source as an example of a company formed for charitable objects (Section 8 company)?",
+            options: ["RBI.", "SEBI.", "FICCI.", "IRDA."],
+            answer: "FICCI.",
+            explanation: "Examples of section 8 companies are FICCI, ASSOCHAM, National Sports Club of India, CII etc.."
+        },
+        {
+            question: "Upon registration, a Section 8 company enjoys the same privileges and obligations as:",
+            options: ["A Public Financial Institution.", "A company with limited liability.", "An Unlimited Company.", "A Dormant Company."],
+            answer: "A company with limited liability.",
+            explanation: "On registration the company shall enjoy same privileges and obligations as of a limited company."
+        },
+        {
+            question: "What is the minimum fine punishable to a company making default in complying with the requirements laid down in Section 8?",
+            options: ["Not less than one lakh rupees.", "Not less than five lakh rupees.", "Not less than ten lakh rupees.", "Not less than one crore rupees."],
+            answer: "Not less than ten lakh rupees.",
+            explanation: "The company shall... be punishable with fine which shall not be less than ten lakh rupees but which may extend to one crore rupees."
+        },
+        {
+            question: "In the case of revocation of a Section 8 company's license, the Central Government may order:",
+            options: ["The immediate conversion into an Unlimited Company.", "The company be wound up or amalgamated with another similar Section 8 company.", "The mandatory immediate issue of shares with differential voting rights.", "The transfer of all assets to the Registrar of Companies."],
+            answer: "The company be wound up or amalgamated with another similar Section 8 company.",
+            explanation: "Where a licence is revoked then the Central Government may... order that the company registered under this section should be amalgamated with another company registered under this section having similar objects, or the company be wound up."
+        },
+        {
+            question: "A Section 8 company can call its general meeting by giving a clear notice period of:",
+            options: ["7 days.", "14 days.", "21 days.", "30 days."],
+            answer: "14 days.",
+            explanation: "Section 8 companies can call its general meeting by giving a clear 14 days’ notice instead of 21 days."
+        },
+        {
+            question: "A 'Dormant Company' status may be applied for if the company is formed and registered for which of the following purposes:",
+            options: ["To conduct non-banking financial investment activities.", "To apply for tax evasion schemes.", "For a future project or to hold an asset or intellectual property.", "To act as an agent or trustee of its members."],
+            answer: "For a future project or to hold an asset or intellectual property.",
+            explanation: "A company is formed and registered under this Act for a future project or to hold an asset or intellectual property and has no significant accounting transaction, such a company or an inactive company may make an application to the Registrar for obtaining the status of a dormant company."
+        },
+        {
+            question: "Which activity, if performed by a company during the last two financial years, prevents it from being classified as an 'Inactive Company'?",
+            options: ["Payment of fees to the Registrar.", "Allotment of shares to fulfill the requirements of the Act.", "Payment for maintenance of its office and records.", "Issuing loans to directors."],
+            answer: "Issuing loans to directors.",
+            explanation: "An 'Inactive company' means a company which has not been carrying on any business or operation, or has not made any significant accounting transaction during the last two financial years. 'Significant accounting transaction' includes any transaction other than (i) payment of fees to ROC, (ii) payments to fulfil Act requirements, (iii) allotment of shares to fulfill Act requirements, and (iv) payments for office maintenance. Issuing loans falls outside these exceptions."
+        },
+        {
+            question: "Which institution is specifically regarded as a Public Financial Institution (PFI) under Section 2(72) of the Companies Act, 2013?",
+            options: ["Reserve Bank of India.", "The Life Insurance Corporation of India.", "National Stock Exchange.", "Small Industries Development Bank of India."],
+            answer: "The Life Insurance Corporation of India.",
+            explanation: "The Life Insurance Corporation of India, established under the Life Insurance Corporation Act, 1956, is to be regarded as a public financial institution."
+        },
+        {
+            question: "For an institution to be notified as a PFI by the Central Government, it must meet one of the two conditions regarding control. What is the required government holding/control percentage in the paid-up share capital?",
+            options: ["Not less than 20%.", "Not less than 50%.", "Not less than 51%.", "100%."],
+            answer: "Not less than 51%.",
+            explanation: "No institution shall be so notified unless... not less than fifty-one per cent of the paid-up share capital is held or controlled by the Central Government or by any State Government or Governments or partly by the Central Government and partly by one or more State Governments."
+        },
+        {
+            question: "Which of the following persons, acting only in a professional capacity, is NOT regarded as a Promoter according to the simplified understanding provided in the source?",
+            options: ["The company solicitor.", "The person in accordance with whose advice the Board of Directors acts.", "The person who has control over the affairs of the company.", "The person who has been named as such in a prospectus."],
+            answer: "The company solicitor.",
+            explanation: "It should, however, be noted that persons acting only in a professional capacity e.g., the solicitor, banker, accountant etc. are not regarded as promoters. The others listed fall under the formal definition of Section 2(69)."
+        },
+        {
+            question: "In the procedure for incorporation of a company (Section 7), who must provide a declaration stating that all requirements of the Act have been complied with?",
+            options: ["Only the subscribers to the memorandum.", "An advocate, a chartered accountant, cost accountant or company secretary in practice, and a person named as director, manager or secretary.", "Only the first directors of the company.", "The Registrar of Companies (ROC)."],
+            answer: "An advocate, a chartered accountant, cost accountant or company secretary in practice, and a person named as director, manager or secretary.",
+            explanation: "A declaration by person who is engaged in the formation of the company (an advocate, a chartered accountant, cost accountant or company secretary in practice), and by a person named in the articles (director, manager or secretary of the company), that all the requirements... have been complied with."
+        },
+        {
+            question: "Under Section 7(3) of the Companies Act, 2013, what must the Registrar allot to the company from the date mentioned in the certificate of incorporation?",
+            options: ["A Permanent Account Number (PAN).", "A Corporate Identity Number (CIN).", "A Tax Deduction Account Number (TAN).", "A Unique Selling Proposition (USP)."],
+            answer: "A Corporate Identity Number (CIN).",
+            explanation: "On and from the date mentioned in the certificate of incorporation, the Registrar shall allot to the company a corporate identity number (CIN), which shall be a distinct identity for the company."
+        },
+        {
+            question: "If a company is incorporated by furnishing false or incorrect information, which authority has the power to order the liability of the members to be unlimited?",
+            options: ["The Central Government.", "The Registrar of Companies (ROC).", "The Tribunal.", "The Board of Directors."],
+            answer: "The Tribunal.",
+            explanation: "Where a company has been got incorporated by furnishing false or incorrect information... the Tribunal may, on an application made to it... direct that liability of the members shall be unlimited."
+        },
+        {
+            question: "What is the consequence if, after incorporation, it is proved that the company was incorporated by suppressing material facts in the filed documents?",
+            options: ["The company is automatically dissolved.", "Only the promoters are liable for action under section 447.", "The promoters, first directors, and persons making the declaration shall each be liable for action for fraud under section 447.", "The company must pay a penalty extending to ten lakh rupees."],
+            answer: "The promoters, first directors, and persons making the declaration shall each be liable for action for fraud under section 447.",
+            explanation: "The promoters, the persons named as the first directors of the company and the persons making declaration under this section shall each be liable for action for fraud under section 447."
+        },
+        {
+            question: "The issuance of the Certificate of Incorporation by the Registrar is considered:",
+            options: ["A prima facie evidence of compliance with formalities.", "Conclusive evidence as to compliance of all the legal formalities in respect of registration.", "A provisional document valid for six months.", "An assurance that the company is financially viable."],
+            answer: "Conclusive evidence as to compliance of all the legal formalities in respect of registration.",
+            explanation: "The issue of Certificate of Incorporation is considered as conclusive evidence as to compliance of all the legal formalities in respect of registration of company."
+        },
+        {
+            question: "Which of the following capital types defines the maximum amount of share capital a company is authorized to raise by issuing shares?",
+            options: ["Issued capital.", "Subscribed capital.", "Called-up capital.", "Nominal or authorized capital."],
+            answer: "Nominal or authorized capital.",
+            explanation: "Authorised capital or Nominal capital means such capital as is authorised by the memorandum of a company to be the maximum amount of share capital of the company."
+        },
+        {
+            question: "What is the formula for calculating 'Paid-up capital'?",
+            options: ["Authorized capital minus Issued capital.", "Issued capital minus Subscribed capital.", "Called up capital minus calls in arrears.", "Subscribed capital minus calls in advance."],
+            answer: "Called up capital minus calls in arrears.",
+            explanation: "Paid-up capital is equal to called up capital less calls in arrears."
+        },
+        {
+            question: "If any official communication of a company states the authorized capital, what other capital figures must also be stated in equally conspicuous characters?",
+            options: ["Only the Called-up capital.", "The Subscribed and Paid-up capital.", "The Reserve capital.", "Only the Issued capital."],
+            answer: "The Subscribed and Paid-up capital.",
+            explanation: "Where any notice, advertisement or other official communication... states the authorised capital, the subscribed and paid-up capital must also be stated in equally conspicuous characters."
+        },
+        {
+            question: "According to Section 44 of the Companies Act, 2013, shares in a company are legally classified as:",
+            options: ["Intangible assets.", "Immovable property.", "Transferable securities.", "Movable property."],
+            answer: "Movable property.",
+            explanation: "According to section 44 of the Companies Act, 2013, the shares or debentures or other interests of any member in a company shall be movable property transferable in the manner provided by the articles of the company."
+        },
+        {
+            question: "Which type of share capital, with reference to a company limited by shares, means all share capital which is NOT preference share capital?",
+            options: ["Authorised share capital.", "Subscribed share capital.", "Equity share capital.", "Called-up share capital."],
+            answer: "Equity share capital.",
+            explanation: "‘Equity share capital’... means all share capital which is not preference share capital."
+        },
+        {
+            question: "Preference share capital carries a preferential right regarding:",
+            options: ["Voting rights in all general meetings.", "Repayment of capital in the case of winding up.", "Holding office as a director.", "Exemption from payment of calls in arrears."],
+            answer: "Repayment of capital in the case of winding up.",
+            explanation: "Preference share capital carries or would carry a preferential right with respect to... repayment, in the case of a winding up or repayment of capital, of the amount of the share capital paid-up."
+        },
+        {
+            question: "The Memorandum of Association (MOA) is known as the 'charter' of the company because:",
+            options: ["It details the company’s internal administration rules.", "It regulates the relationship between members inter se.", "It defines the company’s constitution and the scope of its powers.", "It summarizes the company's financial results."],
+            answer: "It defines the company’s constitution and the scope of its powers.",
+            explanation: "The Memorandum of Association of company is in fact its charter; it defines its constitution and the scope of the powers of the company with which it has been established under the Act. It is the very foundation on which the whole edifice of the company is built."
+        },
+        {
+            question: "Which of the following tables in Schedule I provides the form for the memorandum of association of a company limited by guarantee and having a share capital?",
+            options: ["Table A.", "Table B.", "Table C.", "Table D."],
+            answer: "Table C.",
+            explanation: "Table C is a form for memorandum of association of a company limited by guarantee and having a share capital."
+        },
+        {
+            question: "Which clause of the Memorandum of Association must specify the words “Private Limited” as the last words of the company’s name?",
+            options: ["Objects Clause.", "Registered Office Clause.", "Name Clause.", "Capital Clause."],
+            answer: "Name Clause.",
+            explanation: "The memorandum shall state the name of the company (Name Clause) with the last words “Private Limited” in the case of a private limited company."
+        },
+        {
+            question: "In a company limited by shares, the Liability Clause of the memorandum must state that the liability of its members is limited to:",
+            options: ["The amount guaranteed by them.", "The amount unpaid, if any, on the shares held by them.", "The total authorized capital.", "The amount of called-up capital."],
+            answer: "The amount unpaid, if any, on the shares held by them.",
+            explanation: "In the case of a company limited by shares, the liability clause must state that the liability of its members is limited to the amount unpaid, if any, on the shares held by them."
+        },
+        {
+            question: "In the case of a One Person Company (OPC), the memorandum must include:",
+            options: ["The minimum paid-up capital of the OPC.", "The name of the person who shall become the member in the event of the subscriber's death.", "A declaration that the company will not carry out Non-Banking Financial Investment activities.", "The minimum number of independent directors."],
+            answer: "The name of the person who shall become the member in the event of the subscriber's death.",
+            explanation: "In the case of OPC, the name of the person who, in the event of death of the subscriber, shall become the member of the company."
+        },
+        {
+            question: "The doctrine of ultra vires implies that an act done by the company which travels beyond the powers sanctioned by the memorandum is:",
+            options: ["Voidable at the instance of the shareholders.", "Wholly void and inoperative in law.", "Ratifiable by a special resolution of the shareholders.", "Valid if ratified by the Board of Directors."],
+            answer: "Wholly void and inoperative in law.",
+            explanation: "Any act done or a contract made by the company which travels beyond the powers not only of the directors but also of the company is wholly void and inoperative in law and is therefore not binding on the company."
+        },
+        {
+            question: "An ultra vires act of a company CANNOT be ratified even by the unanimous consent of all the shareholders because:",
+            options: ["It is ultra vires the directors' powers.", "It contradicts the Articles of Association.", "It is ultra vires the Memorandum of Association.", "It is inherently fraudulent."],
+            answer: "It is ultra vires the Memorandum of Association.",
+            explanation: "An act which is ultra vires the company being void, cannot be ratified by the shareholders of the company. The object clause, defined in the memorandum, delimits the company's fundamental powers."
+        },
+        {
+            question: "In the context of the Doctrine of Ultra Vires, if an ultra vires loan advanced to the company has been utilized in meeting a lawful debt of the company, the lender:",
+            options: ["Loses the entire amount as the transaction is void.", "Can recover the loan only if the shareholders ratify the borrowing.", "Steps into the shoes of the debtor paid off and can recover his loan to that extent from the company.", "Can stop the company from parting with the money only if it has not been expended."],
+            answer: "Steps into the shoes of the debtor paid off and can recover his loan to that extent from the company.",
+            explanation: "If the ultra vires loan has been utilised in meeting lawful debt of the company, then the lender steps into the shoes of the debtor paid off and consequently he would be entitled to recover his loan to that extent from the company."
+        },
+        {
+            question: "What is the consequence if an act is ultra vires the Articles of the company but intra vires the Memorandum?",
+            options: ["It is wholly void and cannot be saved.", "It can be ratified by altering the Articles by a Special Resolution.", "It requires confirmation by the Tribunal.", "It makes the directors personally liable for fraud."],
+            answer: "It can be ratified by altering the Articles by a Special Resolution.",
+            explanation: "If an act is ultra vires the articles of the company, the company can alter the articles. If an act is ultravires the Articles, it can be ratified by altering the Articles by a Special Resolution at a general meeting."
+        },
+        {
+            question: "The Articles of Association of a company are best described as:",
+            options: ["The fundamental conditions upon which the company is allowed to be incorporated.", "The charter defining the relationship of the company with the outside world.", "The rules and regulations framed to manage the company's internal affairs.", "The prospectus used for inviting the public to subscribe to securities."],
+            answer: "The rules and regulations framed to manage the company's internal affairs.",
+            explanation: "The articles of association of a company are its rules and regulations, which are framed to manage its internal affairs."
+        },
+        {
+            question: "The Articles of Association may contain provisions for 'entrenchment' to ensure that specific provisions are altered only if:",
+            options: ["The alteration is approved by the Central Government.", "Conditions or procedures that are more restrictive than those applicable in the case of a special resolution are met.", "The alteration is necessitated by an ultra vires transaction.", "The alteration is approved unanimously by the Board of Directors."],
+            answer: "Conditions or procedures that are more restrictive than those applicable in the case of a special resolution are met.",
+            explanation: "The articles may contain provisions for entrenchment (to protect something) to the effect that specified provisions of the articles may be altered only if conditions or procedures as that are more restrictive than those applicable in the case of a special resolution, are met or complied with."
+        },
+        {
+            question: "If a private company wishes to include entrenchment provisions in its articles after formation, the amendment must be agreed to by:",
+            options: ["A special resolution (75% majority).", "The Board of Directors and Registrar.", "All the members of the company.", "The majority of shareholders holding equity shares with DVR."],
+            answer: "All the members of the company.",
+            explanation: "The provisions for entrenchment shall only be made either on formation... or by an amendment in the articles agreed to by all the members of the company in the case of a private company."
+        },
+        {
+            question: "Which of the following is a model article form applicable to a company (specifically mentioned in the source)?",
+            options: ["Table A in Schedule I.", "Table E in Schedule I.", "Table F in Schedule I.", "Table M in Schedule II."],
+            answer: "Table F in Schedule I.",
+            explanation: "The articles of a company shall be in respective forms specified in Tables, F, G, H, I and J in Schedule I as may be applicable to such company. (Note: Tables A-E are for MOA.)"
+        },
+        {
+            question: "According to the Doctrine of Constructive Notice, a person dealing with a company is presumed to have knowledge of the contents of the memorandum and articles because:",
+            options: ["The company is an artificial person.", "These documents are required to be filed with the Registrar.", "These documents are public documents open for inspection.", "The company issues a warning about the documents."],
+            answer: "These documents are public documents open for inspection.",
+            explanation: "The memorandum and articles of association of a company when registered with Registrar of Companies, become public documents, and they are available for inspection to any person... It is therefore, the duty of every person dealing with a company to inspect its documents."
+        },
+        {
+            question: "The Doctrine of Indoor Management is an exception to which other doctrine?",
+            options: ["Doctrine of Ultra Vires.", "Doctrine of Separate Legal Entity.", "Doctrine of Constructive Notice.", "Doctrine of Perpetual Succession."],
+            answer: "Doctrine of Constructive Notice.",
+            explanation: "The Doctrine of Indoor Management is the exception to the doctrine of constructive notice."
+        },
+        {
+            question: "The Doctrine of Indoor Management, also known as the Turquand Rule, aims to protect:",
+            options: ["The company against its own irregular internal procedures.", "The directors against liability for procedural errors.", "Outsiders against the company, provided they act in good faith.", "The Registrar of Companies from liability."],
+            answer: "Outsiders against the company, provided they act in good faith.",
+            explanation: "Thus, the doctrine of indoor management aims to protect outsiders against the company. Outsiders are entitled to assume that all detailed formalities for doing an authorized act have been observed."
+        },
+        {
+            question: "In the case of The Royal British Bank vs. Turquand, the bond was held valid and enforceable by the bank because:",
+            options: ["The articles were not public documents.", "The bank was deemed to know the internal resolution had been passed.", "The bank was not bound to know about the company’s internal workings, such as the actual passing of ordinary resolutions.", "The transaction was ultra vires the company but intra vires the directors."],
+            answer: "The bank was not bound to know about the company’s internal workings, such as the actual passing of ordinary resolutions.",
+            explanation: "The bond was valid because there was no requirement to look into the company’s internal workings. The bank was deemed aware that the directors could borrow only up to the amount resolutions allowed (constructive notice of articles), but not required to know if the ordinary resolution specifying the amount had actually been passed."
+        },
+        {
+            question: "Which of the following conditions must be present for the Doctrine of Indoor Management NOT to protect an outsider?",
+            options: ["The transaction is intra vires the Memorandum.", "The outsider relies exclusively on the Articles of Association.", "The outsider has actual or constructive knowledge of the irregularity.", "The company possesses perpetual succession."],
+            answer: "The outsider has actual or constructive knowledge of the irregularity.",
+            explanation: "The rule does not protect any person when the person dealing with the company has notice, whether actual or constructive, of the irregularity."
+        },
+        {
+            question: "In Howard vs. Patent Ivory Manufacturing Co., the directors could not defend the issue of debentures to themselves because:",
+            options: ["They had forged the secretary's signature.", "They were insiders and should have known that the extent of lending required the assent of the general meeting, which they had not obtained.", "The borrowing was ultra vires the memorandum.", "The transaction was suspicious and required external inquiry."],
+            answer: "They were insiders and should have known that the extent of lending required the assent of the general meeting, which they had not obtained.",
+            explanation: "Where the directors could not defend the issue of debentures to themselves because they should have known that the extent to which they were lending money to the company required the assent of the general meeting which they had not obtained."
+        },
+        {
+            question: "The Doctrine of Indoor Management is inapplicable in cases involving forgery because:",
+            options: ["Forgery is an irregularity that can be ratified later.", "The rule only applies to procedural defects, not criminal acts.", "Forgery must be regarded as nullity, and the rule has never been extended to cover such a complete forgery.", "The forged document must also be ultra vires the memorandum."],
+            answer: "Forgery must be regarded as nullity, and the rule has never been extended to cover such a complete forgery.",
+            explanation: "The doctrine of indoor management applies only to irregularities which might otherwise affect a transaction but it cannot apply to forgery which must be regarded as nullity. The case of Ruben v Great Fingall Consolidated illustrates this."
+        },
+        {
+            question: "In the context of the Corporate Veil, what does the term 'corporate insulation' imply?",
+            options: ["The company is required to maintain separate financial records.", "The company's articles protect directors from all liability.", "Members are shielded from liability connected to the company’s actions.", "The company must operate without external financial aid."],
+            answer: "Members are shielded from liability connected to the company’s actions.",
+            explanation: "The term Corporate Veil refers to the concept that members of a company are shielded from liability connected to the company’s actions. In other words, they enjoy corporate insulation."
+        },
+        {
+            question: "The Companies Act, 2013 contains how many sections and schedules?",
+            options: ["470 sections and five schedules.", "465 sections and seven schedules.", "470 sections and seven schedules.", "455 sections and six schedules."],
+            answer: "470 sections and seven schedules.",
+            explanation: "The Companies Act, 2013 contains 470 sections and seven schedules."
+        },
+        {
+            question: "Which specific provision of the Companies Act, 2013 defines a company as one 'incorporated under this Act or under any previous company law'?",
+            options: ["Section 2(8).", "Section 2(20).", "Section 2(42).", "Section 2(62)."],
+            answer: "Section 2(20).",
+            explanation: "Section 2(20) of the Companies Act, 2013 defines the term ‘company’. 'Company means a company incorporated under this Act or under any previous company law'."
+        },
+        {
+            question: "Which fundamental principle derived from Salomon v. Salomon & Co. Ltd. established that a shareholder cannot be held liable for the company's acts, even if he holds virtually the entire share capital?",
+            options: ["Limited Liability.", "Separate Legal Entity.", "Perpetual Succession.", "Doctrine of Indoor Management."],
+            answer: "Separate Legal Entity.",
+            explanation: "The Company is at law a different person altogether from the subscribers to the memorandum... Thus, this case clearly established that company has its own existence and as a result, a shareholder cannot be held liable for the acts of the company even though he holds virtually the entire share capital."
+        },
+        {
+            question: "In which scenario regarding tax evasion was the corporate veil lifted, holding that the company was merely the assessee disguised under the legal entity of a limited company?",
+            options: ["Macaura Vs. Northern Assurance Co. Limited.", "Daimler Co. Ltd. vs. Continental Tyre & Rubber Co.", "Dinshaw Maneckjee Petit.", "Associated Rubber Industries Limited."],
+            answer: "Dinshaw Maneckjee Petit.",
+            explanation: "In [Dinshaw Maneckjee Petit], it was held that the company was not a genuine company at all but merely the assessee himself disguised under the legal entity of a limited company. The veil was lifted as the companies were a sham used to evade tax."
+        },
+        {
+            question: "A company may sometimes be regarded as an agent or trustee of its members, leading to the lifting of the corporate veil, if the subsidiary was formed primarily to:",
+            options: ["Improve corporate governance.", "Acquire rights against the parent company.", "Defeat a legal obligation or circumvent law.", "Avoid winding up."],
+            answer: "Avoid a legal obligation or circumvent law.",
+            explanation: "This refers to the ground 'Formation of subsidiaries to act as agents' or 'Company formed for fraud/improper conduct or to defeat law'. In the case of Merchandise Transport Limited vs. British Transport Commission, the subsidiary was formed to obtain licenses the parent could not obtain directly, effectively circumventing regulations."
+        },
+        {
+            question: "In a company limited by guarantee that does not have share capital, how does it primarily raise its initial working funds?",
+            options: ["By calling unpaid share capital.", "From other sources like endowment, fees, charges, donations, etc.", "By issuing preference shares.", "By mandatorily receiving the guaranteed amount from members upon incorporation."],
+            answer: "From other sources like endowment, fees, charges, donations, etc.",
+            explanation: "It is clear from the definition of the guarantee company that it does not raise its initial working funds from its members. Therefore, such a company may be useful only where no working funds are needed or where these funds can be held from other sources like endowment, fees, charges, donations, etc.."
+        },
+        {
+            question: "What is the minimum number of members required to maintain the status of a Private Company (other than an OPC)?",
+            options: ["One.", "Two.", "Seven.", "Fifty."],
+            answer: "Two.",
+            explanation: "Minimum number of members – 2 (except if private company is an OPC, where it will be 1). For a private company to be formed, two or more persons can subscribe their names to the memorandum."
+        },
+        {
+            question: "If a company's articles state that employees (or former employees) who are members are not to be included in the maximum member count, which provision of the Act is being observed?",
+            options: ["Section 2(85) related to Small Company.", "Section 2(68) related to Private Company.", "Section 2(42) related to Foreign Company.", "Section 2(71) related to Public Company."],
+            answer: "Section 2(68) related to Private Company.",
+            explanation: "Section 2(68) excludes persons who are in the employment of the company, and former employees who were members during employment and continued to be members, from the limit of 200 members."
+        },
+        {
+            question: "In a holding-subsidiary relationship, Company H is the holding company of Company S if H controls more than what proportion of the total voting power of S?",
+            options: ["One-fourth.", "One-third.", "One-half.", "More than one-half."],
+            answer: "More than one-half.",
+            explanation: "A subsidiary company means a company in which the holding company exercises or controls more than one-half of the total voting power either at its own or together with one or more of its subsidiary companies."
+        },
+        {
+            question: "If ABC Ltd. has a total voting power of ₹100 Crores, and XYZ Ltd. acquires equity shares with voting rights worth ₹15 Crores, why are they NOT associate companies (assuming no other control agreements exist)?",
+            options: ["XYZ Ltd. is a holding company.", "The share capital is fully paid up.", "The investment is less than 20% of total voting power.", "ABC Ltd. is a Section 8 company."],
+            answer: "The investment is less than 20% of total voting power.",
+            explanation: "Significant influence requires control of at least twenty per cent (₹20 Crores) of total voting power. Since ₹15 Crores is less than 20%, they are not associate companies."
+        },
+        {
+            question: "What condition must be met for a company to be considered 'Listed Company' under Section 2(52)?",
+            options: ["It must have declared a dividend in the last financial year.", "It must issue securities with differential voting rights.", "It must have any of its securities listed on any recognised stock exchange.", "It must have obtained a license from the Central Government."],
+            answer: "It must have any of its securities listed on any recognised stock exchange.",
+            explanation: "A listed company is a company which has any of its securities listed on any recognised stock exchange."
+        },
+        {
+            question: "What specific words are NOT required to be added to the name of a company formed under Section 8 of the Act?",
+            options: ["Limited.", "Foundation.", "Forum.", "Association."],
+            answer: "Limited.",
+            explanation: "Section 8 allows the Central Government to register such person or association of persons as a company with limited liability without the addition of words ‘Limited’ or ‘Private limited’ to its name. The company may instead use words like foundation, Forum, Association, Federation, etc.."
+        },
+        {
+            question: "A partnership firm can become a member of which specific type of company?",
+            options: ["One Person Company.", "Public Limited Company.", "Dormant Company.", "Section 8 company."],
+            answer: "Section 8 company.",
+            explanation: "A partnership firm can be a member of Section 8 company."
+        },
+        {
+            question: "In the context of dormant companies, an 'Inactive company' has not carried on any business or operation, or has not made any significant accounting transaction, or has not filed financial statements and annual returns during:",
+            options: ["The last financial year.", "The last two financial years.", "The last five financial years.", "The last three financial years."],
+            answer: "The last two financial years.",
+            explanation: "‘Inactive company’ means a company which has not been carrying on any business or operation... or has not filed financial statements and annual returns during the last two financial years."
+        },
+        {
+            question: "Who defines the rules, regulations, or bye-laws of a company, governing its internal affairs?",
+            options: ["The Memorandum of Association (MOA).", "The Certificate of Incorporation.", "The Articles of Association (AOA).", "The Registrar of Companies (ROC)."],
+            answer: "The Articles of Association (AOA).",
+            explanation: "Articles of Association defines rules, regulations or bye-laws of Company."
+        },
+        {
+            question: "Which document defines the object and scope of work of the company, prohibiting the company from going beyond its defined scope?",
+            options: ["The Prospectus.", "The Articles of Association.", "The Annual Return.", "The Memorandum of Association."],
+            answer: "The Memorandum of Association.",
+            explanation: "MOA defines object and scope of work of company. Company can not go beyond the scope defined."
+        },
+        {
+            question: "A major creditor of a company, who is also the holder of nearly all shares, insures the company’s timber in his own name. If the timber is lost, he cannot claim compensation. This scenario is derived from the facts of:",
+            options: ["Salomon vs. Salomon & Co. Ltd.", "Ruben v Great Fingall Consolidated.", "Ashbury Railway Carriage and Iron Company Limited v. Riche.", "Macaura Vs. Northern Assurance Co. Limited."],
+            answer: "Macaura Vs. Northern Assurance Co. Limited.",
+            explanation: "Fact of the case: Macaura (M) was the holder of nearly all shares of a timber company. M insured the company’s timber in his own name. The timber was lost in a fire. M claimed insurance compensation. Held, M could not claim compensation."
+        },
+        {
+            question: "What is the primary objective of registering the Memorandum of Association?",
+            options: ["To detail the powers of the directors and officers.", "To restrict the right to transfer shares.", "To enable shareholders, creditors and all those who deal with the company to know its powers and activities.", "To establish the minimum paid-up share capital."],
+            answer: "To enable shareholders, creditors and all those who deal with the company to know its powers and activities.",
+            explanation: "It enables shareholders, creditors and all those who deal with company to know what its powers are and what activities it can engage in."
+        },
+        {
+            question: "In the context of 'Lifting the Veil,' what does the phrase mean?",
+            options: ["Amending the Memorandum of Association by Special Resolution.", "Disregarding the corporate entity and paying regard, instead, to the realities behind the legal facade.", "Converting a private company into a public company.", "Appointing new directors to control the company's affairs."],
+            answer: "Disregarding the corporate entity and paying regard, instead, to the realities behind the legal facade.",
+            explanation: "It means looking behind the company as a legal person, i.e., disregarding the corporate entity and paying regard, instead, to the realities behind the legal facade."
+        },
+        {
+            question: "In the case of Juggilal vs. Commissioner of Income Tax AIR (SC), the corporate veil was disregarded primarily for the purpose of:",
+            options: ["Determining whether the company was an enemy company.", "Protecting revenue/tax by checking evasion.", "Preventing the defeat of a legal obligation.", "Holding the subsidiary responsible as an agent."],
+            answer: "Protecting revenue/tax by checking evasion.",
+            explanation: "Where corporate entity is used to evade or circumvent tax, the Court can disregard the corporate entity. This point is cited with the case [Juggilal vs. Commissioner of Income Tax AIR (SC)]."
+        },
+        {
+            question: "What is the distinction between a guarantee company and a company having share capital, regarding the timing of discharging members' liability?",
+            options: ["In a guarantee company, liability is discharged only during winding up, but in a share company, it may be called up at any time.", "In a share company, liability is discharged only during winding up, but in a guarantee company, it must be paid upon incorporation.", "In both companies, liability must be paid only upon winding up.", "In both companies, liability can be called up at any time during the company's existence."],
+            answer: "In a guarantee company, liability is discharged only during winding up, but in a share company, it may be called up at any time.",
+            explanation: "In the former case (guarantee company) the members may be called upon to discharge their liability only after commencement of the winding up... but in the latter case (share capital company), they may be called upon to do so at any time, either during the company’s life-time or during its winding up."
+        },
+        {
+            question: "An OPC is introduced primarily to encourage:",
+            options: ["Non-Banking Financial Investment activities.", "Large-scale public listing.", "Entrepreneurship and corporatization of business.", "Unregulated business practices."],
+            answer: "Entrepreneurship and corporatization of business.",
+            explanation: "One person company has been introduced to encourage entrepreneurship and corporatization of business."
+        },
+        {
+            question: "If a Private Company is an OPC, what is the minimum number of members required?",
+            options: ["0 (None).", "1 (One).", "2 (Two).", "7 (Seven)."],
+            answer: "1 (One).",
+            explanation: "One Person Company (OPC) is defined as a company which has only one person as a member. The minimum number of members for a Private Company is 2 (except if private company is an OPC, where it will be 1)."
+        },
+        {
+            question: "Which restriction regarding membership applies to minors in the context of an OPC?",
+            options: ["A minor can be a member but not a nominee.", "A minor can be a nominee but not a member.", "No minor shall become member or nominee of the OPC or can hold share with beneficial interest.", "A minor can hold shares only if represented by a guardian."],
+            answer: "No minor shall become member or nominee of the OPC or can hold share with beneficial interest.",
+            explanation: "No minor shall become member or nominee of the OPC or can hold share with beneficial interest."
+        },
+        {
+            question: "What is the primary condition required for a company to be classified as a Subsidiary Company under Section 2(87)?",
+            options: ["The Holding Company owns at least one share in the Subsidiary Company.", "The Holding Company controls all the assets of the Subsidiary Company.", "The Holding Company controls the composition of the Board of Directors OR exercises/controls more than one-half of the total voting power.", "The Holding Company appoints the Auditor of the Subsidiary Company."],
+            answer: "The Holding Company controls the composition of the Board of Directors OR exercises/controls more than one-half of the total voting power.",
+            explanation: "Subsidiary company means a company in which the holding company (i) controls the composition of the Board of Directors; or (ii) exercises or controls more than one-half of the total voting power."
+        },
+        {
+            question: "A Government company must necessarily include the word 'Limited' at the end of its name, as per:",
+            options: ["MCA notification dated 5th June, 2015.", "Section 8 of the Act.", "The Companies (Incorporation) Rules, 2014.", "Section 2(45) of the Act."],
+            answer: "MCA notification dated 5th June, 2015.",
+            explanation: "As per MCA notification dated 5th June, 2015, a Government company’s name must end with the word “Limited”."
+        },
+        {
+            question: "If a person furnishes false or incorrect particulars in the documents filed with the Registrar *at the time of incorporation*, he shall be liable for action for fraud under:",
+            options: ["Section 406.", "Section 447.", "Section 455.", "Section 43."],
+            answer: "Section 447.",
+            explanation: "If any person furnishes any false or incorrect particulars of any information... in any of the documents filed with the Registrar in relation to the registration of a company, he shall be liable for action for fraud under section 447."
+        },
+        {
+            question: "The capital that the company issues from time to time for subscription is termed as:",
+            options: ["Nominal capital.", "Called-up capital.", "Issued capital.", "Paid-up capital."],
+            answer: "Issued capital.",
+            explanation: "Section 2(50) defines “issued capital” which means such capital as the company issues from time to time for subscription."
+        },
+        {
+            question: "What must every share in a company having a share capital be distinguished by, according to Section 45?",
+            options: ["Its nominal value.", "Its distinctive number.", "The date of issue.", "The name of the holder."],
+            answer: "Its distinctive number.",
+            explanation: "Section 45 provides, every share in a company having a share capital, shall be distinguished by its distinctive number."
+        },
+        {
+            question: "The exception to the requirement of distinctive numbering for every share is when the share is held by a person whose name is entered as:",
+            options: ["A first director of the company.", "The nominee of the OPC.", "Holder of beneficial interest in such share in the records of a depository.", "A promoter of the company."],
+            answer: "Holder of beneficial interest in such share in the records of a depository.",
+            explanation: "This shall not apply to a share held by a person whose name is entered as holder of beneficial interest in such share in the records of a depository."
+        },
+        {
+            question: "Equity shares with differential voting rights (DVRs) typically carry:",
+            options: ["Uniform rights as to dividend and voting.", "Higher voting rights but lower dividend rights.", "Different rights as to dividend, voting or otherwise.", "A preferential right to repayment of capital."],
+            answer: "Different rights as to dividend, voting or otherwise.",
+            explanation: "Equity share capital can be (1) with voting rights (uniform rights); or (2) with differential rights as to dividend, voting or otherwise."
+        },
+        {
+            question: "The clause of the Memorandum that specifies the State where the registered office of the company is to be situated is the:",
+            options: ["Liability Clause.", "Registered Office clause.", "Objects clause.", "Name clause."],
+            answer: "Registered Office clause.",
+            explanation: "The memorandum shall state... the State in which the registered office of the company (Registered Office clause) is to be situated."
+        },
+        {
+            question: "What is the minimum number of shares every subscriber to the Memorandum shall agree to take?",
+            options: ["Zero.", "One.", "Seven.", "Such number as specified in the Capital Clause."],
+            answer: "One.",
+            explanation: "Every subscriber to the Memorandum shall take at least one share, and shall write against his name, the number of shares taken by him."
+        },
+        {
+            question: "Who, among the following, cannot be a signatory to the memorandum?",
+            options: ["A company acting through its agent.", "The guardian of a minor.", "A minor.", "A person named as first director."],
+            answer: "A minor.",
+            explanation: "A minor cannot be a signatory to the memorandum as he is not competent to contract. The guardian of a minor, who subscribes to the memorandum on his behalf, will be deemed to have subscribed in his personal capacity."
+        },
+        {
+            question: "The leading case through which the doctrine of ultra vires was enunciated is:",
+            options: ["The Royal British Bank vs. Turquand.", "Salomon Vs. Salomon and Co Ltd.", "Ashbury Railway Carriage and Iron Company Limited v. Riche.", "Daimler Co. Ltd. vs. Continental Tyre & Rubber Co."],
+            answer: "Ashbury Railway Carriage and Iron Company Limited v. Riche.",
+            explanation: "The leading case through which this doctrine was enunciated is that of Ashbury Railway Carriage and Iron Company Limited v. Riche-(1875)."
+        },
+        {
+            question: "If an act is ultra vires the powers of the *directors* (but intra vires the company), who can ratify it?",
+            options: ["Only the Central Government.", "The Registrar of Companies.", "The shareholders.", "The Tribunal."],
+            answer: "The shareholders.",
+            explanation: "If the act is ultra vires the power of the directors, the shareholders can ratify it. An act ultravires the directors, but Intravires Company, shareholders may ratify it."
+        },
+        {
+            question: "The Memorandum of Association cannot contain anything contrary to the provisions of the Companies Act. If it does, the provision shall be:",
+            options: ["Voidable.", "Deemed ratified by the company.", "Devoid of any legal effect.", "Amended automatically by the Registrar."],
+            answer: "Devoid of any legal effect.",
+            explanation: "The Memorandum of Association of a company cannot contain anything contrary to the provisions of the Companies Act. If it does, the same shall be devoid of any legal effect."
+        },
+        {
+            question: "If registered articles do not exclude or modify the regulations contained in the model articles applicable to a company registered after the commencement of the Act, those model regulations shall:",
+            options: ["Be treated as superseded by the registered articles.", "Be disregarded by the company.", "Be the regulations of that company in the same manner as if they were contained in the duly registered articles.", "Require special resolution for adoption."],
+            answer: "Be the regulations of that company in the same manner as if they were contained in the duly registered articles.",
+            explanation: "In so far as the registered articles of such company do not exclude or modify the regulations contained in the model articles applicable to such company, those regulations shall, so far as applicable, be the regulations of that company in the same manner and to the extent as if they were contained in the duly registered articles of the company."
+        },
+        {
+            question: "Which document primarily defines the relationship between the company and its members (inter se)?",
+            options: ["Memorandum of Association.", "Doctrine of Constructive Notice.", "Articles of Association.", "Prospectus."],
+            answer: "Articles of Association.",
+            explanation: "Articles define the relationship between the company and its members."
+        },
+        {
+            question: "What legal presumption is established by the Doctrine of Constructive Notice regarding outsiders dealing with the company?",
+            options: ["That the outsider has read the documents and understood them in their true perspective.", "That the outsider is only presumed to have read the documents, not understood them.", "That the outsider is protected from all internal irregularities.", "That the outsider can enforce any contract, regardless of the MOA."],
+            answer: "That the outsider has read the documents and understood them in their true perspective.",
+            explanation: "Whether a person reads the documents or not, he is presumed to have knowledge of the contents of the documents. He is not only presumed to have read the documents but also understood them in their true perspective."
+        },
+        {
+            question: "If a person relies on the authority of a company accountant to transfer company property, and the transfer is void because the accountant lacked authority, the protection of the Turquand Rule is unavailable due to:",
+            options: ["Actual knowledge of irregularity.", "Forgery.", "Suspicion of Irregularity.", "Ultra Vires transaction."],
+            answer: "Suspicion of Irregularity.",
+            explanation: "The plaintiff accepted a transfer of a company’s property from its accountant, the transfer was held void. The plaintiff could not have supposed... that the accountant had authority... This falls under suspicion of irregularity, where the outsider is put upon inquiry."
+        },
+        {
+            question: "The Companies Act, 2013 aims to legislate the role of whistle-blowers and provisions relating to:",
+            options: ["Judicial reviews.", "Class action suit.", "Arbitration proceedings.", "International mergers."],
+            answer: "Class action suit.",
+            explanation: "The Companies Act, 2013... for the first time legislates the role of whistle-blowers and provisions relating to class action suit."
+        },
+        {
+            question: "When a company is registered, it comes to have almost the same rights and powers as a human being, except that it must act through:",
+            options: ["The Registrar of Companies.", "The Tribunal.", "Human agency, viz., directors.", "The Central Government."],
+            answer: "Human agency, viz., directors.",
+            explanation: "As the company is an artificial person, it can act only through some human agency, viz., directors. Therefore, it works through the agency of human beings."
+        },
+        {
+            question: "If all seven members of a company die in an aircraft accident, the company's existence:",
+            options: ["Ends immediately.", "Is dependent on the creditors' decision.", "Continues due to the feature of Perpetual Succession.", "Is automatically converted into a dormant company."],
+            answer: "Continues due to the feature of Perpetual Succession.",
+            explanation: "Members may die or change, but the company goes on till it is wound up on the grounds specified by the Act... Its existence is not affected by the death or insolvency of its members. Example 1 mentions a company of 7 deceased members still existing."
+        },
+        {
+            question: "The definition of an 'unlimited company' is provided under which section of the Companies Act, 2013?",
+            options: ["Section 2(20).", "Section 2(68).", "Section 2(92).", "Section 2(62)."],
+            answer: "Section 2(92).",
+            explanation: "Section 2(92) of the Companies Act, 2013 defines unlimited company as a company not having any limit on the liability of its members."
+        },
+        {
+            question: "Which of the following is NOT a restriction placed on a One Person Company (OPC)?",
+            options: ["It cannot carry out Non-Banking Financial Investment activities.", "It cannot be incorporated or converted into a company under section 8.", "The member must be a natural person who is an Indian citizen.", "The member can change the name of the nominee only with the Central Government's approval."],
+            answer: "The member can change the name of the nominee only with the Central Government's approval.",
+            explanation: "The member of OPC may at any time change the name of such other person by giving notice to the company and the company shall intimate the same to the Registrar. This does not require CG approval. The other options are valid restrictions."
+        },
+        {
+            question: "In the definition of a Private Company (Section 2(68)), the term 'securities' is mentioned in the clause prohibiting:",
+            options: ["Restrictions on transferability of shares.", "Invitation to the public to subscribe for any securities of the company.", "Issue of shares at a discount.", "Acceptance of loans from members."],
+            answer: "Invitation to the public to subscribe for any securities of the company.",
+            explanation: "A private company by its articles... (iii) prohibits any invitation to the public to subscribe for any securities of the company."
+        },
+        {
+            question: "A Public Company can be formed by subscribing names to the memorandum by a minimum of how many persons?",
+            options: ["One.", "Two.", "Five.", "Seven."],
+            answer: "Seven.",
+            explanation: "Minimum number of members – 7. A company may be formed... by seven or more persons, where the company to be formed is to be a public company."
+        },
+        {
+            question: "In defining a subsidiary company, control of the Board of Directors composition is achieved if the holding company can appoint or remove directors:",
+            options: ["Only with the consent of the Tribunal.", "Without the consent or approval of any other person.", "Only through a special resolution passed by the subsidiary.", "Only in consultation with the Central Government."],
+            answer: "Without the consent or approval of any other person.",
+            explanation: "A company shall be deemed to be controlled by another company if that other company by exercise of some power exercisable by it at its discretion can appoint or remove all or a majority of the directors. This power is exercisable by it at its discretion, meaning without the consent of others."
+        },
+        {
+            question: "The expression ‘layer’ in relation to a holding company means:",
+            options: ["Its subsidiary or subsidiaries.", "Its associate companies.", "Its total paid-up share capital.", "Its authorized capital."],
+            answer: "Its subsidiary or subsidiaries.",
+            explanation: "‘Layer’ in relation to a holding company means its subsidiary or subsidiaries."
+        },
+        {
+            question: "The term ‘Nidhi’ or ‘Mutual Benefit Society’ is primarily created for cultivating the habit of:",
+            options: ["Large-scale infrastructure investment.", "Thrift and savings amongst its members.", "Corporate social responsibility.", "Raising capital via public issue of shares."],
+            answer: "Thrift and savings amongst its members.",
+            explanation: "Nidhi Companies are created mainly for cultivating the habit of thrift and savings amongst its members."
+        },
+        {
+            question: "The simplified process for filing of forms for incorporation of a company electronically, introduced by the MCA, is referred to as:",
+            options: ["E-MOA.", "CIN.", "SPICe.", "PFI."],
+            answer: "SPICe.",
+            explanation: "The MCA has simplified the process of filing of forms for incorporation of a company through Simplified Proforma for incorporating company electronically (SPICe)."
+        },
+        {
+            question: "Which specific detail must the declaration filed by first directors state regarding their past conduct?",
+            options: ["That they have never been found guilty of misfeasance or fraud under this Act or any previous company law during the last five years.", "That they possess a minimum paid-up capital of ₹1 lakh.", "That they have served on the board of directors for at least one year.", "That they are not a nominee of an OPC."],
+            answer: "That they have never been found guilty of misfeasance or fraud under this Act or any previous company law during the last five years.",
+            explanation: "Declaration from first directors stating that... he has not been found guilty of any fraud or misfeasance or of any breach of duty to any company under this Act or any previous company law during the last five years."
+        },
+        {
+            question: "If a company has changed its activities which are not reflected in its name, it shall change its name in line with its activities within a period of:",
+            options: ["Three months from the change of activities.", "Six months from the change of activities.", "One year from the change of activities.", "Two years from the change of activities."],
+            answer: "Six months from the change of activities.",
+            explanation: "If any company has changed its activities which are not reflected in its name, it shall change its name in line with its activities within a period of six months from the change of activities."
+        },
+        {
+            question: "When a company limited by guarantee is being wound-up, its members undertake to contribute the guaranteed amount for the payment of debts and liabilities of the company, provided they cease to be a member no longer than:",
+            options: ["Six months before winding up.", "One year before winding up.", "Two years before winding up.", "The liability is only for current members."],
+            answer: "One year before winding up.",
+            explanation: "In the case of a company limited by guarantee, the amount up to which each member undertakes to contribute... to the assets of the company in the event of its being wound-up while he is a member or within one year after he ceases to be a member."
+        },
+        {
+            question: "If money advanced to a company under an ultra vires contract has not yet been expended, the lender may stop the company from parting with it by means of an injunction because:",
+            options: ["The doctrine of ultra vires does not apply to injunctions.", "The contract is only voidable.", "The company does not become the owner of the money, and the lender remains the owner.", "The money is converted into shares."],
+            answer: "The company does not become the owner of the money, and the lender remains the owner.",
+            explanation: "If the money advanced to the company has not been expended, the lender may stop the company from parting with it by means of an injunction; this is because the company does not become the owner of the money, which is ultra vires the company. As the lender remains the owner, he can take back the property in specie."
+        },
+        {
+            question: "The Articles of Association play a part subsidiary to the Memorandum of Association, defining the duties, rights, and powers of the governing body. This was aptly summed up by Lord Cairns in:",
+            options: ["Salomon vs. Salomon & Co. Ltd.", "Ashbury Carriage Co. vs. Riches.", "The Royal British Bank vs. Turquand.", "Macaura Vs. Northern Assurance Co. Limited."],
+            answer: "Ashbury Carriage Co. vs. Riches.",
+            explanation: "These general functions of the articles have been aptly summed up by Lord Cairns in Ashbury Carriage Co. vs. Riches."
+        },
+        {
+            question: "A key difference between the MOA and AOA alteration procedures is that the MOA generally requires conditions specified in the Act, and often the permission of:",
+            options: ["The Reserve Bank of India, or the Stock Exchange.", "The majority of unsecured creditors.", "The Regional Director, or the Tribunal.", "The auditors of the company."],
+            answer: "The Regional Director, or the Tribunal.",
+            explanation: "Memorandum of association can be altered only under certain circumstances and in the manner provided for in the Act. In most cases permission of the Regional Director, or the Tribunal is required."
+        },
+        {
+            question: "Which provision of the Companies Act, 2013 allows any person to inspect by electronic means any document kept by the Registrar?",
+            options: ["Section 44.", "Section 455.", "Section 399.", "Section 43."],
+            answer: "Section 399.",
+            explanation: "Section 399 of the Companies Act, 2013 provides that any person can inspect by electronic means any document kept by the Registrar."
+        },
+        {
+            question: "The Doctrine of Indoor Management is a limitation on the Doctrine of Constructive Notice because it prevents the company from asserting that the outsider should have notice of:",
+            options: ["The fundamental objects stated in the MOA.", "The internal compliance to procedures and regulations by the company.", "The fact that the company is a separate legal entity.", "The composition of the share capital."],
+            answer: "The internal compliance to procedures and regulations by the company.",
+            explanation: "The Doctrine of Indoor Management... does in no sense mean that outsiders are deemed to have notice of the internal affairs of the company. For instance, if an act is authorised by the articles or memorandum, an outsider is entitled to assume that all the detailed formalities for doing that act have been observed."
+        },
+        {
+            question: "If a person holding directorship in two companies agrees to apply the money of one company in payment of the debt to the other, the court deemed this transaction unusual enough to invoke the exception of:",
+            options: ["Forgery.", "Actual knowledge.", "Suspicion of Irregularity.", "Ultra vires the company."],
+            answer: "Suspicion of Irregularity.",
+            explanation: "In Haughton & Co. v. Nothard, Lowe & Wills Ltd. where a person holding directorship in two companies agreed to apply the money of one company in payment of the debt to other, the court said that it was something so unusual 'that the plaintiff were put upon inquiry'."
+        },
+        {
+            question: "In Ruben v Great Fingall Consolidated, the plaintiff's claim, based on a forged share certificate, failed because the court held that the Turquand Rule cannot extend to:",
+            options: ["Procedural defects.", "Matters of the memorandum.", "A complete forgery.", "Irregularities known to directors."],
+            answer: "A complete forgery.",
+            explanation: "It was held, that the rule has never been extended to cover such a complete forgery."
+        },
+        {
+            question: "A shareholder who buys shares does not buy any interest in the property of the company but in certain cases a writ petition will be maintainable by:",
+            options: ["The company or its shareholders.", "Only the Registrar of Companies.", "Only the Central Government.", "The Debenture holders."],
+            answer: "The company or its shareholders.",
+            explanation: "A shareholder who buys shares, does not buy any interest in the property of the company but in certain cases a writ petition will be maintainable by a company or its shareholders."
+        },
+        {
+            question: "The provision that the memorandum and articles, when registered, shall bind the company and the members thereof to the same extent as if they respectively had been signed by the company and by each member is covered under:",
+            options: ["Section 7.", "Section 9.", "Section 10.", "Section 43."],
+            answer: "Section 10.",
+            explanation: "As per Section 10 of the Companies Act, 2013, where the memorandum and articles when registered, shall bind the company and the members thereof to the same extent as if they respectively had been signed by the company and by each member."
+        },
+        {
+            question: "What happens if a company defaults in stating the subscribed and paid-up capital in equally conspicuous characters alongside the authorized capital in any official communication?",
+            options: ["Only the company is liable to a penalty.", "The company and every officer in default are liable to pay a penalty.", "The company must be compulsorily converted to an unlimited company.", "The document becomes void."],
+            answer: "The company and every officer in default are liable to pay a penalty.",
+            explanation: "A default in this regard will make the company and every officer who is in default liable to pay penalty extending ₹ 10,000 and ₹ 5,000 respectively [Section 60, cited in 83]."
+        },
+        {
+            question: "Which legal personality feature of a company necessitates the use of a Common Seal (or its alternative mode of authentication)?",
+            options: ["Separate Legal Entity.", "Limited Liability.", "Artificial Legal Person.", "Perpetual Succession."],
+            answer: "Artificial Legal Person.",
+            explanation: "A company being an artificial person is not bestowed with a body of a natural being. Therefore, it works through the agency of human beings. Common seal is the official signature of a company."
+        },
+        {
+            question: "The concept that a company cannot go beyond the scope defined in the Memorandum of Association is fundamental to:",
+            options: ["The Capital Clause.", "The Doctrine of Ultra Vires.", "The Doctrine of Indoor Management.", "The Registered Office Clause."],
+            answer: "The Doctrine of Ultra Vires.",
+            explanation: "The ultra vires doctrine means 'beyond (their) powers'. A company cannot depart from the provisions contained in the memorandum... If it does so, it would be ultra vires the company and void."
+        },
+        {
+            question: "In the context of the MOA, the clause detailing the amount of authorized capital divided into shares of fixed amounts is called the:",
+            options: ["Name Clause.", "Objects Clause.", "Liability Clause.", "Capital Clause."],
+            answer: "Capital Clause.",
+            explanation: "The amount of authorized capital (Capital Clause) divided into share of fixed amounts."
+        },
+        {
+            question: "If an act is within the power of the company but is done irregularly, how can it be validated?",
+            options: ["By altering the Articles by a Special Resolution.", "By rectification by the shareholders.", "It cannot be validated.", "By obtaining permission from the Regional Director."],
+            answer: "By rectification by the shareholders.",
+            explanation: "If the act is within the power of the company but is done irregularly, shareholder can validate it."
+        },
+        {
+            question: "What is the consequence if an outsider enters into a transaction which is ultra vires the company?",
+            options: ["He can enforce it against the company only by injunction.", "He is bound by the Doctrine of Indoor Management.", "He cannot enforce it against the company.", "The company is bound to pay damages."],
+            answer: "He cannot enforce it against the company.",
+            explanation: "If in spite of this [constructive notice] you enter into a transaction which is ultra vires the company, you cannot enforce it against the company."
+        },
+        {
+            question: "If a company does not have a Common Seal, the documents requiring authentication shall be authorized by:",
+            options: ["A director and the Auditor.", "Two directors OR by a director and the Company Secretary.", "The Central Government nominee.", "The Chairman and the Chief Financial Officer."],
+            answer: "Two directors OR by a director and the Company Secretary.",
+            explanation: "In case a company does not have a common seal, the authorization shall be made by two directors or by a director and the Company Secretary, wherever the company has appointed a Company Secretary."
+        },
+        {
+            question: "If a company's affairs were conducted fraudulently, every officer in default under Section 8 contravention shall be liable for action under:",
+            options: ["Section 447.", "Section 455.", "Section 2(85).", "Section 2(20)."],
+            answer: "Section 447.",
+            explanation: "Provided that when it is proved that the affairs of the company were conducted fraudulently, every officer in default shall be liable for action under section 447."
+        },
+        {
+            question: "The liability of members in an Unlimited Company extends to the whole amount of the company’s debts and liabilities, but they are entitled to claim:",
+            options: ["Indemnity from the directors.", "Contribution from other members.", "Refund from the Central Government.", "Preference in share allotment."],
+            answer: "Contribution from other members.",
+            explanation: "The liability of each member extends to the whole amount of the company’s debts and liabilities but he will be entitled to claim contribution from other members."
+        },
+        {
+            question: "What is the maximum penalty fine applicable to a director or officer in default for contravention of Section 8 requirements (excluding fraud)?",
+            options: ["Ten lakh rupees.", "One crore rupees.", "Twenty-five thousand rupees.", "Twenty-five lakh rupees."],
+            answer: "Twenty-five lakh rupees.",
+            explanation: "The directors and every officer of the company who is in default shall be punishable with fine which shall not be less than twenty-five thousand rupees but which may extend to twenty-five lakh rupees."
+        },
+        {
+            question: "In the case of Daimler Co. Ltd. vs. Continental Tyre & Rubber Co., the test adopted by the court to determine if the corporate veil should be lifted was:",
+            options: ["The test of ownership.", "The test of insolvency.", "The test of control.", "The test of profitability."],
+            answer: "The test of control.",
+            explanation: "To determine the character of the company i.e. to find out whether co-enemy or friend: In the law relating to trading with the enemy where the test of control is adopted."
+        },
+        {
+            question: "Which type of capital is defined as the total amount called up on the shares issued?",
+            options: ["Subscribed capital.", "Paid-up capital.", "Issued capital.", "Called-up capital."],
+            answer: "Called-up capital.",
+            explanation: "Section 2(15) defines 'called-up capital' as such part of the capital, which has been called for payment. It is the total amount called up on the shares issued."
+        },
+        {
+            question: "If a director participates in an allotment meeting where his appointment as a director was invalid, he cannot defend the allotment of shares to himself. This illustrates the exception to Indoor Management regarding:",
+            options: ["Suspicion.", "Forgery.", "Actual or constructive knowledge of irregularity.", "Violation of the MOA."],
+            answer: "Actual or constructive knowledge of irregularity.",
+            explanation: "In Morris v Kansseen, a director could not defend an allotment of shares to him as he participated in the meeting... His appointment as a director also fell through because none of the directors appointed him was validly in office. This is an example of constructive knowledge of irregularity."
+        },
+        {
+            question: "What is the minimum requirement for paid-up share capital prescribed for a Public Company under the Companies Act, 2013?",
+            options: ["₹ 1 lakh.", "₹ 5 lakh.", "As may be prescribed by rules.", "There is No minimum paid up capital requirement."],
+            answer: "There is No minimum paid up capital requirement.",
+            explanation: "Public company... has a minimum paid-up share capital, as may be prescribed. The subsequent point summarizes: No minimum paid up capital requirement."
+        },
+        {
+            question: "What is the status of a Government company's subsidiary?",
+            options: ["It is excluded from the definition of a Government company.", "It is automatically deemed to be a Government company.", "It is only a Government company if 51% of its shares are directly held by the Government.", "It is always treated as a private company."],
+            answer: "It is automatically deemed to be a Government company.",
+            explanation: "The section includes a company which is a subsidiary company of such a Government company."
+        },
+        {
+            question: "The Registrar's allotment of a Corporate Identity Number (CIN) serves as:",
+            options: ["A declaration of incorporation.", "A distinct identity for the company.", "The final approval of the Articles of Association.", "The determination of the Authorized Capital."],
+            answer: "A distinct identity for the company.",
+            explanation: "The Registrar shall allot to the company a corporate identity number, which shall be a distinct identity for the company and which shall also be included in the certificate."
+        },
+        {
+            question: "What is the default minimum notice period required to call a general meeting (except for Section 8 companies)?",
+            options: ["7 days.", "14 days.", "21 days.", "30 days."],
+            answer: "21 days.",
+            explanation: "Section 8 companies can call its general meeting by giving a clear 14 days’ notice *instead of 21 days*. This implies 21 days is the general default requirement."
+        },
+        {
+            question: "If a Public Company's articles empower its managing agents to borrow loans, and an outsider lends money assuming compliance with internal resolution procedures, the company's refusal to repay based on lack of internal resolution is invalid based on:",
+            options: ["The Doctrine of Ultra Vires.", "The Doctrine of Constructive Notice.", "The Doctrine of Indoor Management.", "The principle of Limited Liability."],
+            answer: "The Doctrine of Indoor Management.",
+            explanation: "The scenario is a direct application of the Turquand Rule (Doctrine of Indoor Management). Outsiders need not enquire whether internal proceedings (like passing the required resolution) are followed correctly, provided the transaction is within the powers of the company and appears valid."
+        },
+        {
+            question: "Which of the following is NOT a compulsory clause/condition of the Memorandum of Association?",
+            options: ["Name Clause.", "Registered Office clause.", "Nomination Clause (for OPC).", "Common Seal Clause."],
+            answer: "Common Seal Clause.",
+            explanation: "The compulsory clauses include Name, Registered Office, Object, Liability, Capital, and Nomination (OPC). Common Seal is a feature/optional requirement related to documentation/authentication, not a mandatory clause of the MOA itself."
+        },
+        {
+            question: "If an act done by a company is beyond the scope of its memorandum, it is:",
+            options: ["Ultra Vires.", "Intra Vires.", "Ultra Directors.", "Intra Articles."],
+            answer: "Ultra Vires.",
+            explanation: "Acts done by the company beyond the scope of the memorandum are ultra-vires and void."
+        },
+        {
+            question: "The liability clause is mandatory for which type of companies (as per the content listing the contents of MOA)?",
+            options: ["Only Unlimited Companies.", "Only Companies Limited by Shares.", "All companies, unless exempted by the Act.", "Companies limited by shares and companies limited by guarantee."],
+            answer: "Companies limited by shares and companies limited by guarantee.",
+            explanation: "The memorandum shall state... the liability of members of the company (Liability clause), whether limited or unlimited, and also state the conditions specific to limited by shares and limited by guarantee companies."
+        },
+        {
+            question: "A company requires at least 51% of paid-up share capital to be held by the government to be classified as a Government Company. When calculating this, which category of ownership is relevant?",
+            options: ["Central Government only.", "State Government or Governments only.", "Central Government, or State Government(s), or partly by CG and partly by one or more SG.", "Only Foreign Government agencies."],
+            answer: "Central Government, or State Government(s), or partly by CG and partly by one or more SG.",
+            explanation: "Not less than 51% of the paid-up share capital is held by (i) the Central Government, or (ii) by any State Government or Governments, or (iii) partly by the Central Government and partly by one or more State Governments."
+        },
+        {
+            question: "The term 'share' includes:",
+            options: ["Debentures.", "Bonds.", "Stock.", "Securities."],
+            answer: "Stock.",
+            explanation: "Section 2(84) of the Companies Act, 2013 defines the term ‘share’ which means a share in the share capital of a company and includes stock."
+        },
+        {
+            question: "The shareholders are NOT the private or joint owners of the company’s property. This legal position is a direct consequence of:",
+            options: ["Limited Liability.", "Perpetual Succession.", "Artificial Juridical Person.", "Separate Legal Entity."],
+            answer: "Separate Legal Entity.",
+            explanation: "The company acquires a unique character of being a separate legal entity. The shareholders are not the private or joint owners of the company’s property."
+        },
+        {
+            question: "The main objective of the Companies Act, 2013 regarding corporate regulation is to make it more:",
+            options: ["Conservative.", "Arbitrary.", "Contemporary.", "Complex."],
+            answer: "Contemporary.",
+            explanation: "Thus, this enactment seeks to make our corporate regulations more contemporary."
+        },
+        {
+            question: "A company that possesses all the rights of an individual but is created by a process other than natural birth is known as a(n):",
+            options: ["Natural Person.", "Body Corporate.", "Artificial Legal Person.", "Unincorporated Association."],
+            answer: "Artificial Legal Person.",
+            explanation: "A company is an artificial person as it is created by a process other than natural birth. It is legal or judicial as it is created by law. It is a person since it is clothed with all the rights of an individual."
+        },
+        {
+            question: "In the case of Merchandise Transport Limited vs. British Transport Commission, the corporate veil was lifted when a subsidiary was formed to:",
+            options: ["Avoid tax liability.", "Obtain transport licences which the parent company could not obtain.", "Change the voting structure.", "Challenge the winding up order."],
+            answer: "Obtain transport licences which the parent company could not obtain.",
+            explanation: "A transport company wanted to obtain licences for its vehicles but could not do so if applied in its own name. It, therefore, formed a subsidiary company... Held, the parent and the subsidiary were one commercial unit and the application for licences was rejected."
+        },
+        {
+            question: "The common features between a company limited by guarantee and a company having share capital include:",
+            options: ["Legal personality and perpetual succession.", "Legal personality and limited liability.", "Limited liability and raising initial working funds from members.", "Unlimited liability and no common seal."],
+            answer: "Legal personality and limited liability.",
+            explanation: "The common features between a ‘guarantee company’ and ‘the company having share capital’ are legal personality and limited liability."
+        },
+        {
+            question: "If an unlimited company has share capital, the Articles of Association must state:",
+            options: ["The maximum borrowing limit.", "The amount of share capital and the amount of each share.", "The name of the nominee.", "The date of winding up."],
+            answer: "The amount of share capital and the amount of each share.",
+            explanation: "In case the company has share capital, the Articles of Association must state the amount of share capital and the amount of each share."
+        },
+        {
+            question: "An OPC cannot be converted into a company under which specific section of the Act?",
+            options: ["Section 455 (Dormant Company).", "Section 2(85) (Small Company).", "Section 8 (Charitable Objects).", "Section 2(71) (Public Company)."],
+            answer: "Section 8 (Charitable Objects).",
+            explanation: "Such Company cannot be incorporated or converted into a company under section 8 of the Act."
+        },
+        {
+            question: "If a private company has a paid-up share capital of ₹ 4.5 crores and a turnover of ₹ 38 crores, its status is:",
+            options: ["Small Company.", "Public Company.", "OPC.", "Not a Small Company."],
+            answer: "Not a Small Company.",
+            explanation: "For a company to be a Small Company (as per 2022 amendment rules), paid up capital must be *not more than* ₹ 4 crores AND turnover *not more than* ₹ 40 crores. Since the paid-up capital (₹ 4.5 crores) exceeds ₹ 4 crores, it is not a Small Company."
+        },
+        {
+            question: "A subsidiary company can be deemed to exist if the holding company controls more than one-half of the total voting power:",
+            options: ["Only at its own discretion.", "Together with one or more of its subsidiary companies.", "Only through joint venture agreements.", "By controlling the composition of the Board of Directors only."],
+            answer: "Together with one or more of its subsidiary companies.",
+            explanation: "Subsidiary company means a company in which the holding company exercises or controls more than one-half of the total voting power either at its own OR together with one or more of its subsidiary companies."
+        },
+        {
+            question: "An Associate Company must have which characteristics in relation to the company having significant influence?",
+            options: ["It must be a subsidiary company.", "It must not be a subsidiary company.", "It must be a government company.", "It must be a listed company."],
+            answer: "It must not be a subsidiary company.",
+            explanation: "Associate company... means a company in which that other company has a significant influence, but which is not a subsidiary company of the company having such influence."
+        },
+        {
+            question: "Which specific activity of a company is NOT considered a 'Significant accounting transaction' for the purpose of Dormant Company status?",
+            options: ["Payment of fees by a company to the Registrar.", "Payment for services rendered by a contractor.", "Payment of director remuneration.", "Payment for purchase of intellectual property."],
+            answer: "Payment of fees by a company to the Registrar.",
+            explanation: "Payment of fees by a company to the Registrar is explicitly listed as a transaction *other than* a significant accounting transaction."
+        },
+        {
+            question: "What happens to the documents and information filed at the time of incorporation?",
+            options: ["They must be destroyed after one financial year.", "The company shall maintain and preserve copies at its registered office until its dissolution.", "They must be re-filed annually with the Registrar.", "They are transferred to the Central Government for review."],
+            answer: "The company shall maintain and preserve copies at its registered office until its dissolution.",
+            explanation: "The company shall maintain and preserve at its registered office copies of all documents and information as originally filed, till its dissolution under this Act."
+        },
+        {
+            question: "According to the definition by Farwell Justice, a share is not a sum of money but rather:",
+            options: ["A transferable bond.", "An asset measured by perpetual succession.", "An interest measured by a sum of money and made up of various rights contained in the contract.", "The total paid-up capital."],
+            answer: "An interest measured by a sum of money and made up of various rights contained in the contract.",
+            explanation: "Farwell Justice, in Borland Trustees vs. Steel Bors. & Co. Ltd. observed that 'a share is not a sum of money but is an interest measured by a sum of money and made up of various rights contained in the contract...'."
+        },
+        {
+            question: "If a transaction is unusual or not in the ordinary course of business, leading to 'Suspicion of Irregularity,' the protection of the Turquand Rule is unavailable because:",
+            options: ["The company is required to disclose the irregularity immediately.", "The outsider is put upon an inquiry and has a duty to make the necessary enquiry.", "The transaction automatically becomes ultra vires.", "The directors are deemed to have acted fraudulently."],
+            answer: "The outsider is put upon an inquiry and has a duty to make the necessary enquiry.",
+            explanation: "Where the person dealing with the company is put upon an inquiry, for example, where the transaction is unusual or not in the ordinary course of business, it is the duty of the outsider to make the necessary enquiry."
+        },
+        {
+            question: "Which of the following is NOT a right conferred on a company due to its status as an 'incorporated company' (effect of registration)?",
+            options: ["Perpetual succession.", "Power to acquire, hold and dispose of property.", "Power to take an oath or practice a learned profession.", "Power to contract and to sue and be sued."],
+            answer: "Power to take an oath or practice a learned profession.",
+            explanation: "The company can do everything which any natural person can do except be sent to jail, take an oath, marry or practice a learned profession. Upon registration, it is capable of exercising all the functions of an incorporated company... having perpetual succession... to contract and to sue and be sued."
+        },
+        {
+            question: "The concept that a company cannot enforce an ultra vires transaction, nor can it be sued on one, represents the impact of:",
+            options: ["The Doctrine of Constructive Notice.", "The Doctrine of Ultra Vires.", "The Rule in Turquand's case.", "The principle of Limited Liability."],
+            answer: "The Doctrine of Ultra Vires.",
+            explanation: "The impact of the doctrine of ultra vires is that a company can neither be sued on an ultra vires transaction, nor can it sue on it."
+        },
+        {
+            question: "How can the Articles of Association (AOA) be altered?",
+            options: ["By obtaining Central Government approval.", "By passing an ordinary resolution.", "Simply by passing a special resolution.", "Only if the MOA is also altered."],
+            answer: "Simply by passing a special resolution.",
+            explanation: "The articles can be altered simply by passing a special resolution."
+        },
+        {
+            question: "When comparing the alteration of MOA versus AOA, the MOA alteration is generally subject to:",
+            options: ["Easier requirements.", "More stringent requirements, often requiring RD/Tribunal permission.", "No procedural requirements.", "Approval by only the directors."],
+            answer: "More stringent requirements, often requiring RD/Tribunal permission.",
+            explanation: "Memorandum of association can be altered only under certain circumstances and in the manner provided for in the Act. In most cases permission of the Regional Director, or the Tribunal is required. AOA is altered simply by a special resolution."
+        },
+        {
+            question: "The presumption that an outsider dealing with a company is deemed to know the contents of all registered documents, including Special Resolutions, falls under:",
+            options: ["The Turquand Rule.", "The Doctrine of Indoor Management.", "The Doctrine of Ultra Vires.", "The Doctrine of Constructive Notice."],
+            answer: "The Doctrine of Constructive Notice.",
+            explanation: "Every person dealing with the company not only has the constructive notice of the memorandum and articles, but also of all the other related documents, such as Special Resolutions etc., which are required to be registered with the Registrar."
+        },
+        {
+            question: "Which term describes a company having the liability of its members limited by the memorandum to such amount as the members may undertake to contribute to the assets upon winding up?",
+            options: ["Company limited by shares.", "Company limited by guarantee.", "Unlimited company.", "Holding company."],
+            answer: "Company limited by guarantee.",
+            explanation: "Section 2(21) defines it as the company having the liability of its members limited by the memorandum to such amount as the members may respectively undertake by the memorandum to contribute to the assets of the company in the event of its being wound up."
+        },
+        {
+            question: "Which specific category of company has shareholders who, in the context of differential rights, might receive a higher dividend (e.g., 5 percentage points more) in exchange for reduced voting power?",
+            options: ["Preference shareholders.", "Ordinary equity shareholders.", "Equity shareholders with differential voting rights (DVRs).", "Subscribed shareholders."],
+            answer: "Equity shareholders with differential voting rights (DVRs).",
+            explanation: "Example 6 discusses 'A' equity shares (DVRs) carrying only one voting right per ten shares but receiving 5 percentage points more dividend than ordinary shares."
+        },
+        {
+            question: "In the case of State Trading Corporation of India vs. Commercial Tax Officer, the court affirmed that upon registration, a company acquires:",
+            options: ["Financial autonomy.", "A separate existence and the law recognises it as a legal person separate and distinct from its members.", "An obligation to list its shares immediately.", "The power to enter into ultra vires contracts."],
+            answer: "A separate existence and the law recognises it as a legal person separate and distinct from its members.",
+            explanation: "A company on registration acquires a separate existence and the law recognises it as a legal person separate and distinct from its members."
+        },
+        {
+            question: "The concept that merely purchasing all shares of another company will not put an end to the corporate character of that company, ensuring each remains a separate juristic entity, was established in:",
+            options: ["Heavy Electrical Union vs. State of Bihar.", "Spencer & Co. Ltd. Madras vs. CWT Madras.", "Hari Nagar Sugar Mills Ltd. vs. S.S. Jhunjhunwala.", "Merchandise Transport Limited vs. British Transport Commission."],
+            answer: "Spencer & Co. Ltd. Madras vs. CWT Madras.",
+            explanation: "Merely because a company purchases all shares of another company it will not serve as a means of putting an end to the corporate character of another company and each company is a separate juristic entity."
+        },
+        {
+            question: "What is the consequence if the Central Government provides financial contribution but all shares of a registered company are held by the President of India and other Central Government officers?",
+            options: ["The company becomes an agent of the Central Government.", "The company becomes an agent of the President of India.", "The company remains a separate juristic entity.", "The corporate veil must be lifted immediately."],
+            answer: "The company remains a separate juristic entity.",
+            explanation: "The mere fact that the entire share capital has been contributed by the Central Government and all its shares are held by the President of India and other officers of the Central Government does not make any difference in the position of registered company and it does not make a company an agent either of the President or the Central Government."
+        },
+        {
+            question: "Which table in Schedule I provides the form for the memorandum of association of a company limited by shares?",
+            options: ["Table A.", "Table B.", "Table C.", "Table D."],
+            answer: "Table A.",
+            explanation: "Table A is a form for memorandum of association of a company limited by shares."
+        },
+        {
+            question: "In the context of share capital classification, 'Subscribed capital' is defined as:",
+            options: ["The maximum capital authorized by the memorandum.", "The capital offered by the company for subscription.", "Such part of the capital which is for the time being subscribed by the members.", "The capital that has been called for payment."],
+            answer: "Such part of the capital which is for the time being subscribed by the members.",
+            explanation: "Section 2(86) defines 'subscribed capital' as such part of the capital which is for the time being subscribed by the members of a company."
+        },
+        {
+            question: "Which entity can be a member of a Section 8 company?",
+            options: ["A minor (represented by guardian).", "A sole proprietary concern.", "A partnership firm.", "An Unlimited Company (as defined in the Act)."],
+            answer: "A partnership firm.",
+            explanation: "A partnership firm can be a member of Section 8 company."
+        },
+        {
+            question: "What is the primary objective of the Articles of Association in defining the powers of the governing body?",
+            options: ["To define the object and scope of work of the company.", "To regulate domestic management of a company and create rights/obligations between members and the company.", "To specify the maximum authorized capital.", "To determine whether the company is foreign or domestic."],
+            answer: "To regulate domestic management of a company and create rights/obligations between members and the company.",
+            explanation: "It regulates domestic management of a company and creates certain rights and obligations between the members and the company."
+        },
+        {
+            question: "The rationale for making the common seal optional via the Companies (Amendment) Act, 2015, was that it is viewed as:",
+            options: ["A costly requirement.", "A relic of medieval times.", "A burden on small companies.", "A deterrent to international investors."],
+            answer: "A relic of medieval times.",
+            explanation: "Rational for this amendment is that common seal is seen as a relic of medieval times."
+        },
+        {
+            question: "Who defines a corporation as 'an artificial being, invisible, intangible, existing only in contemplation of law'?",
+            options: ["Professor Haney.", "Lord Mac Naughten.", "Chief Justice Marshall.", "Farwell Justice."],
+            answer: "Chief Justice Marshall.",
+            explanation: "According to Chief Justice Marshall, 'a corporation is an artificial being, invisible, intangible, existing only in contemplation of law...'."
+        },
+        {
+            question: "The liability of a member ceases in an Unlimited Company when:",
+            options: ["He pays the full amount of his share capital.", "He ceases to be a member.", "The company goes into liquidation.", "The company obtains a license from the Central Government."],
+            answer: "He ceases to be a member.",
+            explanation: "In such a company, the liability of a member ceases when he ceases to be a member."
+        },
+        {
+            question: "If the Tribunal, upon finding fraudulent incorporation, orders the regulation of management, this may include changes, if any, in the company's:",
+            options: ["Register of charges and balance sheet.", "Memorandum and Articles.", "Audit reports and director training records.", "Share transfer deeds."],
+            answer: "Memorandum and Articles.",
+            explanation: "The Tribunal may... pass such orders, as it may think fit, for regulation of the management of the company including changes, if any, in its memorandum and articles."
+        },
+        {
+            question: "The minimum number of persons required to subscribe their names to the memorandum to form a Private Company is:",
+            options: ["One.", "Two.", "Seven.", "Three."],
+            answer: "Two.",
+            explanation: "In the same way, 2 or more persons can form a private company."
+        },
+        {
+            question: "What is the stipulated maximum turnover threshold (as per the 2022 rules) for a company to qualify as a 'Small Company'?",
+            options: ["Ten crore rupees.", "Forty crore rupees.", "Fifty lakh rupees.", "One hundred crore rupees."],
+            answer: "Forty crore rupees.",
+            explanation: "Turnover – not more than ₹ 40 crores. (The earlier limit was ₹ 2 crores or such higher amount as may be prescribed which shall not be more than ₹ 100 crore)."
+        },
+        {
+            question: "If Company A owns 55% of the voting power of Company B, and Company B owns 60% of the voting power of Company C, the relationship where A is the Holding Company of C is established under which rule?",
+            options: ["The definition of Associated Company.", "The provision that control over a subsidiary's subsidiary is still control by the holding company.", "The rule of Corporate Insulation.", "The maximum limit rule for layers of subsidiaries."],
+            answer: "The provision that control over a subsidiary's subsidiary is still control by the holding company.",
+            explanation: "A will be subsidiary of B, if B controls... (Example 4) B is a subsidiary of A and C is a subsidiary of B. In such a case, C will be the subsidiary of A [48, 46(I)]."
+        },
+        {
+            question: "When the Central Government revokes a Section 8 license, the Registrar shall put which words against the company's name in the register?",
+            options: ["Dormant Company.", "Limited or Private Limited.", "Defaulter Company.", "Unlisted Company."],
+            answer: "Limited or Private Limited.",
+            explanation: "On revocation the Registrar shall put ‘Limited’ or ‘Private Limited’ against the company’s name in the register."
+        },
+        {
+            question: "A guarantee company's liability limit must be specified in:",
+            options: ["The Articles of Association.", "The Certificate of Incorporation.", "The Memorandum of Association.", "The prospectus."],
+            answer: "The Memorandum of Association.",
+            explanation: "Company limited by guarantee... defines it as the company having the liability of its members limited by the memorandum to such amount as the members may respectively undertake by the memorandum to contribute."
+        },
+        {
+            question: "What is the penalty fine applicable to the company itself for default in stating subscribed and paid-up capital conspicuously along with authorized capital (Section 60)?",
+            options: ["Extending ₹ 5,000.", "Extending ₹ 10,000.", "Not less than ₹ 25,000.", "Not less than ₹ 10 lakh."],
+            answer: "Extending ₹ 10,000.",
+            explanation: "A default in this regard will make the company... liable to pay penalty extending ₹ 10,000."
+        },
+        {
+            question: "The shares of a company are considered property transferable in the manner provided by the:",
+            options: ["Memorandum of Association.", "Companies Act, 2013, alone.", "Articles of the company.", "Securities Contracts (Regulation) Act, 1956."],
+            answer: "Articles of the company.",
+            explanation: "The shares or debentures or other interests of any member in a company shall be movable property transferable in the manner provided by the articles of the company."
+        },
+        {
+            question: "If a member owes money to the company under the memorandum or articles, that money is legally treated as:",
+            options: ["An investment.", "A security.", "A debt due from him to the company.", "An unsecured loan."],
+            answer: "A debt due from him to the company.",
+            explanation: "All monies payable by any member to the company under the memorandum or articles shall be a debt due from him to the company."
+        },
+        {
+            question: "The disadvantage of the Doctrine of Ultra Vires is that it may prevent the company from changing its activities, a problem largely mitigated by the fact that the object clause can now be easily altered by passing:",
+            options: ["An ordinary resolution.", "A unanimous resolution of the Board.", "A special resolution of the shareholders.", "A petition to the Central Government."],
+            answer: "A special resolution of the shareholders.",
+            explanation: "The purpose of doctrine of ultravires has been defeated as now the object clause can be easily altered, by passing just a special resolution of the shareholders."
+        },
+        {
+            question: "Which specific legal provision provides for the effect of registration of a company?",
+            options: ["Section 2(20).", "Section 3.", "Section 7.", "Section 9."],
+            answer: "Section 9.",
+            explanation: "Section 9 of the Companies Act, 2013 provides for the effect of registration of a company."
+        },
+        {
+            question: "In the case of an Unlimited Company, so long as the company is a going concern, the liability that can be enforced by the company relates to:",
+            options: ["The whole of the company's debts.", "The calls in arrears.", "The liability on the shares.", "The guaranteed amount."],
+            answer: "The liability on the shares.",
+            explanation: "So long as the company is a going concern the liability on the shares is the only liability which can be enforced by the company."
+        },
+        {
+            question: "The initial capital figure stated in the memorandum upon which stamp duty is paid is the:",
+            options: ["Issued capital.", "Paid-up capital.", "Subscribed capital.", "Nominal or authorized capital."],
+            answer: "Nominal or authorized capital.",
+            explanation: "It is the sum stated in the memorandum as the capital of the company with which it is to be registered being the maximum amount which it is authorised to raise by issuing shares, and upon which it pays the stamp duty."
+        },
+        {
+            question: "Which entity determines how the objectives of the company, as defined in the MOA, are to be achieved?",
+            options: ["The external regulators.", "The Articles of Association.", "The Doctrine of Indoor Management.", "The annual return."],
+            answer: "The Articles of Association.",
+            explanation: "Articles determine how the objectives of the company are to be achieved."
+        },
+        {
+            question: "Which rule emphasizes that persons dealing with the company are presumed to have read the registered documents and seen that the proposed dealing is not inconsistent therewith?",
+            options: ["Turquand Rule.", "Doctrine of Separate Legal Entity.", "Doctrine of Constructive Notice.", "Doctrine of Ultra Vires."],
+            answer: "Doctrine of Constructive Notice.",
+            explanation: "Persons dealing with Company are presumed to have read the registered documents and to see that the proposed dealing is not inconsistent therewith."
+        },
+        {
+            question: "What power did the Central Government delegate to the ROC regarding Section 8 companies, as mentioned in the summary chart?",
+            options: ["The power to revoke the license.", "The power to decide dividend payment.", "The power to grant the license.", "The power to alter the MOA."],
+            answer: "The power to grant the license.",
+            explanation: "The CG can grant such status. However, CG has delegated the power to grant licence to ROC. (Note: The core text says CG has the power, the chart notes the delegation.)"
+        },
+        {
+            question: "In the case of Private Company definition, when two or more persons jointly hold shares, they are treated as a single member for the purpose of counting the maximum limit of members. This maximum limit is:",
+            options: ["100.", "200.", "300.", "50."],
+            answer: "200.",
+            explanation: "A private company limits the number of its members to two hundred. Joint holders are treated as a single member for this count."
+        },
+        {
+            question: "If a company is incorporated to promote objects like art, science, or sports, it is formed under Section 8. This type of company must apply its profit towards:",
+            options: ["Distributing dividends to members.", "Promoting its charitable objects.", "Buying back its own shares.", "Paying excessive remuneration to directors."],
+            answer: "Promoting its charitable objects.",
+            explanation: "Such company intends to apply its profit in promoting its objects and prohibiting the payment of any dividend to its members."
+        },
+        {
+            question: "The legal person of the company begins to function as an entity from the moment of:",
+            options: ["The signing of the Articles of Association.", "The first meeting of the Board of Directors.", "The registration of the company and the issue of the Certificate of Incorporation.", "The allotment of shares."],
+            answer: "The registration of the company and the issue of the Certificate of Incorporation.",
+            explanation: "A company is said to come into existence only after its registration and issue of Certificate of Incorporation. A legal personality emerges from the moment of registration."
+        },
+        {
+            question: "What is the consequence if the Memorandum of Association is silent on whether the company is limited or unlimited?",
+            options: ["The company is deemed to be a company limited by shares.", "The company is deemed to be an unlimited company.", "The registration process is incomplete.", "The company must seek Tribunal intervention."],
+            answer: "The registration process is incomplete.",
+            explanation: "The memorandum of a company shall state... the liability of members of the company (Liability clause), whether limited or unlimited. This is a compulsory clause, hence mandatory for incorporation."
+        },
+        {
+            question: "A company that has not filed financial statements and annual returns during the last two financial years is specifically defined as an:",
+            options: ["Inactive company.", "Winding-up company.", "Section 8 company.", "Listed company."],
+            answer: "Inactive company.",
+            explanation: "Inactive company' means a company which has not been carrying on any business or operation... or has not filed financial statements and annual returns during the last two financial years."
+        },
+        {
+            question: "Who must attest the signatures of the subscribers to the Memorandum of Association?",
+            options: ["The Registrar of Companies.", "The Central Government.", "At least one witness.", "The first director."],
+            answer: "At least one witness.",
+            explanation: "The memorandum must be... signed by at least seven persons (or two/one)... in the presence of at least one witness, who will attest the signatures."
+        },
+        {
+            question: "If the articles provide for entrenchment, the company must give notice of such provisions to the:",
+            options: ["Central Government.", "Registrar.", "Securities and Exchange Board.", "Reserve Bank of India."],
+            answer: "Registrar.",
+            explanation: "Where the articles contain provisions for entrenchment... the company shall give notice to the Registrar of such provisions."
+        },
+        {
+            question: "The directors of a company are NOT considered the 'agents' of the members of the company. They are the human agency through which the company acts. This fact highlights the company’s status as a(n):",
+            options: ["Sole proprietary concern.", "Joint venture.", "Artificial legal person.", "Public financial institution."],
+            answer: "Artificial legal person.",
+            explanation: "The directors... are not the 'agents' of the members of the company. The directors can either on their own or through the common seal... can authenticate its formal acts. This relates to the company being an artificial person."
+        },
+        {
+            question: "Which kind of company's memorandum of association is covered under Table D of Schedule I?",
+            options: ["Unlimited company.", "Unlimited company having share capital.", "Company limited by shares.", "Company limited by guarantee and not having share capital."],
+            answer: "Unlimited company.",
+            explanation: "Table D is a form for memorandum of association of an unlimited company."
+        },
+        {
+            question: "Which of the following describes the capital that is offered by the company for subscription and includes shares allotted for consideration other than cash?",
+            options: ["Nominal capital.", "Subscribed capital.", "Issued capital.", "Paid-up capital."],
+            answer: "Issued capital.",
+            explanation: "Issued capital... is that part of authorised capital which is offered by the company for subscription and includes the shares allotted for consideration other than cash."
+        },
+        {
+            question: "In the context of share capital, what does the term 'stock' refer to?",
+            options: ["Tangible goods owned by the company.", "The accumulation of preference shares.", "The value of shares traded on the market.", "It is included in the definition of a 'share' under Section 2(84)."],
+            answer: "It is included in the definition of a 'share' under Section 2(84).",
+            explanation: "Section 2(84) of the Companies Act, 2013 defines the term ‘share’ which means a share in the share capital of a company and includes stock."
+        },
+        {
+            question: "If a transaction entered into by an outsider dealing with a company is ultra vires the articles, it means the outsider has contracted in a way that is:",
+            options: ["Beyond the power of the company itself.", "Beyond the internal rules governing the power distribution.", "Beyond the legal capacity of the outsider.", "Beyond the total voting power."],
+            answer: "Beyond the internal rules governing the power distribution.",
+            explanation: "An act ultra vires the articles means it is inconsistent with the internal regulations. If the act is ultravires the Articles, it can be ratified, meaning it is not ultra vires the company itself, but only the internal governing document."
+        }
+    ],
+
+    'The Negotiable Instruments Act, 1881': [
+        {
+            question: "What is the primary source of the Indian law relating to negotiable instruments?",
+            options: ["The Hindu Law of Contracts", "The English Common Law", "The Indian Contract Act, 1872", "The Code of Civil Procedure"],
+            answer: "The English Common Law",
+            explanation: "The source of Indian law relating to such instruments is admittedly the English Common Law."
+        },
+        {
+            question: "The Negotiable Instruments Act, 1881, defines and amends the law relating to which specific types of instruments?",
+            options: ["Promissory notes, bills of lading, and cheques.", "Bills of exchange, railway receipts, and promissory notes.", "Promissory notes, bills of exchange, and cheques.", "Treasury bills, bills of exchange, and cheques."],
+            answer: "Promissory notes, bills of exchange, and cheques.",
+            explanation: "This is an Act to define and amend the law relating to promissory notes, bills of exchange and cheques."
+        },
+        {
+            question: "Which specific statute is mentioned in the NI Act, 1881, as unaffected by its contents?",
+            options: ["The Indian Stamp Act", "The Information Technology Act, 2000", "The Companies Act, 2013", "The Reserve Bank of India Act, 1934"],
+            answer: "The Reserve Bank of India Act, 1934",
+            explanation: "The Act applies to the whole of India, but nothing herein contained affects the Reserve Bank of India Act, 1934."
+        },
+        {
+            question: "Instruments like Treasury Bills, Bearer Debentures, and Bills of Lading are considered negotiable instruments in India primarily due to:",
+            options: ["Specific inclusion under Section 13 of the Act.", "The definition provided under Section 5 of the Act.", "Mercantile custom or under other enactments.", "Recent amendments in the 2018 Act."],
+            answer: "Mercantile custom or under other enactments.",
+            explanation: "Other native instruments like Treasury Bills, Bearer Debentures, Railway Receipts, Delivery Orders, Bill of Lading etc. are also considered as negotiable instruments either by mercantile custom or under other enactments."
+        },
+        {
+            question: "Negotiable Instruments are characterized by the transfer of property to a transferee for value, provided the transferee is:",
+            options: ["An authorized agent.", "A registered holder.", "A non-resident person.", "A bonafide transferee."],
+            answer: "A bonafide transferee.",
+            explanation: "The property in such an instrument pass to a bonafide transferee for value."
+        },
+        {
+            question: "Which statement accurately describes a negotiable instrument that is 'payable to order'?",
+            options: ["It is expressed to be payable to bearer.", "It contains words prohibiting its transfer.", "It is expressed to be payable to a specified person and does not prohibit transfer.", "The only or last indorsement is in blank."],
+            answer: "It is expressed to be payable to a specified person and does not prohibit transfer.",
+            explanation: "A negotiable instrument is payable to order when: b. When it is expressed to be payable to a specified person and does not contain words prohibiting its transfer."
+        },
+        {
+            question: "When is a negotiable instrument considered payable to bearer by virtue of indorsement?",
+            options: ["When the payee is not specified.", "When the maker specifies 'pay bearer'.", "When the instrument is expressed to be so payable.", "When the only or last indorsement on the instrument is an indorsement in blank."],
+            answer: "When the only or last indorsement on the instrument is an indorsement in blank.",
+            explanation: "A negotiable instrument is payable to bearer when: b. When the only or last indorsement (indorsement means signing of the instrument) on the instrument is an indorsement in blank."
+        },
+        {
+            question: "A key essential characteristic of every negotiable instrument is that the promise or order to pay must consist of:",
+            options: ["Goods or money.", "Money only.", "Services or money.", "Transferable property."],
+            answer: "Money only.",
+            explanation: "Every negotiable instrument must contain an unconditional promise or order to pay money. The promise or order to pay must consist of money only."
+        },
+        {
+            question: "What condition, regarding liability, must be fulfilled after the drawing or making of a negotiable instrument?",
+            options: ["It must be registered.", "It must be presented for acceptance.", "It must be delivered.", "It must be attested by two witnesses."],
+            answer: "It must be delivered.",
+            explanation: "The instrument should be delivered. Mere drawing of instrument does not create liability."
+        },
+        {
+            question: "According to Section 4 of the NI Act, 1881, which instrument is specifically excluded from the definition of a 'promissory note'?",
+            options: ["A bank-note or a currency-note.", "A bill of exchange.", "A treasury bill.", "A cheque."],
+            answer: "A bank-note or a currency-note.",
+            explanation: "A 'promissory note' is an instrument in writing (not being a bank-note or a currency-note)."
+        },
+        {
+            question: "If a document states, 'I acknowledge myself to be indebted to B in ₹ 1,000, to be paid on demand, for value received,' is it a valid promissory note?",
+            options: ["No, because it is merely an acknowledgment of debt.", "Yes, because the promise to pay is definite.", "No, because it lacks a certain payee.", "Yes, because the amount is clearly stated."],
+            answer: "Yes, because the promise to pay is definite.",
+            explanation: "Example 1: I acknowledge myself to be indebted to B in ₹ 1,000, to be paid on demand, for value received. (Valid promissory note as the promise to pay is definite)."
+        },
+        {
+            question: "Which phrase renders an instrument invalid as a promissory note because it is only an acknowledgment of debt and not a promise to pay?",
+            options: ["Pay to the order of B.", "I.O.U ₹ 1,000.", "I promise to pay.", "I undertake to remit."],
+            answer: "I.O.U ₹ 1,000.",
+            explanation: "Example 2: “Mr. B, I.O.U ₹ 1,000.” – Invalid promissory note as there is no promise to pay. It is just an acknowledgement of debt."
+        },
+        {
+            question: "A promise to pay 'seven days after my marriage with C' makes a promissory note invalid because:",
+            options: ["The amount is not certain.", "Marriage with C may or may not happen, making the promise conditional.", "The maker's signature is missing.", "The event is not related to money."],
+            answer: "Marriage with C may or may not happen, making the promise conditional.",
+            explanation: "Example 3: I promise to pay B ₹ 500 seven days after my marriage with C. (the promissory note is invalid as marriage with C may or may not happen.)."
+        },
+        {
+            question: "A promise to pay '₹ 500 on D’s death, provided D leaves me enough to pay that sum' is an invalid promissory note because:",
+            options: ["D’s death is not certain.", "The promise is dependent on an uncertain event (leaving behind money).", "The payee is not certain.", "The instrument is not stamped."],
+            answer: "The promise is dependent on an uncertain event (leaving behind money).",
+            explanation: "Example 5: I promise to pay B ₹ 500 on D’s death, provided D leaves me enough to pay that sum. Invalid promissory note as promise is dependent on D’s leaving behind money which is not certain."
+        },
+        {
+            question: "A promissory note stating, 'I promise to pay B ₹ 500 and to deliver to him my black horse on 1st January next,' is invalid because:",
+            options: ["The time of payment is uncertain.", "The amount is not a 'certain sum'.", "The promise is not to pay money only.", "It is payable to bearer."],
+            answer: "The promise is not to pay money only.",
+            explanation: "It is not a valid promissory note, as the promisor needs to deliver its black horse which is not money."
+        },
+        {
+            question: "Under the provisions of the RBI Act, 1934, who alone is permitted to make or issue a promissory note 'payable to bearer'?",
+            options: ["Any specified banker.", "The drawer and the drawee jointly.", "The Reserve Bank or the Central Government.", "The maker, provided the amount exceeds ₹ 5,000."],
+            answer: "The Reserve Bank or the Central Government.",
+            explanation: "Only the Reserve Bank or the Central Government can make or issue a promissory note 'payable to bearer'."
+        },
+        {
+            question: "In a specimen promissory note, which party is typically identified as the debtor?",
+            options: ["The Payee.", "The Drawee.", "The Maker.", "The Indorser."],
+            answer: "The Maker.",
+            explanation: "The person who makes the promise to pay is called the Maker. He is the debtor and must sign the instrument."
+        },
+        {
+            question: "What is the consequence if the amount payable in a promissory note is stated as '₹ 500 and all other sums which shall be due to him'?",
+            options: ["The note is valid, as the amount is ascertainable.", "The note is invalid as the amount payable is not certain.", "The note is valid, provided the interest rate is specified.", "The note is valid if stamped properly."],
+            answer: "The note is invalid as the amount payable is not certain.",
+            explanation: "Example 7: 'I promise to pay B ₹ 500 and all other sums which shall be due to him.'- Promissory note invalid as the amount payable is not certain."
+        },
+        {
+            question: "In a Bill of Exchange (BOE), the instrument must contain an:",
+            options: ["Unconditional undertaking.", "Unconditional order.", "Unconditional request.", "Acknowledgment of debt."],
+            answer: "Unconditional order.",
+            explanation: "A 'bill of exchange' is an instrument in writing containing an unconditional order, signed by the maker."
+        },
+        {
+            question: "In a Bill of Exchange, what is the primary and unconditional liability held by the drawee once he accepts the bill?",
+            options: ["Drawer.", "Acceptor.", "Payee.", "Indorser."],
+            answer: "Acceptor.",
+            explanation: "On acceptance of the bill, he is called an acceptor and is liable for the payment of the bill. His liability is primary and unconditional."
+        },
+        {
+            question: "Which characteristic distinguishes a Bill of Exchange from a Promissory Note, based on the nature of the instrument?",
+            options: ["Requirement of stamping.", "Need for certainty of the sum payable.", "Presence of an order for making payment.", "Necessity of being in writing."],
+            answer: "Presence of an order for making payment.",
+            explanation: "In a promissory note, there is a promise to pay money. In a bill of exchange, there is an order for making payment."
+        },
+        {
+            question: "How many distinct persons must necessarily be present in a Bill of Exchange transaction?",
+            options: ["One.", "Two.", "Three.", "Four."],
+            answer: "Two.",
+            explanation: "All these three parties [Drawer, Drawee, Payee] may not necessarily be three different persons. One can play the role of two. But there must be two distinct persons in any case."
+        },
+        {
+            question: "According to Section 31 of the RBI Act, 1934, a Bill of Exchange (BOE) cannot be made payable to:",
+            options: ["A specific person or his order.", "Bearer on demand.", "The drawee himself.", "A third party."],
+            answer: "Bearer on demand.",
+            explanation: "As per Section 31 of RBI Act, 1934, a bill of exchange cannot be made payable to bearer on demand."
+        },
+        {
+            question: "A written instrument stating, 'On demand pay to the bearer the sum of rupees five hundred, for value received,' is invalid as a Bill of Exchange (BOE) because:",
+            options: ["It lacks an unconditional order.", "It is payable to the bearer on demand.", "It does not specify the drawee.", "The sum is not certain."],
+            answer: "It is payable to the bearer on demand.",
+            explanation: "Example 9: 'On demand pay to the bearer the sum of rupees five hundred, for value received.' It is invalid BOE."
+        },
+        {
+            question: "What essential process is required for a Bill of Exchange but is unnecessary for a Promissory Note?",
+            options: ["Delivery.", "Stamping.", "Acceptance from the drawee.", "Signature by the maker/drawer."],
+            answer: "Acceptance from the drawee.",
+            explanation: "A promissory note does not require any acceptance... A bills of exchange needs acceptance from the drawee."
+        },
+        {
+            question: "In the standard process of a Bill of Exchange transaction, when does the Drawee officially become the Acceptor?",
+            options: ["When the drawer draws the BOE.", "When the drawee accepts the bill unconditionally.", "When the drawer receives payment.", "On the maturity date of the bill."],
+            answer: "When the drawee accepts the bill unconditionally.",
+            explanation: "The Bill of exchange is delivered to the buyer who accepts it without any condition."
+        },
+        {
+            question: "A 'Cheque' is defined under Section 6 of the NI Act as a Bill of Exchange drawn on a specified banker and expressed to be payable only:",
+            options: ["After sight.", "On maturity.", "On demand.", "After a fixed period."],
+            answer: "On demand.",
+            explanation: "A 'cheque' is a bill of exchange drawn on a specified banker and not expressed to be payable otherwise than on demand (i.e., it is always payable on demand)."
+        },
+        {
+            question: "What duration defines 'payable on demand' for a cheque?",
+            options: ["Within 48 hours of presentation.", "Whenever the holder chooses to present it to the drawee (the banker).", "Within three months of the issue date.", "On the due date specified on the face of the instrument."],
+            answer: "Whenever the holder chooses to present it to the drawee (the banker).",
+            explanation: "Payable on demand means- It should be payable whenever the holder chooses to present it to the drawee (the banker)."
+        },
+        {
+            question: "In the context of a Cheque, who is invariably the Drawee?",
+            options: ["The person named in the instrument.", "The drawer's agent.", "The specified bank on whom the cheque is drawn.", "The clearing house."],
+            answer: "The specified bank on whom the cheque is drawn.",
+            explanation: "In case of cheque, drawee is always banker."
+        },
+        {
+            question: "A cheque in the 'electronic form' is defined as a cheque drawn using any computer resource and signed with a digital signature, which may include:",
+            options: ["A biometric signature.", "An oral verification.", "A paper seal.", "A notarized stamp."],
+            answer: "A biometric signature.",
+            explanation: "Cheque in the electronic form-means a cheque drawn in electronic form by using any computer resource, and signed in a secure system with a digital signature (with/without biometric signature)."
+        },
+        {
+            question: "A 'truncated cheque' refers to a cheque which is truncated during a clearing cycle, immediately on the generation of:",
+            options: ["A physical copy.", "An electronic image for transmission.", "A notice of dishonour.", "A digital certificate."],
+            answer: "An electronic image for transmission.",
+            explanation: "A 'truncated cheque' means a cheque which is truncated during a clearing cycle... immediately on generation of an electronic image for transmission."
+        },
+        {
+            question: "The legal representative of a deceased person cannot negotiate an order instrument indorsed by the deceased but not delivered, by delivery only. This is according to which Section of the NI Act, 1881?",
+            options: ["Section 13", "Section 46", "Section 57", "Section 58"],
+            answer: "Section 57",
+            explanation: "If a person makes the indorsement of instrument but before the same could be delivered to the indorsee the indorser dies, the legal representatives of the deceased person cannot negotiate the same by mere delivery thereof. (Section 57)."
+        },
+        {
+            question: "Which of the following characteristics is unique to a Cheque compared to a Bill of Exchange, according to the stated definitions?",
+            options: ["It must be in writing.", "It must contain an unconditional order.", "It does not require acceptance.", "It must be stamped."],
+            answer: "It does not require acceptance.",
+            explanation: "A cheque does not require: (a) Stamping; or (b) acceptance. (Note: The BOE typically requires acceptance, while a cheque, being drawn on a banker, is always payable on demand and thus acceptance is not required in the same manner.)"
+        },
+        {
+            question: "For a cheque, what is the nature of the Drawer’s liability?",
+            options: ["Primary and unconditional.", "Secondary and unconditional.", "Primary and conditional.", "Primary and limited."],
+            answer: "Primary and conditional.",
+            explanation: "Drawer: The person who draws a cheque i.e., makes the cheque (Debtor). His liability is primary and conditional."
+        },
+        {
+            question: "What is the defining feature of a 'Bearer Instrument' regarding its transferability?",
+            options: ["It can only be transferred by indorsement in full.", "It requires negotiation by indorsement and delivery.", "It can be negotiated by mere delivery.", "It is only transferable through registered post."],
+            answer: "It can be negotiated by mere delivery.",
+            explanation: "Such instrument can be negotiated by mere delivery."
+        },
+        {
+            question: "An instrument is payable to order when the last indorsement is in:",
+            options: ["Blank.", "Full.", "Escrow.", "Notarized form."],
+            answer: "Full.",
+            explanation: "Order Instrument: It is an instrument... where the last indorsement is in full, such instrument can be negotiated by indorsement and delivery."
+        },
+        {
+            question: "Which criteria is *not* sufficient alone to classify an instrument as an 'Inland instrument'?",
+            options: ["Drawn or made in India.", "Made payable in India.", "Drawn upon any person resident in India.", "Endorsed in India by a foreign national."],
+            answer: "Endorsed in India by a foreign national.",
+            explanation: "An inland instrument remains inland even if it has been endorsed in a foreign country. The primary criteria are drawn/made in India PLUS (payable in India OR drawn upon a person resident in India)."
+        },
+        {
+            question: "A Bill of Exchange is drawn in Mumbai on a merchant resident in Mathura, but it is accepted as payable in London. What is the nature of this Bill?",
+            options: ["Foreign Bill.", "Ambiguous Instrument.", "Inland Bill.", "Non-negotiable Instrument."],
+            answer: "Inland Bill.",
+            explanation: "It is also an inland bill of exchange. In this case, the bill of exchange was drawn in India on a person resident in India. It is immaterial that the amount is payable in London."
+        },
+        {
+            question: "If a Promissory Note is drawn/made outside India, on a person resident outside India, and payable outside India, what is its nature?",
+            options: ["Inland Instrument.", "Ambiguous Instrument.", "Inchoate Instrument.", "Foreign Instrument."],
+            answer: "Foreign Instrument.",
+            explanation: "A foreign instrument is one which is not an inland instrument. P/N, BOE, C drawn/made outside India, on a person residing outside India + payable outside India, are foreign bills."
+        },
+        {
+            question: "The liability of the maker or drawer of a foreign promissory note or bill of exchange is generally regulated by the law of the place where:",
+            options: ["The instrument is negotiated.", "The instrument is presented for payment.", "He made the instrument.", "The holder resides."],
+            answer: "He made the instrument.",
+            explanation: "The liability of the maker or drawer of a foreign promissory note or bill of exchange or cheque is regulated in all essential matters by the law of the place where he made the instrument."
+        },
+        {
+            question: "A Bill of Exchange is drawn by A in Berkley (interest 15%) and accepted by B payable in Washington (interest 6%). If the bill is dishonoured and B is sued in India as acceptor, what rate of interest is applicable?",
+            options: ["The current rate of exchange.", "6%", "15%", "18%"],
+            answer: "6%",
+            explanation: "The respective liabilities of the acceptor and indorser [are regulated] by the law of the place where the instrument is made payable (Washington, 6%)... He is liable to pay interest at the rate of 6% only."
+        },
+        {
+            question: "An 'Inchoate Instrument' is fundamentally characterized by being:",
+            options: ["Vague as to its nature (PN or BOE).", "Incomplete in certain respects.", "Not bearing any signature.", "Expressed to be payable to order."],
+            answer: "Incomplete in certain respects.",
+            explanation: "Inchoate Instrument: It means an instrument that is incomplete in certain respects. Also described as otherwise wholly or partially blank."
+        },
+        {
+            question: "If an inchoate instrument is completed for an amount exceeding that intended by the signor, which party can still recover the full amount, provided it is covered by the stamp affixed?",
+            options: ["The original drawee.", "The holder.", "The legal representative.", "The holder in due course."],
+            answer: "The holder in due course.",
+            explanation: "The holder in due course can, however, recover any amount on such instrument provided it is covered by the stamp affixed on the instrument."
+        },
+        {
+            question: "A person signs a blank acceptance and keeps it in his drawer. It is stolen, filled up, and negotiated to a Holder in Due Course (HDC). Is the signer liable to the HDC?",
+            options: ["Yes, because the instrument was stamped.", "No, because the signer never delivered the instrument intending it to be used as a negotiable instrument.", "Yes, because the HDC acted innocently for value.", "No, because the amount filled exceeded the stamp value."],
+            answer: "No, because the signer never delivered the instrument intending it to be used as a negotiable instrument.",
+            explanation: "It was held that the signer to the blank acceptance was not liable to the holder in due course because he never delivered the instrument intending it to be used as a negotiable instrument."
+        },
+        {
+            question: "What legal principle is the rule of an inchoate instrument based upon, allowing a holder to complete it?",
+            options: ["The principle of absolute liability.", "The principle of estoppel.", "The principle of quantum meruit.", "The principle of subrogation."],
+            answer: "The principle of estoppel.",
+            explanation: "The principle of this rule of an inchoate instrument is based on the principle of estoppel."
+        },
+        {
+            question: "An instrument which is vague and cannot be clearly identified either as a Bill of Exchange or as a Promissory Note is termed as:",
+            options: ["Foreign Instrument.", "Ambiguous Instrument.", "Inchoate Instrument.", "Unconditional Instrument."],
+            answer: "Ambiguous Instrument.",
+            explanation: "Thus, an instrument which is vague and cannot be clearly identified either as a bill of exchange, or as a promissory note, is an ambiguous instrument."
+        },
+        {
+            question: "According to Section 17, once the holder of an ambiguous instrument exercises his election (to treat it as PN or BOE), what is the subsequent consequence?",
+            options: ["The election is revocable if the other party agrees.", "The instrument shall be thenceforward treated accordingly, and the holder cannot change his option.", "It must be converted into a cheque.", "The election must be registered with the court."],
+            answer: "The instrument shall be thenceforward treated accordingly, and the holder cannot change his option.",
+            explanation: "Section 17 provides that the holder may, at his discretion, treat it as either and the instrument shall thereafter be treated accordingly. Thus, after exercising his option, the holder cannot change that it is the other kind of instrument."
+        },
+        {
+            question: "When a negotiable instrument is transferred to any person with a view to constitute the person holder thereof, the instrument is deemed to have been:",
+            options: ["Accepted.", "Cancelled.", "Negotiated.", "Paid off."],
+            answer: "Negotiated.",
+            explanation: "According to Section 14 of the N.I. Act, when a negotiable instrument is transferred to any person with a view to constitute the person holder thereof, the instrument is deemed to have been negotiated."
+        },
+        {
+            question: "For a promissory note payable to order, negotiation is completed by:",
+            options: ["Mere delivery.", "Indorsement only.", "Indorsement and delivery.", "Registration."],
+            answer: "Indorsement and delivery.",
+            explanation: "A promissory note, bill of exchange or cheque payable to order is negotiable by the holder by indorsement and delivery thereof."
+        },
+        {
+            question: "X drew a cheque payable to Y. Y indorsed it to Z but kept it in his drawer. Y died, and Z found the cheque. Why did Z not become the holder?",
+            options: ["The indorsement was in blank.", "The drawer's consent was missing.", "The negotiation was not completed by delivery.", "The cheque had become invalid upon Y's death."],
+            answer: "The negotiation was not completed by delivery.",
+            explanation: "In this case, Z does not become the holder of the cheque as the negotiation was not completed by delivery of the cheque to him."
+        },
+        {
+            question: "What type of delivery occurs when an indorser, after indorsement, holds the instrument as an agent of the indorsee?",
+            options: ["Actual delivery.", "Symbolic delivery.", "Constructive delivery.", "Conditional delivery."],
+            answer: "Constructive delivery.",
+            explanation: "Constructive delivery takes place when the instrument is delivered to the agent, clerk or servant of the indorsee on his behalf or when the indorser, after indorsement, holds the instrument as an agent of the indorsee."
+        },
+        {
+            question: "The contract on a negotiable instrument remains incomplete and revocable until:",
+            options: ["The acceptance by the drawee.", "The payment of stamp duty.", "Delivery.", "The protest of dishonour."],
+            answer: "Delivery.",
+            explanation: "The contract on a negotiable instrument until delivery remains incomplete and revocable."
+        },
+        {
+            question: "If an instrument is delivered conditionally or for a special purpose only, the property in it does not pass to the transferee, unless the instrument is negotiated to a:",
+            options: ["Legal representative.", "Holder in due course.", "Drawee in case of need.", "Collecting banker."],
+            answer: "Holder in due course.",
+            explanation: "Section 46 also lays down that when an instrument is conditionally or for a special purpose only, the property in it does not pass to the transferee, even though it is indorsed to him, unless the instrument is negotiated to a holder in due course."
+        },
+        {
+            question: "Regarding parties standing in immediate relation, delivery of an instrument must be effectual by the party making, accepting, or endorsing the instrument, or by:",
+            options: ["A Notary Public.", "A person authorized by him in that behalf.", "The Central Government.", "The legal representative of the payee."],
+            answer: "A person authorized by him in that behalf.",
+            explanation: "Delivery to be effectual must be made by the party making, accepting, or endorsing the instrument, or by a person authorized by him in that behalf."
+        },
+        {
+            question: "Dishonour of a cheque under Section 138 of the NI Act requires the cheque to be drawn for the discharge of a:",
+            options: ["Moral obligation or gift.", "Debt or other liability.", "Security or illegal consideration.", "Contract for services rendered."],
+            answer: "Debt or other liability.",
+            explanation: "The cheque must be drawn... for the discharge, in whole or in part, of any debt or other liability. Debt or other liability means a legally enforceable debt or other liability."
+        },
+        {
+            question: "A cheque given as a gift or donation is considered outside the purview of Section 138 because:",
+            options: ["It is not drawn on a specified banker.", "It does not discharge a legally enforceable debt or liability.", "It is often post-dated.", "It exceeds the validity period."],
+            answer: "It does not discharge a legally enforceable debt or liability.",
+            explanation: "A cheque given as gift or donation... would be outside the purview of this section because 'debt or other liability' means a legally enforceable debt or other liability."
+        },
+        {
+            question: "What is the maximum term of imprisonment prescribed for an offence under Section 138 of the NI Act, 1881?",
+            options: ["Six months.", "One year.", "Two years.", "Three years."],
+            answer: "Two years.",
+            explanation: "Such person shall be deemed to have committed an offence and shall, be punished with imprisonment for a term which may extend to two years."
+        },
+        {
+            question: "The fine for dishonour of a cheque under Section 138 may extend up to:",
+            options: ["The amount of the cheque.", "Twice the amount of the cheque.", "Thrice the amount of the cheque.", "Five thousand rupees."],
+            answer: "Twice the amount of the cheque.",
+            explanation: "Punishable... with fine which may extend to twice the amount of the cheque."
+        },
+        {
+            question: "A cheque must be presented to the bank for payment within a period of three months from the date on which it is drawn or:",
+            options: ["The date of negotiation.", "The date of its validity, whichever is earlier.", "The date of acceptance.", "The date of dishonour."],
+            answer: "The date of its validity, whichever is earlier.",
+            explanation: "The cheque has been presented to the bank within a period of three months from the date on which it is drawn or within the period of its validity, whichever is earlier."
+        },
+        {
+            question: "If a drawer (X) issues a post-dated cheque to a payee (Y) for liability discharge and later instructs the bank to stop payment due to insufficient funds, X is liable under Section 138. Why?",
+            options: ["Stop payment instructions are never a valid defence.", "A post-dated cheque is treated as drawn on the date it bears, attracting Section 138 upon dishonour.", "The liability is secondary, not primary.", "The cheque was drawn on a specified banker."],
+            answer: "A post-dated cheque is treated as drawn on the date it bears, attracting Section 138 upon dishonour.",
+            explanation: "A post-dated cheque is deemed to have been drawn on the date it bears and the three months period for the purposes of section 138 is to be counted from that date. So, X will be liable for dishonour of cheque."
+        },
+        {
+            question: "If a cheque is dishonoured due to insufficiency of funds, the complainant can generally file a case after how many days following the dishonour (considering notice and default period)?",
+            options: ["30 days.", "15 days.", "45 days.", "60 days."],
+            answer: "45 days.",
+            explanation: "Compliant can be filed after 45 days of dishonor of the cheque i.e., 30 days of notice period +15 days of the receipt of the said notice."
+        },
+        {
+            question: "Section 139 of the NI Act establishes a presumption in favor of the holder. What is the nature of this presumption?",
+            options: ["Conclusive presumption.", "Irrebuttable presumption.", "Rebuttable presumption.", "Absolute presumption."],
+            answer: "Rebuttable presumption.",
+            explanation: "Presumption prescribed here is a “rebuttable presumption” as the provisions clearly provides that the person issuing the cheque is at liberty to prove to the contrary."
+        },
+        {
+            question: "Under Section 140, it is not a defence in a prosecution under Section 138 that the drawer:",
+            options: ["Did not know the payee.", "Had already discharged the debt.", "Had no reason to believe the cheque may be dishonoured when issued.", "Was an undischarged insolvent."],
+            answer: "Had no reason to believe the cheque may be dishonoured when issued.",
+            explanation: "It shall not be a defence in a prosecution of an offence under section 138 that the drawer had no reason to believe when he issued the cheque that the cheque may be dishonoured."
+        },
+        {
+            question: "Presentment for acceptance is mandatory for which specific type of instrument?",
+            options: ["A Promissory Note payable after sight.", "A Cheque payable on demand.", "A Bill of Exchange payable after sight.", "An Inland Instrument."],
+            answer: "A Bill of Exchange payable after sight.",
+            explanation: "A bill of exchange payable after sight must [if no time or place is specified therein for presentment] be presented to the drawee thereof for acceptance."
+        },
+        {
+            question: "If a Bill of Exchange payable after sight is not presented for acceptance within a reasonable time, what is the consequence?",
+            options: ["The bill becomes invalid.", "The drawee becomes automatically liable.", "No party thereto is liable thereon to the person making such default.", "The drawer must issue a new bill."],
+            answer: "No party thereto is liable thereon to the person making such default.",
+            explanation: "In default of such presentment, no party thereto is liable thereon to the person making such default."
+        },
+        {
+            question: "The holder of a Bill of Exchange presented for acceptance must allow the drawee how much time to consider whether he will accept it, if so required?",
+            options: ["24 hours.", "48 hours (exclusive of public holidays).", "Three working days.", "One week."],
+            answer: "48 hours (exclusive of public holidays).",
+            explanation: "The holder must, if so required by the drawee of a bill of exchange presented to him for acceptance, allow the drawee 48 hours (exclusive of public holidays) to consider whether he will accept it."
+        },
+        {
+            question: "Presentment for sight is required for which instrument type, when payable at a certain period after sight?",
+            options: ["Cheque.", "Bill of Exchange.", "Promissory Note.", "Bearer Debenture."],
+            answer: "Promissory Note.",
+            explanation: "A promissory note, payable at a certain period after sight, must be presented to the maker thereof for sight."
+        },
+        {
+            question: "Presentment for payment must be made to the maker in the case of a Promissory Note. To whom must it be made in the case of a Cheque?",
+            options: ["The acceptor.", "The payee.", "The drawee (banker).", "The holder in due course."],
+            answer: "The drawee (banker).",
+            explanation: "Promissory notes, bill of exchange and cheques must be presented for payment to the maker, acceptor or drawee thereof respectively."
+        },
+        {
+            question: "If a negotiable instrument is payable at a specified period after date or sight, when must it be presented for payment?",
+            options: ["Within a reasonable time.", "Within banking hours.", "At maturity.", "On the first business day following the date."],
+            answer: "At maturity.",
+            explanation: "A promissory note or bill of exchange, made payable at a specified period after date or sight thereof, must be presented for payment at maturity."
+        },
+        {
+            question: "A Promissory Note payable by instalments must be presented for payment on which day following the date fixed for payment of each instalment?",
+            options: ["The date fixed itself.", "The day after the fixed date.", "The third day after the date fixed.", "The seventh day after the date fixed."],
+            answer: "The third day after the date fixed.",
+            explanation: "A promissory note payable by instalments must be presented for payment on the third day after the date fixed for payment of each instalment."
+        },
+        {
+            question: "If the maker, drawee, or acceptor of a negotiable instrument has no known place of business or fixed residence, and no place is specified for presentment, where may presentment be made?",
+            options: ["At the bank's head office.", "By registered post.", "To him in person wherever he can be found.", "Presentment is excused."],
+            answer: "To him in person wherever he can be found.",
+            explanation: "Such presentment may be made to him in person wherever he can be found."
+        },
+        {
+            question: "To charge the Drawer of a Cheque, it must be presented at the bank upon which it is drawn before the relationship between the drawer and his banker has been altered to the prejudice of:",
+            options: ["The drawee.", "The payee.", "The drawer.", "The indorser."],
+            answer: "The drawer.",
+            explanation: "A cheque must, in order to charge the drawer, be presented at the bank upon which it is drawn before the relation between the drawer and his banker has been altered to the prejudice of the drawer."
+        },
+        {
+            question: "To charge any person *except* the drawer of a cheque, the cheque must be presented within what timeframe after delivery thereof by such person?",
+            options: ["Within 15 days.", "Within 30 days.", "Within the validity period.", "Within a reasonable time."],
+            answer: "Within a reasonable time.",
+            explanation: "A cheque must, in order to charge any person except the drawer, be presented within a reasonable time after delivery thereof by such person."
+        },
+        {
+            question: "Delay in presentment for acceptance or payment is excused only if the delay is caused by circumstances beyond the control of the holder and not imputable to:",
+            options: ["The drawee's delay.", "His default, misconduct or negligence.", "The postal service.", "A public holiday."],
+            answer: "His default, misconduct or negligence.",
+            explanation: "Delay in presentment for acceptance or payment is excused if the delay is caused by circumstances beyond the control of the holder, and not imputable to his default, misconduct or negligence."
+        },
+        {
+            question: "Presentment for payment is deemed unnecessary, and the instrument is dishonoured at the due date, if the maker, drawee, or acceptor intentionally:",
+            options: ["Negotiates the instrument.", "Prevents the presentment of the instrument.", "Demands verification of the stamp.", "Accepts the instrument conditionally."],
+            answer: "Prevents the presentment of the instrument.",
+            explanation: "No presentment for payment is necessary... If the maker, drawee or acceptor intentionally prevents the presentment of the instrument."
+        },
+        {
+            question: "Under the rules of compensation (Section 117), if an indorser who is liable pays the amount due on the dishonoured instrument, what annual interest rate is he entitled to receive from the date of payment until tender or realisation?",
+            options: ["6% p.a.", "12% p.a.", "15% p.a.", "18% p.a."],
+            answer: "18% p.a.",
+            explanation: "An endorser who, being liable, has paid the amount due on the same is entitled to the amount so paid with interest at 18% per annum from the date of payment until tender or realisation thereof."
+        },
+        {
+            question: "For charging the drawer or maker of an instrument payable at a specified place, where must the presentment for payment occur?",
+            options: ["At the holder's usual residence.", "At the place of drawing.", "At that specified place.", "At any major bank branch."],
+            answer: "At that specified place.",
+            explanation: "A promissory note or bill of exchange made, drawn or accepted payable at a specified place must, in order to charge the maker or drawer thereof, be presented for payment at that place."
+        },
+        {
+            question: "If the drawer of a dishonoured instrument could not suffer damage from the want of presentment, what is the consequence regarding the necessity of presentment?",
+            options: ["Presentment is excused against the drawer.", "The instrument is automatically cancelled.", "The drawer is liable for twice the amount.", "The holder loses his rights entirely."],
+            answer: "Presentment is excused against the drawer.",
+            explanation: "No presentment for payment is necessary... as against the drawer, if the drawer could not suffer damage from the want of such presentment."
+        },
+        {
+            question: "In case of dishonour, if the person charged resides at a place different from where the instrument was payable, the holder is entitled to receive the compensation sum at:",
+            options: ["The statutory fixed rate of 12%.", "The rate specified on the instrument.", "The current rate of exchange between the two places.", "The historical rate prevailing at the time of issue."],
+            answer: "The current rate of exchange between the two places.",
+            explanation: "When the person charged resides at a place different from that at which the instrument was payable, the holder is entitled to receive such sum at the current rate of exchange between the two places."
+        },
+        {
+            question: "A bill of exchange accepted payable at a specified bank is dishonoured. If the banker negligently deals with the bill causing loss to the holder, the banker must:",
+            options: ["Notify the RBI.", "Compensate the holder for such loss.", "File a criminal complaint.", "Request the drawer to reissue the bill."],
+            answer: "Compensate the holder for such loss.",
+            explanation: "If the banker so negligently or improperly keeps, deals with or delivers back such bill as to cause loss to the holder, he must compensate the holder for such loss."
+        },
+        {
+            question: "If a negotiable instrument is payable on demand and is received by the holder, within what timeframe must it be presented for payment, subject to Section 31?",
+            options: ["At maturity.", "Within 48 hours.", "Within a reasonable time after it is received.", "Within three months."],
+            answer: "Within a reasonable time after it is received.",
+            explanation: "A negotiable instrument payable on demand must be presented for payment within a reasonable time after it is received by the holder."
+        },
+        {
+            question: "If a drawee of a Bill of Exchange has died, presentment for acceptance or payment may be made to:",
+            options: ["The notary public.", "His legal representative.", "The clearing house.", "The drawer only."],
+            answer: "His legal representative.",
+            explanation: "Presentment for acceptance or payment may be made to... where the drawee, maker or acceptor has died, to his legal representative."
+        },
+        {
+            question: "Which type of instrument is defined as one which is signed and duly stamped but otherwise wholly or partially blank?",
+            options: ["Ambiguous instrument.", "Foreign instrument.", "Inchoate instrument.", "Order instrument."],
+            answer: "Inchoate instrument.",
+            explanation: "Inchoate instrument is an instrument that is signed and duly stamped but otherwise wholly or partially blank."
+        },
+        {
+            question: "If a party sought to be charged on an instrument makes a part payment after maturity, with knowledge that the instrument has not been presented, this act results in:",
+            options: ["The instrument becoming void.", "A required protest under law.", "Waiver of the right to take advantage of default in presentment.", "Automatic conversion to a cheque."],
+            answer: "Waiver of the right to take advantage of default in presentment.",
+            explanation: "As against any party if, after maturity, with knowledge that the instrument has not been presented—o he makes a part payment on account of the amount due on the instrument...."
+        },
+        {
+            question: "Delivery of an instrument, whether actual or constructive, is essential not only at the time of negotiation but also at the time of:",
+            options: ["Stamping of the instrument.", "Accepting the instrument.", "Making or drawing of negotiable instrument.", "Filing for arbitration."],
+            answer: "Making or drawing of negotiable instrument.",
+            explanation: "The delivery is essential not only at the time of negotiation but also at the time of making or drawing of negotiable instrument."
+        },
+        {
+            question: "An instrument drawn in Varanasi on a person resident in Jodhpur, although stated to be payable in Singapore, is classified as:",
+            options: ["Foreign instrument.", "Inland instrument.", "Ambiguous instrument.", "Inchoate instrument."],
+            answer: "Inland instrument.",
+            explanation: "A bill drawn in Varanasi on a person resident in Jodhpur (although it is stated to be payable in Singapore) [is an Inland Instrument]."
+        },
+        {
+            question: "A Bill of Exchange must be presented for acceptance within a reasonable time after it is drawn, and specifically during:",
+            options: ["Any time of day.", "Banking hours only.", "Business hours on a business day.", "The 48-hour deliberation period."],
+            answer: "Business hours on a business day.",
+            explanation: "A bill of exchange payable after sight must... be presented... within a reasonable time after it is drawn, and in business hours on a business day."
+        },
+        {
+            question: "The essential difference between a Bill of Exchange and a Cheque is that a Bill of Exchange is a negotiable instrument containing an instruction to pay at a designated future date or on demand, whereas a cheque is:",
+            options: ["Always drawn on a specified banker and payable on demand.", "Always payable after sight.", "Always drawn by the payee.", "Never transferable by indorsement."],
+            answer: "Always drawn on a specified banker and payable on demand.",
+            explanation: "Whereas a cheque is also a bill of exchange but is drawn on a banker and payable on demand."
+        },
+        {
+            question: "If a Bill of Exchange is directed to the drawee at a particular place, and the drawee cannot, after reasonable search, be found there at the due date for presentment, the bill is deemed:",
+            options: ["Valid.", "Renewed.", "Dishonoured.", "Truncated."],
+            answer: "Dishonoured.",
+            explanation: "If the bill is directed to the drawee at a particular place, it must be presented at that place, and if at the due date for presentment he cannot, after reasonable search, be found there, the bill is dishonoured."
+        },
+        {
+            question: "When an electronic image of a truncated cheque is presented for payment, the drawee bank is entitled to demand further information from the holding bank if there is reasonable suspicion about:",
+            options: ["The solvency of the drawer.", "The current rate of exchange.", "The genuineness of the apparent tenor of instrument.", "The drawer's residential address."],
+            answer: "The genuineness of the apparent tenor of instrument.",
+            explanation: "The drawee bank is entitled to demand any further information regarding the truncated cheque from the bank holding the truncated cheque in case of any reasonable suspicion about the genuineness of the apparent tenor of instrument."
+        },
+        {
+            question: "The term 'Banker' in the NI Act includes:",
+            options: ["Any person acting as a banker and any post office saving bank.", "Only scheduled commercial banks.", "Only the Reserve Bank of India.", "Any financial institution not regulated by the RBI."],
+            answer: "Any person acting as a banker and any post office saving bank.",
+            explanation: "The expression 'Banker' includes any person acting as a banker and any post office saving bank [Section 3]."
+        },
+        {
+            question: "The essential characteristics of a Promissory Note include that the promise to pay must be:",
+            options: ["Conditional on performance of an act.", "Definite and unconditional.", "Subject to the availability of funds.", "Signed by the payee."],
+            answer: "Definite and unconditional.",
+            explanation: "The promise to pay should be definite and unconditional."
+        },
+        {
+            question: "A Bill of Exchange that requires acceptance from the drawee to fix his liability contains:",
+            options: ["An unconditional promise.", "An unconditional order.", "A conditional promise.", "A conditional order."],
+            answer: "An unconditional order.",
+            explanation: "A bill of exchange... containing an unconditional order."
+        },
+        {
+            question: "An instrument payable to bearer, where the name of the payee is specified with the words 'or bearer', is negotiated by:",
+            options: ["Endorsement in full.", "Mere delivery.", "Indorsement and delivery.", "Acceptance."],
+            answer: "Mere delivery.",
+            explanation: "It is an instrument where the name of the payee is specified with the words 'or bearer'... Such instrument can be negotiated by mere delivery."
+        },
+        {
+            question: "If the holder of a dishonoured instrument waives his right to take advantage of any default in presentment for payment, this waiver occurs if the party sought to be charged, with knowledge of non-presentment, subsequently:",
+            options: ["Issues a stop payment instruction.", "Promises to pay the amount due thereon in whole or in part.", "Files a protest against the holder.", "Appoints a legal representative."],
+            answer: "Promises to pay the amount due thereon in whole or in part.",
+            explanation: "As against any party if, after maturity, with knowledge that the instrument has not been presented—... o or promises to pay the amount due thereon in whole or in part."
+        },
+        {
+            question: "Which of the following is *not* a characteristic of a Negotiable Instrument?",
+            options: ["Holder’s title is free from defects.", "It must be necessarily in writing.", "It can be transferred only once.", "The sum payable must be certain."],
+            answer: "It can be transferred only once.",
+            explanation: "It can be transferred any number of times till its satisfaction."
+        },
+        {
+            question: "If a Bill of Exchange is drawn/made outside India, but upon a person residing in India, and made payable outside India, it is considered:",
+            options: ["Inland Bill.", "Foreign Bill.", "Ambiguous Instrument.", "Hundi."],
+            answer: "Foreign Bill.",
+            explanation: "P/N, BOE, C drawn/made outside India... on a person residing in India + payable outside India are foreign bills."
+        },
+        {
+            question: "When may a presentment for acceptance or payment be made to the assignee of a party (maker, drawee, or acceptor)?",
+            options: ["When the assignee is a banker.", "When the party has been declared an insolvent.", "When the party is a minor.", "When the assignee has provided a guarantee."],
+            answer: "When the party has been declared an insolvent.",
+            explanation: "Presentment for acceptance or payment may be made to... where he has been declared an insolvent, to his assignee."
+        },
+        {
+            question: "The objective of the Negotiable Instruments Act, 1881, is to legalise the system by which instruments contemplated by it could pass from hand to hand by negotiation like:",
+            options: ["Real estate.", "Any other goods.", "Secured bonds.", "Patents."],
+            answer: "Any other goods.",
+            explanation: "The main objective of the Act is to legalise the system by which instruments contemplated by it could pass from hand to hand by negotiation like any other goods."
+        },
+        {
+            question: "Indorsement, in the context of negotiable instruments, means:",
+            options: ["Cancelling the instrument.", "Signing of the instrument.", "Presentment for payment.", "Registration of transfer."],
+            answer: "Signing of the instrument.",
+            explanation: "Indorsement (indorsement means signing of the instrument)."
+        },
+        {
+            question: "A Bill of Exchange cannot be payable to bearer on demand. This restriction is based on which law?",
+            options: ["The Indian Stamp Act.", "The Code of Civil Procedure.", "Section 31 of the RBI Act, 1934.", "Section 4 of the NI Act, 1881."],
+            answer: "Section 31 of the RBI Act, 1934.",
+            explanation: "As per Section 31 of RBI Act, 1934, a bill of exchange cannot be made payable to bearer on demand."
+        },
+        {
+            question: "Who is the 'Drawee in case of need' in a Bill of Exchange?",
+            options: ["The drawer himself.", "A person whose name is given in addition to the drawee to be resorted to in case of need.", "The original payee.", "The maker of the instrument."],
+            answer: "A person whose name is given in addition to the drawee to be resorted to in case of need.",
+            explanation: "When in the bill or in any indorsement thereon, the name of any person is given in addition to the drawee to be resorted to in case of need such person is called a 'drawee in case of need'."
+        },
+        {
+            question: "According to the Act, a negotiable instrument is an instrument (document) which is freely transferable by customs of trade by:",
+            options: ["Notarization or public notice.", "Mere delivery or by indorsement and delivery.", "Registration with the Registrar.", "Acceptance by the Central Government."],
+            answer: "Mere delivery or by indorsement and delivery.",
+            explanation: "Negotiable Instruments is an instrument (the word instrument means a document) which is freely transferable (by customs of trade) from one person to another by mere delivery or by indorsement and delivery."
+        },
+        {
+            question: "What is the primary liability of the Maker of a Promissory Note?",
+            options: ["Primary and conditional.", "Primary and limited.", "Primary (debtor) and must sign the instrument.", "Secondary and limited."],
+            answer: "Primary (debtor) and must sign the instrument.",
+            explanation: "The person who makes the promise to pay is called the Maker. He is the debtor and must sign the instrument."
+        },
+        {
+            question: "If a Promissory Note is payable on demand and is *not* payable at a specified place, what condition of presentment applies?",
+            options: ["Presentment is required within banking hours.", "Presentment must be made in person.", "No presentment is necessary in order to charge the maker thereof.", "Presentment must be made by registered letter."],
+            answer: "No presentment is necessary in order to charge the maker thereof.",
+            explanation: "Exception: Where a promissory note is payable on demand and is not payable at a specified place, no presentment is necessary in order to charge the maker thereof."
+        },
+        {
+            question: "If an instrument, not payable at a specified place, is dishonoured because the liable party (maker/drawee/acceptor) cannot be found after due search, is presentment excused?",
+            options: ["No, presentment is excused only if prevented by force majeure.", "Yes, presentment is excused.", "No, only acceptance is excused.", "Yes, but only if the instrument is a cheque."],
+            answer: "Yes, presentment is excused.",
+            explanation: "No presentment for payment is necessary... if the instrument not being payable at any specified place, he cannot after due search be found."
+        },
+        {
+            question: "When is the liability of an acceptor or indorser of a foreign promissory note or bill of exchange regulated?",
+            options: ["By the law of the place where the drawer made the instrument.", "By the law of the place where the instrument is made payable.", "By the law of the residence of the holder.", "By the laws of India."],
+            answer: "By the law of the place where the instrument is made payable.",
+            explanation: "The respective liabilities of the acceptor and indorser [are regulated] by the law of the place where the instrument is made payable."
+        },
+        {
+            question: "Which of the following is *not* included in the definition of a Cheque under Section 6?",
+            options: ["A bill of exchange.", "Drawn on a specified banker.", "Payable otherwise than on demand.", "Electronic image of a truncated cheque."],
+            answer: "Payable otherwise than on demand.",
+            explanation: "A 'cheque' is a bill of exchange drawn on a specified banker and *not expressed to be payable otherwise than on demand* (meaning it is always payable on demand)."
+        },
+        {
+            question: "If an instrument contains an unconditional undertaking signed by the maker to pay a certain sum of money only, it is classified as a:",
+            options: ["Bill of Exchange.", "Promissory Note.", "Cheque.", "Letter of Credit."],
+            answer: "Promissory Note.",
+            explanation: "A promissory note is an unconditional undertaking, written and signed by the maker to pay a certain sum of money only."
+        },
+        {
+            question: "What must accompany the bill drawn by the party entitled to compensation upon the party liable to compensate him, if that original instrument was dishonoured?",
+            options: ["A copy of the RBI notification.", "The instrument dishonoured and the protest thereof (if any).", "The acceptance certificate.", "A court order."],
+            answer: "The instrument dishonoured and the protest thereof (if any).",
+            explanation: "Such bill must be accompanied by the instrument dishonoured and the protest thereof (if any)."
+        },
+        {
+            question: "In the context of the NI Act, 1881, what does 'transfer of ownership of the instrument' signify?",
+            options: ["Acceptance.", "Presentment.", "Negotiation.", "Protest."],
+            answer: "Negotiation.",
+            explanation: "Thus, there is a transfer of ownership of the instrument."
+        },
+        {
+            question: "In the case of an Inland Instrument, if it is drawn/made in India, the person upon whom it is drawn must be resident in India, OR the instrument must be:",
+            options: ["Made payable in India.", "Stamped outside India.", "Accepted by the holder.", "Transferable to bearer."],
+            answer: "Made payable in India.",
+            explanation: "A promissory note, bill of exchange or cheque drawn or made in India and made payable in, or drawn upon any person resident in India shall be deemed to be an inland instrument."
+        },
+        {
+            question: "Which specific section of the Act gives prima facie authority to the holder of a paper stamped in accordance with law, but wholly blank or incomplete, to complete it?",
+            options: ["Section 13", "Section 17", "Section 20", "Section 46"],
+            answer: "Section 20",
+            explanation: "Section 20 of the Act reads as 'Where one person signs and delivers to another a paper stamped in accordance with the law relating to negotiable instruments...' thereby gives prima facie authority to the holder thereof to make or complete...."
+        },
+        {
+            question: "A Bill of Exchange must contain an order to pay. The order must be:",
+            options: ["Express and absolute.", "Implied and conditional.", "Express and conditional.", "Express and unconditional."],
+            answer: "Express and unconditional.",
+            explanation: "Must contain an express order to pay and the order to pay must be definite and unconditional."
+        },
+        {
+            question: "A Promissory Note stating, 'I promise to pay B ₹ 500 alongwith simple interest at the rate of 12% per annum' is:",
+            options: ["Invalid, as the sum is not certain.", "Valid, as the amount payable can be easily ascertained.", "Invalid, as interest cannot be included.", "Ambiguous instrument."],
+            answer: "Valid, as the amount payable can be easily ascertained.",
+            explanation: "Example 8: 'I promise to pay B ₹ 500 alongwith simple interest at the rate of 12% per annum.' [Valid]."
+        },
+        {
+            question: "For presentment for payment, if the instrument is at a banker's, when must the presentment be made?",
+            options: ["During the usual hours of business.", "Within banking hours.", "At midnight.", "Within 48 hours of maturity."],
+            answer: "Within banking hours.",
+            explanation: "Presentment for payment must be made during the usual hours of business, and, if at a banker's within banking hours."
+        },
+        {
+            question: "The Negotiable Instruments (Amendment) Act, 2018, is listed among the significant amendments made to the NI Act, 1881. Which other key amendment is listed alongside it?",
+            options: ["The NI (Amendment) Act, 2010.", "The NI (Amendment) Act, 2015.", "The NI (Amendment) Act, 1995.", "The NI (Amendment) Act, 2005."],
+            answer: "The Negotiable Instruments (Amendment) Act, 2015.",
+            explanation: "The Negotiable Instruments (Amendment) Act, 2015, and The Negotiable Instruments (Amendment) Act, 2018."
+        },
+        {
+            question: "If a Promissory Note (PN) is made payable to bearer, and the Reserve Bank of India (RBI) or Central Government is not the maker, what is the legal status of the PN?",
+            options: ["Valid and negotiable by delivery.", "Valid only if properly stamped.", "Invalid/illegal as per the RBI Act, 1934.", "Ambiguous instrument."],
+            answer: "Invalid/illegal as per the RBI Act, 1934.",
+            explanation: "A promissory note cannot be made payable to the bearer [Section 31 of the Bank of India Act, 1934 (RBI Act)]. Hence, it is illegal if not made by RBI/Central Government."
+        },
+        {
+            question: "If the instrument is payable at the maker's place of business and he closes such place on a business day during usual business hours, presentment is:",
+            options: ["Required through registered post.", "Excused.", "Required within 48 hours.", "Required in person."],
+            answer: "Excused.",
+            explanation: "No presentment for payment is necessary... if the instrument being payable at his place of business, he closes such place on a business day during the usual business hours."
+        },
+        {
+            question: "What is the consequence if the drawee of a Bill of Exchange cannot, after reasonable search, be found for presentment for acceptance?",
+            options: ["The bill is deemed renewable.", "The bill is dishonoured.", "The holder must wait 48 hours.", "The drawer is discharged from liability."],
+            answer: "The bill is dishonoured.",
+            explanation: "If the drawee cannot, after reasonable search, be found, the bill is dishonoured."
+        },
+        {
+            question: "If a person signs and delivers a wholly blank, stamped paper, but the instrument is stolen and filled up without delivery intending use as a negotiable instrument, the signer is:",
+            options: ["Liable only to the holder in due course.", "Liable to all subsequent holders.", "Not liable.", "Liable for the amount covered by the stamp."],
+            answer: "Not liable.",
+            explanation: "The signer to the blank acceptance was not liable to the holder in due course because he never delivered the instrument intending it to be used as a negotiable instrument."
+        },
+        {
+            question: "The essential characteristic that distinguishes a Promissory Note from a Bill of Exchange is the number of primary parties involved. How many parties are required in a PN?",
+            options: ["Two (Maker and Payee).", "Three (Drawer, Drawee, Payee).", "One (Maker only).", "Four (Drawer, Drawee, Payee, Indorser)."],
+            answer: "Two (Maker and Payee).",
+            explanation: "In a promissory note, there are only 2 parties namely: i. the maker and ii. the payee."
+        },
+        {
+            question: "For an instrument to be considered freely transferable, what must the holder's title be free from?",
+            options: ["Stamp duty.", "Government taxation.", "Defects.", "Indorsements."],
+            answer: "Defects.",
+            explanation: "Holder’s title is free from defects."
+        },
+        {
+            question: "If a party sought to be charged with a dishonoured instrument has *engaged to pay* notwithstanding non-presentment, presentment for payment is:",
+            options: ["Conditionally required.", "Waived or excused.", "Required only through registered post.", "Required by law."],
+            answer: "Waived or excused.",
+            explanation: "No presentment for payment is necessary... as against any party sought to be charged therewith, if he has engaged to pay notwithstanding non-presentment."
+        },
+        {
+            question: "According to Section 65, presentment for payment must be made during the usual hours of business, and if at a banker's, within:",
+            options: ["Business hours.", "Banking hours.", "Any reasonable time.", "48 hours."],
+            answer: "Banking hours.",
+            explanation: "Presentment for payment must be made during the usual hours of business, and, if at a banker's within banking hours."
+        },
+        {
+            question: "The holder of an inchoate instrument (not being a holder in due course) can recover the amount:",
+            options: ["Up to the amount specified by the stamp.", "In excess of the amount intended to be paid by the signor.", "Not in excess of the amount intended to be paid by the signor.", "Any amount, regardless of the signor's intention."],
+            answer: "Not in excess of the amount intended to be paid by the signor.",
+            explanation: "The holder of such an instrument cannot recover the amount in excess of the amount intended to be paid by the signor. Provided that no person other than a holder in due course shall recover... anything in excess of the amount intended by him to be paid thereunder."
+        },
+        {
+            question: "If a Bill of Exchange is presented for acceptance through the post office by means of a registered letter, this mode of presentment is sufficient if authorized by:",
+            options: ["Section 62 of the Act.", "Agreement or usage.", "The drawee's signature.", "A notary public."],
+            answer: "Agreement or usage.",
+            explanation: "Where authorised by agreement or usage, a presentment through the post office by means of a registered letter is sufficient."
+        },
+        {
+            question: "In the case of a Bill of Exchange, who is the person named in the instrument to whom or to whose order the money is directed to be paid?",
+            options: ["The Drawer.", "The Drawee.", "The Acceptor.", "The Payee."],
+            answer: "The Payee.",
+            explanation: "Payee: The person named in the instrument, to whom or to whose order the money is, by the instrument, directed to be paid."
+        },
+        {
+            question: "A negotiable instrument must be properly stamped in accordance with the provisions of which specific Indian law?",
+            options: ["The Indian Stamp Act.", "The Registration Act.", "The Payment and Settlement Systems Act.", "The Indian Contract Act."],
+            answer: "The Indian Stamp Act.",
+            explanation: "A promissory note must be properly stamped in accordance with the provisions of the Indian Stamp Act. (Also stated generally for BOE)."
+        },
+        {
+            question: "If the instrument is payable to a specified person and contains words prohibiting its transfer, is it considered payable to order?",
+            options: ["Yes, unconditionally.", "Yes, but transfer is difficult.", "No, because order instruments do not contain words prohibiting transfer.", "Only if endorsed by the maker."],
+            answer: "No, because order instruments do not contain words prohibiting transfer.",
+            explanation: "A negotiable instrument is payable to order when: b. When it is expressed to be payable to a specified person and does not contain words prohibiting its transfer."
+        },
+        {
+            question: "Which of the following describes the liability of the Drawer of a Cheque?",
+            options: ["Primary and unconditional.", "Primary and conditional.", "Secondary and conditional.", "Non-existent until dishonour."],
+            answer: "Primary and conditional.",
+            explanation: "Drawer: The person who draws a cheque... His liability is primary and conditional."
+        },
+        {
+            question: "If an indorser has paid the amount due on a dishonoured instrument, what specific expenses, beyond the principal and interest, is he entitled to recover?",
+            options: ["Only legal fees.", "All expenses caused by the dishonour and payment.", "Only noting and protesting expenses.", "Only expenses incurred by the holder."],
+            answer: "All expenses caused by the dishonour and payment.",
+            explanation: "An endorser... is entitled to the amount so paid with interest... together with all expenses caused by the dishonour and payment."
+        },
+        {
+            question: "What is the maximum penalty amount (fine) for dishonour of a cheque under Section 138?",
+            options: ["Equal to the cheque amount.", "Two years imprisonment.", "Twice the amount of the cheque.", "₹ 5,000."],
+            answer: "Twice the amount of the cheque.",
+            explanation: "Fine which may extend to twice the amount of the cheque."
+        },
+        {
+            question: "If a cheque is dishonoured for insufficiency of funds, the drawer must make payment of the amount to the payee within how many days of the receipt of the written notice?",
+            options: ["7 days.", "15 days.", "30 days.", "45 days."],
+            answer: "15 days.",
+            explanation: "The drawer of such cheque fails to make the payment... within fifteen days of the receipt of the said notice."
+        },
+        {
+            question: "A Promissory Note is defined as containing an unconditional undertaking. A Bill of Exchange is defined as containing an unconditional:",
+            options: ["Request.", "Acknowledgement.", "Order.", "Agreement."],
+            answer: "Order.",
+            explanation: "P/N... containing an unconditional undertaking. BOE... containing an unconditional order."
+        },
+        {
+            question: "For the purposes of Section 6 of the NI Act regarding electronic instruments, expressions like 'asymmetric crypto system' and 'digital signature' derive their meaning from which external law?",
+            options: ["The Companies Act, 2013.", "The Banking Regulation Act.", "The Information Technology Act, 2000.", "The Indian Evidence Act, 1872."],
+            answer: "The Information Technology Act, 2000.",
+            explanation: "The expressions 'asymmetric crypto system'... 'electronic signature' shall have the same meanings respectively assigned to them in the Information Technology Act, 2000."
+        },
+        {
+            question: "Which essential element of a Bill of Exchange relates to the financial scope of the instrument?",
+            options: ["Drawer must be resident in India.", "The order must be to pay money only.", "It must be drawn on a specified banker.", "It must be payable to order."],
+            answer: "The order must be to pay money only.",
+            explanation: "The order must be to pay money only. (Note: It is a general characteristic of NI, but specifically an essential characteristic of BOE)."
+        },
+        {
+            question: "What is the definition of 'Indorsement in Blank'?",
+            options: ["The indorsement is written on the face of the instrument.", "The person who possesses it can demand payment.", "The transfer is restricted to a specific person.", "The instrument is registered with the bank."],
+            answer: "The person who possesses it can demand payment.",
+            explanation: "Indorsement in blank i.e., the person who possesses it can demand payment."
+        },
+        {
+            question: "If a Promissory Note is payable at a specified place *and not elsewhere* (Section 68), what is the requirement to charge any party thereto?",
+            options: ["It must be protested.", "It must be presented for payment at that specified place.", "It must be registered.", "It must be accepted by the payee."],
+            answer: "It must be presented for payment at that specified place.",
+            explanation: "A promissory note, bill of exchange or cheque made, drawn or accepted payable at a specified place and not elsewhere must, in order to charge any party thereto, be presented for payment at that place."
+        },
+        {
+            question: "In the case of a Cheque, the Drawee is always the banker. In the case of a Promissory Note, the person liable to pay is the:",
+            options: ["Payee.", "Drawer.", "Maker.", "Acceptor."],
+            answer: "Maker.",
+            explanation: "The person who makes the promise to pay is called the Maker. He is the debtor. P/N... must be presented for payment to the maker."
+        },
+        {
+            question: "When a person signs an incomplete instrument (inchoate instrument) and delivers it, he is liable to the holder in due course for such amount, provided it does not exceed:",
+            options: ["The minimum stamp duty value.", "The amount covered by the stamp.", "The amount intended by the signor.", "The face value of the instrument."],
+            answer: "The amount covered by the stamp.",
+            explanation: "The person so signing shall be liable upon such instrument, in the capacity in which he signed the same, to any holder in due course for such amount... not exceeding the amount covered by the stamp."
+        },
+        {
+            question: "In which situation regarding an order instrument (PN/BOE/Cheque) must negotiation necessarily occur by indorsement and delivery?",
+            options: ["When the last indorsement is blank.", "When the name of the payee is blank.", "When the last indorsement is in full.", "When the instrument is payable to bearer."],
+            answer: "When the last indorsement is in full.",
+            explanation: "A promissory note, bill of exchange or cheque payable to order is negotiable by the holder by indorsement and delivery thereof. Order instrument is where the last indorsement is in full."
+        },
+        {
+            question: "If a Bill of Exchange or Promissory Note is not made payable as mentioned in sections 68 and 69, where must it be presented for payment?",
+            options: ["At the High Court.", "At the principal post office.", "At the place of business (if any) or at the usual residence of the maker/drawee/acceptor.", "Presentment is excused."],
+            answer: "At the place of business (if any) or at the usual residence of the maker/drawee/acceptor.",
+            explanation: "A promissory note or bill of exchange, not made payable as mentioned in sections 68 and 69, must be presented for payment at the place of business (if any) or at the usual residence, of the maker, drawee or acceptor thereof."
+        },
+        {
+            question: "A promissory note containing 'I promise to pay B ₹ 500 on D’s death' is valid because:",
+            options: ["The promise is conditional on a certain person.", "The death of D is certain, making the promise unconditional.", "It is written and signed.", "The amount is specified."],
+            answer: "The death of D is certain, making the promise unconditional.",
+            explanation: "Example 4: I promise to pay B ₹ 500 on D’s death- as the death of D is certain, promise in unconditional. Thus, the promissory note is valid."
+        },
+        {
+            question: "What is the effect of Section 139 of the NI Act, 1881, concerning the burden of proof in cheque dishonour cases?",
+            options: ["It places the evidential burden on the complainant.", "It places the evidential burden on the accused (drawer).", "It mandates a fine equivalent to the debt.", "It excuses presentment."],
+            answer: "It places the evidential burden on the accused (drawer).",
+            explanation: "The effect of this presumption [under Section 139] is to place the evidential burden on the accused."
+        },
+        {
+            question: "If a bill of exchange is drawn by A in Berkley (interest 15%) and accepted by B payable in Washington (interest 6%), and A (drawer) is charged in India, what interest rate is he liable to pay?",
+            options: ["6%", "18%", "The current rate of exchange.", "15% (rate of the place he made the instrument)."],
+            answer: "15% (rate of the place he made the instrument).",
+            explanation: "If A is charged as drawer, he is liable to pay interest at 15%. (Liability of maker/drawer regulated by the law of the place where he made the instrument)."
+        },
+        {
+            question: "What is the primary role of the 'Clearing House' as defined for the purposes of a truncated cheque?",
+            options: ["Managed by the Central Government.", "Managed by the Reserve Bank of India or recognized by it.", "Managed by the drawer's banker.", "Managed by the holder's agent."],
+            answer: "Managed by the Reserve Bank of India or recognized by it.",
+            explanation: "The expression 'clearing house' means the clearing house managed by the Reserve Bank of India or a clearing house recognized as such by the Reserve Bank of India."
+        },
+        {
+            question: "The essential characteristic of a Promissory Note that requires it to be 'In writing' means that:",
+            options: ["It must be printed.", "An oral promise to pay is not sufficient.", "It must be registered.", "It must be contained within a bank note."],
+            answer: "An oral promise to pay is not sufficient.",
+            explanation: "In writing- An oral promise to pay is not sufficient."
+        },
+        {
+            question: "If a cheque is dishonoured for insufficiency of funds, it is treated as a criminal offence under which Sections of the NI Act, 1881?",
+            options: ["Sections 4 to 6.", "Sections 11 and 12.", "Sections 138 to 142.", "Sections 61 to 64."],
+            answer: "Sections 138 to 142.",
+            explanation: "DISHONOUR OF CHEQUES FOR INSUFFICIENCY OF FUNDS IN THE ACCOUNTS [SECTION 138 TO 142]. Also noted that dishonour of cheque is a criminal offence."
+        },
+        {
+            question: "In the context of negotiation, when does 'Actual delivery' take place?",
+            options: ["When the instrument is delivered to the agent of the indorsee.", "When the indorser holds the instrument as agent.", "When the instrument changes hand physically.", "When the indorsement is in full."],
+            answer: "When the instrument changes hand physically.",
+            explanation: "Actual delivery takes place when the instrument changes hand physically."
+        },
+        {
+            question: "If a legal representative of a deceased indorser attempts to negotiate a payable-to-order instrument by mere delivery, which condition is violated?",
+            options: ["The certainty of payment.", "The requirement for unconditional promise/order.", "The requirement that delivery must be voluntary.", "The transfer of property rights."],
+            answer: "The requirement that delivery must be voluntary.",
+            explanation: "The legal representatives of the deceased person cannot negotiate the same by mere delivery thereof. Section 57 implies that delivery must be made by the indorser or his authorized person (A legal representative is not an agent of the deceased)."
+        },
+        {
+            question: "A negotiable instrument, payable to order, is defined as one which is payable to a particular person and does not restrict:",
+            options: ["The amount payable.", "Its further transfer.", "The time of payment.", "The place of drawing."],
+            answer: "Its further transfer.",
+            explanation: "Order Instrument: Payable to a particular person or order and which does not restrict its further transfer."
+        },
+        {
+            question: "In the case of dishonour, the holder is entitled to the amount due upon the instrument, together with expenses properly incurred in presenting, noting and:",
+            options: ["Accepting it.", "Stamping it.", "Protesting it.", "Reissuing it."],
+            answer: "Protesting it.",
+            explanation: "The holder is entitled to the amount due upon the instrument, together with the expenses properly incurred in presenting, noting and protesting it."
+        },
+        {
+            question: "If the suspicion regarding a truncated cheque includes fraud, forgery, tampering, or destruction of the instrument, what may the drawee bank demand in addition to further information?",
+            options: ["A notarized declaration.", "The presentment of the truncated cheque itself for verification.", "A court injunction.", "Immediate payment."],
+            answer: "The presentment of the truncated cheque itself for verification.",
+            explanation: "If the suspicion is that of any fraud, forgery, tampering or destruction of the instrument, it is entitled to further demand the presentment of the truncated cheque itself for verification."
+        },
+        {
+            question: "Which of the following is an accurate general statement regarding the relationship between Bills of Exchange and Cheques?",
+            options: ["All cheques are bills, while all bills are not cheques.", "All bills are cheques, while all cheques are not bills.", "Bills and cheques are entirely distinct instrument types.", "Neither requires stamping or acceptance."],
+            answer: "All cheques are bills, while all bills are not cheques.",
+            explanation: "Thus, all cheques are bills while all bills are not cheques."
+        },
+        {
+            question: "If a Promissory Note or Bill of Exchange is made payable at a specified place, Section 69 mandates presentment there in order to charge which parties?",
+            options: ["Only the drawee.", "Only the indorser.", "The maker or drawer thereof.", "The payee."],
+            answer: "The maker or drawer thereof.",
+            explanation: "A promissory note or bill of exchange made, drawn or accepted payable at a specified place must, in order to charge the maker or drawer thereof, be presented for payment at that place."
+        },
+        {
+            question: "A cheque is considered to be payable on demand, meaning it cannot be expressed to be payable:",
+            options: ["To order.", "To a specified person.", "Otherwise than on demand.", "To bearer."],
+            answer: "Otherwise than on demand.",
+            explanation: "A cheque is... not expressed to be payable otherwise than on demand."
+        },
+        {
+            question: "For an Inland Instrument, if the Bill of Exchange (BOE) is drawn in India, it is sufficient if it is drawn upon a person resident in India, even if the amount is payable where?",
+            options: ["Only in India.", "Only in the same city as the drawer.", "Outside India.", "Only in the major metropolitan cities."],
+            answer: "Outside India.",
+            explanation: "It is immaterial that the amount is payable in London (in the case where the bill was drawn in India on a person resident in India)."
+        },
+        {
+            question: "What legal implication arises if the paper used for an inchoate instrument was *not* stamped in accordance with the law prevalent at the time of signing and delivery?",
+            options: ["The signer is not estopped from showing the instrument was filled without his authority.", "The holder in due course is still protected.", "The instrument converts into an ambiguous instrument.", "The instrument is deemed valid."],
+            answer: "The signer is not estopped from showing the instrument was filled without his authority.",
+            explanation: "The paper so signed and delivered must be stamped in accordance with the law prevalent at the time of signing and on delivering otherwise the signer is not estopped from showing that the instrument was filled without his authority."
+        },
+        {
+            question: "What is the consequence if the legal representatives of a deceased maker execute an instrument but could not deliver it before death?",
+            options: ["The legal representative can negotiate it by delivery.", "The legal representative cannot complete the instrument.", "The instrument is automatically presented by the bank.", "The instrument is converted into a Bill of Exchange."],
+            answer: "The legal representative cannot complete the instrument.",
+            explanation: "A legal representative is not an agent of the deceased. Therefore, a legal representative cannot complete the instrument if the instrument was executed by the deceased but could not be delivered because of his death."
+        },
+        {
+            question: "For compensation purposes under Section 117, what is the maximum interest rate specified for an indorser who has paid the amount due upon the instrument?",
+            options: ["12% per annum.", "15% per annum.", "18% per annum.", "The rate stipulated on the instrument."],
+            answer: "18% per annum.",
+            explanation: "Interest at 18% per annum from the date of payment until tender or realisation thereof."
+        },
+        {
+            question: "Which type of instrument, according to the characteristics listed, does *not* require stamping?",
+            options: ["Promissory Note.", "Bill of Exchange.", "Cheque.", "Inland Instrument."],
+            answer: "Cheque.",
+            explanation: "A cheque does not require: (a) Stamping; or (b) acceptance."
+        },
+        {
+            question: "If a bill of exchange payable after sight is presented, and the drawee requires 48 hours for deliberation (exclusive of public holidays), this period is allowed under which section?",
+            options: ["Section 61.", "Section 62.", "Section 63.", "Section 64."],
+            answer: "Section 63.",
+            explanation: "Drawee's time for deliberation [Section 63]. The holder must... allow the drawee 48 hours (exclusive of public holidays) to consider whether he will accept it."
+        },
+        {
+            question: "The essential characteristic of a Bill of Exchange requiring certainty applies to the sum, the time of payment, and the:",
+            options: ["Drawer's banker.", "Place of negotiation.", "Payee.", "Stamp duty amount."],
+            answer: "Payee.",
+            explanation: "The sum payable, the time of payment, the payee, must be certain. Drawer, drawee, and payee must be certain."
+        },
+        {
+            question: "If an instrument is drawn/made outside India, on a person resident in India, and made payable in India, what is its classification?",
+            options: ["Inland Bill.", "Foreign Bill.", "Ambiguous Instrument.", "Hundi."],
+            answer: "Foreign Bill.",
+            explanation: "P/N, BOE, C drawn/made outside India on a person resident in or outside India + made payable in India are foreign bills."
+        },
+        {
+            question: "What is the central purpose of negotiation in the context of negotiable instruments?",
+            options: ["To restrict the transfer of ownership.", "To transfer the rights in the instrument to make the transferee the holder.", "To enforce criminal penalties.", "To discharge the drawer's liability."],
+            answer: "To transfer the rights in the instrument to make the transferee the holder.",
+            explanation: "Negotiation means transfer of a negotiable instrument by one person to another in order to make the transferee the holder of the instrument."
+        },
+        {
+            question: "If the instrument being payable at some other specified place, neither the liable party nor any person authorised to pay it attends that place during usual business hours, presentment is:",
+            options: ["Required.", "Excused.", "Delayed by 48 hours.", "Deemed conditional."],
+            answer: "Excused.",
+            explanation: "If the instrument being payable at some other specified place, neither he nor any person authorised to pay it attends at such place during the usual business hours... No presentment for payment is necessary."
+        },
+        {
+            question: "The objective of the NI Act was to facilitate commercial activities by giving sanctity to instruments of credit which could be deemed to be convertible into money and easily passable from one person to another, as it was not practicable for the trading community to carry:",
+            options: ["Large stocks of goods.", "The bulk of the currency in force.", "Legal documents.", "Letters of guarantee."],
+            answer: "The bulk of the currency in force.",
+            explanation: "In the absence of such instruments, the trade and commerce activities were likely to be adversely affected as it was not practicable for the trading community to carry with it the bulk of the currency in force."
+        },
+        {
+            question: "If the instrument is negotiable by 'mere delivery,' which type of instrument must it be?",
+            options: ["Order instrument.", "Stale instrument.", "Bearer instrument.", "Foreign instrument."],
+            answer: "Bearer instrument.",
+            explanation: "Negotiable instruments may be negotiated either by delivery when these are payable to bearer."
+        },
+        {
+            question: "In the case of a Promissory Note, the promise must be expressed to pay. What renders a mere acknowledgment of debt insufficient?",
+            options: ["Lack of legal registration.", "The absence of an express promise to pay.", "Uncertainty of time.", "The lack of stamp duty."],
+            answer: "The absence of an express promise to pay.",
+            explanation: "There must be an express promise to pay. Mere acknowledgment of debt is insufficient."
+        },
+        {
+            question: "The term 'indorsement' refers to:",
+            options: ["The specific bank being named.", "The signing of the instrument.", "The act of paying the instrument.", "The declaration of insolvency."],
+            answer: "The signing of the instrument.",
+            explanation: "Indorsement (indorsement means signing of the instrument)."
+        },
+        {
+            question: "What is the requirement concerning the signature on a Bill of Exchange?",
+            options: ["It must be signed by the payee.", "It must be signed by the drawee.", "The drawer must sign the instrument.", "It must be signed by a witness."],
+            answer: "The drawer must sign the instrument.",
+            explanation: "The drawer must sign the instrument."
+        },
+        {
+            question: "If a cheque is dishonoured, and the holder receives the cheque for the discharge of a debt or other liability, what is the legal presumption unless the contrary is proved?",
+            options: ["That the drawer is insolvent.", "That the holder received it for the stated discharge.", "That the cheque was forged.", "That the presentment was delayed."],
+            answer: "That the holder received it for the stated discharge.",
+            explanation: "It shall be presumed, unless the contrary is proved, that the holder of a cheque received the cheque of the nature referred to in section 138 for the discharge, in whole or in part, or any debt or other liability."
+        },
+        {
+            question: "Which of the following instruments must contain an 'unconditional undertaking' signed by the maker?",
+            options: ["Bill of Exchange.", "Cheque.", "Promissory Note.", "Treasury Bill."],
+            answer: "Promissory Note.",
+            explanation: "A 'promissory note' is an instrument in writing... containing an unconditional undertaking signed by the maker."
+        },
+        {
+            question: "What distinguishes a Bearer Instrument regarding the payee’s name or indorsement?",
+            options: ["The payee's name is specified without 'or bearer'.", "The name of the payee is blank or the last indorsement is blank.", "The instrument restricts further transfer.", "It is payable only on demand."],
+            answer: "The name of the payee is blank or the last indorsement is blank.",
+            explanation: "Bearer Instrument: It is an instrument where the name of the payee is blank or where the name of payee is specified with the words “or bearer” or where the last indorsement is blank."
+        },
+        {
+            question: "The definition of an ambiguous instrument primarily revolves around the holder's right to treat it as either a Promissory Note or a Bill of Exchange, due to its:",
+            options: ["Lack of stamp.", "Vague nature.", "Conditional payment.", "Foreign origin."],
+            answer: "Vague nature.",
+            explanation: "An instrument which is vague and cannot be clearly identified either as a bill of exchange, or as a promissory note, is an ambiguous instrument."
+        },
+        {
+            question: "An instrument (P/N, BOE, or Cheque) drawn or made in India, and drawn upon any person resident in India, is considered:",
+            options: ["Foreign.", "Inland.", "Ambiguous.", "Inchoate."],
+            answer: "Inland.",
+            explanation: "A promissory note, bill of exchange or cheque drawn or made in India and made payable in, or drawn upon any person resident in India shall be deemed to be an inland instrument."
+        },
+        {
+            question: "When a cheque is dishonoured due to insufficient funds, the debt or liability must be:",
+            options: ["Moral or financial.", "Legally enforceable.", "Conditional.", "Future obligation."],
+            answer: "Legally enforceable.",
+            explanation: "Explanation: For the purpose of this section, 'debt or other liability' means a legally enforceable debt or other liability."
+        },
+        {
+            question: "If a cheque is returned unpaid due to 'insufficiency of funds' or because the amount exceeds the amount arranged to be paid from that account, the person drawing the cheque shall be deemed to have committed:",
+            options: ["A breach of contract.", "A civil default.", "An offence.", "A violation of banking rules."],
+            answer: "An offence.",
+            explanation: "Such person shall be deemed to have committed an offence."
+        }
+    ],
+
+
 }
